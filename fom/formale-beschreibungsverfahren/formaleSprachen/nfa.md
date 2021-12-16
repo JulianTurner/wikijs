@@ -1,11 +1,11 @@
 ---
 title: NFA
 description: Nondeterministic Finite Automaton (NFA)
-published: true
-date: 2021-11-28T12:08:59.753Z
-tags: graphen, formale sprache
+published: 1
+date: 2021-12-16T20:56:39.464Z
+tags: formale sprache, graphen
 editor: markdown
-dateCreated: 2021-11-28T11:50:57.501Z
+dateCreated: 2021-12-16T20:40:58.793Z
 ---
 
 # Nondeterministic Finite Automaton (NFA)
@@ -16,4 +16,4 @@ Ein NFA folgt der [Finite Automaton](/formaleBeschreibung/formaleSprachen/finite
 
 - Für jeden Zustand $q_x$ + gelesenes Alphabet Zeichen gibt es <u>keinen, einen oder mehrere</u> Folgezustände.
 
-![nfa.png](/nfa.png)
+![nfa.png](/fom//nfa.png)
