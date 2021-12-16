@@ -1,11 +1,11 @@
 ---
 title: Transitiv abgeschlossen, transitive Hülle, Clique
 description: 
-published: true
-date: 2021-11-27T17:43:34.727Z
+published: 1
+date: 2021-12-16T20:54:43.731Z
 tags: graphen
 editor: markdown
-dateCreated: 2021-11-26T16:23:48.791Z
+dateCreated: 2021-12-16T20:41:40.348Z
 ---
 
 # Transitiv abgeschlossen, transitive Hülle, Clique
@@ -22,7 +22,7 @@ Eine transitive Hülle ist ein neuer Graph bestehend aus
   - aus dem original Graph
   - weiteren Kanten, welche eingeführt werden um dem Graph die Eigenschaft *transitiv abgeschlossen* (siehe oben) zu geben
 
-![transitive-huelle.png](/transitive-huelle.png)
+![transitive-huelle.png](/fom//transitive-huelle.png)
 (Hier: in Grün die übernommenen original Knoten, in Rot die übernommenen original Kanten, in Blau die neu eingeführte Kante für die transitive Abgeschlossenheit)
 
 ## Vollständiger ungerichteter Graph
@@ -31,4 +31,4 @@ In einem vollständigen ungerichteten Graph ist jeder Knoten mit jedem anderen K
 ## Clique
 Ist ein Teilgraph eines einfachen ungerichteten Graphen, der vollständig ist (siehe oben).
 
-![clique.png](/clique.png)
+![clique.png](/fom//clique.png)
