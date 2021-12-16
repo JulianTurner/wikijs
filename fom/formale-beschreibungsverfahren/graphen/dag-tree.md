@@ -1,11 +1,11 @@
 ---
 title: DAG, Tree
 description: Directed Acyclic Graph (DAG) und Tree (Baum)
-published: true
-date: 2021-11-27T17:50:27.550Z
+published: 1
+date: 2021-12-16T20:49:57.694Z
 tags: graphen
 editor: markdown
-dateCreated: 2021-11-26T15:04:26.574Z
+dateCreated: 2021-12-16T20:41:26.542Z
 ---
 
 # DAG und Tree
