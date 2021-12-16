@@ -1,11 +1,11 @@
 ---
 title: Hamilton Pfad, Euler Pfad
 description: 
-published: true
-date: 2021-11-27T17:48:06.200Z
+published: 1
+date: 2021-12-16T20:51:43.820Z
 tags: graphen
 editor: markdown
-dateCreated: 2021-11-26T16:49:34.746Z
+dateCreated: 2021-12-16T20:41:55.637Z
 ---
 
 # Hamilton-Pfad, Euler-Pfad
