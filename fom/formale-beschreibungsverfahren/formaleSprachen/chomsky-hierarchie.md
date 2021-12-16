@@ -1,11 +1,11 @@
 ---
 title: Chomsky-Hierarchie
 description: 
-published: true
-date: 2021-11-27T20:59:56.235Z
+published: 1
+date: 2021-12-16T20:55:50.816Z
 tags: formale sprache
 editor: markdown
-dateCreated: 2021-11-27T18:48:44.900Z
+dateCreated: 2021-12-16T20:40:30.908Z
 ---
 
 # Chomsky-Hierarchie
@@ -48,4 +48,4 @@ Eine formale [Sprache](/formaleBeschreibung/formaleSprachen/grammatik-sprache#sp
 
 Eine Sprache kann von einem höheren Typ sein als eine Grammatik die sie beschreibt, wenn es eine weitere Grammatik mit höherem Typen gibt, welche die gleiche Sprache bildet.
 
-![chomsky-gramatik-sprachen-hierarchie.png](/chomsky-gramatik-sprachen-hierarchie.png)
+![chomsky-gramatik-sprachen-hierarchie.png](/fom//chomsky-gramatik-sprachen-hierarchie.png)
