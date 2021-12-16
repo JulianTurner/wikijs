@@ -2,7 +2,7 @@
 title: Formale Beschreibungsverfahren
 description: 
 published: 1
-date: 2021-12-16T20:43:55.378Z
+date: 2021-12-16T20:45:48.573Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:36:19.110Z
@@ -23,3 +23,13 @@ dateCreated: 2021-12-16T19:36:19.110Z
 - [graphenTypen](/fom/formale-beschreibungsverfahren/graphen/graphenTypen)
 
 ## formale Sprachen
+- [chomsky-hierarchie](/fom/formale-beschreibungsverfahren/formaleSprachen/chomsky-hierarchie)
+- [dfa](/fom/formale-beschreibungsverfahren/formaleSprachen/dfa)
+- [grammatik-sprache](/fom/formale-beschreibungsverfahren/formaleSprachen/grammatik-sprache)
+- [formale-sprache](/fom/formale-beschreibungsverfahren/formaleSprachen/formale-sprache)
+- [finite-automaton](/fom/formale-beschreibungsverfahren/formaleSprachen/finite-automaton)
+- [nfa](/fom/formale-beschreibungsverfahren/formaleSprachen/nfa)
+- [typ-1-sprache](/fom/formale-beschreibungsverfahren/formaleSprachen/typ-1-sprache)
+- [typ-2-sprache](/fom/formale-beschreibungsverfahren/formaleSprachen/typ-2-sprache)
+- [typ-3-sprache](/fom/formale-beschreibungsverfahren/formaleSprachen/typ-3-sprache)
+- [wortproblem](/fom/formale-beschreibungsverfahren/formaleSprachen/wortproblem)
