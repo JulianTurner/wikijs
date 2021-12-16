@@ -2,7 +2,7 @@
 title: Formale Beschreibungsverfahren
 description: 
 published: 1
-date: 2021-12-16T20:45:48.573Z
+date: 2021-12-16T20:45:58.947Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:36:19.110Z
