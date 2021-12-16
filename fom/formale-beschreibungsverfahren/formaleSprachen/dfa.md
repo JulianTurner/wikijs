@@ -1,11 +1,11 @@
 ---
 title: DFA
 description: Deterministic Finite Automaton (DFA)
-published: true
-date: 2021-11-28T12:10:50.086Z
-tags: graphen, formale sprache
+published: 1
+date: 2021-12-16T20:56:09.565Z
+tags: formale sprache, graphen
 editor: markdown
-dateCreated: 2021-11-28T11:47:01.519Z
+dateCreated: 2021-12-16T20:40:38.005Z
 ---
 
 # Deterministic Finite Automaton (DFA)
@@ -16,4 +16,4 @@ Ein DFA folgt der [Finite Automaton](/formaleBeschreibung/formaleSprachen/finite
 
 - Für jeden Zustand $q_x$ + gelesenes Alphabet Zeichen gibt es nur <u>einen oder keinen</u> Folgezustand.
 
-![dfa.png](/dfa.png)
+![dfa.png](/fom//dfa.png)
