@@ -1,11 +1,11 @@
 ---
 title: Gerichtete und ungerichtete Graphen
 description: 
-published: true
-date: 2021-11-27T17:42:21.844Z
+published: 1
+date: 2021-12-16T20:50:39.661Z
 tags: graphen
 editor: markdown
-dateCreated: 2021-11-26T14:01:12.128Z
+dateCreated: 2021-12-16T20:41:31.719Z
 ---
 
 # Gerichtete und ungerichtete Graphen
@@ -24,7 +24,7 @@ Ein Knoten ohne Kante heißt *isolierter Knoten*.
 
 Bei einem ungerichteten Graphen verbindet jede Kante ein <ins>ungeordnetes</ins> Paar von Knoten.
 
-![ungerichtetergraph.png](/ungerichtetergraph.png)
+![ungerichtetergraph.png](/fom//ungerichtetergraph.png)
 
 ## Gerichtete Graphen
 
@@ -32,4 +32,4 @@ Bei gerichteten Graphen verbindet jede Kante ein <ins>geordnetes</ins> Paar von 
 - Der erste Knoten heißt Startpunkt *T* (tail)
 - Der zweite Knoten heißt Endpunkt *H* (head)
 
-![gerichtetergraph.png](/gerichtetergraph.png)
+![gerichtetergraph.png](/fom//gerichtetergraph.png)
