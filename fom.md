@@ -2,7 +2,7 @@
 title: fom
 description: 
 published: 1
-date: 2021-12-16T19:38:38.716Z
+date: 2021-12-16T19:40:05.634Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:18:19.083Z
@@ -14,7 +14,7 @@ dateCreated: 2021-12-16T19:18:19.083Z
 
 - [Formale Beschreibungsverfahren](/fom/formale-beschreibungsverfahren)
 
-- [Mathematische Grundlagen der Informatik](https://discord.gg/7aYK9gtC)
+- [Mathematische Grundlagen der Informatik](/fom/mathematik)
 
 - [Fallstudie/Wissenschaftliches Arbeiten](https://discord.gg/7aYK9gtC)
 
