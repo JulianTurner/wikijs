@@ -2,7 +2,7 @@
 title: fom
 description: 
 published: 1
-date: 2021-12-16T19:43:03.559Z
+date: 2021-12-16T19:46:06.418Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:18:19.083Z
@@ -20,7 +20,7 @@ dateCreated: 2021-12-16T19:18:19.083Z
 
 - [Konzepte des prozeduralen Programmierens](/fom/prozeduales-programmieren)
 
-- [Hardware - Grundlagen moderner Informationstechnik](https://discord.gg/7aYK9gtC)
+- [Hardware - Grundlagen moderner Informationstechnik](/fom/hardware-grundlagen)
 
 
 ## Discord
