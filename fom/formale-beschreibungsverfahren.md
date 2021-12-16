@@ -2,7 +2,7 @@
 title: Formale Beschreibungsverfahren
 description: 
 published: 1
-date: 2021-12-16T20:45:58.947Z
+date: 2021-12-16T21:32:34.833Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:36:19.110Z
@@ -22,7 +22,7 @@ dateCreated: 2021-12-16T19:36:19.110Z
 - [graph-transitiv](/fom/formale-beschreibungsverfahren/graphen/graph-transitiv)
 - [graphenTypen](/fom/formale-beschreibungsverfahren/graphen/graphenTypen)
 
-## formale Sprachen
+## Formale Sprachen
 - [chomsky-hierarchie](/fom/formale-beschreibungsverfahren/formaleSprachen/chomsky-hierarchie)
 - [dfa](/fom/formale-beschreibungsverfahren/formaleSprachen/dfa)
 - [grammatik-sprache](/fom/formale-beschreibungsverfahren/formaleSprachen/grammatik-sprache)
