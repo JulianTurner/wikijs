@@ -2,7 +2,7 @@
 title: fom
 description: 
 published: 1
-date: 2021-12-16T19:40:29.953Z
+date: 2021-12-16T19:41:36.136Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:18:19.083Z
@@ -16,7 +16,7 @@ dateCreated: 2021-12-16T19:18:19.083Z
 
 - [Mathematische Grundlagen der Informatik](/fom/mathematik)
 
-- [Fallstudie / Wissenschaftliches Arbeiten](https://discord.gg/7aYK9gtC)
+- [Fallstudie / Wissenschaftliches Arbeiten](/fom/fallstudie)
 
 - [Konzepte des prozeduralen Programmierens](https://discord.gg/7aYK9gtC)
 
