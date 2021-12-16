@@ -1,11 +1,11 @@
 ---
 title: Pfad, Kreis, Schleife, Zyklus
 description: Pfade, Kreise, Schleifen und Zyklen
-published: true
-date: 2021-11-27T17:52:47.323Z
+published: 1
+date: 2021-12-16T20:52:09.760Z
 tags: graphen
 editor: markdown
-dateCreated: 2021-11-26T14:45:09.071Z
+dateCreated: 2021-12-16T20:42:01.227Z
 ---
 
 # Pfad, Kreis, Schleife Zyklus
@@ -32,8 +32,8 @@ D. h. eine Schleife kann nie ein Zyklus sein.
 
 ### Ungerichteter Graph:
 
-![pfad-zyklus-schleife-ungerichtet.png](/pfad-zyklus-schleife-ungerichtet.png)
+![pfad-zyklus-schleife-ungerichtet.png](/fom//pfad-zyklus-schleife-ungerichtet.png)
 
 ### Gerichteter Graph
 
-![pfad-zyklus-schleife-gerichtet.png](/pfad-zyklus-schleife-gerichtet.png)
+![pfad-zyklus-schleife-gerichtet.png](/fom//pfad-zyklus-schleife-gerichtet.png)
