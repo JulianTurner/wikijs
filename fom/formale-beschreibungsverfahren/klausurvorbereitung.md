@@ -409,6 +409,179 @@ Abschlusseigenschaften von Typ 1 Sprachen:
 - Produkt $L_1 L_2$
 - Kleenestern $L^*_1$
 - Komplement $\bar{L_1} := \Sigma^* \setminus L_1$
-## Lektion 5:
+## Lektion 5: Berechenbarkeit
+---
+S. 4
 
+Was ist eine partielle Funktion?
+- eine Funktion, die nur ein Teil der Werte besitzt
+
+> Bei partiellen Funktionen darf die Turingmaschine keinen Endzustand erreichen
+
+> Bei totalen Funktionen darf die Turingmaschine in eine Endlosschleife geraten
+---
+S. 8
+
+Welche Elemente gibt es in der Programmiersprache $LOOP$?
+- Variablen
+- Konstanten
+- Operatoren
+- Delimiter
+- Schlüsselwörter:
+	- loop
+	- do
+	- end
+
+Anzahl der Schleifen wird am Anfang (im Schleifenkopf) der Schleife angegeben
+
+> $LOOP$ Funktionen können nie in eine Endlosschleife geraten
+> $LOOP$ Funktionen sind primitiv rekursiv
+
+---
+S. 9 
+
+Prüft vor jedem Schleifendurchlauf eine Bediengung
+
+> Mit einem $WHILE$ Programm kann ich alles berechnen was ich auch mit einem %LOOP% Programm berechnen könnte
+
+> Jede $WHILE$-berechenbare Funktion ist Turingberechenbar
+> Jede $WHILE$-berechenbare Funktion ist $GOTO$-berechenbar
+> $\mu$-Rekursion ist %WHILE%-berechenbar
+
+---
+S. 10
+
+Welche Elemente gibt es in der Programmiersprache $GOTO$?
+- Variablen
+- Konstanten
+- Operatoren
+- Delimiter
+- Schlüsselwörter:
+	- if
+	- goto
+	- halt
+
+> Ein $GOTO$ Programm ist eine Sequenz von Anweisunge mit einer Eindeutigen Identifikations-Marke  
+> Die letzte Anweisung ist $GOTO$ oder $HALT$
+> Jedes $GOTO$ Programm ist $WHILE$-berechenbar
+> $\mu$-Rekursion ist %GOTO%-berechenbar
+
+---
+S. 14
+
+Was ist die Kleenesche Form?
+- Jede $WHILE$-berechenbare Funktion ist durch ein $WHILE$-Programm mit einem Durchlauf berechenbar
+
+---
+S. 18
+
+Was ist die Chursche These?
+Es ist gleichwertig:
+- %WHILE%-berechenbarkeit
+- $GOTO$-berechenbarkeit
+- Turingberechenbarkeit
+
+---
+S. 21
+
+Was sind primitv rekursive Funktionen?
+- konstante Funktionen
+- Projenktionen
+- Nachfolgerfunktionen
+- Kompositionen
+
+> Primitv rekursive Funktionen sind %LOOP%-berechenbar
+---
+S. 21
+
+Was ist eine konstate Funktion?
+- eine Funktion, bei der der Parameter ignoriert wird
+
+$a(x) = 5$
+ 
+$a(1) = 5$  
+$a(2) = 5$  
+
+> Konstante Funktionen sind primitiv rekursive Funktionen
+---
+S. 21
+
+Was ist eine Projektion?
+
+$b(x_1, x_2, x_3) = x_1$
+
+$b(1, 2, 3) = 1$  
+$b(2, 3, 4) = 2$  
+$b(3, 4, 5) = 3$  
+
+> Projektionen sind primitiv rekursive Funktionen
+
+---
+S. 21
+
+Was ist die Nachfolgerfunktion?
+
+$c(x) = f + 1$
+
+$c(1) = 2$
+$c(2) = 3$
+$c(3) = 4$
+
+> Nachfolgerfunktionen sind primitiv rekursive Funktionen
+---
+S. 21
+
+Was ist eine Komposition?
+- eine Funktion, die aus meheren verschachtelten Funktionen besteht
+
+$e(x) = c(a(x))$
+
+$e(1) = c(a(1)) = c(1) = 2$
+$e(2) = c(a(2)) = c(2) = 3$
+$e(3) = c(a(3)) = c(3) = 4$
+
+---
+S. 26
+
+Was ist $\mu$-Operator auf Funktionen?
+- mach aus einer $(k+1)$-Funktion eine $(k)$-Funktion
+
+> $\mu$-Rekursion ist %WHILE%-berechenbar
+
+---
+S. 36
+
+>Die Ackermann-Funktion ist %WHILE%-berechenbar
+
+---
+S. 38
+
+### Entscheidbarkeit 
+
+> $A \subseteq \Sigma^*$ heißt **entscheidbar** wenn es mit einem $WHILE$-Programm oder mit einem $GOTO$-Programm oder einer Turingmaschine in endlich vielen Schritten entschieden werden kann, ob das Wort in der Sprache enthalten ist
+
+> $A \subseteq \Sigma^*$ heißt **semi-entscheibar** wenn es mit einem $WHILE$-Programm oder mit einem $GOTO$-Programm oder einer Turingmaschine in endlich vielen Schritten entschieden werden kann, ob das Wort in der Sprache enthalten ist, und für jedes Wort dass nicht enthalten ist in eine Endlosschleife geraten wird
+
+> $A \subseteq \Sigma^*$ entscheidbar $\Leftrightarrow \bar{A}$ entscheidbar
+---
+S. 41
+
+Äquivalente Definitionen:
+- $L$ ist Typ 0 Sprache
+- $L$ ist rekursiv Aufzählbar
+- $L$ ist semi-entscheidbar
+- $L = L(M)$ für eine Turingmaschine $M$
+- $X_l$ ist Turing, $WHILE$ und $GOTO$ berechenbar
+- $L$ ist der Defenitionsbereich einer berechenbaren Funktion
+- $L$ ist ein Wertebereich einer berechenbaren Funktion
+
+---
+S. 44
+
+> Das Halteproblem ist semi-entscheidbar
+> Das spezielle Halteproblem ist nicht entscheidbar
+> Komplemente der Halteprobleme sind **nicht** semi-entscheidbar
+
+---
 ## Lektion 6:
+
