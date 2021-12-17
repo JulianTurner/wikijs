@@ -1,11 +1,11 @@
 ---
 title: Typ 2 Sprache, kontextfreie Sprache
 description: 
-published: true
-date: 2021-11-28T10:36:34.747Z
+published: 1
+date: 2021-12-17T17:10:48.527Z
 tags: formale sprache
 editor: markdown
-dateCreated: 2021-11-27T20:31:19.397Z
+dateCreated: 2021-12-16T20:41:09.094Z
 ---
 
 # Typ 2 Sprache, kontextfreie Sprache
@@ -17,8 +17,11 @@ dateCreated: 2021-11-27T20:31:19.397Z
 
 ## Formen
 - Chomsky Normalform
+  - Variable -> Variable Variable
+  - Variable -> Terminalsymbol
 - Greibach Normalform
-  
+  - Variable -> Terminalsymbol + (0 oder mehr) Variablen
+
 ## Wortproblem lösbar mit
 - CYK-Algorithmus
 - Push-Down-Automat
