@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T18:23:20.566Z
+date: 2021-12-17T18:24:37.963Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -608,7 +608,7 @@ Bemerkungen zu $NP$
 > Es ist unbekannt ob $P = NP$  
 > Man Vermutet $P \neq NP$
 
-> Eine der Problemkategorien ist die Komplexitätsklasse $P$. Sie enthält die Probleme, für die eine deterministische Turingmaschine existiert, die das Problem in Polynomialzeit löst.
+> Eine der Problemkategorien ist die Komplexitätsklasse $P$.  Sie enthält die Probleme, für die eine deterministische Turingmaschine existiert, die das Problem in Polynomialzeit löst.
 
 > $NP$ ist definiert als die Menge der 
 
