@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T15:07:03.335Z
+date: 2021-12-17T17:04:18.215Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -54,7 +54,7 @@ Was ist ein DAG?
 Was ist ein Tree?
 - ein gerichteter Graph ohne Zyklen
 - besitzt eine Wurzel (Root)
-- zu jedem Knoten kann es nur eine Kante gehen
+- von jedem Knoten zu jedem anderen Knoten kann es nur einen Pfad gehen
 > In einem gerichteten Baum ist ein Knoten, der kein Startpunkt ist, ein Blatt (Leaf)
 
 ---
@@ -211,6 +211,7 @@ Abschlusseigenschaften
 - Vereinigung $L_1 \cup L_2$
 - Durschschnitt $L_1 \cap L_2$
 - Komplement $\bar{L_1} := \Sigma^* \setminus L_1$
+- Produkt $L_1 L_2$
 - Kleenestern $L^{*}_1 $ 
 
 ---
