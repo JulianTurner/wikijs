@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T09:30:43.372Z
+date: 2021-12-17T09:31:09.552Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -202,7 +202,7 @@ S. 35
 Sind $a, ß$ reguläre Ausdrücke dann gilt:  | Sprache die einen regulären ausdruck definiert:  
 ----|-----
 $\emptyset$ ist ein regulärer Ausdruck  |$L(\emptyset)= \emptyset$  
-$\epsilon$ ist ein regulärer Ausdruck  |$L(\epsilon)= \{ \epsilon \}$  
+$\epsilon$ ist ein regulärer Ausdruck  |$L(\epsilon) = \{ \epsilon \}$  
 $a$ ist für jedes $a \in \Sigma$ ein regulärer Ausdruck | $L(a)= \{a\}$  
 $aß$ ist ein regulärer Ausdruck |  $L(aß)= L(a)L(b)$  
 $a \| ß$ ist ein regulärer Ausdruck |$L(a \| ß)= L(a)\cup L(ß)$
