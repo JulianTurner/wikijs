@@ -423,9 +423,9 @@ S. 4
 Was ist eine partielle Funktion?
 - eine Funktion, die nur ein Teil der Werte besitzt
 
-> Bei partiellen Funktionen darf die Turingmaschine keinen Endzustand erreichen
+> Bei partiellen Funktionen darf die Turingmaschine für ein Wort das nicht in der Sprache enthalten ist keinen Endzustand erreichen
 
-> Bei totalen Funktionen darf die Turingmaschine in eine Endlosschleife geraten
+> Bei totalen Funktionen darf die Turingmaschine nie in eine Endlosschleife geraten
 ---
 S. 8
 
@@ -604,7 +604,7 @@ S. 7
 Bemerkungen zu $NP$
 
 > Es ist unbekannt ob $P = NP$  
-> Man Vermutet $P \neq NP$
+> Man vermutet $P \neq NP$
 
 > Eine der Problemkategorien ist die Komplexitätsklasse $P$. Sie enthält die Probleme, für die eine deterministische Turingmaschine existiert, die das Problem in Polynomialzeit löst.
 
@@ -614,7 +614,7 @@ Bemerkungen zu $NP$
 S. 18
 
 > $CSAT$ ist $NP$ vollständig  
-> $3SAT$ ist $NP$ vollständig
+> $3SAT$ ist $NP$ vollständig  
 > $HC$ ist $NP$ vollständig
 
 
