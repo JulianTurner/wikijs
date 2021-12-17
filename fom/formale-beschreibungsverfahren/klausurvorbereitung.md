@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T14:58:31.690Z
+date: 2021-12-17T15:07:03.335Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -237,13 +237,13 @@ S. 5
 
 Eine kontextfrei Grammatik ist in Chomsky Normalform wenn:
 - jede Regel ist kontextfrei
-- linke Seite besteht aus einer Veriable
+- linke Seite besteht aus einer Variable
 - besteht aus einem Terminal oder einer Variable mit Terminalsymbol
 - rechte Seite besteht maximal aus 2 Zeichen
 - keine $\epsilon$-Regel
 - jedes Terminal hat eine Variable
 
->Kettenregel ist Veriable auf Variable
+>Kettenregel ist Variable auf Variable
 
 ---
 S. 8
@@ -251,7 +251,7 @@ S. 8
 ###  Greibach Normalform
 Eine kontextfrei Grammatik ist in Greibach Normalform wenn:
 - jede Regel ist kontextfrei
-- linke Seite besteht aus einer Veriable
+- linke Seite besteht aus einer Variable
 - rechte Seite beginnt mit einem Terminalsymbol und hat endlich viele Variablen im Anschluss
 - keine $\epsilon$-Regel
 
@@ -321,7 +321,7 @@ Was ist eine Konfiguration eines Push-Down-Automat?
 ---
 S. 41
 
-Folgebde Beschreibungsverfahren für kontextfreie Sprachen sind gleichwertig:
+Folgende Beschreibungsverfahren für kontextfreie Sprachen sind gleichwertig:
 
 Kontextfreie Grammatik:
 - Startsymbol nach $\epsilon$ ist zulässig
