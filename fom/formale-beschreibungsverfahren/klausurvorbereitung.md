@@ -208,12 +208,35 @@ $aß$ ist ein regulärer Ausdruck |  $L(aß)= L(a)L(b)$
 $a \| ß$ ist ein regulärer Ausdruck |$L(a \| ß)= L(a)\cup L(ß)$
 $a^*$ ist ein regulärer Ausdruck |$L(a^*)= L(a)^*$
 
+---
+S. 40
+
+Welche Beschreibungsverfahren für reguläre Sprachen sind gleichwertig?
+- Reguläre Grammatik
+- DFA
+- NFA 
+- Reguläre Ausdrücke
+- EBNF-Grammatik
+
+---
+S. 41
+
+Abschlusseigenschaften
+- Vereinigung $L_1 \cup L_2$
+- Durschschnitt $L_1 \cap L_2$
+- Komplement $\bar{L_1} := \Sigma^* \setminus L_1$
+- Kleenestern $L^{*}_1 $ 
+
+---
+S. 42
+
+Pumping Lemma
+
+- jedes Wort hat ein Mittelstück dass sich belieg oft wiederholen lässt ohne die Sprache zu verlassen
+
+## Lektion 3: Kentextfreie Sprachen und Push-Down-Automaten
 
 
-
-
-
-## Lektion 3:
 
 ## Lektion 4:
 
