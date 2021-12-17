@@ -19,8 +19,9 @@ Definitionen von Symbolen
 | Kanten     | Edges    | Edges     |
 | Verbindung | Phi      | $\varphi$ |
 
-## Lektion 1
+## Lektion 1: Grundlagen der Graphentheorie
 
+---
 S. 14
 
 Woraus besteht ungerichteter Graph $G=(V,E,\varphi)$? 
@@ -54,7 +55,6 @@ Was ist ein Zyklus?
 - Kreis ohne wiederholte Knoten/Kanten
 
 ---
-
 S. 17
 
 Was ist ein DAG?
@@ -67,7 +67,6 @@ Was ist ein Tree?
 > In einem gerichteten Baum ist ein Knoten der kein Startpunkt ist ein Blatt (Leaf)
 
 ---
-
 S. 19
 
 Was ist ein zusammenhängender Graph?
@@ -77,7 +76,6 @@ Was ist ein stark zusammenhängender Graph?
 - falls zu jedem Knoten eine Kante geht die auch wieder zurück geht (in beide Richtungen)
 
 ---
-
 S. 20
 
 Wann ist ein Graph transitiv abgeschlossen?
@@ -90,7 +88,6 @@ Was ist eine Clique?
 - ein Teilgraph der vollständig ist
 
 ---
-
 S. 21
 
 Was ist das Kanten Gewicht eines Pfades?
@@ -98,7 +95,6 @@ Was ist das Kanten Gewicht eines Pfades?
 
 Was ist das Knoten Gewicht eines Pfades?
 - die Summe aller Knotengewichte
-
 ---
 
 S. 22
@@ -109,7 +105,6 @@ Was ist ein bipartit Graph?
 > Bitpartite Graphen werden oft zur Beschreibung von Relationen zwischen zwei Mengen genutzt
 
 ---
-
 S. 23
 
 Was ist ein Hamiltonian Pfad?
@@ -119,13 +114,109 @@ Was ist ein Euler Pfad?
 - ein Pfad, der jede Kante genau einmal enthält
 
 ---
+## Lektion 2: Grammatik, reguläre Sprachen und enliche Automaten
 
-## Lektion 2
+---
+S. 4
 
-## Lektion 3
+>$\Epsilon$ ist eine Menge an Zeichen (Alphabet)  
+>$\Epsilon^+$ ist die Menge aller nicht leeren Zeichenketten  
+>$\Epsilon^*$ schließt die leere Zeichenkette $\epsilon$ mit ein  
 
-## Lektion 4
+---
+S. 5
 
-## Lektion 5
+Woraus besteht eine Grammatik $G=(V,\Epsilon,P,S)$?
+- einer endlichen Menge von Variablen $V$
+- einer endlichen Menge von Terminalsymbolen $\Epsilon$
+- einer endlichen Menge von Produktionen $P$
+- einer startvariable $S$
 
-## Lektion 6
+---
+S. 7
+
+Chomsky Hierarchie
+
+Typ 0:
+- es gibt keine Einschränkungen für die Regeln
+- erkennbar durch: Turingmaschinen
+
+Typ 1, kontext-sensitiv:
+- rechte Seite ist nicht kürzer als linke Seite
+- erkennbar durch: erkennbar durch linear bescränkte nicht deterministische Turingmaschinen
+
+Typ 2, kontextfrei:
+- die Ersetztung der Variablen ist kontextfrei
+- erkennbar durch: nicht deterministischer Kellerautomat
+
+Typ 3, regulär:
+- die Ersetzung der Variablen ist regulär
+- erkennbar durch: endlicher Automant
+
+---
+S. 20
+
+Endliche Automaten
+
+Woraus besteht ein endlicher Automat $A=(Q,\Epsilon,\delta,q_0,F)$?
+- einer Menge an Zuständen $Q$
+- einem Alphabet $\Epsilon$
+- einer Übergangsfunktion $\delta$
+- einem Startzustand $q_0$
+- einer Menge an Endzuständen $F$
+
+---
+S. 22
+
+Wann erkennt ein endlicher Automat ein Wort?
+- wenn es am Ende eines Wortes einen Zustand in der Menge $F$ hat
+
+Wann erkennt ein endlicher Automat ein Wort **nicht**?
+- wenn es am Ende eines Wortes keinen Zustand in der Menge $F$ hat
+- wenn für das nächte Eingabezeichen kein Zuständsübergang definiert ist
+
+---
+
+Was ist ein deterministischer Automat?
+- ein Automat der nur eine Übergangsfunktion für ein ein Termialsymbol hat
+
+---
+S. 31
+
+Was ist ein spontaner $\epsilon$ Übergang?
+- ein Übergang von einem Zustand zu einem anderen mit einem $\epsilon$ Symbol
+
+>Der Automat kann spontan ohne ein Eingabezeichen zu einem anderen Zustand übergehen
+
+---
+Reguläre Sprachen und reguläre Ausdrücke
+
+S. 35 
+>Durch einen DFA akzeptierbare Sprache ist regulär
+
+
+
+
+
+
+Sind $a, ß$ reguläre Ausdrücke dann gilt:  | Sprache die einen regulären ausdruck definiert:  
+----|-----
+$\emptyset$ ist ein regulärer Ausdruck  |$L(\emptyset)= \emptyset$  
+$\epsilon$ ist ein regulärer Ausdruck  |$L(\epsilon)= \{\epsilon\}$  
+$a$ ist für jedes $a \in \Sigma$ ein regulärer Ausdruck | $L(a)= \{a\}$  
+$aß$ ist ein regulärer Ausdruck |  $L(aß)= L(a)L(b)$  
+$a \| ß$ ist ein regulärer Ausdruck |$L(a \| ß)= L(a)\cup L(ß)$
+$a^*$ ist ein regulärer Ausdruck |$L(a^*)= L(a)^*$
+
+
+
+
+
+
+## Lektion 3:
+
+## Lektion 4:
+
+## Lektion 5:
+
+## Lektion 6:
