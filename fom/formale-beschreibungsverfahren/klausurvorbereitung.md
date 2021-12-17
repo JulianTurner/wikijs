@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T18:16:35.054Z
+date: 2021-12-17T18:23:20.566Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -497,7 +497,7 @@ Was sind primitv rekursive Funktionen?
 - Nachfolgerfunktionen
 - Kompositionen
 
-> Primitv rekursive Funktionen sind %LOOP%-berechenbar
+> Primitv rekursive Funktionen sind $LOOP$-berechenbar
 ---
 S. 21
 
@@ -547,18 +547,20 @@ $e(1) = c(a(1)) = c(1) = 2$
 $e(2) = c(a(2)) = c(2) = 3$  
 $e(3) = c(a(3)) = c(3) = 4$  
 
+> Komposition sind primitiv rekursive Funktionen
 ---
 S. 26
 
 Was ist $\mu$-Operator auf Funktionen?
 - mach aus einer $(k+1)$-Funktion eine $(k)$-Funktion
 
-> $\mu$-Rekursion ist %WHILE%-berechenbar
+> $\mu$-Rekursion ist $WHILE$-berechenbar
 
 ---
 S. 36
 
->Die Ackermann-Funktion ist %WHILE%-berechenbar
+> Die Ackermann-Funktion ist $\mu$-Rekursiv aber nicht primitiv Rekursiv
+> Die Ackermann-Funktion ist $WHILE$-berechenbar
 
 ---
 S. 38
