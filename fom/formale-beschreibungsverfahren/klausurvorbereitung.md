@@ -340,8 +340,75 @@ Nicht-Abschlusseigenschaften deterministisch kontextfreier Sprachen:
 - Vereinigung $L_1 \cup L_2$
 ## Lektion 4: Kontextsensitive Sprachen, Turingmaschinen
 --- 
+S. 9
+
+Woraus besteht eine Turnigmaschine $M=(Q,\Sigma,\Gamma,\delta,q_0,\sqcup,F)$?
+- eine Menge an Zuständen $Q$
+- einem Alphabet $\Sigma$
+- einem Arbeits-Alphabet $\Gamma$
+- einer Übergangsfunktion $\delta$ welche die Bewegungsrichtung sowie den neuen Zustand
+	- unter Abhängigkeit vom 
+		- aktuellen Zustand 
+		- aktuellen Zeichen 
+- einem Startzustand $q_0$
+- einem reservierten Blankzeichen $\sqcup \in \Gamma \space \setminus \space \Sigma$
+- einer Mengenmenge von Endzuständen $F$
+
+---
+S. 12
+
+Was ist eine Konfiguration einer Turingmaschine?
+- eine Momentaufnahme der Turingmaschine in Arbeit
+
+> Turingmaschinen können leicht in Endlosschleifen geraten
+---
+S. 14 
+
+Was macht eine Linear beschränkte Turingmaschine (LBA) aus?
+- verlässt nie den Teil des Bandes, auf dem die Eingabe stand
+- überschreibt nie ein Blank
+- kann so konzepriert werden, dass sie nie ein Blank besucht
+
+> Eine LBA ist eine nicht deterministische Turingmaschine
+---
+S. 17
+Welche Automaten akzeptieren Typ 0 Sprachen?
+- Turingmaschinen
 
 
+Welche Automaten akzeptieren Typ 1 (kontextsensitive Sprachen)?
+- LBA
+
+> Eine nicht deterministische Turingmaschine kann durch eine deterministische Turingmaschine simuliert werden
+
+---
+S. 20
+
+Was zeichnet eine Mehrband-Turingmaschine aus?
+- eine Turingmaschine, die mehrere Bänder hat
+- eine Lese-Schreib-Kopf der sich unabhängig von den Bändern bewegt
+- eine gemeinsame Zustandsmenge für alle Bänder
+- Zustandsübergange werden in Abhängigkeit aller Zeichen auf allen Bändern ausgeführt
+- die Schreibköpfe können auf jedem Band etwas anderes schreiben
+- die Bewegungsrichtung der Köpf kann auf jedem Band anders sein
+
+> Eine Einband-Turingmaschine ist genso mächtig wie eine Mehrband-Turingmaschine
+
+---
+S. 22
+
+Abschlusseigenschaften von Typ 0 Sprachen:
+- Vereinigung $L_1 \cup L_2$
+- Durchschnitt $L_1 \cap L_2$
+- Produkt $L_1 L_2$
+- Kleenestern $L^*_1$
+
+Abschlusseigenschaften von Typ 1 Sprachen:
+- Vereinigung $L_1 \cup L_2$
+- Durchschnitt $L_1 \cap L_2$
+- Produkt $L_1 L_2$
+- Kleenestern $L^*_1$
+- Komplement $\bar{L_1} := \Sigma^* \setminus L_1$
 ## Lektion 5:
 
 ## Lektion 6:
