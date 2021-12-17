@@ -32,8 +32,8 @@ D. h. eine Schleife kann nie ein Zyklus sein.
 
 ### Ungerichteter Graph:
 
-![pfad-zyklus-schleife-ungerichtet.png](/fom//pfad-zyklus-schleife-ungerichtet.png)
+![pfad-zyklus-schleife-ungerichtet.png](/fom/formale-beschreibungsverfahren/pfad-zyklus-schleife-ungerichtet.png)
 
 ### Gerichteter Graph
 
-![pfad-zyklus-schleife-gerichtet.png](/fom//pfad-zyklus-schleife-gerichtet.png)
+![pfad-zyklus-schleife-gerichtet.png](/fom/formale-beschreibungsverfahren/pfad-zyklus-schleife-gerichtet.png)

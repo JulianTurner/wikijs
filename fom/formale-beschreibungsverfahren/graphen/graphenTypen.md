@@ -17,12 +17,12 @@ Graphen können unterschieden werden nach
 Zustandsübergänge sind injektiv.
 Hat zwischen zwei Knoten höchsten eine Kante pro Richtung.
 
-![einfachergraph.png](/fom//einfachergraph.png)
+![einfachergraph.png](/fom/formale-beschreibungsverfahren/einfachergraph.png)
 
 ## Multigraph
 
 Zustandsübergänge sind <ins>nicht</ins> injektiv.
 Zwei Knoten können über verschiedene Kanten in gleicher Richtung verbunden sein.
 
-![multigraph.png](/fom//multigraph.png)
+![multigraph.png](/fom/formale-beschreibungsverfahren/multigraph.png)
 (Oben [gerichteter Graph](/formaleBeschreibung/gerichtete-ungerichtete-graphen#gerichtete-graphen) / unten [ungerichteter Graph](/formaleBeschreibung/gerichtete-ungerichtete-graphen#ungerichtete-graphen))

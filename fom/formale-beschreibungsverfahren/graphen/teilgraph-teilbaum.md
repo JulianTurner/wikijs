@@ -22,7 +22,7 @@ Ein Teilbaum ist ein Teilgraph eines [Baumes](/formaleBeschreibung/graphen/dag-t
 Ein <u>vollständiger Teilbaum</u> hat keine Knoten die Startpunkte von Kanten sind, deren Zielknoten außerhalb des Teilbaums liegen.
 Ein <u>unvollständiger Teilbaum</u> hat Knoten die Startpunkt von Kanten sind, deren Zielknoten außerhalb des Teilbaums liegen.
 
-![teilbaum.png](/fom//teilbaum.png)
+![teilbaum.png](/fom/formale-beschreibungsverfahren/teilbaum.png)
 
 
 
