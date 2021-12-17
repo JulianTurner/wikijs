@@ -1,11 +1,11 @@
 ---
 title: Finite Automaton
 description: Finite Automaton (FA)
-published: true
-date: 2021-11-28T11:51:28.054Z
-tags: graphen, formale sprache
+published: 1
+date: 2021-12-17T17:17:24.528Z
+tags: formale sprache, graphen
 editor: markdown
-dateCreated: 2021-11-28T11:29:07.750Z
+dateCreated: 2021-12-16T20:40:43.349Z
 ---
 
 # Finite Automaton
@@ -22,9 +22,9 @@ Finite Automaton bestehen aus:
   - Im Graph wird jeder Endzustand mit einem <u>umkreisten Punkt</u> markiert.
 
 
-Finite Automaton können mit [gerichteten Graphen](/formaleBeschreibung/graphen/gerichtete-ungerichtete-graphen#gerichtete-graphen) vom Typ [Multigraph](/formaleBeschreibung/graphen/graphenTypen#multigraph) dargestellt werden.
+Finite Automaton können mit [gerichteten Graphen](/fom/formale-beschreibungsverfahren/graphen/gerichtete-ungerichtete-graphen#gerichtete-graphen) vom Typ [Multigraph](/fom/formale-beschreibungsverfahren/graphen/graphenTypen#multigraph) dargestellt werden.
 
 ## Anwendung
 
-- [DFA](/formaleBeschreibung/formaleSprachen/dfa)
-- [NFA](/formaleBeschreibung/formaleSprachen/nfa)
+- [DFA](/fom/formale-beschreibungsverfahren/formaleSprachen/dfa)
+- [NFA](/fom/formale-beschreibungsverfahren/formaleSprachen/nfa)
