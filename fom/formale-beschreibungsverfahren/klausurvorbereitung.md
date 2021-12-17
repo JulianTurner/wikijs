@@ -10,15 +10,6 @@ dateCreated: 2021-12-16T19:46:52.553Z
 
 # Klausurvorbereitung
 
-Definitionen von Symbolen
-
-
-| Bedeutung  | Name     | Symvol    |
-| ---------- | -------- | --------- |
-| Knoten     | Vertices | Knoten    |
-| Kanten     | Edges    | Edges     |
-| Verbindung | Phi      | $\varphi$ |
-
 ## Lektion 1: Grundlagen der Graphentheorie
 
 ---
@@ -135,7 +126,7 @@ Woraus besteht eine Grammatik $G=(V,\Epsilon,P,S)$?
 ---
 S. 7
 
-Chomsky Hierarchie
+### Chomsky Hierarchie
 
 Typ 0:
 - es gibt keine Einschränkungen für die Regeln
@@ -156,7 +147,7 @@ Typ 3, regulär:
 ---
 S. 20
 
-Endliche Automaten
+### Endliche Automaten
 
 Woraus besteht ein endlicher Automat $A=(Q,\Epsilon,\delta,q_0,F)$?
 - einer Menge an Zuständen $Q$
@@ -189,15 +180,10 @@ Was ist ein spontaner $\epsilon$ Übergang?
 >Der Automat kann spontan ohne ein Eingabezeichen zu einem anderen Zustand übergehen
 
 ---
-Reguläre Sprachen und reguläre Ausdrücke
+### Reguläre Sprachen und reguläre Ausdrücke
 
 S. 35 
 >Durch einen DFA akzeptierbare Sprache ist regulär
-
-
-
-
-
 
 Sind $a, ß$ reguläre Ausdrücke dann gilt:  | Sprache die einen regulären ausdruck definiert:  
 ----|-----
@@ -230,15 +216,131 @@ Abschlusseigenschaften
 ---
 S. 42
 
-Pumping Lemma
+#### Pumping Lemma
 
 - jedes Wort hat ein Mittelstück dass sich belieg oft wiederholen lässt ohne die Sprache zu verlassen
 
+---
 ## Lektion 3: Kentextfreie Sprachen und Push-Down-Automaten
 
+---
+S. 5 
+
+### Chomsky Normalform
 
 
-## Lektion 4:
+Eine kontextfrei Grammatik ist in Chomsky Normalform wenn:
+- jede Regel ist kontextfrei
+- linke Seite besteht aus einer Veriable
+- besteht aus einem Terminal oder einer Variable mit Terminalsymbol
+- rechte Seite besteht maximal aus 2 Zeichen
+- keine $\epsilon$-Regel
+- jedes Terminal hat eine Variable
+
+>Kettenregel ist Veriable auf Variable
+
+---
+S. 8
+
+###  Greibach Normalform
+Eine kontextfrei Grammatik ist in Greibach Normalform wenn:
+- jede Regel ist kontextfrei
+- linke Seite besteht aus einer Veriable
+- rechte Seite beginnt mit einem Terminalsymbol und hat endlich viele Variablen im Anschluss
+- keine $\epsilon$-Regel
+
+---
+
+### Charakteristische Merkmale kontextfreier Grammatiken
+
+---
+S. 14
+
+Ableitungsbäume
+- vereinheitlichten die Auswahl der als nächstes abgeleiteten Variable
+- sind für links und rechts Ableitungen identisch
+
+---
+S. 15
+
+Wann ist eine kontextfreie Grammatik in mehrdeutig?
+- wenn es zu einem Wort verschiedene Ableitungen gibt
+
+---
+S. 17
+
+Abschlusseigenschaften kontextfreier Sprachen:
+- Vereinigung $L_1 \cup L_2$
+- Produkt $L_1 L_2$
+- Kleenestern $L^{*}_1 $
+
+---
+S. 18
+
+**Nicht**-Abschlusseigenschaften kontextfreier Sprachen:
+- Durschschnitt $L_1 \cap L_2$
+- Komplement $\bar{L_1} := \Sigma^* \setminus L_1$
+
+---
+S. 24
+
+Wofür benötig man den CYK-Algorythmus?
+- mit dem CYK-Algorythmus lässt sich feststellen, ob ein Wort zu einer bestimmten kontextfreien Sprache gehört
+
+---
+S.28
+
+### Push-Down Automat
+
+Woraus besteht ein Push-Down-Automat $M=(Q,\Sigma,\Gamma,\delta,q_0,\#)$?
+- eine Menge an Zuständen $Q$
+- einem Alphabet $\Sigma$
+- einem Stack-Alphabet $\Gamma$
+- einer Übergangsfunktion $\delta$
+	- die in Abhängigkeit vom aktuellen Zustand und dem aktuellen Stack-Symbol einen neuen Zustand und einen neuen Stack-Symbol zuweist
+- einem Startzustand $q_0$
+- einem Anfangssymbol $\# \in \Gamma$
+- einer Mengenmenge von Endzuständen *-fehlt im Script* 
+
+> Pda sind in der Regel nicht deterministisch
+
+---
+S. 31
+
+Was ist eine Konfiguration eines Push-Down-Automat?
+- eine Momentaufnahme des Push-Down-Automat in Arbeit
+
+> Kontextfreie Sprachen sind von einem Push-Down-Automat akzeptierbar
+
+---
+S. 41
+
+Folgebde Beschreibungsverfahren für kontextfreie Sprachen sind gleichwertig:
+
+Kontextfreie Grammatik:
+- Startsymbol nach $\epsilon$ ist zulässig
+
+Nicht-detereministische Push-Down-Automaten:
+- Akzeptieren bei leerem Stack
+- Akzeptieren mit Endzustand
+- ein oder mehere Startzustände
+- ein oder mehere Zustände
+- mit und ohne $\epsilon$-Übergänge
+
+---
+S. 45
+
+Abschlusseigenschaften deterministisch kontextfreier Sprachen:
+- Komplement $\bar{L_1} := \Sigma^* \setminus L_1$
+
+---
+
+Nicht-Abschlusseigenschaften deterministisch kontextfreier Sprachen:
+- Durchschnitt $L_1 \cap L_2$
+- Vereinigung $L_1 \cup L_2$
+## Lektion 4: Kontextsensitive Sprachen, Turingmaschinen
+--- 
+
 
 ## Lektion 5:
 
