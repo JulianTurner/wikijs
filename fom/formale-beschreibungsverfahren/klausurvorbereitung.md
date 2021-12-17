@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T14:52:52.113Z
+date: 2021-12-17T14:58:31.690Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -121,7 +121,7 @@ Woraus besteht eine Grammatik $G=(V,\Epsilon,P,S)$?
 - einer endlichen Menge von Variablen $V$
 - einer endlichen Menge von Terminalsymbolen $\Epsilon$
 - einer endlichen Menge von Produktionen $P$
-- einer startvariable $S$
+- einer Startvariable $S$
 
 ---
 S. 7
@@ -134,7 +134,7 @@ Typ 0:
 
 Typ 1, kontext-sensitiv:
 - rechte Seite ist nicht kürzer als linke Seite
-- erkennbar durch: erkennbar durch linear bescränkte nicht deterministische Turingmaschinen
+- erkennbar durch: linear beschränkte nicht deterministische Turingmaschinen
 
 Typ 2, kontextfrei:
 - die Ersetztung der Variablen ist kontextfrei
@@ -142,7 +142,7 @@ Typ 2, kontextfrei:
 
 Typ 3, regulär:
 - die Ersetzung der Variablen ist regulär
-- erkennbar durch: endlicher Automant
+- erkennbar durch: endlicher Automat
 
 ---
 S. 20
@@ -218,7 +218,13 @@ S. 42
 
 #### Pumping Lemma
 
-- jedes Wort hat ein Mittelstück dass sich belieg oft wiederholen lässt ohne die Sprache zu verlassen
+- Jedes Wort lässt sich in drei Teile zerlegen ($X$, $Y$, $Z$)
+- Der Startteil $X$ leitet das Wort ein
+- Der Mittelteil $Y$ lässt sich beliebig oft auf-pumpen (wiederholen)
+- Der Endteil $Z$ kann für das Lemma ignoriert werden
+
+> Das Pumping Lemm beweist nur, ob eine Sprache bzw. eine Grammatik NICHT regulär ist.
+> Ob eine Sprache bzw. eine Gramatik Regulär ist, lässt sich dadurch nicht beweisen!
 
 ---
 ## Lektion 3: Kentextfreie Sprachen und Push-Down-Automaten
