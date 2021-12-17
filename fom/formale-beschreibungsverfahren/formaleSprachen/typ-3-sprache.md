@@ -2,7 +2,7 @@
 title: Typ 3 Sprache, reguläre Sprache
 description: 
 published: 1
-date: 2021-12-17T17:14:16.130Z
+date: 2021-12-17T17:15:08.749Z
 tags: formale sprache
 editor: markdown
 dateCreated: 2021-12-16T20:41:15.009Z
@@ -19,8 +19,8 @@ dateCreated: 2021-12-16T20:41:15.009Z
   - Variable -> Terminalsymbol Variable
   
 ## Wortproblem lösbar mit
-- [NFA](formale-beschreibungsverfahren/formaleSprachen/nfa) (Nondeterministic Finite Automaton)
-- [DFA](formale-beschreibungsverfahren/formaleSprachen/dfa) (Deterministic Finite Automaton)
+- [NFA](/fom/formale-beschreibungsverfahren/formaleSprachen/nfa) (Nondeterministic Finite Automaton)
+- [DFA](/fom/formale-beschreibungsverfahren/formaleSprachen/dfa) (Deterministic Finite Automaton)
 
 NFA kann in DFA umgewandelt werden.
 ## Beispiel
