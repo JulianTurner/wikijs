@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T09:31:09.552Z
+date: 2021-12-17T14:52:52.113Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -39,7 +39,7 @@ Was ist ein Pfad?
 - eine Folge von Kanten
 
 Was ist ein Kreis?
-- en geschlossener Pfad
+- ein geschlossener Pfad
 - Start und Endknoten identisch
 
 Was ist ein Zyklus?
@@ -54,8 +54,8 @@ Was ist ein DAG?
 Was ist ein Tree?
 - ein gerichteter Graph ohne Zyklen
 - besitzt eine Wurzel (Root)
-- zu jedem Knoten kann nur eine Kante gehen
-> In einem gerichteten Baum ist ein Knoten der kein Startpunkt ist ein Blatt (Leaf)
+- zu jedem Knoten kann es nur eine Kante gehen
+> In einem gerichteten Baum ist ein Knoten, der kein Startpunkt ist, ein Blatt (Leaf)
 
 ---
 S. 19
@@ -98,7 +98,7 @@ Was ist ein bipartit Graph?
 ---
 S. 23
 
-Was ist ein Hamiltonian Pfad?
+Was ist ein Hamilton Pfad?
 - ein Pfad, der jeden Knoten genau einmal besucht
 
 Was ist ein Euler Pfad?
