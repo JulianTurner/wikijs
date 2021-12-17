@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T17:04:18.215Z
+date: 2021-12-17T18:13:28.802Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -110,9 +110,9 @@ Was ist ein Euler Pfad?
 ---
 S. 4
 
->$\Epsilon$ ist eine Menge an Zeichen (Alphabet)  
->$\Epsilon^+$ ist die Menge aller nicht leeren Zeichenketten  
->$\Epsilon^*$ schließt die leere Zeichenkette $\epsilon$ mit ein  
+>$\Sigma$ ist eine Menge an Zeichen (Alphabet)  
+>$\Sigma^+$ ist die Menge aller nicht leeren Zeichenketten  
+>$\Sigma^*$ schließt die leere Zeichenkette $\epsilon$ mit ein  
 
 ---
 S. 5
@@ -149,9 +149,9 @@ S. 20
 
 ### Endliche Automaten
 
-Woraus besteht ein endlicher Automat $A=(Q,\Epsilon,\delta,q_0,F)$?
+Woraus besteht ein endlicher Automat $A=(Q,\Sigma,\delta,q_0,F)$?
 - einer Menge an Zuständen $Q$
-- einem Alphabet $\Epsilon$
+- einem Alphabet $\Sigma$
 - einer Übergangsfunktion $\delta$
 - einem Startzustand $q_0$
 - einer Menge an Endzuständen $F$
@@ -423,9 +423,9 @@ S. 4
 Was ist eine partielle Funktion?
 - eine Funktion, die nur ein Teil der Werte besitzt
 
-> Bei partiellen Funktionen darf die Turingmaschine für ein Wort das nicht in der Sprache enthalten ist keinen Endzustand erreichen
+> Bei partiellen Funktionen darf die Turingmaschine keinen Endzustand erreichen
 
-> Bei totalen Funktionen darf die Turingmaschine nie in eine Endlosschleife geraten
+> Bei totalen Funktionen darf die Turingmaschine in eine Endlosschleife geraten
 ---
 S. 8
 
@@ -604,7 +604,7 @@ S. 7
 Bemerkungen zu $NP$
 
 > Es ist unbekannt ob $P = NP$  
-> Man vermutet $P \neq NP$
+> Man Vermutet $P \neq NP$
 
 > Eine der Problemkategorien ist die Komplexitätsklasse $P$. Sie enthält die Probleme, für die eine deterministische Turingmaschine existiert, die das Problem in Polynomialzeit löst.
 
@@ -614,7 +614,7 @@ Bemerkungen zu $NP$
 S. 18
 
 > $CSAT$ ist $NP$ vollständig  
-> $3SAT$ ist $NP$ vollständig  
+> $3SAT$ ist $NP$ vollständig
 > $HC$ ist $NP$ vollständig
 
 
