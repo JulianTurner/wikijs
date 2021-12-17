@@ -1,11 +1,11 @@
 ---
 title: Typ 1 Sprache, kontextsensitive Sprache
 description: 
-published: true
-date: 2021-11-27T20:52:08.745Z
+published: 1
+date: 2021-12-17T17:12:45.250Z
 tags: formale sprache
 editor: markdown
-dateCreated: 2021-11-27T20:52:01.891Z
+dateCreated: 2021-12-16T20:41:03.313Z
 ---
 
 # Typ 1 Sprache, kontextsensitive Sprache
@@ -15,8 +15,21 @@ dateCreated: 2021-11-27T20:52:01.891Z
 - rechte Seite ist nicht kürzer als linke Seite
 
 ## Formen
+- Kontext-Form (einzelne Produktion)
+  - (optional) Variable(n) +  Variable + (optional) Variable(n)
+->  (optional) Variable + Variable(n) oder Terminalzeichen + (optional) Variablen(n)
+
 - Kuroda Normalform
+  - Variable -> Terminal
+  - Variable -> Variable
+  - Variable -> Variable Variable
+  - Variable + Variable -> Variable + Variable
 - Révész Normalform
+  - Variable -> Terminal
+  - Variable -> Variable
+  - Variable -> Variable Variable
+  - Variable A + Variable B -> Variable X + Variable B (B ist Kontext)
+  - Variable A + Variable B -> Variable A + Variable X (A ist Kontext)
   
 ## Wortproblem lösbar mit
 - Linear beschränkte Turing-Maschiene
