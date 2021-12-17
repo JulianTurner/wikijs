@@ -446,7 +446,7 @@ Prüft vor jedem Schleifendurchlauf eine Bediengung
 
 > Jede $WHILE$-berechenbare Funktion ist Turingberechenbar
 > Jede $WHILE$-berechenbare Funktion ist $GOTO$-berechenbar
-> $\mu$-Rekursion ist %WHILE%-berechenbar
+> $\mu$-Rekursion ist $WHILE$-berechenbar
 
 ---
 S. 10
@@ -477,7 +477,7 @@ S. 18
 
 Was ist die Chursche These?
 Es ist gleichwertig:
-- %WHILE%-berechenbarkeit
+- $WHILE$-berechenbarkeit
 - $GOTO$-berechenbarkeit
 - Turingberechenbarkeit
 
@@ -523,9 +523,9 @@ Was ist die Nachfolgerfunktion?
 
 $c(x) = f + 1$
 
-$c(1) = 2$
-$c(2) = 3$
-$c(3) = 4$
+$c(1) = 2$  
+$c(2) = 3$  
+$c(3) = 4$  
 
 > Nachfolgerfunktionen sind primitiv rekursive Funktionen
 ---
@@ -536,9 +536,9 @@ Was ist eine Komposition?
 
 $e(x) = c(a(x))$
 
-$e(1) = c(a(1)) = c(1) = 2$
-$e(2) = c(a(2)) = c(2) = 3$
-$e(3) = c(a(3)) = c(3) = 4$
+$e(1) = c(a(1)) = c(1) = 2$  
+$e(2) = c(a(2)) = c(2) = 3$  
+$e(3) = c(a(3)) = c(3) = 4$  
 
 ---
 S. 26
@@ -583,5 +583,31 @@ S. 44
 > Komplemente der Halteprobleme sind **nicht** semi-entscheidbar
 
 ---
-## Lektion 6:
+## Lektion 6: Komplexitätstheorie
+
+S. 3
+
+Wie kann man die Komplexität eines Algorythmus messen?
+- Anzahl der Rechenschritte bis zur Lösung
+- Größe des Speicherbearfs
+
+---
+S. 7
+
+Bemerkungen zu $NP$
+
+> Es ist unbekannt ob $P = NP$  
+> Man Vermutet $P \neq NP$
+
+> Eine der Problemkategorien ist die Komplexitätsklasse $P$. Sie enthält die Probleme, für die eine deterministische Turingmaschine existiert, die das Problem in Polynomialzeit löst.
+
+> $NP$ ist definiert als die Menge der 
+
+---
+S. 18
+
+> $CSAT$ ist $NP$ vollständig  
+> $3SAT$ ist $NP$ vollständig
+> $HC$ ist $NP$ vollständig
+
 
