@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-17T18:13:28.802Z
+date: 2021-12-17T18:16:35.054Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:46:52.553Z
@@ -423,9 +423,9 @@ S. 4
 Was ist eine partielle Funktion?
 - eine Funktion, die nur ein Teil der Werte besitzt
 
-> Bei partiellen Funktionen darf die Turingmaschine keinen Endzustand erreichen
+> Bei partiellen Funktionen darf die Turingmaschine wenn das Wort nich in der Sprache ist keinen Endzustand erreichen
 
-> Bei totalen Funktionen darf die Turingmaschine in eine Endlosschleife geraten
+> Bei totalen Funktionen darf die Turingmaschine nie in eine Endlosschleife geraten
 ---
 S. 8
 
