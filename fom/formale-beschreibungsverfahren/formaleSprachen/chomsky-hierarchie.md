@@ -2,7 +2,7 @@
 title: Chomsky-Hierarchie
 description: 
 published: 1
-date: 2021-12-18T08:05:44.769Z
+date: 2021-12-18T08:20:47.255Z
 tags: formale sprache
 editor: markdown
 dateCreated: 2021-12-16T20:40:30.908Z
@@ -37,7 +37,7 @@ Für jeden Grammatik Typ gelten zusätzliche [Epsilon Regeln](/formaleBeschreibu
 - siehe auch [Typ 3 Sprache, reguläre Sprache](/formaleBeschreibung/formaleSprachen/typ-3-sprache)
 
 ## $\varepsilon$-Regeln
-Entgegen der Regel "rechte Seite $\leq$ linke Seite" führt man für für alle Grammatiken neue Regeln ein, bei denen das Start-Symbol S auf $\varepsilon$ abgeleitet werden darf.
+Entgegen der Regel "rechte Seite nicht kürzer linke Seite" führt man für für alle Grammatiken neue Regeln ein, bei denen das Start-Symbol S auf $\varepsilon$ abgeleitet werden darf.
 
 Für Regeln von Typ 2, 3 und 4 wird außerdem für jedes Terminal-Symbol je eine Ableitung auf $\varepsilon$ eingeführt.
 Die Epsilon-Regeln können anschließend eliminiert werden, in dem Regel-Permutationen gebildet werden, bei denen auf der rechten Seite an verschiedenen Stellen die auf $\varepsilon$ ableitbaren Variablen entfernt werden (ausgenommen die Regel Startsymbol -> $\varepsilon$).
