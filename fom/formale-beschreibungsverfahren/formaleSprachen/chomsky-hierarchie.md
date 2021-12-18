@@ -2,13 +2,13 @@
 title: Chomsky-Hierarchie
 description: 
 published: 1
-date: 2021-12-16T20:55:50.816Z
+date: 2021-12-18T08:05:44.769Z
 tags: formale sprache
 editor: markdown
 dateCreated: 2021-12-16T20:40:30.908Z
 ---
 
-# Chomsky-Hierarchie
+- # Chomsky-Hierarchie
 
 ## Chomsky-Typ
 - Eine Sprache kann mit unterschiedlichen Grammatiken und Typen spezifiziert werden
@@ -22,7 +22,7 @@ Für jeden Grammatik Typ gelten zusätzliche [Epsilon Regeln](/formaleBeschreibu
   - Wörter können im Verlauf der Ableitung länger werden als das letztendlich produzierte Wort
 
 ### Typ 1 Grammatik: kontextsensitive Grammatik
-- für jede Regel gilt: rechte Seite $\leq$ linke Seite
+- für jede Regel gilt: rechte Seite nicht kürzer linke Seite
 - siehe auch [Typ 1 Sprache, kontextsensitive Sprache](/formaleBeschreibung/formaleSprachen/typ-1-sprache)
 
 ### Typ 2 Grammatik: kontextfreie Grammatik
