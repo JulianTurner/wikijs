@@ -30,12 +30,13 @@
 		"ms-vsliveshare.vsliveshare",
 		"mhutchie.git-graph",
 		"aaron-bond.better-comments",
-		"mdickin.markdown-shortcuts"
+		"mdickin.markdown-shortcuts",
+		"github.copilot"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "bash /workspaces/wikijs/.devcontainer/postCreateCommand.sh ",
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {

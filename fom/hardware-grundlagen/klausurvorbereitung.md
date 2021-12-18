@@ -9,4 +9,3 @@ dateCreated: 2021-12-16T19:53:55.468Z
 ---
 
 # Klausurvorbereitung
-Your content here
