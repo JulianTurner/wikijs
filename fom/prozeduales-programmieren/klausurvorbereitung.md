@@ -10,4 +10,11 @@ dateCreated: 2021-12-16T19:53:06.780Z
 
 # Klausurvorbereitung
 
-NULLPOINTER
+Was ist ein Pointer?
+Was ist Pointerarithmetik?
+- Rechnen mit Speicheradressen. 
+Wofür verwendet man Pointer?
+
+Speicher muss immer freigegeben werden.
+
+ENUM sind nicht Klausurrelevant
