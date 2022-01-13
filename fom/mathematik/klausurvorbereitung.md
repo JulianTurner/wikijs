@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T11:39:22.534Z
+date: 2022-01-13T11:57:59.227Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -86,7 +86,18 @@ Induktionsbehauptung
 $\exists n \in \N : (1+h)^n \geq 1+ nh, falls h \geq -1$
 
 Induktionsschritt:
-- zu zeigen $n \rightarrow n +1$
+- zu zeigen $n \rightarrow n +1$ 
+- $(1+h)^{n+1} \geq 1 + (n+1)h$
+- linke Seite so lange umformen und redizieren bis die Ungleichung bewiesen wird
+
 |-|-|
-|$(1+h)^{n+1} \geq 1 + (n+1)h$| linke Seite Qutienten aufteilen
-|$(1+h)^n * (1+h)^1 \geq 1 + (n+1)h$
+|$(1+h)^{n+1}$| Qutienten aufteilen
+|$=(1+h)^n * (1+h)$| Induktionsbehauptung einsetzten $(1+h)^n$ mit $(1+nh)$ ersetzten
+|$>(1+nh)*(1+h)$ | Klammern ausmultiplizieren
+|$=1+h+nh+nh^2$| $h$ ausklammern
+|$=1+h* (1 + n)+nh^2$| umformen 
+|$=1+(n+1)h +nh^2$|
+
+$n\in\N = n > 0$
+$h^2$ wird immer positiv
+Das Ergebnis wird bei einer Addition nicht kleiner
