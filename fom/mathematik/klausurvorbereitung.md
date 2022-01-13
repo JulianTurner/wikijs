@@ -15,7 +15,6 @@ dateCreated: 2021-12-16T19:44:54.647Z
 ### Was ist eine Primzahl?
 - Eine Primzahl kann man nur durch sich selbst oder 1 teilen z.b. { 3, 5, 7 }
 
-
 ### Aussagen
 Eine Aussage beinhaltet keine Variable.
 - morgen ist Sonntag = keine Aussage da morgen eine Variable ist
@@ -90,13 +89,16 @@ Induktionsschritt:
 - $(1+h)^{n+1} \geq 1 + (n+1)h$
 - linke Seite so lange umformen und redizieren bis die Ungleichung bewiesen wird
 
-|-|-|
-|$(1+h)^{n+1}$| Qutienten aufteilen
-|$=(1+h)^n * (1+h)$| Induktionsbehauptung einsetzten $(1+h)^n$ mit $(1+nh)$ ersetzten
-|$>(1+nh)*(1+h)$ | Klammern ausmultiplizieren
-|$=1+h+nh+nh^2$| $h$ ausklammern
-|$=1+h* (1 + n)+nh^2$| umformen 
-|$=1+(n+1)h +nh^2$| $\square$ siehe unten
+
+Rechnung | Rechenschritt
+---------|----------
+$(1+h)^{n+1}$ | Qutienten aufteilen
+$=(1+h)^n * (1+h)$| Induktionsbehauptung einsetzten $(1+h)^n$ mit $(1+nh)$ ersetzten
+$>(1+nh)*(1+h)$ | Klammern ausmultiplizieren
+$=1+h+nh+nh^2$| $h$ ausklammern
+$=1+h* (1 + n)+nh^2$| umformen 
+$=1+(n+1)h +nh^2$| $\square$ siehe unten
+
 
 $n\in\N = n > 0$
 $h^2$ wird immer positiv
