@@ -246,3 +246,33 @@ Da $r$ immer gleich ist, ist der Vektor linear abhänging.
 {.is-info}
 ---
 
+## Matrizen
+gegeben:
+$A1=\left(\begin{array}{cc}
+	1 & 2 \\
+	3 & 4 \end{array} \right)$
+&zwnj; 
+$A2=\left(\begin{array}{cc}
+	3 & 4 \\
+	5 & 6 \end{array} \right)$
+&zwnj; 
+$A3=\left(\begin{array}{cc}
+	3 & 4 \\
+	5 & 6 \\
+	1 & 2\end{array} \right)$
+&zwnj; 
+### Matrix transponieren
+Wie transponiert man eine Matrix?
+<p><a href="https://commons.wikimedia.org/wiki/File:Matrix_transpose.gif#/media/Datei:Matrix_transpose.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Matrix_transpose.gif" alt="Matrix transpose.gif"></a><br>Von &lt;a href="//commons.wikimedia.org/wiki/User:LucasVB" title="User:LucasVB"&gt;Lucas Vieira&lt;/a&gt; - &lt;span class="int-own-work" lang="de"&gt;Eigenes Werk&lt;/span&gt;, Gemeinfrei, <a href="https://commons.wikimedia.org/w/index.php?curid=21897854">Link</a></p>
+
+$A1^T = \left(\begin{array}{cc}
+	1 & 2 \\
+	3 & 4 \end{array} \right)$
+&zwnj;
+$A3^T=\left(\begin{array}{cc}
+	3 & 5 & 1 \\
+	4 & 6 & 2 
+	\end{array} \right)$
+
+### Gauß-Jordan-Verfahren
+A
