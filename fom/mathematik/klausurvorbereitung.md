@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T15:01:55.846Z
+date: 2022-01-13T15:02:58.505Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -208,3 +208,15 @@ $cos(\alpha) = {\frac{Skalarprodukt}{||e_1|| * ||e_2||}}$
 > Taschenrechner muss aud degree (D) eingestellt sein
 {.is-warning}
 ---
+
+Was ist lineare Unabhängkeit bei Vektoren?
+- Mit einem Vektor den anderen Verktor erzeugen
+- Ein Vektor ist das vielfache des anderen Vektors
+
+Wie berechnet man linerae unabhängigkeit von Vektoren?  
+
+$\left(\begin{array}{c}3 \\ 4 \end{array} \right) = {r * \left(\begin{array}{c}6 \\ 8 \end{array} \right)}{\begin{cases}
+    3 = {r * 6} \xRightarrow{\div3} {r=2}\\
+    4 = {r * 8} \xRightarrow{\div4} {r=2}
+  \end{cases}
+}$
