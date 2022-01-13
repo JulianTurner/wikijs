@@ -97,8 +97,8 @@ Induktionsschritt:
 
 Rechnung | Rechenschritt
 ---------|----------
-$(1+h)^{n+1}$ | Qutienten aufteilen
-$=(1+h)^{n} * (1+h)$| Induktionsbehauptung einsetzten $(1+h)^{n}$ mit $(1+nh)$ ersetzten
+${(1+h)^{n+1}}$ | Qutienten aufteilen
+$={(1+h)^{n}} * (1+h)$| Induktionsbehauptung einsetzten ${(1+h)^{n}}$ mit $(1+nh)$ ersetzten
 $>(1+nh)*(1+h)$ | Klammern ausmultiplizieren
 $=1+h+nh+nh^2$| $h$ ausklammern
 $=1+h* (1 + n)+nh^2$| umformen 
