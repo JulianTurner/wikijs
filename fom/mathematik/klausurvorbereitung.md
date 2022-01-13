@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T14:11:59.347Z
+date: 2022-01-13T14:12:23.229Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -186,7 +186,7 @@ $\vec{e}_{g} = \left(\begin{array}{c}-3 \\ -4 \end{array} \right)$
 ---
 
 Wie berechnet man das Skalarprodukt?  
-$\langle e,b \rangle = \vec{e} * \vec{b}$
+$\langle e,b \rangle = \vec{e1} * \vec{b1}$
 
 $\langle e,b \rangle = e_1 * b_1 + e_2 * b_2$
 
