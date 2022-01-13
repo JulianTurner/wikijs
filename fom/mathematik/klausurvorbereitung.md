@@ -162,7 +162,8 @@ Was ist ein Einheitsvektor?
 ---
 Wie berechnet man den Einheitsvektor?
 
-$\vec{e}_{ev} = \frac{1}{||\vec{e}||} * \vec{e}$  
+$\vec{e}_{ev} = \frac{1}{\vec{e}} * \vec{e}$  
+%%%
 
 $\vec{e}_{ev} = \frac{1}{5}*\left(\begin{array}{c}3 \\ 4 \end{array} \right)$
 
