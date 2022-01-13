@@ -12,7 +12,7 @@ dateCreated: 2021-12-16T19:44:54.647Z
 
 ## Grundlagen
 
-### Was ist eine Primzahl?
+Was ist eine Primzahl?
 - Eine Primzahl kann man nur durch sich selbst oder 1 teilen z.b. { 3, 5, 7 }
 
 ### Aussagen
@@ -76,7 +76,8 @@ Wann ist eine Abbbildung bijektiv?
 $\forall n \in \N:(1+h)^n  \geq 1+nh, falls \space h \geq -1$
 
 Infuktionsanfang: $n = 1$
-|-|-|
+Rechnung | Rechenschritt
+---------|----------
 | $(1+h) \geq 1+1*h$ | *Klammern auflösen da nicht benötigt*
 | $1+h \geq 1 + 1*h$ | $* 1$ *entfernen*
 | $1+h \geq 1 + h$ | $\square$
