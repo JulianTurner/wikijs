@@ -275,4 +275,28 @@ $A3^T=\left(\begin{array}{cc}
 	\end{array} \right)$
 
 ### Gauß-Jordan-Verfahren
-A
+### Matrixmultiplikation
+### Inverse einer Matrix
+### Determinante einer Matrix
+## Folgen und Reihen
+### ersten Glieder 
+### Quotientenkriterium
+### Wurzelkriterium
+# Elementare Funktionen und Stetigkeit
+### Eigenschaften der Funktionen
+### Verknüpfung von Funktionen
+### Grenzwerte berechnen
+### Stetigkeit
+# Differentalrechnung
+### erste Ableitung
+### Extrema und Wendepunkt
+
+# Integralrechnung
+### Stammfunktion
+### partielle Integration
+### Substitutionsmethode
+
+# Funktionen mehrerer Variablen
+### Gradienten bestimmen
+### Ableitungen bestimmen
+### Extrema und Wendepunkt
