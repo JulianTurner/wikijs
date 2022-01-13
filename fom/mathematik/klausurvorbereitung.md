@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T15:01:11.609Z
+date: 2022-01-13T15:01:55.846Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -198,9 +198,13 @@ $\langle e,b \rangle = 39$
 
 > Wenn das Skalarpordukt 0 ist, dann stehen die Vektoren orthogonal (im rechten Winkel, 90°)
 {.is-info}
+---
+Wie berechnet man den Winkel zwischen zwei Vektoren?
 
-Wie 
-
-<!-- $
- \vec{e}_1= \left(\begin{array}{c} 1 \\ 0 \\ 1 \end{array}\right)
-$ -->
+$cos(\alpha) = {\frac{Skalarprodukt}{||e_1|| * ||e_2||}}$
+- Das Ergebnis für $\alpha$ im einsetzten 
+- $cos^{-1}$ verwenden
+- Der Wert ist in Grad
+> Taschenrechner muss aud degree (D) eingestellt sein
+{.is-warning}
+---
