@@ -192,13 +192,13 @@ $\vec{e}_{g} = {\left(\begin{array}{c}-3 \\ -4 \end{array} \right)}$
 Wie berechnet man das Skalarprodukt?  
 $\langle e,b \rangle = {\vec{e} * \vec{b}}$
 
-$\langle e,b \rangle = {e_1 * b_1 + e_2 * b_2}$
+$\langle e,b \rangle = e_1 * b_1 + e_2 * b_2$
 
-$\langle e,b \rangle = {3 * 5 + 4 * 6}$
+$\langle e,b \rangle = 3 * 5 + 4 * 6$
 
-$\langle e,b \rangle = {15 + 24}$
+$\langle e,b \rangle = 15 + 24$
 
-$\langle e,b \rangle = {39}$
+$\langle e,b \rangle = 39$
 
 > Wenn das Skalarpordukt 0 ist, dann stehen die Vektoren orthogonal (im rechten Winkel, 90°)
 {.is-info}
