@@ -123,6 +123,10 @@ Wie viele Wörter $|w| \geq 3 \vee |w| \leq 5$ aus $\Sigma=\{a,b,c\}$ gibt es?
 - $3^3+3^4+3^5$
 
 # Lineare Algebra
+
+## Vektoren
+---
+gegeben:
 $\vec{e} = \left(\begin{array}{c}3 \\ 4 \end{array} \right)$,
 $\vec{b} = \left(\begin{array}{c}5 \\ 6 \end{array} \right)$
 
@@ -177,24 +181,24 @@ Was ist ein Gegenvektor?
 
 Wie berechnet man den Gegenvektor?
 
-$\vec{e}_{g} = \vec{e} * (-1)$
+$\vec{e}_{g} = {\vec{e} * (-1)}$
 
-$\vec{e}_{g} = \left(\begin{array}{c}3 \\ 4 \end{array} \right) *(-1)$  
+$\vec{e}_{g} = {\left(\begin{array}{c}3 \\ 4 \end{array} \right) *(-1)}$  
 
-$\vec{e}_{g} = \left(\begin{array}{c}-3 \\ -4 \end{array} \right)$
+$\vec{e}_{g} = {\left(\begin{array}{c}-3 \\ -4 \end{array} \right)}$
 
 ---
 
 Wie berechnet man das Skalarprodukt?  
-$\langle e,b \rangle = \vec{e} * \vec{b}$
+$\langle e,b \rangle = {\vec{e} * \vec{b}}$
 
-$\langle e,b \rangle = e_1 * b_1 + e_2 * b_2$
+$\langle e,b \rangle = {e_1 * b_1 + e_2 * b_2}$
 
-$\langle e,b \rangle = 3 * 5 + 4 * 6$
+$\langle e,b \rangle = {3 * 5 + 4 * 6}$
 
-$\langle e,b \rangle = 15 + 24$
+$\langle e,b \rangle = {15 + 24}$
 
-$\langle e,b \rangle = 39$
+$\langle e,b \rangle = {39}$
 
 > Wenn das Skalarpordukt 0 ist, dann stehen die Vektoren orthogonal (im rechten Winkel, 90°)
 {.is-info}
@@ -212,6 +216,7 @@ $cos(\alpha) = {\frac{Skalarprodukt}{||e_1|| * ||e_2||}}$
 Was ist lineare Unabhängkeit bei Vektoren?
 - Mit einem Vektor den anderen Verktor erzeugen
 - Ein Vektor ist das vielfache des anderen Vektors
+---
 
 Wie berechnet man linerae unabhängigkeit von Vektoren?  
 
@@ -225,3 +230,4 @@ Da $r$ immer gleich ist, ist der Vektor linear abhänging.
 
 > In jeder Zeile muss das gleiche r raus kommen.
 {.is-info}
+
