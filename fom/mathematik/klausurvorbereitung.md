@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T14:15:05.796Z
+date: 2022-01-13T14:15:28.569Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -140,7 +140,7 @@ $\vec{d}_{eb} = \left(\begin{array}{c}8 \\ 10 \end{array} \right)$
 ---
 
 Wie multipliziert man einen Vektor?
-$\vec{c}_{me} = 10 * \vec{e}$
+$\vec{c}_{me} = {10 * \vec{e}}$
 
 $\vec{c}_{me} = 10* \left(\begin{array}{c}3 \\ 4 \end{array} \right)$
 
