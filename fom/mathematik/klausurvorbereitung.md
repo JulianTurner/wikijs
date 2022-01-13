@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T14:14:38.940Z
+date: 2022-01-13T14:14:53.046Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -130,7 +130,7 @@ $\vec{b} = \left(\begin{array}{c}5 \\ 6 \end{array} \right)$
 
 Wie addiert man Vektoren?  
 
-$\vec{c}_eb = \vec{e} + \vec{b}$
+$\vec{c}_eb = \vec{e} + \vec{b}}$
 
 $\vec{d}_{eb} = \left(\begin{array}{c}3 \\ 4 \end{array} \right) + \left(\begin{array}{c}5 \\ 6 \end{array} \right)$
 
