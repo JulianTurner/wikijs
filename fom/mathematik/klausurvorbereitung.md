@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T11:57:59.227Z
+date: 2022-01-13T12:02:45.805Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -96,7 +96,7 @@ Induktionsschritt:
 |$>(1+nh)*(1+h)$ | Klammern ausmultiplizieren
 |$=1+h+nh+nh^2$| $h$ ausklammern
 |$=1+h* (1 + n)+nh^2$| umformen 
-|$=1+(n+1)h +nh^2$|
+|$=1+(n+1)h +nh^2$| $\square$ siehe unten
 
 $n\in\N = n > 0$
 $h^2$ wird immer positiv
