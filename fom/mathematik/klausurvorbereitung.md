@@ -103,3 +103,16 @@ $=1+(n+1)h +nh^2$| $\square$ siehe unten
 $n\in\N = n > 0$
 $h^2$ wird immer positiv
 Das Ergebnis wird bei einer Addition nicht kleiner
+
+# Kombinatorik ubnd Warscheinlichkeit
+Wie viele verschiedene achtstellige Dualzahlen gibt es?
+- $2^{8} = 256$	
+
+Wie viele verschiedene achtstellige Dezimalzahlen gibt es?
+- $10^{8} = 100000000$
+
+Wie viele Komibantionen aus 3 Buchstaben gibt es in einem Aplphabet $\Sigma={a,b,c}$?
+- $3^{3} = 27$
+
+Wie viele Wörter $|w| \geq 3 \vee |w| \leq 5$ aus $\Sigma=\{a,b,c\}$ gibt es?
+- $3^3+3^4+3^5$
