@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T15:00:55.266Z
+date: 2022-01-13T15:01:11.609Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -77,7 +77,7 @@ Wann ist eine Abbbildung bijektiv?
 ---
 ### Vollständige Induktion
 - Beweisen der Bernouli-Ungleichung für $h \in \R$
-$\forall n \in \N: {(1+h)^{n}}  \geq 1+nh, falls \space h \geq -1$
+$\forall n \in \N:(1+h)^{n}  \geq 1+nh, falls \space h \geq -1$
 
 Infuktionsanfang: $n = 1$
 Rechnung | Rechenschritt
@@ -87,18 +87,18 @@ Rechnung | Rechenschritt
 | $1+h \geq 1 + h$ | $\square$
 
 Induktionsbehauptung
-$\exists n \in \N : {{(1+h)^{n}} \geq 1+ nh, falls h \geq -1}$
+$\exists n \in \N : (1+h)^{n} \geq 1+ nh, falls h \geq -1$
 
 Induktionsschritt:
 - zu zeigen $n \rightarrow n +1$ 
-- ${(1+h)^{n+1}} {\geq 1 + (n+1)h}$
+- $(1+h)^{n+1} \geq 1 + (n+1)h$
 - linke Seite so lange umformen und redizieren bis die Ungleichung bewiesen wird
 
 
 Rechnung | Rechenschritt
 ---------|----------
-${(1+h)^{n+1}}$ | Qutienten aufteilen
-$={(1+h)^{n}} * (1+h)$| Induktionsbehauptung einsetzten ${(1+h)^{n}}$ mit $(1+nh)$ ersetzten
+$(1+h)^{n+1}$ | Qutienten aufteilen
+$=(1+h)^{n} * (1+h)$| Induktionsbehauptung einsetzten $(1+h)^{n}$ mit $(1+nh)$ ersetzten
 $>(1+nh)*(1+h)$ | Klammern ausmultiplizieren
 $=1+h+nh+nh^2$| $h$ ausklammern
 $=1+h* (1 + n)+nh^2$| umformen 
@@ -186,7 +186,7 @@ $\vec{e}_{g} = \left(\begin{array}{c}-3 \\ -4 \end{array} \right)$
 ---
 
 Wie berechnet man das Skalarprodukt?  
-$\langle e,b \rangle = {\vec{e} * \vec{b}}$
+$\langle e,b \rangle = \vec{e} * \vec{b}$
 
 $\langle e,b \rangle = e_1 * b_1 + e_2 * b_2$
 
@@ -199,29 +199,8 @@ $\langle e,b \rangle = 39$
 > Wenn das Skalarpordukt 0 ist, dann stehen die Vektoren orthogonal (im rechten Winkel, 90°)
 {.is-info}
 
-Wie berechnet man den Winkel zwischen zwei Vektoren?
+Wie 
 
-$cos(\alpha) = {\frac{Skalarprodukt}{||e_1|| * ||e_2||}}$
-- Das Ergebnis für $\alpha$ im einsetzten 
-- $cos^{-1}$ verwenden
-- Der Wert ist in Grad
-> Taschenrechner muss aud degree (D) eingestellt sein
-{.is-warning}
----
-
-Was ist lineare Unabhängkeit bei Vektoren?
-- Mit einem Vektor den anderen Verktor erzeugen
-- Ein Vektor ist das vielfache des anderen Vektors
----
-
-Wie berechnet man linerae unabhängigkeit von Vektoren?  
-$\left(\begin{array}{c}3 \\ 4 \end{array} \right) = {r * \left(\begin{array}{c}6 \\ 8 \end{array} \right)}{\begin{cases}
-    3 = {r * 6} \xRightarrow{\div3} {r=2}\\
-    4 = {r * 8} \xRightarrow{\div4} {r=2}
-  \end{cases}
-}$
-
-Da $r$ immer gleich ist, ist der Vektor linear abhänging.
-
-> In jeder Zeile muss das gleiche r raus kommen.
-{.is-info}
+<!-- $
+ \vec{e}_1= \left(\begin{array}{c} 1 \\ 0 \\ 1 \end{array}\right)
+$ -->
