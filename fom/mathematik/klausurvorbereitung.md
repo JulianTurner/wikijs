@@ -58,7 +58,7 @@ ${x \thicksim y \space \land y\thicksim z \implies x \thicksim z}$
 ### Abbildungen
 
 Wann ist eine Abbbildung sujektiv?
-- ${x:\N, y:={2}}$
+- ${x:\N, y:=2}$
 > Wenn jedes Element in $y$ mindestens 1x getroffen wird
 {.is-info}
 ---
