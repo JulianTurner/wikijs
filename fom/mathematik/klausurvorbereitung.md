@@ -77,7 +77,7 @@ Wann ist eine Abbbildung bijektiv?
 ---
 ### Vollständige Induktion
 - Beweisen der Bernouli-Ungleichung für $h \in \R$
-$\forall n \in \N:(1+h)^{n}  \geq 1+nh, falls \space h \geq -1$
+$\forall n \in \N: {(1+h)^{n}}  \geq 1+nh, falls \space h \geq -1$
 
 Infuktionsanfang: $n = 1$
 Rechnung | Rechenschritt
@@ -87,11 +87,11 @@ Rechnung | Rechenschritt
 | $1+h \geq 1 + h$ | $\square$
 
 Induktionsbehauptung
-$\exists n \in \N : (1+h)^{n} \geq 1+ nh, falls h \geq -1$
+$\exists n \in \N : {{(1+h)^{n}} \geq 1+ nh, falls h \geq -1}$
 
 Induktionsschritt:
 - zu zeigen $n \rightarrow n +1$ 
-- $(1+h)^{n+1} \geq 1 + (n+1)h$
+- ${(1+h)^{n+1}} {\geq 1 + (n+1)h}$
 - linke Seite so lange umformen und redizieren bis die Ungleichung bewiesen wird
 
 
