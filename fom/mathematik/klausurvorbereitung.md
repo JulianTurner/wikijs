@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T14:09:08.223Z
+date: 2022-01-13T14:09:14.486Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -181,7 +181,7 @@ $\vec{e}_{g} = \vec{e} * (-1)$
 
 $\vec{e}_{g} = \left(\begin{array}{c}3 \\ 4 \end{array} \right) *(-1)$  
 
-$\vec{e}_{g} = \left(\begin{array}{c}-3 \\ -4 \end{array} \right) $
+$\vec{e}_{g} = \left(\begin{array}{c}-3 \\ -4 \end{array} \right)$
 
 ---
 
