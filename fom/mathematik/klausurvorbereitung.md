@@ -123,36 +123,36 @@ Wie viele Wörter $|w| \geq 3 \vee |w| \leq 5$ aus $\Sigma=\{a,b,c\}$ gibt es?
 - $3^3+3^4+3^5$
 
 # Lineare Algebra
-$\vec{e}=\left(\begin{array}{c}3 \\ 4 \end{array} \right)$,
-$\vec{b}=\left(\begin{array}{c}5 \\ 6 \end{array} \right)$
+$\vec{e} = \left(\begin{array}{c}3 \\ 4 \end{array} \right)$,
+$\vec{b} = \left(\begin{array}{c}5 \\ 6 \end{array} \right)$
 
 ---
 
 Wie addiert man Vektoren?  
 
-$\vec{c}_{eb}=\vec{e}+\vec{b}$
+$\vec{c}_{eb} = \vec{e} + \vec{b}$
 
-$\vec{d}_{eb}=\left(\begin{array}{c}3 \\ 4 \end{array} \right) + \left(\begin{array}{c}5 \\ 6 \end{array} \right)$
+$\vec{d}_{eb} = \left(\begin{array}{c}3 \\ 4 \end{array} \right) + \left(\begin{array}{c}5 \\ 6 \end{array} \right)$
 
-$\vec{d}_{eb}= \left(\begin{array}{c}8 \\ 10 \end{array} \right)$
+$\vec{d}_{eb} = \left(\begin{array}{c}8 \\ 10 \end{array} \right)$
 > Gleiches gilt auch für Subtraktion
 {.is-info}
 ---
 
 Wie multipliziert man einen Vektor?
-$\vec{c}_{me}=10*\vec{e}$
+$\vec{c}_{me} = 10 * \vec{e}$
 
-$\vec{c}_{me}=10*\left(\begin{array}{c}3 \\ 4 \end{array} \right)$
+$\vec{c}_{me} = 10* \left(\begin{array}{c}3 \\ 4 \end{array} \right)$
 
-$\vec{c}_{me}=\left(\begin{array}{c}30 \\ 40 \end{array} \right)$
+$\vec{c}_{me} = \left(\begin{array}{c}30 \\ 40 \end{array} \right)$
 > Gleiches gilt auch für Division
 {.is-info}
 ---
 
 Wie berechnet man die Länge von einem Vektor?
-- $\vec{e}=\left(\begin{array}{c}3 \\ 4 \end{array} \right)$ 
+- $\vec{e} = \left(\begin{array}{c}3 \\ 4 \end{array} \right)$ 
 
-- $||\vec{e}||= \sqrt{3^{2}+4^{2}} = 5$
+- $|| \vec{e} || = \sqrt{3^{2}+4^{2}} = 5$
 
 - $\vec{e}$ hat die Länge $5$
 
@@ -162,8 +162,7 @@ Was ist ein Einheitsvektor?
 ---
 Wie berechnet man den Einheitsvektor?
 
-$\vec{e}_{ev} = \frac{1}{\vec{e}} * \vec{e}$  
-%%%
+$\vec{e}_{ev} = \frac{1}{|| \vec{e} ||} * \vec{e}$  
 
 $\vec{e}_{ev} = \frac{1}{5}*\left(\begin{array}{c}3 \\ 4 \end{array} \right)$
 
@@ -178,11 +177,11 @@ Was ist ein Gegenvektor?
 
 Wie berechnet man den Gegenvektor?
 
-$\vec{e}_{g}= \vec{e} * (-1)$
+$\vec{e}_{g} = \vec{e} * (-1)$
 
-$\vec{e}_{g}=\left(\begin{array}{c}3 \\ 4 \end{array} \right) *(-1)$  
+$\vec{e}_{g} = \left(\begin{array}{c}3 \\ 4 \end{array} \right) *(-1)$  
 
-$\vec{e}_{g}=\left(\begin{array}{c}-3 \\ -4 \end{array} \right)$
+$\vec{e}_{g} = \left(\begin{array}{c}-3 \\ -4 \end{array} \right)$
 
 ---
 
