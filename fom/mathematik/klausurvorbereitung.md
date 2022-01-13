@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T14:15:28.569Z
+date: 2022-01-13T14:15:47.649Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -162,7 +162,7 @@ Was ist ein Einheitsvektor?
 ---
 Wie berechnet man den Einheitsvektor?
 
-$\vec{e}_{ev} = \frac{1}{|| \vec{e} ||} * \vec{e}$  
+$\vec{e}_{ev} = {\frac{1}{|| \vec{e} ||} * \vec{e}}$  
 
 $\vec{e}_{ev} = \frac{1}{5}*\left(\begin{array}{c}3 \\ 4 \end{array} \right)$
 
