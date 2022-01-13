@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T15:02:58.505Z
+date: 2022-01-13T15:03:23.300Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:44:54.647Z
@@ -220,3 +220,8 @@ $\left(\begin{array}{c}3 \\ 4 \end{array} \right) = {r * \left(\begin{array}{c}6
     4 = {r * 8} \xRightarrow{\div4} {r=2}
   \end{cases}
 }$
+
+Da $r$ immer gleich ist, ist der Vektor linear abhänging.
+
+> In jeder Zeile muss das gleiche r raus kommen.
+{.is-info}
