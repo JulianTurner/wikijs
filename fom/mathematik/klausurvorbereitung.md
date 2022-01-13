@@ -212,7 +212,6 @@ $cos(\alpha) = {\frac{Skalarprodukt}{||e_1|| * ||e_2||}}$
 Was ist lineare Unabhängkeit bei Vektoren?
 - Mit einem Vektor den anderen Verktor erzeugen
 - Ein Vektor ist das vielfache des anderen Vektors
----
 
 Wie berechnet man linerae unabhängigkeit von Vektoren?  
 $\left(\begin{array}{c}3 \\ 4 \end{array} \right) = {r * \left(\begin{array}{c}6 \\ 8 \end{array} \right)}{\begin{cases}
