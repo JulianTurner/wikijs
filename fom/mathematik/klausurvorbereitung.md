@@ -14,29 +14,30 @@ dateCreated: 2021-12-16T19:44:54.647Z
 
 Was ist eine Primzahl?
 - Eine Primzahl kann man nur durch sich selbst oder 1 teilen z.b. { 3, 5, 7 }
-
+---
 ### Aussagen
+
 Eine Aussage beinhaltet keine Variable.
 - morgen ist Sonntag = keine Aussage da morgen eine Variable ist
 - nach Montag kommt Sonntag = aussage
-
+---
 ### Mengen 
 - die leere Menge ist in jeder Menge vorhanden
 - eine Schnittmenge ist eine Menge die in der Menge $A$ und $B$ vorhanden ist. 
-
+---
 #### Addition von Mengen
 $|A \cup B| = |A| + |B| - |A \cap B|$
 > Bei Mengen gilt es zu Beachten die Schnittmenge bei Vereinigungen abzuziehen da sie sonst doppelt vorhanden wäre.
-
+---
 ### Äquivalenzrelationen
-
+---
 Was ist reflexsiv?
 - Ich habe am slelben Tag Geburtstag wie ich
 - $500g \Leftrightarrow 500g$
 >  Wenn $x$ in relation zu sich selbst steht
 $x \thicksim x$
 {.is-info}
-
+---
 
 Was ist symetrisch?
 - Ich habe am selben Tag Geburtstag wie mein Zwilling.
@@ -44,7 +45,7 @@ Was ist symetrisch?
 > Wenn $x$ in Relation zu $y$ steht, dann steht $y$ auch in Relation zu $x$
 $x \thicksim y \Leftrightarrow y \thicksim x$
 {.is-info}
-
+---
 
 Was ist transitiv?
 - der zwite drilling hat am selben Tag Geburtstag wie der dritte Drilling und ich habe am selben Tag Geburtstag wie der dritte Drilling.
@@ -52,7 +53,7 @@ Was ist transitiv?
 > Wenn x in Relation zu $y$ steht ***und*** $y$ in Relation zu $z$, dann steht auch $x$ in Relation zu $z$ 
 $x \thicksim y \space \land y\thicksim z \implies x \thicksim z$ 
 {.is-info}
-
+---
 
 ### Abbildungen
 
@@ -60,17 +61,20 @@ Wann ist eine Abbbildung sujektiv?
 - $x:\N, y:={2}$
 > Wenn jedes Element in $y$ mindestens 1x getroffen wird
 {.is-info}
-
+---
 
 Wann ist eine Abbbildung injektiv?
 > Wenn ein Element in $y$ maximal 1x getroffen wird
 {.is-info}
+---
 
 Wann ist eine Abbbildung bijektiv?
 > Wenn die Abbildungeng sowohl sujektiv als auch injektiv ist
 {.is-info}
+---
 
 # Algebraische Strukturen und Zahlenmengen
+---
 ### Vollständige Induktion
 - Beweisen der Bernouli-Ungleichung für $h \in \R$
 $\forall n \in \N:(1+h)^{n}  \geq 1+nh, falls \space h \geq -1$
@@ -117,3 +121,67 @@ Wie viele Komibantionen aus 3 Buchstaben gibt es in einem Aplphabet $\Sigma={a,b
 
 Wie viele Wörter $|w| \geq 3 \vee |w| \leq 5$ aus $\Sigma=\{a,b,c\}$ gibt es?
 - $3^3+3^4+3^5$
+
+# Lineare Algebra
+$\vec{e}=\left(\begin{array}{c}3 \\ 4 \end{array} \right)$,
+$\vec{b}=\left(\begin{array}{c}5 \\ 6 \end{array} \right)$
+
+---
+
+Wie addiert man Vektoren?  
+
+$\vec{c}_{eb}=\vec{e}+\vec{b}$
+
+$\vec{d}_{eb}=\left(\begin{array}{c}3 \\ 4 \end{array} \right) + \left(\begin{array}{c}5 \\ 6 \end{array} \right)$
+
+$\vec{d}_{eb}= \left(\begin{array}{c}8 \\ 10 \end{array} \right)$
+> Gleiches gilt auch für Subtraktion
+{.is-info}
+---
+
+Wie multipliziert man einen Vektor?
+$\vec{c}_{me}=10*\vec{e}$
+
+$\vec{c}_{me}=10*\left(\begin{array}{c}3 \\ 4 \end{array} \right)$
+
+$\vec{c}_{me}=\left(\begin{array}{c}30 \\ 40 \end{array} \right)$
+> Gleiches gilt auch für Division
+{.is-info}
+---
+
+Wie berechnet man die Länge von einem Vektor?
+- $\vec{e}=\left(\begin{array}{c}3 \\ 4 \end{array} \right)$ 
+
+- $||\vec{e}||= \sqrt{3^{2}+4^{2}} = 5$
+
+- $\vec{e}$ hat die Länge $5$
+
+Was ist ein Einheitsvektor?
+- der Vektor von einem Vektor, der in die gleiche Richtung zeigt und die Länge $1$ hat.	
+- $\frac{1}{Länge\space des \space Vektors} * Vektor$
+---
+Wie berechnet man den Einheitsvektor?
+
+$\vec{e}_{ev} = \frac{1}{||\vec{e}||} * \vec{e}$  
+
+$\vec{e}_{ev} = \frac{1}{5}*\left(\begin{array}{c}3 \\ 4 \end{array} \right)$
+
+$\vec{e}_{ev} = \left(\begin{array}{c}\frac{3}{5} \\ \frac{1}{4} \end{array} \right)$
+
+
+> Die Länge des Einheitsverktors ist $1$
+{.is-info}
+
+Was ist ein Gegenvektor?
+- der gleiche Vektor nur in anderer Richtung
+
+Wie berechnet man den Gegenvektor?
+
+$\vec{e}_{g}= \vec{e} * (-1)$
+
+$\vec{e}_{g}=\left(\begin{array}{c}3 \\ 4 \end{array} \right) *(-1)$  
+
+$\vec{e}_{g}=\left(\begin{array}{c}-3 \\ -4 \end{array} \right)$
+<!-- $
+ \vec{e}_1= \left(\begin{array}{c} 1 \\ 0 \\ 1 \end{array}\right)
+$ -->
