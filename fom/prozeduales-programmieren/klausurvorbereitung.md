@@ -203,6 +203,56 @@ Beipsiel von casting
 
 Platzhalter kennen
 
+Schaltjahr aufgabe sollte man können
+Erläuertn sie den Untsfchied zwischen while oder schleife 
+Erläutern sie die Aufgabe von break
+Übung 11 
+
+Was ist ein Stellenwert system?
+Erkennen von Hex werten
+
+Warum hat int ein Wertberech?
+Warum hat signed int einen asymmetrisch wertbereich?
+
+Was ist ein Byte?
+Umgang mit Einheiten
+
+Was ist ein Short-Curcuit/Kurzschlussoperator?
+Warum sollte man keine gleitkommerzahlen miteinander vergleichen?
+durch ungenauigkeiten in rechnungen
+float zahlen haben nur eine endliche genauikgeit
+da nach jedem rechnschritt in das float gekürzt wird und rundugsfehler entsthehen
+lösung wäre eine tolerranz von abweichungen
+
+Nullbyte verschieben können
+Wass passiert wenn ich kein Nullbyte habe?
+chomp funktion anwenden
+2 String zusammen fügen
+Strings zerlegen
+String an einem bestimmten Zeichen zerlegen
+
+Was ist ein Stack?
+Wie funktioniert ein Stack?
+Was ist eine auto variable?
+Was hat das mit dem Stack zu tun?
+Was haben funktionen mit einem Stack zu tun?
+
+Was können sie machen wenn sie mehrere Werte einer funktion zurück gben möchten?
+Was ist der untschied zwischen der übergabd der kopie und referenz?
+Was ist ein buffer overflow?
+Wie geht eine funktion ohne rückgabe?
+was verstewht man unter rekursion?
+was versteht man unter einem pointer?
+was versteht man unter einem nullpointer?
+
+formen sie array notation zu pointernotation?
+
+benutzen sie malloc und free
+Wann brauche ich malloc und free
+
+
+
+
 
 
 Was ist ein Pointer?
