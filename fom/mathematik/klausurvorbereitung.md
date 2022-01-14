@@ -526,6 +526,9 @@ $< 1$ &zwnj;| konvergiert (es kommt ein endlicher Wert raus)
 $> 1$ &zwnj;| devergiert (es kommt kein endlicher Wert raus)
 $= 1$ &zwnj;| man kann keine Aussage treffen
 
+
+> Jede Reihe die mit Quotientenkriterium berechnet werden kann, kann auch mit dem Wurzelkriterium berechnet werden. Anders herum aber nicht.
+.{is-info}
 # Elementare Funktionen und Stetigkeit
 ### Eigenschaften der Funktionen
 ### Verknüpfung von Funktionen
