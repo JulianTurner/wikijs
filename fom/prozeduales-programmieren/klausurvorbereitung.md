@@ -86,6 +86,83 @@ Was passiert im backend?
 - erzeugen des maschienencodes
 - kann für eine zielplattform optimieren
 
+Wofür sorgen interpreter?
+- führen dan übersetzter und die berechnungen durch
+- ursprünglich für kleine programme gedacht
+
+Was ist meta programmierung?
+- code generator
+- erzeugt ein Programm in einer programmiersprache
+
+Was ist der vorteil von virtuellen prozessoren?
+- code wird für diesen bestimmten code compiliert
+
+Was ist der Nachteil von virtuellen prozessoren?
+- braucht eine zwischenschicht(virtuelle maschine) zum echten prozessor
+
+Wofür brauche ich einen debugger?
+- steuerung des programm laufs
+- inspektion des zustand zu jedem zeitpunkt
+
+
+## Programmierparadigmen
+
+Wie unterteilen sich programmiersprachen?
+- systemorientierte sprachen
+- problemorientierte sprachen
+
+Wie unterteilen sich systemorientierte sprachen?
+- maschienensprache
+- assembler
+
+Wie unterteilen sich problemorientierte sprachen?
+- imperative sprachen
+- declarativer sprachen
+
+Wie unterteilen sich imperative sprachen?
+- strukturierte sprachen
+- prozedale sprachen
+- objektorientierte sprachen
+
+Wie unterteilen sich deklarativer sprachen?
+- logische sprachen
+- funktionale sprachen
+
+Welche elemente hate eine strukturierte sprache?
+
+### Objektorientierte Programiersprachen
+
+Welche konzepte von objektorientierter sprache gibt es?
+- strukturierte daten und funktionen
+- sprachkonzepte
+	- vererbung
+	- kapselung
+	- polymorphie (mehr förmig)
+- in der regel prozedural
+- grundlage für kompenetenbasierte entwicklung
+
+
+### Funktionale Programiersprachen
+- bestehen aus funktionen im mathematischen sinne
+- sind durch rekursion enebnso mächtig wie imperative oder objektorientierte sprachen
+- funktionen haben keine Seiteneffekte
+- lassen sich gut parallelisieren
+- bestimmt probkleme lassen sich mit wenig code lösen
+- ungeeignet für andere sachen
+
+
+### dynamische Programiersprachen
+- keine scharfe abgrenzung
+- führen tätigkeiten zur laufzeit aus
+- dynamisch typisiert
+- typische eigenschaften
+	- automatische speicherverwaltung
+	- eval
+	- objektsysteme zur laufzeit veränderbar
+	- duck typing
+	- reflexion
+	- cloures
+	- interne dsl
 
 
 
