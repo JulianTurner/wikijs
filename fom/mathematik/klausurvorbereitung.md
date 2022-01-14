@@ -530,8 +530,15 @@ $= 1$ &zwnj;| man kann keine Aussage treffen
 > Jede Reihe die mit Quotientenkriterium berechnet werden kann, kann auch mit dem Wurzelkriterium berechnet werden. Anders herum aber nicht.
 .{is-info}
 # Elementare Funktionen und Stetigkeit
-### Eigenschaften der Funktionen
 ### Verknüpfung von Funktionen
+$f(x)=2x$,  
+&zwnj;
+$g(x)=x^{2}$  
+&zwnj;
+$f \circ g(x) = f ( g (x))$  
+$f ( g (x)) = f (x^{2})$  
+$f (x^{2}) = 2* x^{2}$
+
 ### Grenzwerte berechnen
 ### Stetigkeit
 # Differentalrechnung
