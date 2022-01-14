@@ -261,6 +261,11 @@ $A3=\left(\begin{array}{cc}
 	5 & 6 \\
 	1 & 2\end{array} \right)$
 &zwnj; 
+$A4=\left(\begin{array}{cc}
+	6 & 8 & 3 \\
+	4 & 7 & 3\\
+	1 & 2 & 1\end{array} \right)$
+&zwnj; 
 ### Matrix transponieren
 Wie transponiert man eine Matrix?
 <p><a href="https://commons.wikimedia.org/wiki/File:Matrix_transpose.gif#/media/Datei:Matrix_transpose.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Matrix_transpose.gif" alt="Matrix transpose.gif"></a><br>Von &lt;a href="//commons.wikimedia.org/wiki/User:LucasVB" title="User:LucasVB"&gt;Lucas Vieira&lt;/a&gt; - &lt;span class="int-own-work" lang="de"&gt;Eigenes Werk&lt;/span&gt;, Gemeinfrei, <a href="https://commons.wikimedia.org/w/index.php?curid=21897854">Link</a></p>
@@ -274,13 +279,227 @@ $A3^T=\left(\begin{array}{cc}
 	4 & 6 & 2 
 	\end{array} \right)$
 
-### Gauß-Jordan-Verfahren
+### Was ist eine Einheitsmatrix?
+- Eine Matrix bei der die Diagonale aus 1 besteht, und der Rest nur aus 0
+
+$AE=\left(\begin{array}{cc}
+	1 & 0 & 0 \\
+	0 & 1 & 0\\
+	0 & 0 & 1\end{array} \right)$
+&zwnj; 
+
+---
+
+### ### Inverse einer Matrix mit dem Gauß-Jordan-Verfahren
+#### Einheitsmatrix neben die Matrix schreiben
+
+$A4=\left(\begin{array}{cc}
+	6 & 8 & 3 \\
+	4 & 7 & 3\\
+	1 & 2 & 1\end{array} \right)
+\left(\begin{array}{cc}
+	1 & 0 & 0 \\
+	0 & 1 & 0\\
+	0 & 0 & 1\end{array} \right)$
+&zwnj;
+
+#### linke Seite zur Einheitsmatrix umformen und die Schritte auf beide Matrizen anwenden
+
+**1. Oben Links eine 1 in der Diagonale**
+
+$A4=\left(\begin{array}{cc}
+	\color{red}1 & \color{grey}X & \color{grey}X \\
+	\color{grey}X & \color{grey}X & \color{grey}X\\
+	\color{grey}X & \color{grey}X & \color{grey}X\end{array} \right)$
+&zwnj;
+
+- Erste Zeite mit der dritten Zeile vertauschen
+
+$A4=\left(\begin{array}{cc}
+	1 & 2 & 1 \\
+	4 & 7 & 3\\
+	6 & 8 & 3\end{array} \right)
+	\left(\begin{array}{cc}
+	0 & 0 & 1 \\
+	0 & 1 & 0\\
+	1 & 0 & 0\end{array} \right)$
+
+**2. Erste Spalte mit 0 auffüllen**
+
+$A4=\left(\begin{array}{cc}
+	1 & \color{grey}X & \color{grey}X \\
+	\color{red}0 & \color{grey}X & \color{grey}X\\
+	\color{red}0 & \color{grey}X & \color{grey}X\end{array} \right)$
+&zwnj;
+
+- da die erste Spalte 1 ist, kann man $Zeile 2 - 4 x Zeile 1$
+
+$A4=\left(\begin{array}{cc}
+	1 & 2 & 1 \\
+	0 & -1 & -1\\
+	6 & 8 & 3\end{array} \right)
+	\left(\begin{array}{cc}
+	0 & 0 & 1 \\
+	0 & 1 & -4\\
+	1 & 0 & 0\end{array} \right)$
+
+
+- da die erste Spalte 1 ist, kann man $Zeile 3 - 6 x Zeile 1$
+
+$A4=\left(\begin{array}{cc}
+	1 & 2 & 1 \\
+	0 & -1 & -1\\
+	0 & -4 & -3\end{array} \right)
+	\left(\begin{array}{cc}
+	0 & 0 & 1 \\
+	0 & 1 & -4\\
+	1 & 0 & -6\end{array} \right)$
+
+
+**3. Zweite Zeile zweilte Spalte eine 1**
+
+$A4=\left(\begin{array}{cc}
+	1 & \color{grey}X & \color{grey}X \\
+	0 & \color{red}1 & \color{grey}X\\
+	0 & \color{grey}X & \color{grey}X\end{array} \right)$
+&zwnj;
+
+- zweite zeile mit $(-1)$ multiplizieren (das dreht alle Vorzeichen um)
+
+$A4=\left(\begin{array}{cc}
+	1 & 2 & 1 \\
+	0 & 1 & 1\\
+	0 & -4 & -3\end{array} \right)
+	\left(\begin{array}{cc}
+	0 & 0 & 1 \\
+	0 & -1 & 4\\
+	1 & 0 & -6\end{array} \right)$
+
+**4. Dritte Zeile zweilte Spalte eine 0**
+
+$A4=\left(\begin{array}{cc}
+	1 & \color{grey}X & \color{grey}X \\
+	0 & 1 & \color{grey}X\\
+	0 & \color{red}0 & \color{grey}X\end{array} \right)$
+&zwnj;
+
+- Zeile 3 mit 4x Zeile 2 addieren
+
+$A4=\left(\begin{array}{cc}
+	1 & 2 & 1 \\
+	0 & 1 & 1\\
+	0 & 0 & 1\end{array} \right)
+	\left(\begin{array}{cc}
+	0 & 0 & 1 \\
+	0 & -1 & 4\\
+	1 & -4 & 10\end{array} \right)$
+
+**5. Dritte Zeile dritte Spalte eine 1** 
+
+$A4=\left(\begin{array}{cc}
+	1 & \color{grey}X & \color{grey}X \\
+	0 & 1 & \color{grey}X\\
+	0 & 0 & \color{red}1\end{array} \right)$
+&zwnj;
+
+- Nicht notwendig da schon vorhanden. Ansonsten durch einfach durch den Wert teilen.
+
+**6. Dritte Zeile und zweite Zeile dritte Spalte eine 0** 
+
+$A4=\left(\begin{array}{cc}
+	1 & \color{grey}X & \color{red}0 \\
+	0 & 1 & \color{red}0\\
+	0 & 0 & 1\end{array} \right)$
+&zwnj;
+
+- Da dritte Zeile nur 0 in der ersten und zweiten Spalte hat wird sie jetzt von der Zeile 1 und 2 abgezogen.
+
+$A4=\left(\begin{array}{cc}
+	1 & 2 & 0 \\
+	0 & 1 & 0\\
+	0 & 0 & 1\end{array} \right)
+	\left(\begin{array}{cc}
+	-1 & 4 & -9 \\
+	-1 & 3 & -6\\
+	1 & -4 & 10\end{array} \right)$
+
+**7. Erste Zeile zweite Spalte eine 0** 
+
+$A4=\left(\begin{array}{cc}
+	1 & \color{red}0 & 0 \\
+	0 & 1 & 0\\
+	0 & 0 & 1\end{array} \right)$
+&zwnj;
+
+- die Zeile 1 - 2 x Zeile 2 
+
+$A4=\left(\begin{array}{cc}
+	1 & 0 & 0 \\
+	0 & 1 & 0\\
+	0 & 0 & 1\end{array} \right)
+	\left(\begin{array}{cc}
+	1 & -2 & 3 \\
+	-1 & 3 & -6\\
+	1 & -4 & 10\end{array} \right)$
+
+- fertig
+
+$A^{-1}=\left(\begin{array}{cc}
+	1 & -2 & 3 \\
+	-1 & 3 & -6\\
+	1 & -4 & 10\end{array} \right)$
+
+---
+
 ### Matrixmultiplikation
-### Inverse einer Matrix
-### Determinante einer Matrix
+
+Vorraussetzung:
+- Spalten der Matrix 1 = Zeilen der Matrix 2
+Ergebis:
+- Eine Matrix mit der Höhe von Matrix 1 und einer Breite von Matrix 2
+Rechenweg:
+- Das erste Element mit einander multiplizieren + die Multiplikation der zweiten Elemente
+
+$
+A3=\left(\begin{array}{cc}
+	3 & 4 \\
+	5 & 6 \\
+	1 & 2\end{array} \right)
+*
+A1=\left(\begin{array}{cc}
+	1 & 2 \\
+	3 & 4 \end{array} \right)	
+$
+&zwnj; 
+
+Rechnungen:
+
+- Matrix 1 Reihe 1, Matrix 2 Spalte 1:  
+$3*1+4*3=15$  
+- Matrix 1 Reihe 2, Matrix 2 Spalte 1:   
+$5*1+6*3=23$  
+- Matrix 1 Reihe 3, Matrix 2 Spalte 1:  
+$1*1+2*3=7$  
+&zwnj; 
+
+- Matrix 1 Reihe 1, Matrix 2 Spalte 2:  
+$4*1+4*3=16$  
+- Matrix 1 Reihe 2, Matrix 2 Spalte 2:  
+$6*1+6*3=24$  
+- Matrix 1 Reihe 3, Matrix 2 Spalte 2:  
+$2*1+2*3=8$  
+&zwnj; 
+
+$A_{12}=\left(\begin{array}{cc}
+	15 & 16 \\
+	23 & 24 \\
+	7 & 8 \end{array} \right)	
+$
+&zwnj; 
+
 ## Folgen und Reihen
-### ersten Glieder 
 ### Quotientenkriterium
+
 ### Wurzelkriterium
 # Elementare Funktionen und Stetigkeit
 ### Eigenschaften der Funktionen
