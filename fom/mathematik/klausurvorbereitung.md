@@ -536,15 +536,11 @@ $f(x)=2x$,
 $g(x)=x^{2}$  
 &zwnj;
 $f \circ g(x) = f ( g (x))$  
+&zwnj;
 $f ( g (x)) = f (x^{2})$  
+	&zwnj;
 $f (x^{2}) = 2* x^{2}$
-
-### Grenzwerte berechnen
-Einfach mal die Zahl der Grenze in X einsetzten
-Wenn als Ergebnis eine Zahl rauskommt ist man fertig.
-Bei einer 0 oder unendlich aber nicht.
-Dann ausklammern und kürzen.
-### Stetigkeit
+ 
 # Differentalrechnung
 ### erste Ableitung
 ### Extrema und Wendepunkt
