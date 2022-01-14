@@ -157,12 +157,10 @@ Welche konzepte von objektorientierter sprache gibt es?
 - dynamisch typisiert
 - typische eigenschaften
 	- automatische speicherverwaltung
-	- eval
+	- eval (meta programmierung)
 	- objektsysteme zur laufzeit veränderbar
-	- duck typing
-	- reflexion
-	- cloures
-	- interne dsl
+	- duck typing (keine scharfe typüberprüfung)
+	- reflexion (fähigkeit informationen über sich selbst zu bekommen)
 
 
 
