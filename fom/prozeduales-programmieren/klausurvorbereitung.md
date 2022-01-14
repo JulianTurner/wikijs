@@ -162,6 +162,37 @@ Welche konzepte von objektorientierter sprache gibt es?
 	- duck typing (keine scharfe typüberprüfung)
 	- reflexion (fähigkeit informationen über sich selbst zu bekommen)
 
+## Algorithmen
+- kurz
+- präzise
+- eindeutig
+
+Was ist ein Algorithmus?
+- eine endliche Menge von konkreten Anweisungen, die ein bestimmtes Problem lösen,
+
+Welche Ablaufstrukturen gibt es?
+- reihung
+- verzweigung
+- wiederholung
+
+Was ist eine Datenstuktur?
+Welche Teile gehören zu einer Datenstruktur?
+Benötigt ein Algorithmus eine bestimmte Datenstruktur?
+
+- die beste organisation von daten gibt es nicht
+
+Was ist ein Programm?
+- besteht aus datenstrukturen
+- besteht aus algoritmen
+- ist auf einem computer lauffährig
+
+Welche aufgabe erfüllt der präprozessor?
+Erläutern sie die fulktionen des präprozessor
+
+Welche arten von fehlern können ein compiler zurück liefern?
+Welche Aufgabe übernimmt ein linker?
+
+
 
 
 Was ist ein Pointer?
