@@ -499,8 +499,33 @@ $
 
 ## Folgen und Reihen
 ### Quotientenkriterium
+1. Qutienten bilden
+	- Nenner k
+	- Zähler k + 1
+2. Betrag bilden
+3. Grenzwert berechnen
+
+- Das Ergbnis ist eine Kennzahl
+
+Kennzahl | Bedeutung
+---------|----------
+$< 1$ &zwnj;| konvergiert (es kommt ein endlicher Wert raus)
+$> 1$ &zwnj;| devergiert (es kommt kein endlicher Wert raus)
+$= 1$ &zwnj;| man kann keine Aussage treffen
 
 ### Wurzelkriterium
+1. Betrag bilden
+2. k Wurzel zeihen 
+3. Grenzwert berechnen
+
+- Das Ergbnis ist eine Kennzahl
+
+Kennzahl | Bedeutung
+---------|----------
+$< 1$ &zwnj;| konvergiert (es kommt ein endlicher Wert raus)
+$> 1$ &zwnj;| devergiert (es kommt kein endlicher Wert raus)
+$= 1$ &zwnj;| man kann keine Aussage treffen
+
 # Elementare Funktionen und Stetigkeit
 ### Eigenschaften der Funktionen
 ### Verknüpfung von Funktionen
