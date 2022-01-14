@@ -534,15 +534,77 @@ $= 1$ &zwnj;| man kann keine Aussage treffen
 $f(x)=2x$,  
 &zwnj;
 $g(x)=x^{2}$  
-&zwnj;
-$f \circ g(x) = f ( g (x))$  
-&zwnj;
+&zwnj;  
+$f \circ g(x) = f ( g (x))$    
+&zwnj;  
 $f ( g (x)) = f (x^{2})$  
 	&zwnj;
 $f (x^{2}) = 2* x^{2}$
  
 # Differentalrechnung
-### erste Ableitung
+### Ableitungsregeln
+
+#### Konstanten
+- Kontstante fällt weg  
+
+$f(x)=2$
+$f'(x)=0$	
+&zwnj;
+#### Ableitung von $x$
+- Ableitung von $x$ ist $1$  
+
+$f(x)=x$  
+$f'(x)=1$  
+&zwnj;
+#### Potenzregel
+- Exponent nach vorne holen und im Exponenten um 1 verringern 
+
+$f(x)=x^{n}$  
+$f'(x)=nx^{n-1}$  
+&zwnj;
+#### Faktorregel
+- der Faktor bleibt erhalten 
+
+$f(x)=t*x^{n}$  
+$f'(x)=n*t*x^{n-1}$  
+&zwnj;
+
+#### Summenregel & Differenzregel
+- Jeder Teil wird einzeln abgeleitet  
+
+$f(x)=x^{n} + x^{m}$   
+$f'(x)= n * x^{n-1} + m * x^{m-1}$  
+&zwnj;
+
+#### Produktregel
+- Teile aufsplitten
+
+$f(x)=x^{n} * x^{m}$   
+$u = x^{n}$  
+$u'= n * x^{n -1}$   
+$v = x^{m}$  
+$v'= m * x^{m -1}$   
+$f'(x)= u' * v + u * v'$
+&zwnj;
+#### Quotientenregel
+- Teile aufsplitten  
+
+$f(x)=\frac{x^{n}}{x^{m}}$  
+$u = x^{n}$   
+$u'= n * x^{n -1}$   
+$v = x^{m}$  
+$v'= m * x^{m -1}$  
+$f'(x)=\frac{u'*v - v' * u}{v^{2}}$  
+&zwnj;
+#### Kettenregel
+- Teile aufsplitten  
+
+$f(x)=(x^n + 5)^{m}$     
+$u = x^{n} + 5$  
+$u'= n * x^{n -1}$    
+$v= (u)^m$    
+$v'= m * (u)^{m-1}$
+$f'(x) = u' v'
 ### Extrema und Wendepunkt
 
 # Integralrechnung
