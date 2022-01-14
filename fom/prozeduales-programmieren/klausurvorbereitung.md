@@ -192,6 +192,16 @@ Erläutern sie die fulktionen des präprozessor
 Welche arten von fehlern können ein compiler zurück liefern?
 Welche Aufgabe übernimmt ein linker?
 
+Welche Variablennamen sind gültig?
+Übertragen sie Variablen in snakecase usw
+
+In welcher Reinfolge werden die Abkürzungen genutzt?
+
+Was ist ein casting?
+Wofür benötige ich einen casting?
+Beipsiel von casting
+
+Platzhalter kennen
 
 
 
