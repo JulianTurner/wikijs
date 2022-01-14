@@ -540,6 +540,10 @@ $f ( g (x)) = f (x^{2})$
 $f (x^{2}) = 2* x^{2}$
 
 ### Grenzwerte berechnen
+Einfach mal die Zahl der Grenze in X einsetzten
+Wenn als Ergebnis eine Zahl rauskommt ist man fertig.
+Bei einer 0 oder unendlich aber nicht.
+Dann ausklammern und kürzen.
 ### Stetigkeit
 # Differentalrechnung
 ### erste Ableitung
