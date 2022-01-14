@@ -606,6 +606,28 @@ $v= (u)^m$
 $v'= m * (u)^{m-1}$
 $f'(x) = u' v'
 ### Extrema und Wendepunkt
+1. Erste Ableitung bilden
+2. Zweite Ableitung bilden
+3. Erste Ableitung 0 setzen
+4. Ergebnisse in die zwite Ableitung einsetzen um x Wert zu bekommen
+5. Ergebnisse in die erste Ableitung einsetzen um y Wert zu bekommen
+
+Wert | Bedeutung
+---------|----------
+$> 0$ &zwnj; | Tiefpunkt
+$< 0$ &zwnj;| Hochpunkt
+$1$ &zwnj;| Sattelpunkt
+
+### Sattelpunkt
+1. Erste Ableitung bilden
+2. Zweite Ableitung bilden
+3. Dreite Ableitung bilden
+4. Zweite Ableitung 0 setzen
+5. Ergebnis in die dritte Ableitung einsetzen
+6. Überprüfen ob es eine Wendepunkt ist
+	- Wenn Ergebnis ungleich 0 ist, dann ist es ein Wendepunkt
+	- Wenn Ergebnis gleich 0 ist, dann ist es ein Sattellpunkt 
+
 
 # Integralrechnung
 ### Stammfunktion
