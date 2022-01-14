@@ -629,12 +629,3 @@ $1$ &zwnj;| Sattelpunkt
 	- Wenn Ergebnis gleich 0 ist, dann ist es ein Sattellpunkt 
 
 
-# Integralrechnung
-### Stammfunktion
-### partielle Integration
-### Substitutionsmethode
-
-# Funktionen mehrerer Variablen
-### Gradienten bestimmen
-### Ableitungen bestimmen
-### Extrema und Wendepunkt
