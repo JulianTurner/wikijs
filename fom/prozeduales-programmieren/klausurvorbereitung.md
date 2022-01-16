@@ -10,22 +10,43 @@ dateCreated: 2021-12-16T19:53:06.780Z
 
 # Klausurvorbereitung
 
-Teil 2:
+## Teil 2:
+
+Was ist eine Programierrsprache?
+- eine formale Sprache
+- beschreiben Algorithmen die auf einer Maschine ausgeführt werdwen
+- Schnittstelle zwischen Programmierer und Maschine 
+---
+
 Was ist Hardware?
+- eine fest installierte physische Grundlage 
+
+
 Was ist Software?
+- bestimmt welche Aufgaben auf der Hardware ausgeführt werden
+
 Was ist der Vorteil von der Aufspalung von Hardware und Software?
-Was ist Van Neumann-Architektur?
+---
+
+Was zeichnet eine vnn Neumann-Architektur aus?
+- eine Rechnerarchitektur die Zentaleinheit und Hauptspeicher trennt 
+- der Hauptspeicher enthält Daten auf dem ein Programm operiert, und das Programm selbst
+- den Flaschenhals da die ALU und die Steuerung der Zentraleinheit konkurierend auf den Speicher zugreifen
+---
+
 Was ist eine Turingmaschine?
-- Ist ein geadnken Experiment
-- für lösung eines mathematischen Problems
+- ein theoretisches Konstrukt
+- für Lösung eines mathematischen Problems
 - Reduziert in den Anforderng
 - kleinste Möglichkeit zur Berechnung
-- kann jeden Algorythmus der in endlicher zeit berechnet werden kann, berechnen
-- wenn es ein computer ausrechnen kann, kann es die turingmaschine auch
+- kann jeden Algorythmus der in endlicher Zeit berechnet werden kann, berechnen
+- wenn es ein Computer ausrechnen kann, kann es die Turingmaschine auch
 
-was schreiben sie aufs band?
-in welchem Zustand bedinden sie sich?
-in welche Richtung gehe ich?
+Wie schreibt Turingmaschine auf das Band?
+- Je nach aktuellen Zustand und Zeichen welches gelsen wurde, bewegt sich die Turingmaschine in 
+eine in der Übrgangsfunktion definierte Richtung, und schreibt den Buchstaben welcher in der Übergangsfunktion steht auf das Band.
+---
+
 
 Was bedeuted speicherprogrammiert?
 Woher holt sich der Prozessor seine Anweisungen?
