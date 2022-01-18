@@ -28,7 +28,7 @@ Was ist Software?
 Was ist der Vorteil von der Aufspalung von Hardware und Software?
 ---
 
-Was zeichnet eine vnn Neumann-Architektur aus?
+Was zeichnet eine von Neumann-Architektur aus?
 - eine Rechnerarchitektur die Zentaleinheit und Hauptspeicher trennt 
 - der Hauptspeicher enthält Daten auf dem ein Programm operiert, und das Programm selbst
 - den Flaschenhals da die ALU und die Steuerung der Zentraleinheit konkurierend auf den Speicher zugreifen
@@ -48,138 +48,149 @@ eine in der Übrgangsfunktion definierte Richtung, und schreibt den Buchstaben w
 ---
 
 
-Was bedeuted speicherprogrammiert?
+Was bedeuted Speicherprogrammiert?
+- umsetzung der Programmlogik erfolgt Hardware unabhängig
+
 Woher holt sich der Prozessor seine Anweisungen?
+- aus dem Speicher
+
 Welche Sprache versteht ein Prozessor nattiv?
-Maschienensprache
+- Maschienensprache 
+
+#### Maschienensprache
 Wofür ist das Anfällig?
 - programmierfehler
 - schwer zu debuggen
+
 Wie wurder das vereinfacht?
 - mit dem Assembler
-Assembler ist eine schöberer Schreibweise für ein Maschienensprache
-Assemblercodes sind von Prozessor zu Prozessor unterschiedlich
-Schwierigkeiten mit dem Assembler
+- Assembler ist eine schöberer Schreibweise für ein Maschienensprache.
+- Assemblercodes sind von Prozessor zu Prozessor unterschiedlich.
+
+Was sind die Schwierigkeiten mit dem Assembler?
 - zeitaufwendig
 - fehleranfällig
 - maximale Maschienennähe => maximale Problemferne
 
 Was macht eine Hochsprache?
-- Abstrahiert Assembler in eine Sprache die Näher an der Menschliichen Sprache ist
+- Abstrahiert Assembler in eine Sprache die Näher an der menschliichen Sprache ist
 
 Was ist die Aufgabe eines Compilers?
-- Quellcode in Maschienensprache zu übersetzten?
+- Quellcode in Maschienensprache zu übersetzten
 
 Wie ist ein Compiler aufgebaut?
 3 Gliedrig
 
 Front End
 - analysiert Quellcode
-- erzeugt eine symantisch äquvivalente Darstekkung Form eines Zwischencodes
+- erzeugt eine symantisch äquvivalente Darstellung in Form eines Zwischencodes
 
 Middle End
 - kann mit den Frontend-Daten arbeiten und optimierung vornehmen
 
-Backbend
+Back End
 - erzeugt die Maschienensprache
 - abhänig von Zielhardware
 
 Was muss bei einer neuen CPU passieren?
 - neues Backend
 
-Was benötigt man für eine neue Programmiersprach?
-- neues Frontend
+Was benötigt man für eine neue Programmiersprache?
+- neues Front End
 
-Was passiert im frontend?
-- lexikanische analyse
+Was passiert im Front End?
+- lexikanische Analyse
 - preprocessing
 - syntaxanalyse
 - semantische analyse
 
-Was passiert im middleend?
-- inlline expansion
+Was passiert im Middle End?
+- inlline expansion 
 - dead code elemination
 - constant folding
 - loop optimization
 - automatische parallelisierung
 
-Was passiert im backend?
-- erzeugen des maschienencodes
-- kann für eine zielplattform optimieren
+Was passiert im Back End?
+- erzeugen des Maschienencodes
+- kann für eine Zielplattform optimieren
 
-Wofür sorgen interpreter?
-- führen dan übersetzter und die berechnungen durch
-- ursprünglich für kleine programme gedacht
+Wofür sorgen Interpreter?
+- führen den Übersetzter und die Berechnungen durch
+- ursprünglich für kleine Programme gedacht
 
-Was ist meta programmierung?
-- code generator
-- erzeugt ein Programm in einer programmiersprache
+Was ist Meta Programmierung?
+- Code Generator
+- erzeugt ein Programm in einer Programmiersprache
 
-Was ist der vorteil von virtuellen prozessoren?
-- code wird für diesen bestimmten code compiliert
+Was ist der Vorteil von virtuellen Prozessoren?
+- Code wird für diesen bestimmten Prozessor compiliert
 
 Was ist der Nachteil von virtuellen prozessoren?
-- braucht eine zwischenschicht(virtuelle maschine) zum echten prozessor
+- braucht eine Zwischenschicht(virtuelle maschine) zum echten Prozessor
 
-Wofür brauche ich einen debugger?
-- steuerung des programm laufs
-- inspektion des zustand zu jedem zeitpunkt
+Wofür brauche ich einen Debugger?
+- Steuerung des Programms zur Laufzeit
+- inspektion des Zustands zu jedem Zeitpunkt
 
 
 ## Programmierparadigmen
 
-Wie unterteilen sich programmiersprachen?
-- systemorientierte sprachen
-- problemorientierte sprachen
+Wie unterteilen sich Programmiersprachen?
+- systemorientierte Sprachen
+- problemorientierte Sprachen
 
-Wie unterteilen sich systemorientierte sprachen?
-- maschienensprache
-- assembler
+Wie unterteilen sich systemorientierte Sprachen?
+- Maschienensprache
+- Assembler
 
-Wie unterteilen sich problemorientierte sprachen?
-- imperative sprachen
-- declarativer sprachen
+Wie unterteilen sich problemorientierte Sprachen?
+- imperative Sprachen
+- declarativer Sprachen
 
-Wie unterteilen sich imperative sprachen?
-- strukturierte sprachen
-- prozedale sprachen
-- objektorientierte sprachen
+Wie unterteilen sich imperative Sprachen?
+- strukturierte Sprachen
+- prozedale Sprachen
+- objektorientierte Sprachen
 
-Wie unterteilen sich deklarativer sprachen?
-- logische sprachen
-- funktionale sprachen
+Wie unterteilen sich deklarativer Sprachen?
+- logische Sprachen
+- funktionale Sprachen
 
-Welche elemente hate eine strukturierte sprache?
+Welche Elemente hate eine strukturierte Sprachen?
+- Seqenz
+- Wiederholung
+- Auswahl
 
 ### Objektorientierte Programiersprachen
 
-Welche konzepte von objektorientierter sprache gibt es?
-- strukturierte daten und funktionen
-- sprachkonzepte
+Welche Konzepte von objektorientierter Sprache gibt es?
+- strukturierte Daten und Funktionen
+- Sprachkonzepte
 	- vererbung
 	- kapselung
 	- polymorphie (mehr förmig)
-- in der regel prozedural
-- grundlage für kompenetenbasierte entwicklung
+- in der Regel prozedural
+- Grundlage für kompenetenbasierte Entwicklung
 
 
 ### Funktionale Programiersprachen
-- bestehen aus funktionen im mathematischen sinne
-- sind durch rekursion enebnso mächtig wie imperative oder objektorientierte sprachen
-- funktionen haben keine Seiteneffekte
+- bestehen aus Funktionen im mathematischen Sinne
+- sind durch Rekursion enebnso mächtig wie imperative oder objektorientierte Sprachen
+- Funktionen haben keine Seiteneffekte
 - lassen sich gut parallelisieren
-- bestimmt probkleme lassen sich mit wenig code lösen
-- ungeeignet für andere sachen
+- bestimmte Probleme lassen sich mit wenig Code lösen
+- ungeeignet für andere Sachen
 
 
 ### dynamische Programiersprachen
-- keine scharfe abgrenzung
-- führen tätigkeiten zur laufzeit aus
+- keine scharfe Abgrenzung
+- führen Tätigkeiten zur Laufzeit aus
 - dynamisch typisiert
-- typische eigenschaften
+- typische Eigenschaften
 	- automatische speicherverwaltung
 	- eval (meta programmierung)
-	- objektsysteme zur laufzeit veränderbar
+	- objektsysteme zur Laufzeit veränderbar
 	- duck typing (keine scharfe typüberprüfung)
 	- reflexion (fähigkeit informationen über sich selbst zu bekommen)
 
@@ -189,17 +200,13 @@ Welche konzepte von objektorientierter sprache gibt es?
 - eindeutig
 
 Was ist ein Algorithmus?
-- eine endliche Menge von konkreten Anweisungen, die ein bestimmtes Problem lösen,
-
-Welche Ablaufstrukturen gibt es?
-- reihung
-- verzweigung
-- wiederholung
+- eine endliche Menge von konkreten Anweisungen, die ein bestimmtes Problem lösen.
 
 Was ist eine Datenstuktur?
+- 
 Welche Teile gehören zu einer Datenstruktur?
+-
 Benötigt ein Algorithmus eine bestimmte Datenstruktur?
-
 - die beste organisation von daten gibt es nicht
 
 Was ist ein Programm?
