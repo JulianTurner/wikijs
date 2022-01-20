@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:14:24.591Z
+date: 2022-01-20T19:20:22.938Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -319,20 +319,18 @@ Wenn ausdruck1 true ist, wird ausdruck2 nicht mehr evaluiert
 Exclusives Oder:
 ```!ausdruck1 != !ausdruck2```
 
-Warum sollte man keine Gleitkommerzahlen miteinander vergleichen?
-- 
+Warum sollte man keine Gleitkommazahlen miteinander vergleichen?
+- Rundungsfehler
+- Um so länger die Zahl nach dem Komma, umso größer wird der Rundungsfehler
 
-durch ungenauigkeiten in rechnungen
-float zahlen haben nur eine endliche genauikgeit
-da nach jedem rechnschritt in das float gekürzt wird und rundugsfehler entsthehen
-lösung wäre eine tolerranz von abweichungen
+- durch Ungenauigkeiten in Rechnungen
+- float Zahlen haben nur eine endliche Genauigkeit
+- da nach jedem Rechenschritt in das float gekürzt wird und Rundungsfehler enstehen
+- Lösung wäre eine Toleranz von Abweichungen
 
-Nullbyte verschieben können
 Wass passiert wenn ich kein Nullbyte habe?
-chomp funktion anwenden
-2 String zusammen fügen
-Strings zerlegen
-String an einem bestimmten Zeichen zerlegen
+- Geht das Array immer weiter durch
+- Lande ich in einem Speicherbereich außerhalb des Arrays, killt mich der Prozessor
 
 Was ist ein Stack?
 Wie funktioniert ein Stack?
@@ -370,6 +368,11 @@ ENUM sind nicht Klausurrelevant
 ## Übungsaufgaben die man können soll
 - Erkennen von Hex werten
 - Umgang mit Einheiten
+- Nullbyte verschieben können
+- chomp Funktion anwenden
+- 2 Strings zusammen fügen
+- Strings zerlegen
+- String an einem bestimmten Zeichen zerlegen
 
 - Schaltjahr
 - Übung 11
