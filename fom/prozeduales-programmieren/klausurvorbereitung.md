@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:20:22.938Z
+date: 2022-01-20T19:26:46.075Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -333,8 +333,18 @@ Wass passiert wenn ich kein Nullbyte habe?
 - Lande ich in einem Speicherbereich außerhalb des Arrays, killt mich der Prozessor
 
 Was ist ein Stack?
+- Ein Stack ist ein Stapelspeicher
+
 Wie funktioniert ein Stack?
+- LIFO (Last In First Out)
+- Ich leg was drauf und des muss ich als nächstes wieder weg nehmen
+<p><a href="https://commons.wikimedia.org/wiki/File:Data_stack.svg#/media/Datei:Data_stack.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/1200px-Data_stack.svg.png" alt="Data stack.svg" style="width: 500px"></a></p>
+
 Was ist eine auto variable?
+- Wird automatisch mit einem Wert befüllt (Automatische Wertinitialisierung)
+- Variablendeklaration innerhalb von Methoden (lokale Variablen) sind immer automatisch mit dem Wert befüllt, der davor in dem Speicher stand
+- 
+
 Was hat das mit dem Stack zu tun?
 Was haben funktionen mit einem Stack zu tun?
 
