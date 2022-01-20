@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:03:21.525Z
+date: 2022-01-20T19:14:24.591Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -299,16 +299,29 @@ Was ist ein Stellenwertsystem?
 - Jede Ziffer hat einen unterschiedlichen Wert abhängig ihrer Position in der Zahl
 - Der Wert der Zahl berechnet sich aus der Summe aller Ziffern zur Basis
 
-Warum hat int ein Wertberech?
-- 
+Warum hat int einen Werteberech?
+- Ein int wird in entweder 2 oder 4 Byte gespeichert
+- Aus den begrenzten Kombinationsmöglichkeiten der Bits im Speicherbereich, ergibt sich ein begrenzter Wertebereich
 
-Warum hat signed int einen asymmetrisch wertbereich?
+Warum hat signed int einen asymmetrischen Wertebereich?
+- Keine -0 oder +0 sondern nur 0
 
 Was ist ein Byte?
-Umgang mit Einheiten
+- 8 Bit
+- 2 Nibble
 
 Was ist ein Short-Curcuit/Kurzschlussoperator?
-Warum sollte man keine gleitkommerzahlen miteinander vergleichen?
+```ausdruck1 && ausdruck2```
+Wenn ausdruck1 false ist, wird ausdruck2 nicht mehr evaluiert
+```ausdruck1 || ausdruck2```
+Wenn ausdruck1 true ist, wird ausdruck2 nicht mehr evaluiert
+
+Exclusives Oder:
+```!ausdruck1 != !ausdruck2```
+
+Warum sollte man keine Gleitkommerzahlen miteinander vergleichen?
+- 
+
 durch ungenauigkeiten in rechnungen
 float zahlen haben nur eine endliche genauikgeit
 da nach jedem rechnschritt in das float gekürzt wird und rundugsfehler entsthehen
@@ -356,6 +369,7 @@ ENUM sind nicht Klausurrelevant
 
 ## Übungsaufgaben die man können soll
 - Erkennen von Hex werten
+- Umgang mit Einheiten
 
 - Schaltjahr
 - Übung 11
