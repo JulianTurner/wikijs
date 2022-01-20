@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T18:50:39.513Z
+date: 2022-01-20T18:52:36.075Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -284,12 +284,14 @@ Platzhalter kennen
 - %d (Ganze Zahl)
 - %i (signed integer)
 - %f (float)
+- %lu (unsigned long)
+- %ld (signed long)
 - %u (unsigned char)
 
-Schaltjahr aufgabe sollte man können
+
 Erläuertn sie den Untsfchied zwischen while oder schleife 
 Erläutern sie die Aufgabe von break
-Übung 11 
+ 
 
 Was ist ein Stellenwert system?
 Erkennen von Hex werten
@@ -346,3 +348,7 @@ Wofür verwendet man Pointer?
 Speicher muss immer freigegeben werden.
 
 ENUM sind nicht Klausurrelevant
+
+## Übungsaufgaben die man können soll
+- Schaltjahr
+- Übung 11
