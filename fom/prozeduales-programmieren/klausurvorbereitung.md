@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T18:52:36.075Z
+date: 2022-01-20T19:03:21.525Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -288,15 +288,20 @@ Platzhalter kennen
 - %ld (signed long)
 - %u (unsigned char)
 
+Erläutern sie den Unterschied zwischen while und for:
+- While Schleife hat nur einen Testausdruck (Bedingung)
+- For Schleife hat Initialisierungsstatement, Testausdruck, Updatestatement
 
-Erläuertn sie den Untsfchied zwischen while oder schleife 
-Erläutern sie die Aufgabe von break
- 
+Erläutern sie die Aufgabe von break:
+- Bricht die Schleifenausführung ab
 
-Was ist ein Stellenwert system?
-Erkennen von Hex werten
+Was ist ein Stellenwertsystem?
+- Jede Ziffer hat einen unterschiedlichen Wert abhängig ihrer Position in der Zahl
+- Der Wert der Zahl berechnet sich aus der Summe aller Ziffern zur Basis
 
 Warum hat int ein Wertberech?
+- 
+
 Warum hat signed int einen asymmetrisch wertbereich?
 
 Was ist ein Byte?
@@ -350,5 +355,7 @@ Speicher muss immer freigegeben werden.
 ENUM sind nicht Klausurrelevant
 
 ## Übungsaufgaben die man können soll
+- Erkennen von Hex werten
+
 - Schaltjahr
 - Übung 11
