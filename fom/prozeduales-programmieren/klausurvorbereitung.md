@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:57:45.430Z
+date: 2022-01-20T19:59:49.824Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
