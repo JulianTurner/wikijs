@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:31:46.499Z
+date: 2022-01-20T19:45:59.858Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -341,12 +341,24 @@ Wie funktioniert ein Stack?
 <p><a href="https://commons.wikimedia.org/wiki/File:Data_stack.svg#/media/Datei:Data_stack.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/1200px-Data_stack.svg.png" alt="Data stack.svg" style="width: 500px"></a></p>
 
 Was haben Funktionen mit einem Stack zu tun?
-- Callstack
+- Callstack enthält Informationen über Methoden-Rücksprung
+
 
 
 Was können sie machen wenn sie mehrere Werte einer funktion zurück gben möchten?
-Was ist der untschied zwischen der übergabd der kopie und referenz?
+- Werte via Pointer (übergeben an aufgerufene Methode via Methoden-Parameter) an den Methoden-Aufrufer zurückgeben
+
+Was ist der Untschied zwischen der Übergabe via Wert oder Referenz?
+- Übergabe via Kopie: aufgerufene Methode erhällt Kopie des Variablenwertes. Kopie kann ohne Seiteneffekte verändert werden.
+- Übergabe via Referenz: aufgerufene Methode erhält Verweis auf einen Speicherbereich (Pointer). Veränderung des Wertes in dem Speicherbereich durch die aufgerufene Methode wirkt sich auf die aufrufende Methode aus.
+
 Was ist ein buffer overflow?
+- Über- oder unterschreiten des zulässigen Wertebereichs einer Variable
+
+Erkläre Signed/Unsigned:
+- Signed: Mit +/- Variablenwerte können Positiv und Negativ sein
+- Unsigned Ohne +/- Variablenwerte sind Positiv
+
 Wie geht eine funktion ohne rückgabe?
 was verstewht man unter rekursion?
 was versteht man unter einem pointer?
