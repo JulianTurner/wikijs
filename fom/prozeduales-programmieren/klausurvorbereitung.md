@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-08T07:43:10.002Z
+date: 2022-01-20T18:34:52.585Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -203,9 +203,11 @@ Was ist ein Algorithmus?
 - eine endliche Menge von konkreten Anweisungen, die ein bestimmtes Problem lösen.
 
 Was ist eine Datenstuktur?
-- 
+- Eine Datenstruktur ist ein Modell, das die zur Lösung eines Problems benötigten Informationen (Ausgangsdaten, Zwischenergebnisse, Endergebnisse) enthält und für alle Informationen genau festgelegte Zugriffswege bereitstellt.
+
 Welche Teile gehören zu einer Datenstruktur?
--
+- Ausgangsdaten, Zwischenergebnisse, Endergebnisse
+
 Benötigt ein Algorithmus eine bestimmte Datenstruktur?
 - die beste organisation von daten gibt es nicht
 
@@ -214,14 +216,41 @@ Was ist ein Programm?
 - besteht aus algoritmen
 - ist auf einem computer lauffährig
 
-Welche aufgabe erfüllt der präprozessor?
-Erläutern sie die fulktionen des präprozessor
+Was definiert einen Präprozessor?
+- Unabhängig von der Sprache c
+- Direktiven beginnen mit eine ```#``` am Anfang
 
-Welche arten von fehlern können ein compiler zurück liefern?
-Welche Aufgabe übernimmt ein linker?
+Welche Aufgabe erfüllt der Präprozessor?
+- Lexiakalische Ersetzung
+
+Erläutern sie die Fuktionen des Präprozessors
+- #include: Setzt den Inhalt der Datei ein
+- #define a b: Ersetzt alle künftigen Vorkommen von a durch b
+- #undefine a: Vergisst den define a wieder
+- #ifdef a ... #endif: Lässt den Block unter eine Bedingung im Source Code
+
+Welche Arten von Fehlern kann ein Compiler zurück liefern?
+- Lexikalische Analyse (falsche Zeichen, nicht geschlossene ```"```, Fehlende ```;```)
+- Syntaktische Analyse (Überprüft Klammern bei Funktionsaufrufen)
+- Semantische Analyse (Überprüft die Sinnhaftigkeit, z.B. Anzahl & Art der Parameter oder Deklaration von Variablen und Funktionen)
+
+Workflow:
+1. Compiler übersetzt c Code in Maschinensprache (.c in .o) 
+2. Linker verknüpft einzelne .o (Out) Files in ausführbares Programm
+
+Welche Aufgabe übernimmt ein Linker?
+- Montiert aus vorhandenen Object Files ein ausführbares Programm
 
 Welche Variablennamen sind gültig?
+- Buchstaben, Ziffer, Unterstriche
+- Erstes Zeichen keine Ziffer
+
 Übertragen sie Variablen in snakecase usw
+- Snakecase: ```peter_zwegat``` (Historisch für c)
+- Camelcase: ```peterZwegat``` (Modern ;))
+- Kebapcase: ```peter-zwegat```
+- Pascalcase: ```PeterZwegat```
+- Uppercase: ```PETER_ZWEGAT``` (Verwendet man häufig für Präprozessor Variablen)
 
 In welcher Reinfolge werden die Abkürzungen genutzt?
 
