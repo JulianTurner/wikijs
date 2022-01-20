@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:56:14.348Z
+date: 2022-01-20T19:57:45.430Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -381,7 +381,7 @@ Wann brauche ich malloc und free
 - malloc: Für die variable Speicherreservierung zur Laufzeit eines Programmes
 - free: Zur Freigabe von nicht mehr benötigten, zuvor reservierten Speicher (Vermeidung von memory leaks)
 
-Speicher muss immer freigegeben werden.
+<b>Speicher muss immer freigegeben werden.</b>
 
 ENUM sind nicht Klausurrelevant
 
