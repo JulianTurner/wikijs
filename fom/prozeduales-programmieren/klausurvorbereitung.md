@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T18:34:52.585Z
+date: 2022-01-20T18:50:39.513Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -254,11 +254,37 @@ Welche Variablennamen sind gültig?
 
 In welcher Reinfolge werden die Abkürzungen genutzt?
 
-Was ist ein casting?
-Wofür benötige ich einen casting?
-Beipsiel von casting
+Abkürzung | Ausgeschrieben
+-|-
+```x += y``` | ```x = x + y```
+```x -= y``` | ```x = x - y```
+```x *= y``` | ```x = x * y```
+```x /= y``` | ```x = x / y```
+```x %= y``` | ```x = x % y```
+```x++```    | ```x = x + 1```
+```x--```    | ```x = x - 1```
+```++x```    | ```x = x + 1```
+```--x```    | ```x = x - 1```
+
+Was ist ein Casting?
+- Typumwandlung einer Variable
+
+Wofür benötige ich einen Casting?
+- Um aus einem float (2.0) ein int (2) zu machen:
+
+Beipsiel von Casting
+```
+float a = 2.0;
+int b = (int) a; // b = 2
+```
 
 Platzhalter kennen
+
+- %s (Zeichenkette („String“))
+- %d (Ganze Zahl)
+- %i (signed integer)
+- %f (float)
+- %u (unsigned char)
 
 Schaltjahr aufgabe sollte man können
 Erläuertn sie den Untsfchied zwischen while oder schleife 
