@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:45:59.858Z
+date: 2022-01-20T19:52:50.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -356,15 +356,22 @@ Was ist ein buffer overflow?
 - Über- oder unterschreiten des zulässigen Wertebereichs einer Variable
 
 Erkläre Signed/Unsigned:
-- Signed: Mit +/- Variablenwerte können Positiv und Negativ sein
-- Unsigned Ohne +/- Variablenwerte sind Positiv
+- Signed: Mit +/-. Variablenwerte sind Positiv oder Negativ
+- Unsigned Ohne +/-. Variablenwerte sind immer Positiv
 
-Wie geht eine funktion ohne rückgabe?
-was verstewht man unter rekursion?
-was versteht man unter einem pointer?
-was versteht man unter einem nullpointer?
+Wie geht eine Funktion ohne Rückgabe?
+- Funktion-Rückgabewert ```void``` 
 
-formen sie array notation zu pointernotation?
+Was versteht man unter Rekursion?
+- Eine Funktion welche sich selbst aufruft
+
+Was versteht man unter einem pointer?
+- Ein Pointer ist ein Zeiger auf eine Speicheradresse.
+
+Was versteht man unter einem Nullpointer?
+- Ein Nullpointer ist ein Zeiger auf eine spezielle Speicheradresse 0. Dies ist eine nicht gültige Adresse. Er wird verwendet um die Absenz eines Wertes darzustellen.
+
+
 
 benutzen sie malloc und free
 Wann brauche ich malloc und free
@@ -391,6 +398,7 @@ ENUM sind nicht Klausurrelevant
 - 2 Strings zusammen fügen
 - Strings zerlegen
 - String an einem bestimmten Zeichen zerlegen
+- Umformung Array-Notation zu Pointer-Notation
 
 - Schaltjahr
 - Übung 11
