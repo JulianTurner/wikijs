@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-20T19:52:50.323Z
+date: 2022-01-20T19:56:14.348Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -371,20 +371,15 @@ Was versteht man unter einem pointer?
 Was versteht man unter einem Nullpointer?
 - Ein Nullpointer ist ein Zeiger auf eine spezielle Speicheradresse 0. Dies ist eine nicht gültige Adresse. Er wird verwendet um die Absenz eines Wertes darzustellen.
 
-
-
-benutzen sie malloc und free
-Wann brauche ich malloc und free
-
-
-
-
-
-
-Was ist ein Pointer?
 Was ist Pointerarithmetik?
-- Rechnen mit Speicheradressen. 
+- Rechnen mit Speicheradressen.
+
 Wofür verwendet man Pointer?
+- Verweis auf Speicher-Adressen
+
+Wann brauche ich malloc und free
+- malloc: Für die variable Speicherreservierung zur Laufzeit eines Programmes
+- free: Zur Freigabe von nicht mehr benötigten, zuvor reservierten Speicher (Vermeidung von memory leaks)
 
 Speicher muss immer freigegeben werden.
 
@@ -399,6 +394,7 @@ ENUM sind nicht Klausurrelevant
 - Strings zerlegen
 - String an einem bestimmten Zeichen zerlegen
 - Umformung Array-Notation zu Pointer-Notation
+- Benutzung von malloc und free
 
 - Schaltjahr
 - Übung 11
