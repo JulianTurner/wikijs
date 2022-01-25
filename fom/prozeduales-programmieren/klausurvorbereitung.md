@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-21T18:21:26.677Z
+date: 2022-01-25T09:52:02.140Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -14,7 +14,7 @@ dateCreated: 2021-12-16T19:53:06.780Z
 
 Was ist eine Programierrsprache?
 - eine formale Sprache
-- beschreiben Algorithmen die auf einer Maschine ausgeführt werdwen
+- beschreiben Algorithmen die auf einer Maschine ausgeführt werden
 - Schnittstelle zwischen Programmierer und Maschine 
 ---
 
