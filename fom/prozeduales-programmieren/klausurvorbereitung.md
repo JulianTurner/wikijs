@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-25T09:52:02.140Z
+date: 2022-01-25T20:01:49.897Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -26,6 +26,8 @@ Was ist Software?
 - bestimmt welche Aufgaben auf der Hardware ausgeführt werden
 
 Was ist der Vorteil von der Aufspalung von Hardware und Software?
+- Abbildung verschiedener Funktonen mit Software ohne Hardwareänderung
+
 ---
 
 Was zeichnet eine von Neumann-Architektur aus?
@@ -77,6 +79,10 @@ Was macht eine Hochsprache?
 
 Was ist die Aufgabe eines Compilers?
 - Quellcode in Maschienensprache zu übersetzten
+
+Was ist der Unterschied zwischen Assembler und Complier?
+- Assembler wird lexikalisch in Maschienensprache übersetzt
+- Compiler übersetzt eine Hochsprache in Maschinensprache
 
 Wie ist ein Compiler aufgebaut?
 3 Gliedrig
