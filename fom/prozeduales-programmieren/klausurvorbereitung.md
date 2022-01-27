@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-27T14:49:07.532Z
+date: 2022-01-27T15:04:59.926Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -25,7 +25,7 @@ Was ist Hardware?
 Was ist Software?
 - bestimmt welche Aufgaben auf der Hardware ausgeführt werden
 
-Was ist der Vorteil von der Aufspalung von Hardware und Software?
+Was ist der Vorteil von der Aufspaltung von Hardware und Software?
 - Abbildung verschiedener Funktionen mit Software ohne Hardwareänderung
 
 ---
@@ -39,13 +39,13 @@ Was zeichnet eine von Neumann-Architektur aus?
 Was ist eine Turingmaschine?
 - ein theoretisches Konstrukt
 - für Lösung eines mathematischen Problems
-- Reduziert in den Anforderng
+- Reduziert in den Anforderungen
 - kleinste Möglichkeit zur Berechnung
-- kann jeden Algorythmus der in endlicher Zeit berechnet werden kann, berechnen
-- wenn es ein Computer ausrechnen kann, kann es die Turingmaschine auch
+- kann jeden Algorithmus der in endlicher Zeit berechnet werden kann, berechnen
+- wenn es ein Computer ausrechnen kann, kann es die Turingmaschine auch -> Turing Vollständigkeit
 
 Wie schreibt Turingmaschine auf das Band?
-- Je nach aktuellen Zustand und Zeichen welches gelsen wurde, bewegt sich die Turingmaschine in 
+- Je nach aktuellen Zustand und Zeichen welches gelesen wurde, bewegt sich die Turingmaschine in 
 eine in der Übrgangsfunktion definierte Richtung, und schreibt den Buchstaben welcher in der Übergangsfunktion steht auf das Band.
 ---
 
@@ -56,17 +56,17 @@ Was bedeuted Speicherprogrammiert?
 Woher holt sich der Prozessor seine Anweisungen?
 - aus dem Speicher
 
-Welche Sprache versteht ein Prozessor nattiv?
-- Maschienensprache 
+Welche Sprache versteht ein Prozessor nativ?
+- Maschinensprache 
 
-#### Maschienensprache
+#### Maschinensprache
 Wofür ist das Anfällig?
 - programmierfehler
 - schwer zu debuggen
 
-Wie wurder das vereinfacht?
+Wie wurde das vereinfacht?
 - mit dem Assembler
-- Assembler ist eine schöberer Schreibweise für ein Maschienensprache.
+- Assembler ist eine schönere Schreibweise für eine Maschinensprache.
 - Assemblercodes sind von Prozessor zu Prozessor unterschiedlich.
 
 Was sind die Schwierigkeiten mit dem Assembler?
@@ -75,13 +75,13 @@ Was sind die Schwierigkeiten mit dem Assembler?
 - maximale Maschienennähe => maximale Problemferne
 
 Was macht eine Hochsprache?
-- Abstrahiert Assembler in eine Sprache die Näher an der menschliichen Sprache ist
+- Abstrahiert Assembler in eine Sprache die Näher an der menschlichen Sprache ist
 
 Was ist die Aufgabe eines Compilers?
-- Quellcode in Maschienensprache zu übersetzten
+- Quellcode in Maschinensprache zu übersetzen
 
-Was ist der Unterschied zwischen Assembler und Complier?
-- Assembler wird lexikalisch in Maschienensprache übersetzt
+Was ist der Unterschied zwischen Assembler und Compiler?
+- Assembler wird lexikalisch in Maschinensprache übersetzt
 - Compiler übersetzt eine Hochsprache in Maschinensprache
 
 Wie ist ein Compiler aufgebaut?
@@ -89,36 +89,37 @@ Wie ist ein Compiler aufgebaut?
 
 Front End
 - analysiert Quellcode
-- erzeugt eine symantisch äquvivalente Darstellung in Form eines Zwischencodes
+- erzeugt eine semantisch äquvivalente Darstellung in Form eines Zwischencodes
 
 Middle End
-- kann mit den Frontend-Daten arbeiten und optimierung vornehmen
+- kann mit den Front-End-Daten arbeiten und optimierungen vornehmen
 
 Back End
-- erzeugt die Maschienensprache
-- abhänig von Zielhardware
+- erzeugt die Maschinensprache
+- abhängig von Zielhardware
 
 Was muss bei einer neuen CPU passieren?
-- neues Backend
+- neues Back End
 
 Was benötigt man für eine neue Programmiersprache?
 - neues Front End
 
 Was passiert im Front End?
-- lexikanische Analyse
-- preprocessing
-- syntaxanalyse
-- semantische analyse
+- lexikalische Analyse -> Zerlegen des Quellcodes in "Token" (= atomare Bestandteile)
+- preprocessing -> automatisiertes Suchen und Ersetzen (vgl. Präprozessor) auf Tokenstrom
+- syntaxanalyse -> Funktion übernimmt "Parser", der über eine "Grammatik" gesteuert wird und einen sog. "Parse Tree" (besseres Format zur weiteren Optimierung) erzeugt.
+- semantische analyse -> Anreichern des Parse Tree, um semantische Informationen
 
 Was passiert im Middle End?
-- inlline expansion 
-- dead code elemination
-- constant folding
-- loop optimization
+- Inline expansion 
+- Dead code elemination
+- Constant folding
+- Loop optimization
 - automatische parallelisierung
 
 Was passiert im Back End?
-- erzeugen des Maschienencodes
+- Analyse (Datenflussanalyse, Abhängigkeitsanalyse, Pointeranalyse)
+- erzeugen des Maschinencodes
 - kann für eine Zielplattform optimieren
 
 Wofür sorgen Interpreter?
@@ -147,16 +148,16 @@ Wie unterteilen sich Programmiersprachen?
 - problemorientierte Sprachen
 
 Wie unterteilen sich systemorientierte Sprachen?
-- Maschienensprache
+- Maschinensprache
 - Assembler
 
 Wie unterteilen sich problemorientierte Sprachen?
 - imperative Sprachen
-- declarativer Sprachen
+- deklarative Sprachen
 
 Wie unterteilen sich imperative Sprachen?
 - strukturierte Sprachen
-- prozedale Sprachen
+- prozedurale Sprachen
 - objektorientierte Sprachen
 
 Wie unterteilen sich deklarativer Sprachen?
@@ -180,9 +181,9 @@ Welche Konzepte von objektorientierter Sprache gibt es?
 - Grundlage für kompenetenbasierte Entwicklung
 
 
-### Funktionale Programiersprachen
+### Funktionale Programmiersprachen
 - bestehen aus Funktionen im mathematischen Sinne
-- sind durch Rekursion enebnso mächtig wie imperative oder objektorientierte Sprachen
+- sind durch Rekursion ebenso mächtig wie imperative oder objektorientierte Sprachen
 - Funktionen haben keine Seiteneffekte
 - lassen sich gut parallelisieren
 - bestimmte Probleme lassen sich mit wenig Code lösen
