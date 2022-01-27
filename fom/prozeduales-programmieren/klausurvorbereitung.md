@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-27T15:04:59.926Z
+date: 2022-01-27T15:10:31.752Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -219,9 +219,10 @@ Benötigt ein Algorithmus eine bestimmte Datenstruktur?
 - die beste organisation von daten gibt es nicht
 
 Was ist ein Programm?
+- Folge von Anweisungen, nach Regeln einer bestimmten Programmiersprache, um Aufgaben oder Probleme mit Hilfe eines Computers zu lösen
 - besteht aus datenstrukturen
 - besteht aus algoritmen
-- ist auf einem computer lauffährig
+- ist auf einem computer lauffähig
 
 Was definiert einen Präprozessor?
 - Unabhängig von der Sprache c
@@ -229,6 +230,7 @@ Was definiert einen Präprozessor?
 
 Welche Aufgabe erfüllt der Präprozessor?
 - Lexiakalische Ersetzung
+- automatisches Suchen und Ersetzen
 
 Erläutern sie die Fuktionen des Präprozessors
 - #include: Setzt den Inhalt der Datei ein
@@ -296,8 +298,8 @@ Platzhalter kennen
 - %u (unsigned char)
 
 Erläutern sie den Unterschied zwischen while und for:
-- While Schleife hat nur einen Testausdruck (Bedingung)
-- For Schleife hat Initialisierungsstatement, Testausdruck, Updatestatement
+- While Schleife (kopfgesteuerte Schleife) hat nur einen Testausdruck (Bedingung)
+- For Schleife (zählergesteuerte Schleife) hat Initialisierungsstatement, Testausdruck, Updatestatement
 
 Erläutern sie die Aufgabe von break:
 - Bricht die Schleifenausführung ab
