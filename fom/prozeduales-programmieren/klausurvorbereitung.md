@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-25T20:01:49.897Z
+date: 2022-01-27T14:49:07.532Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -26,7 +26,7 @@ Was ist Software?
 - bestimmt welche Aufgaben auf der Hardware ausgeführt werden
 
 Was ist der Vorteil von der Aufspalung von Hardware und Software?
-- Abbildung verschiedener Funktonen mit Software ohne Hardwareänderung
+- Abbildung verschiedener Funktionen mit Software ohne Hardwareänderung
 
 ---
 
