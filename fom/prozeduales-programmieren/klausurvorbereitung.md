@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-27T15:10:31.752Z
+date: 2022-01-27T15:14:13.687Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -334,10 +334,10 @@ Warum sollte man keine Gleitkommazahlen miteinander vergleichen?
 
 - durch Ungenauigkeiten in Rechnungen
 - float Zahlen haben nur eine endliche Genauigkeit
-- da nach jedem Rechenschritt in das float gekürzt wird und Rundungsfehler enstehen
+- da nach jedem Rechenschritt in das float gekürzt wird und Rundungsfehler entstehen
 - Lösung wäre eine Toleranz von Abweichungen
 
-Wass passiert wenn ich kein Nullbyte habe?
+Was passiert wenn ich kein Nullbyte habe?
 - Geht das Array immer weiter durch
 - Lande ich in einem Speicherbereich außerhalb des Arrays, killt mich der Prozessor
 
@@ -354,11 +354,11 @@ Was haben Funktionen mit einem Stack zu tun?
 
 
 
-Was können sie machen wenn sie mehrere Werte einer funktion zurück gben möchten?
+Was können sie machen, wenn sie mehrere Werte einer funktion zurück geben möchten?
 - Werte via Pointer (übergeben an aufgerufene Methode via Methoden-Parameter) an den Methoden-Aufrufer zurückgeben
 
-Was ist der Untschied zwischen der Übergabe via Wert oder Referenz?
-- Übergabe via Kopie: aufgerufene Methode erhällt Kopie des Variablenwertes. Kopie kann ohne Seiteneffekte verändert werden.
+Was ist der Unterschied zwischen der Übergabe via Wert oder Referenz?
+- Übergabe via Kopie: aufgerufene Methode erhält Kopie des Variablenwertes. Kopie kann ohne Seiteneffekte verändert werden.
 - Übergabe via Referenz: aufgerufene Methode erhält Verweis auf einen Speicherbereich (Pointer). Veränderung des Wertes in dem Speicherbereich durch die aufgerufene Methode wirkt sich auf die aufrufende Methode aus.
 
 Was ist ein buffer overflow?
@@ -386,7 +386,7 @@ Was ist Pointerarithmetik?
 Wofür verwendet man Pointer?
 - Verweis auf Speicher-Adressen
 
-Wann brauche ich malloc und free
+Wann brauche ich malloc und free ?
 - malloc: Für die variable Speicherreservierung zur Laufzeit eines Programmes
 - free: Zur Freigabe von nicht mehr benötigten, zuvor reservierten Speicher (Vermeidung von memory leaks)
 
