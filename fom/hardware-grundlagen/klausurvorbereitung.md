@@ -15,6 +15,8 @@ Nennen Sie Vor- und Nachteile der Verwendung spezieller IO-Operationen für den
 Zugriff auf die Steuer- und Datenregister von Peripheriegerätesteuereinheiten.
 
 Warum ist Polling und Interrupt für IO nicht im Skript ? S. 418
+
+Wie viele Einträge benötigt eine solche Pagetable bei 4 GB Hauptspeicher und einer Seitengröße von 512 Bytes? S. 458
 ---
 
 ## Betriebssysteme
@@ -157,9 +159,41 @@ Vorteile:
 Nachteile:
 - Konflikte
 
-Nennen Sie Vor- und Nachteile der programmgesteuerten Datenübertragung zwischen 
-Hauptspeicher und Ein-/Ausgabegeräten
+Nennen Sie Vor- und Nachteile der programmgesteuerten Datenübertragung zwischen Hauptspeicher und Ein-/Ausgabegeräten
 Vorteil: 
 - keine dedizierte Hardware
 Nachteile:
 - Belastung der CPU
+
+#### Hauptspeicher
+
+Interleaving
+- Aufteilung des Speichers in Bänke, die jeweils getrennte Adressgruppen umfassen
+
+Caching
+- Unterstützung des Hauptspeichers mit schnelleren Zwischenspeichern mit kürzerer Zugriffszeit
+
+
+#### Ein- und Ausgabegeräte – Magnetbänder
+
+Typisch für Magnetbänder sind ihr rein sequentieller Zugriffscharakter sowie ihre in der Regel gute Austauschbarkeit zwischen unterschiedlichen Systemen.
+
+#### Ein- und Ausgabegeräte – Magnetplatten
+Speicherung von Daten auf Magnetplatten
+
+#### Ein- und Ausgabegeräte – SSD
+
+Solid State Disks, kurz SSD: Alternative zu Magnetplatten für die Langzeitspeicherung 
+
+#### Ein- und Ausgabegeräte – RAID
+RAID, kurz für Redundant Array of Inexpensive Disks bzw. heute 
+Redundant Array of Independent Disks zusammengefasst.
+
+### Betriebssystemgrundfunktionen
+Typischen Aufgaben eines Betriebssystems:
+- Speicherverwaltung
+- Prozessverwaltung
+- Prozesssynchronisation
+- Prozesskommunikation Devicetreiber
+- Dateisysteme
+- Interaktion mit den Benutzern
