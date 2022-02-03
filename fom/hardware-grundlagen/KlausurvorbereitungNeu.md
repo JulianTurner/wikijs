@@ -2,7 +2,7 @@
 title: Klausurvorbereitung Neu
 description: 
 published: 1
-date: 2022-02-03T18:16:40.577Z
+date: 2022-02-03T18:17:13.105Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -56,7 +56,7 @@ dateCreated: 2022-02-03T15:11:53.417Z
     
 ### Harvard Architektur
 - Programm und Daten liegen in getrennten Speichern
-
+- Heute geteilter Speicher im Bereich CPU Cache verbreitet
 
 
 ## Stack
