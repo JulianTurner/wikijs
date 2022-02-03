@@ -1,8 +1,8 @@
 ---
-title: Klausurvorbereitung
+title: Klausurvorbereitung Neu
 description: 
 published: 1
-date: 2022-02-03T15:11:53.417Z
+date: 2022-02-03T15:12:22.256Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
