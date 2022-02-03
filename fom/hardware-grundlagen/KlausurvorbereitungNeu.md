@@ -2,7 +2,7 @@
 title: Klausurvorbereitung Neu
 description: 
 published: 1
-date: 2022-02-03T15:12:22.256Z
+date: 2022-02-03T18:16:40.577Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -55,7 +55,8 @@ dateCreated: 2022-02-03T15:11:53.417Z
   	- steuert Ein- und Ausgabe von Daten zu Anwender (Tastatur, Bildschirm) und anderen Systemen (Schnittstellen)
     
 ### Harvard Architektur
-  
+- Programm und Daten liegen in getrennten Speichern
+
 
 
 ## Stack
