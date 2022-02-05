@@ -10,15 +10,6 @@ dateCreated: 2021-12-16T19:53:55.468Z
 
 # Klausurvorbereitung
 
----
-Nennen Sie Vor- und Nachteile der Verwendung spezieller IO-Operationen für den 
-Zugriff auf die Steuer- und Datenregister von Peripheriegerätesteuereinheiten.
-
-Warum ist Polling und Interrupt für IO nicht im Skript ? S. 418
-
-Wie viele Einträge benötigt eine solche Pagetable bei 4 GB Hauptspeicher und einer Seitengröße von 512 Bytes? S. 458
----
-
 ## Betriebssysteme
 ---
 S. 364
