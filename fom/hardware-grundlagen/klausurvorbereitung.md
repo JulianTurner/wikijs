@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-07T14:18:04.145Z
+date: 2022-02-07T14:19:30.865Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -30,6 +30,9 @@ $w = 1234$
 - Durch die Bildung des Komplements kannman innerhalb  eines Restklassenrings (ohne Vorzeichen) negative Werte darstellen
 - Die ALU kann nur Addieren
 - Substraktionen können nur über die Addition des Komplements durchgeführt werden
+
+### Gleitkommazahlen
+
 
 # grundlegende Rechnerarchitekturen beschreiben
 ## CISC
