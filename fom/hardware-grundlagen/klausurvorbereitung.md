@@ -2,13 +2,35 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2021-12-16T19:53:55.468Z
+date: 2022-02-07T13:59:55.448Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
 ---
 
 # Klausurvorbereitung
+
+# typische Datentypen
+
+# grundlegende Rechnerarchitekturen beschreiben
+## CISC
+## RISC
+## VLIW/EPIC
+## Skalar & Vektorrechner
+## Memory- Register Stackmachone
+## grundlegendes Memorymanagment
+## Interrupthandling
+## DMA
+
+# historische Entwicklung der Rechentechnik
+# Schaltungen
+## Logikgatter 
+# IO- Subsysteme 
+## Eigenschaften 
+## grundlegende Implemantation
+## passende Systeme für Anwesdungsfälle 
+# Assemblerprogramme
+# Aufgaben eines Betrienbssystems
 
 ## Betriebssysteme
 ---
