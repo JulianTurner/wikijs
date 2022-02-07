@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-07T14:09:00.683Z
+date: 2022-02-07T14:18:04.145Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -23,9 +23,13 @@ Die nierderwertigste Stelle ist das **least significat digit** LSD
 
 Beispiel:
 $z_3 = 1, z_2 = 2, z_1, z_0 = 4, basis = 10$
-$10^3 = 1000, 10^2 = 100, 10^1 = 10, 10^0 = 1$
+$10^3 = 1000 \\ 10^2 = 100 \\ 10^1 = 10 \\ 10^0 = 1$
 $w = 1*10^3+2*10^2+3*10^1+4*10^4$
 $w = 1234$
+
+- Durch die Bildung des Komplements kannman innerhalb  eines Restklassenrings (ohne Vorzeichen) negative Werte darstellen
+- Die ALU kann nur Addieren
+- Substraktionen können nur über die Addition des Komplements durchgeführt werden
 
 # grundlegende Rechnerarchitekturen beschreiben
 ## CISC
