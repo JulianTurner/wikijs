@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-07T13:59:55.448Z
+date: 2022-02-07T14:09:00.683Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -11,6 +11,21 @@ dateCreated: 2021-12-16T19:53:55.468Z
 # Klausurvorbereitung
 
 # typische Datentypen
+> Analag: Kontinurlischer Wertebereich
+> Digital: Zifferndarstellung 
+
+## Stellenwertsystem
+Bei einem Stellenwertsystem ist die Position der Ziffer für die Wertigkeit entscheidend 
+Zentrale Bedeutung hat die Basis. Im Dezimalsystem ist es die Basis 10.
+Die Notwendigkeit eine 0 darstellen zu können. 
+Die höchstwertige Stelle ist das **most significat digit** MSD
+Die nierderwertigste Stelle ist das **least significat digit** LSD 
+
+Beispiel:
+$z_3 = 1, z_2 = 2, z_1, z_0 = 4, basis = 10$
+$10^3 = 1000, 10^2 = 100, 10^1 = 10, 10^0 = 1$
+$w = 1*10^3+2*10^2+3*10^1+4*10^4$
+$w = 1234$
 
 # grundlegende Rechnerarchitekturen beschreiben
 ## CISC
