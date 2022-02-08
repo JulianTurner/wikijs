@@ -2,10 +2,10 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-03T20:25:03.941Z
+date: 2022-02-08T20:35:55.764Z
 tags: 
 editor: markdown
-dateCreated: 2022-02-03T15:11:53.417Z
+dateCreated: 2022-02-05T08:20:41.063Z
 ---
 
 Nennen Sie Vor- und Nachteile der Verwendung spezieller IO-Operationen für den 
@@ -39,7 +39,10 @@ Zeichnen sie einen Full Adder aus 2 Half Adder
 Warum hat man Ringe gebaut?
 Warum gibt es priviligierte Befehle?
 Aus welchen Bestandteilen besteht float?
-Was ist der Unterschied zwischen analog und digital?
+# Was ist der Unterschied zwischen analog und digital?
+analog: hat einen kontinuierlichen Werteraum.
+digital: können nur Werte dargestellt werden
+
 Was kann man mit heutigen Rechnern bearbeiten?
 Wie werden Daten represntiert in einem Rechner?
 Umwandlung dezimal zu binär
