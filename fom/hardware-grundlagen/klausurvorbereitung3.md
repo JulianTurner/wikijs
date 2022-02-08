@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-08T21:06:40.780Z
+date: 2022-02-08T21:17:26.304Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
@@ -93,5 +93,11 @@ mit einem Vorzeichen Bit
 2-er Komplement
 
 # Wie Berechne ich das 2er Komplement?
+Komplement der Zahl (1001 => 0110) oder (0000 => 1111)
+1 Addieren (0110 + 1 = 0111) oder (1111 + 1 = 0000)
+
+# Substraction mit dem 2er Komplement?
+erst das Komplement bilden und dann addieren
+
 
 Sie haben einen rechner der 0 oder 1 Gen, und sollen eine Subtraction druchführen. Wie geht das?
