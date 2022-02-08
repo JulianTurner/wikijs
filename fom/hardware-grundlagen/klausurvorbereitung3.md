@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-08T20:39:13.477Z
+date: 2022-02-08T20:48:49.552Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
@@ -38,14 +38,29 @@ add ERGEBNISREG, REG1, REG2
 slr REG # right teilt 2
 sll REG # left multipliziert 2
 
-Wie ist ein Raid aufgebaut?
-Wie funktioniert ein Bus System?
-Wie groß war eine Festplatte früher? unter 1 Mb, ähnlich wie trommelspeicher
+# Was kann ich mit einem Raid erreichen?
+- Ausfallsicherheit
+- Performance 
+
+# Wie funktioniert ein Bus System?
+- mehere Geräte anschließen und miteinander vernbinden verbinden
+- seriell mit einer Leitung
+- paralell mit meheren Leitungen
+- Master & Slave
+- Multimaster
+
+
+# Wie groß war eine Festplatte früher? 
+- unter 1 Mb, ähnlich wie trommelspeicher
+
 Grundlagen der Schaltungstechnik
-Grundlegende boolische Funktion Wahrheitstabelle
-Zusammengesetzte schaltung Wahrheitstabelle 
-3 Eingnänge A | B | C | A & B | oder C
+- Grundlegende boolische Funktion 
+- Wahrheitstabelle
+# Zusammengesetzte schaltung Wahrheitstabelle 
+- 3 Eingnänge A | B | C | A & B | oder C
+
 Zeichnen sie einen Full Adder aus 2 Half Adder
+<img src="https://circuitverse.org/uploads/project/image_preview/157672/preview_2020-09-10_16_56_39_UTC.jpeg">
 Warum hat man Ringe gebaut?
 Warum gibt es priviligierte Befehle?
 Aus welchen Bestandteilen besteht float?
