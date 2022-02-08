@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-08T20:57:52.373Z
+date: 2022-02-08T20:58:51.391Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
@@ -75,11 +75,14 @@ Aus welchen Bestandteilen besteht float?
 - Mantisse
 - Basis
 - Exponent
+
 # Was ist der Unterschied zwischen analog und digital?
 analog: hat einen kontinuierlichen Werteraum.
 digital: können nur Werte dargestellt werden
 
-Was kann man mit heutigen Rechnern bearbeiten?
+# Was kann man mit heutigen Rechnern bearbeiten?
+- Skalare und Vektoren
+
 Wie werden Daten represntiert in einem Rechner?
 Umwandlung dezimal zu binär
 Wie kann ich in einem Rechner eine negative Zahl darstellen?
