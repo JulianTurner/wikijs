@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-08T20:48:49.552Z
+date: 2022-02-08T20:57:52.373Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
@@ -61,9 +61,20 @@ Grundlagen der Schaltungstechnik
 
 Zeichnen sie einen Full Adder aus 2 Half Adder
 <img src="https://circuitverse.org/uploads/project/image_preview/157672/preview_2020-09-10_16_56_39_UTC.jpeg">
+
 Warum hat man Ringe gebaut?
+- erhöhte Sicherheit
+- Stabilität da ein Nutzerprogramm nicht direkt auf Hardware zugreifft
+- kompatibilität durch standartisierte Schnittstelle
+
 Warum gibt es priviligierte Befehle?
+- interrupts auslösen
+- um in tiefere Schichten (Kernel) zu kommen / schützen
+
 Aus welchen Bestandteilen besteht float?
+- Mantisse
+- Basis
+- Exponent
 # Was ist der Unterschied zwischen analog und digital?
 analog: hat einen kontinuierlichen Werteraum.
 digital: können nur Werte dargestellt werden
