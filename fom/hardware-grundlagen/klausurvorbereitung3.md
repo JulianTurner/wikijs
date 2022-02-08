@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-08T20:35:55.764Z
+date: 2022-02-08T20:39:13.477Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
@@ -23,11 +23,21 @@ Bleistift und Radiergummi mitnehmen
 
 Grundelegende Definition
 Was ist eine von Neumann Architektur
-Welche Schwieriegkeiten hat eine von Neumann Architektur
-Unterschiede zu Harvard Architektur
+# Welche Schwieriegkeiten hat eine von Neumann Architektur
+Gleichzeite Zugriff konkurierend auf den Speicher von der Steuer und Recheneinheit
+
+# Unterschiede zu Harvard Architektur
+Steuer und Recheneinheit haben ihren eigenen Speicher
+
 Zeichnung erklären von Neumann Architektur
-Schreiben Sie ein Programm welche zwei zahlen in folgenden Registern addiert
-Führen sie eine Shift Operation durch(Befehl wird dann gegeben)
+
+# Schreiben Sie ein Programm welche zwei zahlen in folgenden Registern addiert
+add ERGEBNISREG, REG1, REG2
+
+# Führen sie eine Shift Operation durch(Befehl wird dann gegeben)
+slr REG # right teilt 2
+sll REG # left multipliziert 2
+
 Wie ist ein Raid aufgebaut?
 Wie funktioniert ein Bus System?
 Wie groß war eine Festplatte früher? unter 1 Mb, ähnlich wie trommelspeicher
