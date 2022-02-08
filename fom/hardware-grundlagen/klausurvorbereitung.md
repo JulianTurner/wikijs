@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-08T09:11:49.970Z
+date: 2022-02-08T12:23:35.428Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -105,11 +105,7 @@ Reduced Instruction Set Computer
 Können nativ auf Vektoren als Operanden arbeiten
 Vektorrechner sind meist Registerarchitekturen
 
-## grundlegendes Memorymanagment
-## Interrupthandling
-## DMA
 
-# historische Entwicklung der Rechentechnik
 # Schaltungen
 ## Logikgatter 
 # IO- Subsysteme 
