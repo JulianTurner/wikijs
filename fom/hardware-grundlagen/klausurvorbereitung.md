@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-08T08:30:59.688Z
+date: 2022-02-08T09:11:49.970Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -53,13 +53,58 @@ alle Elemente außer Zentraleinheit
 - Trennung von Zentraleinheit und Speicher
 - Speicher enthält Daten auf dem ein Programm operiert & das Programm selbst
 - Flaschenhals da die Steuerung der Zentraleinheit & ALU auf den Speicher konkurierend zugreifen müsseen
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Von_Neumann_architecture.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Von_Neumann_architecture.svg" style="background: #FFF">
+
+Mit zentralem Bus:
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Computer_system_bus.svg" style="background: #FFF">
+
+## Harvard Arichtektur
+getrennter Speicher für Programm & Daten
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Harvard_architecture.svg" style="background: #FFF">
+
+## Memory- Register Stackmachine
+#### Registermaschine
+Instruktionen arbeiten auf Operanden, die in Registern gehalten werden
+#### Memory-Maschine
+Operanden liegen direkt im Speicher
+#### Stackmaschine
+Instruktionen arbeiten auf eineM Stack
+
+## Mikroprogrammmierung
+### Festverdrahtete Logik
+durch Gatterschaltungen
+### Mikroprogrammierung 
+Auslesen eines Speichers in dem ein Mikroprogramm abgelegt ist
+#### vertikal
+Mikrooperationen werden nacheinander abgearbeitet
+#### horizontal
+viele parallele Mikroschritte
 
 ## CISC
+Complex Instruction Set Computer
+- extrem komplexe Befehlssätze
+
+Vorteile:
+- kompakter Code
+- elegant zu programmieren
+Nachteile:
+- komplexe Maschine
+- langsame Programmausführung (Pipelining auf grund von verschiedenen Instruktionslängen nicht einfach möglich)
+- komplexen Instruktionen werden oft nicht genutzt
+
 ## RISC
-## VLIW/EPIC
+Reduced Instruction Set Computer
+- wenige Instruktionen
+- Operanden, die in Registern vorgehalten
+- Load-Store-Architektur
+- Steuerung meist fest verdrahtet
+- Befehle haben im Idealfall alle die gleiche Länge, um Pipelining zu ermöglichen
+
+
 ## Skalar & Vektorrechner
-## Memory- Register Stackmachine
+Können nativ auf Vektoren als Operanden arbeiten
+Vektorrechner sind meist Registerarchitekturen
+
 ## grundlegendes Memorymanagment
 ## Interrupthandling
 ## DMA
