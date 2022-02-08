@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-07T14:19:30.865Z
+date: 2022-02-08T08:30:59.688Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -32,14 +32,34 @@ $w = 1234$
 - Substraktionen können nur über die Addition des Komplements durchgeführt werden
 
 ### Gleitkommazahlen
+besteht aus 3 Teilen:
+- Basis
+- Matisse
+	- eine normalisiter gilt 1 <= m < b (hidden Bit lässt sich dann nutzen)
+- Exponent 
+	- Der Exponent speichert nach Normalisierung die genaue Stelle des Kommas und damit die Größenordnung der Zahl.
 
 
 # grundlegende Rechnerarchitekturen beschreiben
+es gibt 3 Bereiche:
+#### ISA
+ISA = Instruction Set Architecture
+Befasst sich mit dem Entwurd von Intruktionssätzen, Adderesierungsarten, Registern, Datenformaten usw.
+#### Microarchitektur
+innere Struktur des Rechners
+#### System Desing
+alle Elemente außer Zentraleinheit
+## von Neumann Architektur
+- Trennung von Zentraleinheit und Speicher
+- Speicher enthält Daten auf dem ein Programm operiert & das Programm selbst
+- Flaschenhals da die Steuerung der Zentraleinheit & ALU auf den Speicher konkurierend zugreifen müsseen
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Von_Neumann_architecture.svg">
+
 ## CISC
 ## RISC
 ## VLIW/EPIC
 ## Skalar & Vektorrechner
-## Memory- Register Stackmachone
+## Memory- Register Stackmachine
 ## grundlegendes Memorymanagment
 ## Interrupthandling
 ## DMA
