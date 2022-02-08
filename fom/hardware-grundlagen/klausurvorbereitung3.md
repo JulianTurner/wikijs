@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-08T21:01:28.333Z
+date: 2022-02-08T21:05:58.902Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
@@ -87,7 +87,10 @@ digital: können nur Werte dargestellt werden
 - aus bits (0 oder 1)
 
 # Umwandlung dezimal zu binär
+- horner Schema (Achtung von unten nach oben)
 # Wie kann ich in einem Rechner eine negative Zahl darstellen?
+mit einem Vorzeichen Bit
+2-er Komplement
 
 Wie Berechne ich das 2er Komplement?
 Sie haben einen rechner der 0 oder 1 Gen, und sollen eine Subtraction druchführen. Wie geht das?
