@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T20:17:34.338Z
+date: 2022-02-09T20:22:03.161Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -247,8 +247,10 @@ Da Daten auf Festplatten ebenfalls Blockweise gelesen und geschrieben werden, ei
 
 ## Drucker
 ## Was ist Information und Wissen
-## Zeichen - Daten - Information – Wissen
+![wissenspyramide.png](/fom/wissenspyramide.png)
+
 ## Umrechnen von Binär in Dezimal und umgekehrt ( evtl. Hexadezimal)
+
 ## Virtuelle Maschinen - Vor und Nachteile
 
 Vorteil:
