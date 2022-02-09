@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T20:11:59.129Z
+date: 2022-02-09T20:13:29.163Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -298,4 +298,4 @@ Mehere Prozesse arbeiten in einer undefinierten Reihnfolge. Ergebnis hängt von 
 z.B: 
 $2 * 1 + 3 = 2 + 3 = 5$
 oder 
-$2 * 1 + 3 = 2 * 3 = 6$
+$2 * 1 + 3 = 2 * 4 = 8$
