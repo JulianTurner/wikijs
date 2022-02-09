@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T19:12:47.448Z
+date: 2022-02-09T19:34:48.520Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -244,8 +244,29 @@ Da Daten auf Festplatten ebenfalls Blockweise gelesen und geschrieben werden, ei
 ## Zeichen - Daten - Information – Wissen
 ## Umrechnen von Binär in Dezimal und umgekehrt ( evtl. Hexadezimal)
 ## Virtuelle Maschinen - Vor und Nachteile
+
+Vorteil:
+Hardware virtualisieren die nicht mehr existiert
+Ich mehere Systeme auf einem Rechner laufen lassen
+effizientere Auslastung der Hardware
+Lizenskosten können gespart werden
+
+Nachteil:
+Single Point of failure
+Overhead
+Lizenskosten können anfallen
+
+
 ## Hardwarevirtualisierung
-## Bufferoverflow
+Typ 1 = Bare Metal Hypervisor
+verfügt über alle Hardware Ressourcen 
+Typ 2 = hosted Hypervisor
+verfügt nur über Host Ressourcen
+
+## Bufferoverflow & StackOverflow
+Beim Bufferflow scheibt ein Programm außerhalb des für des Programm alloziert Speicher.
+Beim Stackoverflow wächst der Stack außerhalb des allozierten Stackspeicherbereich.
+
 ## Activation Record
 ## Devicetreiber
 ## Soft- und Hardwareinterrupt
