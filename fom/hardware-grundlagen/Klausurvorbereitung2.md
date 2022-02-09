@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T19:34:48.520Z
+date: 2022-02-09T19:39:30.274Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -268,6 +268,12 @@ Beim Bufferflow scheibt ein Programm außerhalb des für des Programm alloziert 
 Beim Stackoverflow wächst der Stack außerhalb des allozierten Stackspeicherbereich.
 
 ## Activation Record
+für jeden Funktionsaufruf wird ein "Activation Record" auf den Stack gelegt.
+Enthält:
+- Rücksprungadresse
+- Übergabeparameter
+- lokale Variablen der aufgerufenen Funktion
+
 ## Devicetreiber
 ## Soft- und Hardwareinterrupt
 ## System Call
