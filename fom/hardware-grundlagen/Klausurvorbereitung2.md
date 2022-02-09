@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T19:39:30.274Z
+date: 2022-02-09T19:55:31.256Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -274,8 +274,18 @@ Enthält:
 - Übergabeparameter
 - lokale Variablen der aufgerufenen Funktion
 
-## Devicetreiber
+## Devicetreiber 
+- müssen mit Hardware & Betriebssystem kompatibel sein
+- fassen geräteabhängige Routinen zusammen
+- Ansteuerung einer beliebigen Anzahl von Geräten gleichen Typs verwendet werden
 ## Soft- und Hardwareinterrupt
+Während Hardwareinterrupts das Resultat von externen Unterbrechnungsanforderungen sind, werden Softwareinterrupts mit Hilfe spezieller Instruktionen ausgelöst.
+
+Softwareinterrupts haben eine niedrigere Priorität als Hardwareinterrupts.
+
+Innerhalb von Soft & Hardwareinterrupts gibt es eigene Prioritätslevel(Cache Miss hat höere Priorität).
+
 ## System Call
+
 ## Deadlock
 ## Race Condition
