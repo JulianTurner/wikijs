@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T19:55:31.256Z
+date: 2022-02-09T19:59:12.777Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -286,6 +286,8 @@ Softwareinterrupts haben eine niedrigere Priorität als Hardwareinterrupts.
 Innerhalb von Soft & Hardwareinterrupts gibt es eigene Prioritätslevel(Cache Miss hat höere Priorität).
 
 ## System Call
+System Call ist der Unterbrechungswunsch der Anwendungssoftware, die Bearbeitung im Bertiebssystem fortzuführen.
+Das Betriebssystem hat höhere Rechte als die Anwendungssoftware(Kontrollierter Zugriff auf Hardware).
 
 ## Deadlock
 ## Race Condition
