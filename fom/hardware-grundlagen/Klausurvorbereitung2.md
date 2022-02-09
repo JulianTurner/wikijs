@@ -2,13 +2,20 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T20:13:29.163Z
+date: 2022-02-09T20:17:22.564Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
 ---
 
 # Prüfungsvorbereitung
+
+## ISA
+
+- 2. Ebene eines Computers (über Ebene 1 - Microarchitecture)
+- Befehlssatzarchitektur-Ebene (ISA = Instruction Set Architecture)
+- Beinhaltet Befehlssatz des Computers
+- Handbuch für Befehlssatz wird vom Prozessor-Hersteller zur Verfügung gestellt
 
 ## Microarchitecture
 
@@ -21,23 +28,24 @@ dateCreated: 2022-02-03T15:11:53.417Z
     - Auswahl von 1 oder 2 Register mit denen die ALU arbeitet
     - Ergebnis ALU Operation in Register ablegen
 
-## ISA
-
-- 2. Ebene eines Computers (über Ebene 1 - Microarchitecture)
-- Befehlssatzarchitektur-Ebene (ISA = Instruction Set Architecture)
-- Beinhaltet Befehlssatz des Computers
-- Handbuch für Befehlssatz wird vom Prozessor-Hersteller zur Verfügung gestellt
 
 
 ## System Design
+Alle Elemente eines Computersystems außer der Zentraleinheit.
 
-## Logiken
+# Implementation eine Computers
 
-## Schaltungsdesign
 
-## Physikalische Implementierung
+### Logikimplementation
+Definition abstrakter Logikblöcke
 
-## Designvalidierung
+### Schaltungsdesign
+Entwurf der Maschine auf Transistor-Ebene
+
+### Physikalische Implementierung
+Eigentliche Implementation
+
+### Designvalidierung
 Test einer Maschine als komplexes Gesamtsystem
 
 ## Von Neumann und Harvard Architektur
