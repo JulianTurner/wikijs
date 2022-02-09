@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T20:02:12.228Z
+date: 2022-02-09T20:11:33.990Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -290,4 +290,12 @@ System Call ist der Unterbrechungswunsch der Anwendungssoftware, die Bearbeitung
 Das Betriebssystem hat höhere Rechte als die Anwendungssoftware(Kontrollierter Zugriff auf Hardware).
 
 ## Deadlock
+Prozess A wartet auf Beendigung von Prozess B.
+Prozess B wartet auf die Beendigung von Prozess A.
+
 ## Race Condition
+Mehere Prozesse arbeiten in einer undefinierten Reihnfolge. Ergebnis hängt von der tatsächlichen Reihnfolge ab.
+z.B: 
+$2 * 1 + 3 = 2 + 3 = 5$
+oder 
+$2 * 1 + 3 = 2 * 3 = 6$
