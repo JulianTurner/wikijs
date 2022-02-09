@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 3
 description: 
 published: 1
-date: 2022-02-08T21:17:26.304Z
+date: 2022-02-09T18:23:14.210Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
@@ -61,6 +61,7 @@ Grundlagen der Schaltungstechnik
 
 Zeichnen sie einen Full Adder aus 2 Half Adder
 <img src="https://circuitverse.org/uploads/project/image_preview/157672/preview_2020-09-10_16_56_39_UTC.jpeg">
+![wahrheitstabelle_fulladder.png](/fom/wahrheitstabelle_fulladder.png)
 
 Warum hat man Ringe gebaut?
 - erhöhte Sicherheit
