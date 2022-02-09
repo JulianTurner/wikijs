@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-08T12:23:35.428Z
+date: 2022-02-09T09:01:32.884Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -44,7 +44,7 @@ besteht aus 3 Teilen:
 es gibt 3 Bereiche:
 #### ISA
 ISA = Instruction Set Architecture
-Befasst sich mit dem Entwurd von Intruktionssätzen, Adderesierungsarten, Registern, Datenformaten usw.
+Befasst sich mit dem Entwurf von Intruktionssätzen, Adderesierungsarten, Registern, Datenformaten usw.
 #### Microarchitektur
 innere Struktur des Rechners
 #### System Desing
