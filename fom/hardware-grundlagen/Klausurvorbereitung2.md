@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T20:17:22.564Z
+date: 2022-02-09T20:17:34.338Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -27,8 +27,6 @@ dateCreated: 2022-02-03T15:11:53.417Z
 - Data Path Aufgaben:
     - Auswahl von 1 oder 2 Register mit denen die ALU arbeitet
     - Ergebnis ALU Operation in Register ablegen
-
-
 
 ## System Design
 Alle Elemente eines Computersystems außer der Zentraleinheit.
