@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-02-09T09:01:32.884Z
+date: 2022-02-10T07:33:15.097Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:55.468Z
@@ -34,7 +34,7 @@ $w = 1234$
 ### Gleitkommazahlen
 besteht aus 3 Teilen:
 - Basis
-- Matisse
+- Mantisse
 	- eine normalisiter gilt 1 <= m < b (hidden Bit lässt sich dann nutzen)
 - Exponent 
 	- Der Exponent speichert nach Normalisierung die genaue Stelle des Kommas und damit die Größenordnung der Zahl.
