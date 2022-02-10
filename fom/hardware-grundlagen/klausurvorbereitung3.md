@@ -8,13 +8,13 @@ editor: markdown
 dateCreated: 2022-02-05T08:20:41.063Z
 ---
 
-Nennen Sie Vor- und Nachteile der Verwendung spezieller IO-Operationen für den 
+<!-- Nennen Sie Vor- und Nachteile der Verwendung spezieller IO-Operationen für den 
 Zugriff auf die Steuer- und Datenregister von Peripheriegerätesteuereinheiten.
 
 Warum ist Polling und Interrupt für IO nicht im Skript ? S. 418
 
 Wie viele Einträge benötigt eine solche Pagetable bei 4 GB Hauptspeicher und einer Seitengröße von 512 Bytes? S. 458
-Größe des Speichers / Größe der Seitengröße = Anzahl der Seiten = Anzahl der Einträge in dem Pagetable
+Größe des Speichers / Größe der Seitengröße = Anzahl der Seiten = Anzahl der Einträge in dem Pagetable -->
 
 Wichtig für die Klausur:
 Verständinis
@@ -34,7 +34,7 @@ Zeichnung erklären von Neumann Architektur
 # Schreiben Sie ein Programm welche zwei zahlen in folgenden Registern addiert
 add ERGEBNISREG, REG1, REG2
 
-# Führen sie eine Shift Operation durch(Befehl wird dann gegeben)
+# Führen sie eine Shift Operation durch (Befehl wird dann gegeben)
 slr REG # right teilt 2
 sll REG # left multipliziert 2
 
@@ -43,7 +43,7 @@ sll REG # left multipliziert 2
 - Performance 
 
 # Wie funktioniert ein Bus System?
-- mehere Geräte anschließen und miteinander vernbinden verbinden
+- mehere Geräte anschließen und miteinander vernbinden
 - seriell mit einer Leitung
 - paralell mit meheren Leitungen
 - Master & Slave
@@ -51,7 +51,7 @@ sll REG # left multipliziert 2
 
 
 # Wie groß war eine Festplatte früher? 
-- unter 1 Mb, ähnlich wie trommelspeicher
+- unter 1 Mb, ähnlich wie Trommelspeicher
 
 Grundlagen der Schaltungstechnik
 - Grundlegende boolische Funktion 

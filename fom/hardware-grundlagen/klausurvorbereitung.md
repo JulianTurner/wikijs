@@ -16,7 +16,8 @@ dateCreated: 2021-12-16T19:53:55.468Z
 
 ## Stellenwertsystem
 Bei einem Stellenwertsystem ist die Position der Ziffer für die Wertigkeit entscheidend 
-Zentrale Bedeutung hat die Basis. Im Dezimalsystem ist es die Basis 10.
+Zentrale Bedeutung hat die Basis. 
+Im Dezimalsystem ist es die Basis 10.
 Die Notwendigkeit eine 0 darstellen zu können. 
 Die höchstwertige Stelle ist das **most significat digit** MSD
 Die nierderwertigste Stelle ist das **least significat digit** LSD 
@@ -27,20 +28,21 @@ $10^3 = 1000 \\ 10^2 = 100 \\ 10^1 = 10 \\ 10^0 = 1$
 $w = 1*10^3+2*10^2+3*10^1+4*10^4$
 $w = 1234$
 
-- Durch die Bildung des Komplements kannman innerhalb  eines Restklassenrings (ohne Vorzeichen) negative Werte darstellen
+- Durch die Bildung des Komplements kann man innerhalb eines Restklassenrings (ohne Vorzeichen) negative Werte darstellen
 - Die ALU kann nur Addieren
 - Substraktionen können nur über die Addition des Komplements durchgeführt werden
 
-### Gleitkommazahlen
+### Gleitkommazahlen / Float
 besteht aus 3 Teilen:
 - Basis
 - Mantisse
-	- eine normalisiter gilt 1 <= m < b (hidden Bit lässt sich dann nutzen)
+	- bei einer normalisierten Mantisse gilt 1 <= m < b (hidden Bit lässt sich dann nutzen)
 - Exponent 
 	- Der Exponent speichert nach Normalisierung die genaue Stelle des Kommas und damit die Größenordnung der Zahl.
 
+$Gleitkommazahl = m*b^e$
 
-# grundlegende Rechnerarchitekturen beschreiben
+# grundlegende Rechnerarchitekturen
 es gibt 3 Bereiche:
 #### ISA
 ISA = Instruction Set Architecture
@@ -52,8 +54,8 @@ alle Elemente außer Zentraleinheit
 ## von Neumann Architektur
 - Trennung von Zentraleinheit und Speicher
 - Speicher enthält Daten auf dem ein Programm operiert & das Programm selbst
-- Flaschenhals da die Steuerung der Zentraleinheit & ALU auf den Speicher konkurierend zugreifen müsseen
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Von_Neumann_architecture.svg" style="background: #FFF">
+- Flaschenhals da die Steuerung der Zentraleinheit & ALU auf den Speicher konkurierend zugreifen müsseen  
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Von_Neumann_architecture.svg" style="background: #FFF;">
 
 Mit zentralem Bus:
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Computer_system_bus.svg" style="background: #FFF">
@@ -68,7 +70,7 @@ Instruktionen arbeiten auf Operanden, die in Registern gehalten werden
 #### Memory-Maschine
 Operanden liegen direkt im Speicher
 #### Stackmaschine
-Instruktionen arbeiten auf eineM Stack
+Instruktionen arbeiten auf einem Stack
 
 ## Mikroprogrammmierung
 ### Festverdrahtete Logik
@@ -76,10 +78,12 @@ durch Gatterschaltungen
 ### Mikroprogrammierung 
 Auslesen eines Speichers in dem ein Mikroprogramm abgelegt ist
 #### vertikal
-Mikrooperationen werden nacheinander abgearbeitet
+Mikrooperationen werden nacheinander abgearbeitet 
+- kurze Mikroprogrammworte
+- lange Mikroprogramme
 #### horizontal
-viele parallele Mikroschritte
-
+- breite Mikroprogrammworte
+- viele parallel durchführbare Mikroschritte
 ## CISC
 Complex Instruction Set Computer
 - extrem komplexe Befehlssätze
@@ -89,13 +93,13 @@ Vorteile:
 - elegant zu programmieren
 Nachteile:
 - komplexe Maschine
-- langsame Programmausführung (Pipelining auf grund von verschiedenen Instruktionslängen nicht einfach möglich)
+- langsame Programmausführung (Pipelining auf Grund von verschiedenen Instruktionslängen nicht einfach möglich ist)
 - komplexen Instruktionen werden oft nicht genutzt
 
 ## RISC
 Reduced Instruction Set Computer
 - wenige Instruktionen
-- Operanden, die in Registern vorgehalten
+- Operanden, werden in Registern vorgehalten
 - Load-Store-Architektur
 - Steuerung meist fest verdrahtet
 - Befehle haben im Idealfall alle die gleiche Länge, um Pipelining zu ermöglichen
@@ -140,7 +144,7 @@ Welche Programme bilden ein Betriebssystem?
 
 Welche Ebenen gibt es in Rechnern?
 - Maschienenebene (Hardware), Systemprogramme (Betriebssystem), Anwendungsprogramme (Anwendungsprogramme)
-- Reale Maschine (Hardware), Abstrakte Maschine (Betriebssystem), Benutzermaschine (Anwendungsprogramme)
+- Reale Maschine (Hardware), Abstrakte Maschine (Reale Maschine + Betriebssystem), Benutzermaschine (Abstrakte Maschine + Anwendungsprogramme)
 
 ## Geschichte
 S. 370
@@ -240,15 +244,15 @@ Nachteile:
 
 Nennen Sie Vor- und Nachteile des Pollings
 Vorteile:
-- kompletter hardwarezustand erfassbar
+- kompletter Hardwarezustand erfassbar
 Nachteile:
-- hohe datenlast
+- hohe Datenlast
 
 Was ist ein Interrupt?
 eine kurzfristige Unterbrechung der normalen Programmausführung, um einen kritischen Vorgang abzuarbeiten
 
 Nennen Sie Vor- und Nachteile der Interrupttechnik
-Fragt Daten beim Vorliegen von Daten ab
+Frägt Daten beim Vorliegen von Daten ab
 
 Vorteile:
 - effieznt

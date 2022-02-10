@@ -91,9 +91,8 @@ Test einer Maschine als komplexes Gesamtsystem
 - Langsamer als fest verdrahtete Kontrollsignalvermittlung, wg. Aufrufzeit der Microinstruktionen vom dedizierten Speicher.
 
 
-#### vertikaler Microcode
+<!-- #### vertikaler Microcode
 - Steuersignale repräsentiert mit decodiertem Binärformat
-- Schneller als horizontaler Microcode
 - Erlaubt hohen Grad an parallelisierung
 - Benötigt keine zusätzliche Hardware
 - Lange Kontrollwörter
@@ -101,28 +100,30 @@ Test einer Maschine als komplexes Gesamtsystem
 
 #### Horizontaler Microcode
 - Steuersignale repräsentiert mit encodiertem Binärformat
-- Langsamer als vertikaler Microcode
 - Niedriger Grad an parallelisierung (gerade soviel wie Decoder zulässt)
-- Benötigt zusätzliche Decoder Hardware, welche enocodiertes Binärformat in decodierte Steuersignale übersetzt
+- Benötigt zusätzliche Decoder Hardware, welche enocodiertes Binärformat in decodierte Steuersignale übersetzt -->
 
 ## CISC
 **complex instruction set computer** zeichnen sich durch komplexte Befehlssätze aus
-Die heute verwendete x86 Architektur ist eine CISC Architektur.
+x86 Architektur (außen)
 
 Vorteile:
 - kann effizent programmiert werden (kompakter Code & wenig Speicher)
 - elegant zu programmieren
 Nachteile
--komplexe Maschine
+- komplexe Maschine
 - langsame Programmausführung da Pipelining schwierig (unterschiedliche Instruktionslänge)
-- komplexe Instructionen werden oft nicht genutzt
+- komplexe Instruktionen werden oft nicht genutzt
 
 ## RISC
 **reduced instruction set computer** zeichenen sich durch simple Befehlssätze aus
+M1 Prozessor
+
 - wenige unterschiedliche Instruktionen
 - Load-Store-Architektur (Operanden müssen erst in Registern geladen werden)
 - Steuerung ist meist fest verdrahtet
 - Befehle haben im Idealfall die gleiche Länge um Pipelining zu ermöglichen
+
 ## VLIW
 **very long instruction word** bietet nach außen ein Programmierinterface an
 - vergleichbar mit horizontalem Mikrocode
@@ -226,13 +227,14 @@ Qualität der SSD ist u. a. abhängig vom Speichercontroller.
 Speicherzelle nutzt sich mit Schreib- und Löschzyklen ab.
 
 Vorteile:
-- keine mechanischeschen bauteile
+- keine mechanischeschen Bauteile
 - keine Seek-Zeit
 - keine Rotational Latency
 - keine Anfälligkeit gegenüber mechanischer Einwirkung
 
 ## NAND und NOR Flash
-Bei NOR-Flash sind die Speicherzellen parallel verschaltet. Der Zugriff auf die Speicherzellen erfolgt wahlfrei und direkt
+Bei NOR-Flash sind die Speicherzellen parallel verschaltet. 
+Der Zugriff auf die Speicherzellen erfolgt wahlfrei und direkt
 - kurze Zugriffszeiten
 - nicht flüchtiger Speicher auf Motherboard (BIOS)
 
@@ -303,7 +305,7 @@ Prozess B wartet auf die Beendigung von Prozess A.
 
 ## Race Condition
 Mehere Prozesse arbeiten in einer undefinierten Reihnfolge. Ergebnis hängt von der tatsächlichen Reihnfolge ab.
-z.B: 
+z.B:   
 $2 * 1 + 3 = 2 + 3 = 5$
 oder 
 $2 * 1 + 3 = 2 * 4 = 8$
