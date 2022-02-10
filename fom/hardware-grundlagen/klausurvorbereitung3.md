@@ -61,7 +61,7 @@ Grundlagen der Schaltungstechnik
 
 Zeichnen sie einen Full Adder aus 2 Half Adder
 <img src="https://circuitverse.org/uploads/project/image_preview/157672/preview_2020-09-10_16_56_39_UTC.jpeg">
-![wahrheitstabelle_fulladder.png](/fom/wahrheitstabelle_fulladder.png)
+![wahrheitstabelle_fulladder.png](/fom/hardware-grundlagen/wahrheitstabelle_fulladder.png)
 
 Warum hat man Ringe gebaut?
 - erhöhte Sicherheit

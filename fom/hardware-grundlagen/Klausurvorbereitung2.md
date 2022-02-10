@@ -247,7 +247,7 @@ Da Daten auf Festplatten ebenfalls Blockweise gelesen und geschrieben werden, ei
 
 ## Drucker
 ## Was ist Information und Wissen
-![wissenspyramide.png](/fom/wissenspyramide.png)
+![wissenspyramide.png](/fom/hardware-grundlagen/wissenspyramide.png)
 
 ## Umrechnen von Binär in Dezimal und umgekehrt ( evtl. Hexadezimal)
 
