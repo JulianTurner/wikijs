@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-11T07:36:14.025Z
+date: 2022-02-11T15:21:38.049Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -249,6 +249,20 @@ Da Daten auf Festplatten ebenfalls Blockweise gelesen und geschrieben werden, ei
 - geringere Kosten
 - schnellere Schreibgeschwindigkeit
 - geringer Stromverbrauch
+
+## RAID
+Vorteile (ggf. - abhängig von RAID Typ)
+- Ausfallsicherheit
+- höhere Schreib-/ Lese-Raten
+
+Nachteile (ggf. - abhängig von RAID Typ)
+- Speicherplatz für Ausfallsicherheit kann nicht für Nutzdaten verwendet werden
+
+<details>
+  <summary>RAID Typen</summary>
+  <table><thead><tr><th>RAID Typ</th><th>Min Laufwerke</th><th>Verteilung</th><th>Parität</th><th>Durchsatzrate</th><th>Platzverschwendung</th></tr></thead><tbody><tr><td>RAID 0</td><td>2</td><td>Blöcken</td><td>Keine</td><td>Hoch</td><td>Keine</td></tr><tr><td>RAID 1</td><td>2</td><td>Keine</td><td>Spiegelung</td><td>2x Lesereate, 1x Schreibrate</td><td>Maximal</td></tr><tr><td>RAID 3</td><td>3</td><td>Bytes</td><td>Striping – 1 Parität auf dedizierter Platte</td><td>Lesen hoch, Schreiben etwas langsam</td><td>effektiv 1 Platte</td></tr><tr><td>RAID 4</td><td>3</td><td>Blöcke</td><td>Striping – 1 Parität auf dedizierter Platte</td><td>Lesen hoch, Schreiben etwas langsam</td><td>effektiv 1 Platte</td></tr><tr><td>RAID 5</td><td>3</td><td>Blöcke</td><td>Striping – 1 Parität auf wechselnden Platten</td><td>Lesen hoch, Schreiben etwas langsam</td><td>effektiv 1 Platte</td></tr><tr><td>RAID 6</td><td>4</td><td>Blöcke</td><td>Striping – 2 Parität auf wechselnden Platten</td><td>Lesen hoch, Schreiben etwas langsam</td><td>Effektiv 2 Platten</td></tr></tbody></table>
+</details>
+
 
 ## Drucker
 ## Was ist Information und Wissen
