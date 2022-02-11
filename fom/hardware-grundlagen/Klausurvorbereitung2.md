@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2022-02-09T20:22:03.161Z
+date: 2022-02-11T07:36:14.025Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-03T15:11:53.417Z
@@ -140,10 +140,13 @@ Hauptbegriffe:
 # Rechnerarchitektur
 ## SISD - klassischer 1-Kern-Prozessor
 - Single Instruction, Single Data
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/SISD.svg" style="background:#FFF">
 ## SIMD - Vektorrechner + Mehrkern-Prozessor
 - Single Instruction, Multiple Data
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/SIMD.svg/400px-SIMD.svg.png" style="background:#FFF">
 ## MIMD - Grafikkarten 
 - Multiple Instruction, Multiple Data
+<img src="https://daridesignstudio.com/wp-content/uploads/2021/03/Komputer-MIMD.png" style="background:#FFF">
 
 
 ## Benchmark
