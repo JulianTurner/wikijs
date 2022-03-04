@@ -9,4 +9,4 @@ dateCreated: 2021-12-16T19:42:22.886Z
 ---
 
 # Konzepte des prozeduralen Programmierens
-[Klausurvorbereitung](/fom/prozeduales-programmieren/klausurvorbereitung)
+[Klausurvorbereitung](/fom/semester-1/prozeduales-programmieren/klausurvorbereitung)

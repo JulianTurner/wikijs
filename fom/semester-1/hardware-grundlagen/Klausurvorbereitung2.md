@@ -272,7 +272,7 @@ Beim Bestücken eines RAID Laufwerk Arrays nicht Laufwerke aus der gleichen Char
 
 ## Drucker
 ## Was ist Information und Wissen
-![wissenspyramide.png](/fom/hardware-grundlagen/wissenspyramide.png)
+![wissenspyramide.png](/fom/semester-1/hardware-grundlagen/wissenspyramide.png)
 
 ## Umrechnen von Binär in Dezimal und umgekehrt ( evtl. Hexadezimal)
 

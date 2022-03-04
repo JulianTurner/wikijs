@@ -10,17 +10,8 @@ dateCreated: 2021-12-16T19:18:19.083Z
 
 # FOM
 
-## Module
-
-- [Formale Beschreibungsverfahren](/fom/formale-beschreibungsverfahren)
-
-- [Mathematische Grundlagen der Informatik](/fom/mathematik)
-
-- [Fallstudie / Wissenschaftliches Arbeiten](/fom/fallstudie)
-
-- [Konzepte des prozeduralen Programmierens](/fom/prozeduales-programmieren)
-
-- [Hardware - Grundlagen moderner Informationstechnik](/fom/hardware-grundlagen)
+- [Semester 1](/fom/semester-1)
+- [Semester 2](/fom/semester-2)
 
 
 ## Discord

@@ -10,4 +10,4 @@ dateCreated: 2021-12-16T19:39:32.782Z
 
 # Mathematische Grundlagen der Informatik
 
-- [Klausurvorbereitung](/fom/mathematik/klausurvorbereitung)
+- [Klausurvorbereitung](/fom/semester-1/mathematik/klausurvorbereitung)
