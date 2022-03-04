@@ -2,7 +2,7 @@
 title: Teilgraph, Teilbaum
 description: Teilgraphen und Teilbäume
 published: 1
-date: 2021-12-16T20:54:24.647Z
+date: 2022-03-04T12:47:48.901Z
 tags: graphen
 editor: markdown
 dateCreated: 2021-12-16T20:42:05.356Z
@@ -22,7 +22,7 @@ Ein Teilbaum ist ein Teilgraph eines [Baumes](/formaleBeschreibung/graphen/dag-t
 Ein <u>vollständiger Teilbaum</u> hat keine Knoten die Startpunkte von Kanten sind, deren Zielknoten außerhalb des Teilbaums liegen.
 Ein <u>unvollständiger Teilbaum</u> hat Knoten die Startpunkt von Kanten sind, deren Zielknoten außerhalb des Teilbaums liegen.
 
-![teilbaum.png](/fom/formale-beschreibungsverfahren/teilbaum.png)
+![teilbaum.png](/fom/semester-1/formale-beschreibungsverfahren/teilbaum.png)
 
 
 
