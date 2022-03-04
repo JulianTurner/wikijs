@@ -2,12 +2,12 @@
 title: Datenbankmanagment
 description: 
 published: 1
-date: 2021-12-16T19:51:08.255Z
+date: 2022-03-04T16:19:21.992Z
 tags: 
 editor: markdown
-dateCreated: 2021-12-16T19:41:08.632Z
+dateCreated: 2022-03-04T12:22:51.826Z
 ---
 
 # Datenbankmanagment
-[Klausurvorbereitung](/fom/datenbankmanagment/klausurvorbereitung)
+[Klausurvorbereitung](/fom/semester-2/datenbankmanagment/klausurvorbereitung)
 
