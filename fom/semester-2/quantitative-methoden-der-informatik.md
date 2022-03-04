@@ -2,12 +2,12 @@
 title: Quantitative Methoden der Informatik
 description: 
 published: 1
-date: 2021-12-16T19:51:08.255Z
+date: 2022-03-04T16:26:25.122Z
 tags: 
 editor: markdown
-dateCreated: 2021-12-16T19:41:08.632Z
+dateCreated: 2022-03-04T12:23:12.295Z
 ---
 
 # Quantitative Methoden der Informatik
-[Klausurvorbereitung](/fom/quantitative-methoden-der-informatik/klausurvorbereitung)
+[Klausurvorbereitung](/fom/semester-2/quantitative-methoden-der-informatik/klausurvorbereitung)
 
