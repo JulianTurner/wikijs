@@ -2,7 +2,7 @@
 title: Graph Zusammenhänge
 description: 
 published: 1
-date: 2021-12-16T20:51:18.876Z
+date: 2022-03-04T12:46:58.787Z
 tags: graphen
 editor: markdown
 dateCreated: 2021-12-16T20:41:45.376Z
@@ -12,7 +12,7 @@ dateCreated: 2021-12-16T20:41:45.376Z
 ## Zusammenhang ungerichteter Graph
 **Zusammenhängend**: wenn zwischen je zwei verschiedenen Knoten mindestens ein Pfad existiert.
 
-![zusammenhang-ungerichtet.png](/fom/formale-beschreibungsverfahren/zusammenhang-ungerichtet.png)
+![zusammenhang-ungerichtet.png](/fom/semester-1/formale-beschreibungsverfahren/zusammenhang-ungerichtet.png)
 
 ## Zusammenhang gerichteter Graph
 <u>stark</u> **zusammenhängend**: falls es für zwei Knoten A und B die folgenden Bedingungen wahr sind: 
@@ -21,4 +21,4 @@ dateCreated: 2021-12-16T20:41:45.376Z
 
 <u>schwach</u> **zusammenhängend**: wenn wir alle gerichtete Kanten als ungerichtete Kanten interpretieren und nach dieser Interpretation der Graph ungerichtet zusammenhängend ist (siehe oben).
 
-![schwach-zusammenhang-gerichtet.png](/fom/formale-beschreibungsverfahren/schwach-zusammenhang-gerichtet.png)
+![schwach-zusammenhang-gerichtet.png](/fom/semester-1/formale-beschreibungsverfahren/schwach-zusammenhang-gerichtet.png)
