@@ -2,12 +2,12 @@
 title: Objektorientierte Programmierung
 description: 
 published: 1
-date: 2022-03-04T16:25:34.905Z
+date: 2022-03-04T16:25:42.382Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:05.462Z
 ---
 
 # Objektorientierte Programmierung
-[klausurvorbereitung](/fom/semester-2/objektorientiertes-programmieren/klausurvorbereitung)
+[Klausurvorbereitung](/fom/semester-2/objektorientiertes-programmieren/klausurvorbereitung)
 
