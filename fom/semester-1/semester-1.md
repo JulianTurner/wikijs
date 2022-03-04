@@ -2,17 +2,17 @@
 title: Semester 1
 description: 
 published: 1
-date: 2021-12-17T18:24:37.963Z
+date: 2022-03-04T12:37:12.856Z
 tags: 
 editor: markdown
-dateCreated: 2021-12-16T19:46:52.553Z
+dateCreated: 2022-03-04T12:22:48.249Z
 ---
 
 ## Module
 
 - [Formale Beschreibungsverfahren](/fom/semester-1/formale-beschreibungsverfahren)
 
-- [Mathematische Grundlagen der Informatik](/fom/semester-1/mathematik)
+- [Mathematische Grundlagen der Informatik](/fom/semester-1/semester-1/mathematik)
 
 - [Fallstudie / Wissenschaftliches Arbeiten](/fom/semester-1/fallstudie)
 
