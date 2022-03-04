@@ -2,7 +2,7 @@
 title: Konzepte des prozeduralen Programmierens
 description: 
 published: 1
-date: 2022-01-08T07:42:46.560Z
+date: 2022-03-04T16:34:01.043Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:42:22.886Z
