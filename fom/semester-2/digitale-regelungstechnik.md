@@ -2,12 +2,11 @@
 title: Digitale Regelungstechnik
 description: 
 published: 1
-date: 2021-12-16T19:51:08.255Z
+date: 2022-03-04T16:21:34.563Z
 tags: 
 editor: markdown
-dateCreated: 2021-12-16T19:41:08.632Z
+dateCreated: 2022-03-04T12:22:58.660Z
 ---
 
 # Digitale Regelungstechnik
-[Klausurvorbereitung](/fom/digitale-regelungstechnik/klausurvorbereitung)
-
+[Klausurvorbereitung](/fom/semester-2/digitale-regelungstechnik/klausurvorbereitung)
