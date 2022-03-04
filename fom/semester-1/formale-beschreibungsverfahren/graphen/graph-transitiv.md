@@ -2,7 +2,7 @@
 title: Transitiv abgeschlossen, transitive Hülle, Clique
 description: 
 published: 1
-date: 2021-12-16T20:54:43.731Z
+date: 2022-03-04T12:48:02.370Z
 tags: graphen
 editor: markdown
 dateCreated: 2021-12-16T20:41:40.348Z
@@ -22,7 +22,7 @@ Eine transitive Hülle ist ein neuer Graph bestehend aus
   - aus dem original Graph
   - weiteren Kanten, welche eingeführt werden um dem Graph die Eigenschaft *transitiv abgeschlossen* (siehe oben) zu geben
 
-![transitive-huelle.png](/fom/formale-beschreibungsverfahren/transitive-huelle.png)
+![transitive-huelle.png](/fom/semester-1/formale-beschreibungsverfahren/transitive-huelle.png)
 (Hier: in Grün die übernommenen original Knoten, in Rot die übernommenen original Kanten, in Blau die neu eingeführte Kante für die transitive Abgeschlossenheit)
 
 ## Vollständiger ungerichteter Graph
@@ -31,4 +31,4 @@ In einem vollständigen ungerichteten Graph ist jeder Knoten mit jedem anderen K
 ## Clique
 Ist ein Teilgraph eines einfachen ungerichteten Graphen, der vollständig ist (siehe oben).
 
-![clique.png](/fom/formale-beschreibungsverfahren/clique.png)
+![clique.png](/fom/semester-1/formale-beschreibungsverfahren/clique.png)
