@@ -2,10 +2,10 @@
 title: Semester 2
 description: 
 published: 1
-date: 2021-12-17T18:24:37.963Z
+date: 2022-03-04T12:27:33.838Z
 tags: 
 editor: markdown
-dateCreated: 2021-12-16T19:46:52.553Z
+dateCreated: 2022-03-04T12:23:19.207Z
 ---
 
 ## Module
@@ -14,7 +14,7 @@ dateCreated: 2021-12-16T19:46:52.553Z
 
 - [Digitale Regelungstechnik](/fom/semester-2/digitale-regelungstechnik)
 
-- [Objektorientierte Programmierungn](/fom/semester-2/objektorientierte-programmierung
+- [Objektorientierte Programmierungn](/fom/semester-2/objektorientierte-programmierung)
 
 - [Praxisprojekt](/fom/semester-2/praxisprojekt)
 
