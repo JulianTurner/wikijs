@@ -2,11 +2,12 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T19:25:58.309Z
+date: 2022-03-05T08:31:04.492Z
 tags: 
 editor: markdown
-dateCreated: 2021-12-16T19:44:54.647Z
+dateCreated: 2022-03-04T12:23:08.923Z
 ---
 
 # Klausurvorbereitung
 
+Bytecode
