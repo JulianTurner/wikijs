@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-03-08T19:33:26.342Z
+date: 2022-03-08T19:39:18.823Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:15.741Z
@@ -27,3 +27,4 @@ Was ist der Unterschied zwischen deduktiver und induktiver Schlussfolgerung / Lo
 	- bottom-up-Logik
   - basierend auf beobachteten Daten
 
+![deduktiv-induktiv.png](/fom/semester-2/quantitative-methoden/deduktiv-induktiv.png)
