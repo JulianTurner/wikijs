@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-03-08T19:39:46.085Z
+date: 2022-03-08T19:43:40.848Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:15.741Z
@@ -17,6 +17,14 @@ Was ist Emperie?
 
 Was ist Statistik?
 - Wissenschaft vom Argumentieren mit empirischen Zahlen
+
+Ziele der Statistik:
+- Auffinden von Strukturen in Datenstätzen
+- Erleichterung der Kommunikatuion (visualisierung)
+- treffen von fundierten Entscheidungen
+- Vorhersagen
+- Verbindung zwischen Theorie umd Empirie
+- aufzeigen notwendiger Daten
 
 Was ist der Unterschied zwischen deduktiver und induktiver Schlussfolgerung / Logik?
 - deduktiv:
