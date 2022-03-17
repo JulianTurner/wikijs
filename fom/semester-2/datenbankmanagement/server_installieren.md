@@ -2,7 +2,7 @@
 title: Datenbank Server Installieren
 description: Guide fürs Installieren eines Datenbankservers
 published: 1
-date: 2022-03-17T10:35:51.869Z
+date: 2022-03-17T10:42:45.542Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-17T10:35:51.869Z
@@ -46,7 +46,7 @@ Die Funktionsweise der beiden Kommandos sind ähnlich:
 2. `run` ist die Aufforderung einen neuen Container zu starten
 3. `--name x` vergibt einen Namen für den neuen Container
 4. `-e ...` setzt eine Umgebungsvariable in der neuen Container-Umgebung
-5. `-p x:x` bindet den jeweiligen default Port des Datenbank-Servers der in dem Container genutzt wird an den Port des Host-Computers, damit von außerhalb des Containers auf den Datenbank Server zugreifen werden kann
+5. `-p x:x` bindet den jeweiligen default Port des Datenbank-Servers der in dem Container genutzt wird an den Port des Host-Computers, damit von außerhalb des Containers auf den Datenbank Server zugegriffen werden kann
 6. `-d` Starte den Container in "detached" Mode, d. h. die Eingabeaufforderung wird wieder freigegeben, der Container läuft im Hintergrund
 7. `abcde:tag` Name des Images + Versions-Tag. Die hier verwendeten Images sind die offiziellen Images der jeweiligen Datenbankserver. Diese werden von Docker.io heruntergeladen sofern sie nicht auf dem Host-PC bereits vorhanden sind.
 
