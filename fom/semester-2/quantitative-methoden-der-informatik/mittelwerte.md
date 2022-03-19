@@ -2,7 +2,7 @@
 title: Mittelwerte
 description: 
 published: 1
-date: 2022-03-08T19:27:02.007Z
+date: 2022-03-19T12:09:54.605Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T19:21:23.407Z
@@ -24,3 +24,10 @@ Im Gegensatz zum arithmetischen Mittel dient das geometrische Mittel zur **Messu
 
 > (Anzahl der Daten)te Wurzel ziehen von (Multiplikation aller Daten)
 {.is-info}
+
+## harmonisches Mittel
+Das harmonische Mittel kommt meist dann zum Einsatz, wenn der Mittelwert von Verhältniszahlen gesucht ist.
+![harmonischesmittel.png](/fom/semester-2/quantitative-methoden/harmonischesmittel.png)
+Beispiel:
+![harmonischesmittelbsp.png](/fom/semester-2/quantitative-methoden/harmonischesmittelbsp.png)
+[Quelle](https://www.mathebibel.de/harmonisches-mittel)
