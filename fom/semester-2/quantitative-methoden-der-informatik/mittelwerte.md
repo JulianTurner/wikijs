@@ -2,7 +2,7 @@
 title: Mittelwerte
 description: 
 published: 1
-date: 2022-03-19T12:09:54.605Z
+date: 2022-03-19T13:12:05.162Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T19:21:23.407Z
