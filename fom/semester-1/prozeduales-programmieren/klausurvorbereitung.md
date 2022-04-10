@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-27T20:12:10.527Z
+date: 2022-04-10T11:24:06.749Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-16T19:53:06.780Z
@@ -10,7 +10,7 @@ dateCreated: 2021-12-16T19:53:06.780Z
 
 # Klausurvorbereitung
 
-## Teil 2:
+
 
 Was ist eine Programierrsprache?
 - eine formale Sprache
