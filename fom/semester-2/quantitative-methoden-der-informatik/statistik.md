@@ -256,3 +256,5 @@ $a_1, a_2, ..., a_k$
 **Absolute Häufigkeit**: Anzahl Beobachtungen von $a_j$ = $h(a_j)$
 **Relative Häufigkeit**: $h(a_j) / n$ = $f(a_j)$
 emprische Verteilung / Häufigkeitsverteilung = Liste Werte $a_j$ mit jeweiliger zugehöriger Häufigkeit 
+
+
