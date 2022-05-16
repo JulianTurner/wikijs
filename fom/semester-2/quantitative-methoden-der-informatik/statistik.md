@@ -188,3 +188,71 @@ Totalerhebung(Zensus): Sammlung der Daten aus der gesamten Population
 Teilerhebung(Stichprobe): Sammlung der Daten aus einer Teilpopulation
 
 > Eine sorgfältige geplante Stichprobe kann besser sein als eine Totalerhebung.
+
+### Was ist eine gute Stichprobe?
+
+#### Zufallsstichprobe
+
+Jede Stichprobe $n \in N$ ist eine reine Zufallsstichprobe, wenn jedes $n$ die gleich Chance hat, gezogen zu werden.
+
+Vorteile:
+- garantiert Repräsentativität
+- erlaubt die Benutzung von induktiver Statistik
+
+#### andere Stichprobe
+
+- Zufallsstichprobe mit Schichtungsvariablen / stratified sampling
+![](https://cdn.scribbr.com/wp-content/uploads/2020/09/stratified-sample-7-2048x863.png)
+
+- Klumpen Stichprobe /  cluster sampling
+![](https://cdn.scribbr.com/wp-content/uploads/2020/09/cluster-sample-step-1-1.png)
+![](https://cdn.scribbr.com/wp-content/uploads/2020/09/cluster-sample-step-2-1.png)
+![](https://cdn.scribbr.com/wp-content/uploads/2020/09/cluster-sample-step-3-1.png)
+
+- Stichprobe "aufs Geratewohl(auf gut Glück)" / convenience smapling
+es wird einfach der genommen der am einfachsten zu erreichen war
+
+![](convenience_sample.png)
+
+- Quotenten Stichprobe / quota sampling
+es wird versucht eine Qute der Zielpopulation zu erreichen
+
+![](quota_sample.png)
+
+### Probleme bei der Stichprobe
+- Telefonumfrage
+- Antwortverweigerung
+- preinliche Fragen
+- Length Sampling Bias
+
+> Was ist "Length Sampling Bias"?
+
+
+> Beispiel im Supermarkt: Wenn man alle 10 Min einen Kandidaten an der Kasse befragt,
+> ist die Chance einen mit vielen Produkten zu erwischen höher da er mehr Zeit an der Kasse verbringt.
+
+### Repräsentativität
+- Ziel: repräsentative Daten für Zielpopulation sammeln 
+- Stichprobenfehler kontrollierbar
+- nicht repräsentativ: Zusammenhang Auswahl-Chance & interessierte Variable
+
+## Analyse von Daten
+
+### Mögliche Fehler
+- fehlerhafte Eingabe
+- fehlende Werte
+- Datum- & Zeitformat
+- Inkonsistenzen
+
+## Empirische Verteilung
+$n$ beobachtungen einer Variable $X$:
+
+$x_1, x_2, ..., x_n$
+
+$k$ unterschiedliche Werte:
+
+$a_1, a_2, ..., a_k$
+
+**Absolute Häufigkeit**: Anzahl Beobachtungen von $a_j$ = $h(a_j)$
+**Relative Häufigkeit**: $h(a_j) / n$ = $f(a_j)$
+emprische Verteilung / Häufigkeitsverteilung = Liste Werte $a_j$ mit jeweiliger zugehöriger Häufigkeit 
