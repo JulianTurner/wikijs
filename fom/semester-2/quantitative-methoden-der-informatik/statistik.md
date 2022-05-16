@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-05-16T18:39:10.700Z
+date: 2022-05-16T18:50:11.993Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
