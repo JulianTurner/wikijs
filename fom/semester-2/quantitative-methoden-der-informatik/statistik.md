@@ -2,10 +2,10 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-05-02T17:37:44.824Z
+date: 2022-05-16T18:39:10.700Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-08T19:21:23.407Z
+dateCreated: 2022-05-10T19:15:11.210Z
 ---
 
 # Statistik
@@ -26,7 +26,6 @@ Ziele der Statistik:
 - Verbindung zwischen Theorie umd Empirie
 - aufzeigen notwendiger Daten
 
-Man kann sich von Zahlen in die Irre führen lassen.
 
 ### Big Data
 
@@ -88,7 +87,7 @@ Daten sind das Ergebnis von Beobachtungen wie:
 
 
 ### Population, Variablen und Werte
-Population ist die gesamtheit von Objekten (Elementen, Einheiten).
+Population ist die gesamtheit von Objekten (Elemente, Einheiten).
 
 > Zielpopulation ist die Polulation für die man sich interessiert
 
@@ -100,6 +99,14 @@ Beispiel:
 Population = Kaufverträge
 Objekt = Kaufvertrag
 Variable = Betrag des Vertrages
+
+Beispiel:
+
+    Liste<Kaufvertrag> Kaufverträge{
+        Kaufvertrag (Betrag des Vertrages)
+        Kaufvertrag (Betrag des Vertrages)
+    }
+
 
 ### Skalierung von Variablen 
 
