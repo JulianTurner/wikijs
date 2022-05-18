@@ -142,11 +142,11 @@ Metrische Variablen nennt man...
 Die unterscheidung diskret/stetig ist wichtig für die Diagrammwahl.
 
 
-diskret | stetig |
----------|---------
- Balkendiagramm | Stamm Blatt Diagramm 
- Säulendiagramm | Boxplot 
- Kreisdiagramm | Histogramm
+kategorial / Rangvariable | metrisch diskret | metrisch stetig |
+|-|---------|---------
+Kreisdiagramm | Balkendiagramm | Stamm Blatt Diagramm 
+Balkendiagramm | Säulendiagramm | Boxplot 
+&#8203; | Kreisdiagramm | Histogramm
 
 ### Probleme bei der Definition von Variablen und Population
 - Was ist eine geeignete Population?
@@ -264,4 +264,116 @@ $a_1, a_2, ..., a_k$
 **Relative Häufigkeit**: $h(a_j) / n$ = $f(a_j)$
 emprische Verteilung / Häufigkeitsverteilung = Liste Werte $a_j$ mit jeweiliger zugehöriger Häufigkeit 
 
+## Diagramme
+### Histogramm
+Einteilung in $k$ Klassen
 
+Jede Klasse: Untergrenze, Obergrenze & Breite
+> Fläche der Klasse ist proprtional zur Zahl der Beobachtungen in der Klasse
+
+> Unterschied zur Säule: Säule hat eine konstante Breite
+
+***
+### Boxplot
+![](boxplot.png)
+> Funktioniert immer bei stetigen Variablen
+
+***
+### Gestalt einer Verteilung
+
+Die Gestalt betimmt die **Schiefe** & **Kurtosis (Wölbung)**
+#### Schiefe
+![](https://www.wiwiweb.de/assets/courses/media1/abb20-linksschiefe-verteilung-print.webp)
+![](https://www.wiwiweb.de/assets/courses/media1/abb21-rechtsschiefe-verteilung-print.png)
+
+#### Kurtosis
+![](kurtosis.png)
+
+***
+# Lage, Streuung und Gestalt einer Verteilung
+## Askpekte der Verteilung einer metrischen Variaable
+- **Lage**: Wo liegen die Werte / Beobachtungen
+- **Streuung**: Wie verstreut sind die Werte / Beobachtungen
+***
+## Charakterisierung der Lager einer Verteilung
+**Modus / Modalwert**: häufigster Wert
+
+> Bei metrisch stetigen Variablen ist die modale Klasse das Intervall mit der größten Häufigkeitsdichte
+***
+## Arithmetisches Mittel
+$\bar{x} = Summe \space  Bebobachtungen \space / \space Anzahl \space Beobachtungen$
+&#8203;
+***
+## Median
+Wert der in einer geordneten Daten in 2 Hälften teilt
+
+> wird auch 50% Quantil genannt
+
+## Arithmetisches Mittel & Median Vergleich
+- beide messen die Lage einer Verteilung
+arithmetisches Mittel:
+- empfindlich gegen Ausreißer
+
+Median:
+- nicht empfindlich gegen Ausreißer
+
+Skalierung:
+- arithmetisches Mittel: metrische Variable
+- Median: Rang- oder metrische Variable
+
+> Faustegel: rechtsschiefe Verteilung: arithmetisches Mittel > Median
+
+## Geometrisches Mittel
+$\bar{x}_{G} = \sqrt[Anzahl \space Werte]{Produkt \space Werte}$
+
+> typischer Anwendungsfall: Änderungsfaktoren
+***
+## Varianz
+$s^2 = \frac{1}{n} \displaystyle\sum_{i=1}^n \space (x_i - \bar{x})^2 = \frac{1}{n} \displaystyle\sum_{i=1}^n \space x_i^2 - \bar{x}^2$
+
+> Varianz ist die Streuung um das arithmetische Mittel
+***
+## Standardabweichung
+$s = \sqrt{s^2}$
+
+> durchschnittliche Entfernung aller gemessenen Werte zum arithmetische Mittel
+***
+## Sigma Regeln
+![](sigma-regeln.png)
+1 Sigma Regel: Etwa 1/3
+- $[\bar{x} - s, \bar{x} + s]$
+
+2 Sigma Regel: Etwa 95%
+- $[\bar{x} - 2s, \bar{x} + 2s]$
+
+3 Sigma Regel: mehr als 99%
+- $[\bar{x} - 3s, \bar{x} + 3s]$
+&#8203;
+***
+
+### Normalverteilung
+- Kurvenverlauf ist symmetrisch, Median und Mittelwert sind identisch
+- 1 & 2 & 3 $\sigma$(Sigma) Regeln gelten
+### Schiefe
+$\gamma_1 = \frac{1}{n} \displaystyle\sum_{i}(\frac{x_i-\bar{x}}{s})^3$
+
+$\gamma_1$ | Verteilung
+---------|----------
+ $= 0$ | symmetrisch 
+ $> 0$ | rechtschief 
+ $< 0$ | linkschief 
+
+&#8203;
+
+ ***
+### Kurtosis
+
+$\gamma_2 = \frac{1}{n} \displaystyle\sum_{i}(\frac{x_i-\bar{x}}{s})^4 - 3$
+
+$\gamma_2$ | Verteilung
+---------|----------
+ $= 0$ | meso-kurtisch 
+ $> 0$ | lepto-kurtisch  
+ $< 0$ | platy-kurtisch  
+
+&#8203;
