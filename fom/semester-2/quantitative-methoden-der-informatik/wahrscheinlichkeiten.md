@@ -1,5 +1,5 @@
 ---
-title: Mittelwerte
+title: Wahrscheinlichkeiten
 description: 
 published: 1
 date: 2022-05-02T17:37:44.824Z
@@ -24,7 +24,13 @@ Induktike Statistik:
 > $p$ und $\^p$ sind nicht das selbe denn $\^p$ ist der Schätzwert
 
 
-## grundlegende Konzepte
+### Beboachtungen und stochaistische Modelle
+Beobachtungen(Variablen, beobachtete Werte, relative Häufigkeit, empirische Verteilung) -- statistische Inferenz -> Stochastische Model(Zufallsvariablen, ihre Realisationen, Wahrscheinlichkeiten, Wahrscheinlichkeiten-Verteilung)
+
+
+### Analogien & Zusammenhänge
+
+
 
 ## deskriptive Statistik
 
