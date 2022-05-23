@@ -12,6 +12,9 @@ dateCreated: 2022-03-04T12:23:12.295Z
 
 [Statistik](/fom/semester-2/quantitative-methoden-der-informatik/statistik)
 
+[Wahrscheinlichkeiten](/fom/semester-2/quantitative-methoden-der-informatik/wahrscheinlichkeiten)
+
+
 [Mittelwerte](/fom/semester-2/quantitative-methoden-der-informatik/mittelwerte)
 
 
