@@ -88,8 +88,74 @@ Kleine Popolation + ziehen ohne zurücklegen => reduziert Unsicherheit
 Große Popolation + ziehen ohne zurücklegen => ähnlich wie ziehen mit zurücklegen
 
 
+## Diskrete Warscheinlichkeitsverteilungen
+### Diskrete Zufafallsvariablen und diskrete Verteilung
+- diskrete Zufallsvariable nur isolierte Werte(z.B. 1,2,3,4)
+- Verteilung nennt sich auch **Wahrscheinlichkeitsverteilung**
+
+### Warscheinlichkeitsfunktion
+mit dem Term für Wahrscheinlichkeit $p_i = P(X =i)$
+kann man:
+- Verteilung graphisch darstellen
+- Maßzahl der Lage und Streuung berechnen
+
+### Erwartungswert: ein Lageparamter
+Der Erwartungswert ist eine Maßzahl zur Charakterisierung einer Wahrscheinlichkeits­verteilung.
+Der Erwartungswert beschreibt die zentrale Lage einer Verteilung.
+ 
+$E(X) = \displaystyle\sum_{i}x_i*P(X=x_i)$
+
+Beispiel Würfel:
+
+$i$ Anzahl der Werte (6 seitiger Würfel mit 6 Werten = 6)  
+$P$ Wahrscheinlichkeit des Wurfes  
+ (Fairer Würfel $\frac{1}{6}$ oder $\frac{Anzahl \space des \space Wertes}{Anzahl \space aller \space Werte}$)  
+$X$ Zufallsvariable
+&#8203;
+
+
+
+Augenzahl $x_i$ &#8203;| 1 | 2 | 3 | 4 | 5 | 6
+---------|----------|---------|---------|----------|---------|---------|
+ $P(X=x_i)$  &#8203; | $\frac{1}{6}$ &#8203; | $\frac{1}{6}$ &#8203; | $\frac{1}{6}$ &#8203; | $\frac{1}{6}$ &#8203; | $\frac{1}{6}$ &#8203; | $\frac{1}{6}$ &#8203;
+ 
+&#8203;
+
+
+
 ## Verteilungen
 
 ### Binomialverteilung
 Ein binomialverteiltes Zufallsexperiment entsteht durch n-fache Wiederholung eines Bernoulli Experiments. **Man unterscheidet nur zwischen Erfolg und Nicht-Erfolg.**
 
+Wenn ein binomverteiltes Experiment aus n Versuchen besteht, wobei jeder Versuch eine Wahrscheinlichkeit von p hat, dann ist die Wahrscheinlichkeit für k Erfolge:
+
+$P(X=k) = \binom{n}{k}* p^k * (1-p)^{n-k}$  
+
+Der Binominalkoeffizient $\binom{n}{k}$ berechnet für uns die Anzahl der Möglichkeiten, wie k Objekte in einer Gruppe aus n ohne Wiederholung angeordnet werden können.
+
+Beispiel Befragung:
+$n$ = Alle Befragten  
+$p$ = Warscheinlichkeit (zwischen 0 und 1, 1 = 100%)  
+$k$ = Anzahl der Erfolge
+
+&#8203;
+
+### Poissonverteilung
+Die Wahrscheinlichkeit für die Zufallsvariable X der Poisson-Verteilung wird durch folgende Formel berechnet:
+
+$P(X=x)=\frac{\lambda^x}{x!} \cdot e^{-\lambda},\quad x \in\mathbb{N}_0$
+
+Beispiel Befragung:
+$λ$ = ist der Erwartungswert an Gästen in einem Zeitraum  
+$x$ = Anzahl der Gäste  
+$P$ = Wahrscheinlichkeit für $x$ Gäste zu einem Zeitpunkt  
+
+
+
+$λ$ manchmal $µ$
+
+
+Da der Binomialkoeffiziert bei größeren Werten nur unter erhöhtem Rechenaufwand – selbst für moderne Computersystem – zu berechnen ist, kann man die Poisson-Verteilung benutzen, um die Binomialverteilung anzunähern. Man benutzt die Poisson-Verteilung im allgemeinen zu Annäherung der Binomialverteilung, wenn $n$ groß ist und $p$ klein. Als Erwartungswert $µ$ der Poisson-Verteilung verwenden wir $µ = λ = n · p$.
+
+Wird vor allem dort eingesetzt, wo die Häufigkeit eines Ereignisses über eine gewisse Zeit betrachtet wird.
