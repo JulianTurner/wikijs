@@ -146,10 +146,11 @@ Die Wahrscheinlichkeit für die Zufallsvariable X der Poisson-Verteilung wird du
 
 $P(X=x)=\frac{\lambda^x}{x!} \cdot e^{-\lambda},\quad x \in\mathbb{N}_0$
 
-Beispiel Befragung:
+Beispiel Befragung:  
 $λ$ = ist der Erwartungswert an Gästen in einem Zeitraum  
 $x$ = Anzahl der Gäste  
-$P$ = Wahrscheinlichkeit für $x$ Gäste zu einem Zeitpunkt  
+$P$ = Wahrscheinlichkeit für $x$ Gäste zu einem Zeitpunkt   
+$X$ = Zufallsvariable  
 
 
 
@@ -158,4 +159,4 @@ $λ$ manchmal $µ$
 
 Da der Binomialkoeffiziert bei größeren Werten nur unter erhöhtem Rechenaufwand – selbst für moderne Computersystem – zu berechnen ist, kann man die Poisson-Verteilung benutzen, um die Binomialverteilung anzunähern. Man benutzt die Poisson-Verteilung im allgemeinen zu Annäherung der Binomialverteilung, wenn $n$ groß ist und $p$ klein. Als Erwartungswert $µ$ der Poisson-Verteilung verwenden wir $µ = λ = n · p$.
 
-Wird vor allem dort eingesetzt, wo die Häufigkeit eines Ereignisses über eine gewisse Zeit betrachtet wird.
+>Wird vor allem dort eingesetzt, wo die Häufigkeit eines Ereignisses über eine gewisse Zeit betrachtet wird.
