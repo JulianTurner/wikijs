@@ -160,3 +160,70 @@ $λ$ manchmal $µ$
 Da der Binomialkoeffiziert bei größeren Werten nur unter erhöhtem Rechenaufwand – selbst für moderne Computersystem – zu berechnen ist, kann man die Poisson-Verteilung benutzen, um die Binomialverteilung anzunähern. Man benutzt die Poisson-Verteilung im allgemeinen zu Annäherung der Binomialverteilung, wenn $n$ groß ist und $p$ klein. Als Erwartungswert $µ$ der Poisson-Verteilung verwenden wir $µ = λ = n · p$.
 
 >Wird vor allem dort eingesetzt, wo die Häufigkeit eines Ereignisses über eine gewisse Zeit betrachtet wird.
+
+### Normalverteilung
+
+Bietet sich immer an, wenn Werte innerhalb eines begrenzten Intervalls liegen und es kaum Ausreißer gibt. Bei großen Stichproben einer Binomialverteilung kann diese durch eine Normalverteilung approximiert werden.  
+
+Beschrieben mit 2 Parametern:  
+- $\mu$: Dichte hat ihr maximum bei $\mu = x$ (Hochpunkt / zentrale Lage / $E(X) = \mu$)  
+- $\sigma$: Wendepunkte sind bei $x= \mu \pm \sigma$
+- $\sigma^2$: Varianz
+
+&#8203;
+
+> Die Normalverteilung ist immer eine symmetrische Verteilung  
+&#8203;  
+> $X \sim N(\mu, \sigma^2)$  
+> Die Zufallsvariable $X$ folgt der Normalverteilung mit den Parametern $\mu$ und $\sigma^2$  
+&#8203;
+
+#### Standardnormalverteilung: $\mu = 0$ und $\sigma = 1$  
+![](https://viles.uni-oldenburg.de/navtest/viles2/kapitel02_Theoretische~~lVerteilungen/modul02_Normalverteilung/ebene01_Konzepte~~lund~~lDefinitionen/STNV.png)
+&#8203;
+
+
+#### Standartisuerung
+> Nur für die Standardnormalverteilung gibt es eine Tabelle (Formelsammlung s. 13)  
+Wenn $X \sim N(\mu, \sigma^2) \neq N(0,1)$, dann können wir $X$ standardtisieren  
+$Z = \frac{X-\mu}{\sigma} \sim N(0,1)$
+
+
+
+## Stetige Wahrscheinlichkeitsverteilung
+[Nützlicher Link](https://www.maths2mind.com/schluesselwoerter/verteilungsfunktion-stetiger-zufallsvariablen)
+
+### Stetige Zufallsvariablen und stetige Verteilung
+- stetige Zufallsvariable (X) kann jeden Wert annehmen
+- Verteilung nennnt man **stetige Warscheinlihkeitsverteilung**
+
+Beispiele:
+- Tagesrendite beim DAX
+- Reihnheitsgrad einer produzierten Chemie
+
+### Berechnung von Warscheinlichkeiten
+Warscheinlichkkeitsfunktion für stetige Zufallsvariablen ist **unbrauchtbar**.
+
+> Man braucht die Dichte
+
+### Dichte
+Warscheinlichkeiten sind Flächen unter der Dichte  
+Formel für die stetige Warscheinlichkeitsverteilung:  
+$P(a \leq X \leq b) = \int_{a}^{b}f(x)dx$  
+&#8203;
+
+### Verteilungsfunktion
+Gibt die Wahrscheinlichkeit an, dass eine Zufallsvariable X einen Wert der kleiner oder gleich x ist.
+Entspricht Fläche unter der Dichtefunktion, bis zum Wert x (kumuliert).
+
+$P(X \leq x) = \int_{- \infty}^{x}f(\zeta)d\zeta$  
+&#8203;
+
+### Erwartungswert (Lageparameter)
+Der Erwartungswert $E(X)$ einer stetigen Zufallsvariable X gibt an, welchen Wert die Zufallsvariable X im Mittel bei einer unbegrenzten Wiederholung annimmt.  
+$E(X) = \int_{-\infty}^{\infty}x*f(x)dx$  
+
+### Varianz (Streuungsparameter)
+Die Varianz ist die mittlere quadratische Abweichung der Zufallsvariablen von ihrem Erwartungswert und somit ein Streumaß  
+$var(X) = \int_{-\infty}^{\infty}(x-E(X))^2*f(x)dx$  
+&#8203;

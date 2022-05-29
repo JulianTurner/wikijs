@@ -58,4 +58,30 @@ Angelehnt an Daten-Beispiel (Bsp. Redite - normalerweise Leptokurtisch -> was be
 
 Verstehen beweisen, nicht auswendig lernen
 
-Probleme bei Leptokurtisch -> Plex-One -->
+Probleme bei Leptokurtisch -> Plex-One
+
+
+Arbeitsblatt 1:
+Variable diskret oder stetig (unendlich)
+Stamm Blatt Diagramm
+Population erkenn können. (x-Achse bei Balkendiagramm)
+Mittelwert 
+Arithmetisches Mittel.
+Geografisches Mittel = Durchschnittliche Änderung über einen Zeitraum   (Änderung)^1/Zeitraum   //* Wurzel
+ Harmonisches Mittel = Umrechnung 
+
+Arbeitsblatt 2:
+Median = Mittelwert bezieht sich auf eine sortierte Liste und auf dem Wert in der Tabelle. 50% aller werte sind größer und kleiner gleich des Median
+Histogramm = Stufenmodel
+Stufenhöhe abhängig von Dichte absolut / anteilig 
+Kumulierter Anteil = aufaddierte Anteil 
+Arithmetisches Mittel = Erwartungswert 
+Boxplot Box + Whisker
+Quartil = Aufteilung eines Datensatzes in 25% Teile, 
+Unteres Quartil MINDESTENS
+Oberes Quartil MINDESTENS enthalten Mindestens kleiner
+Varianz und Standartabweichung
+Varianz s^2 
+Standardabweichung s
+Plati und Mesukurtisch kennen
+ -->
