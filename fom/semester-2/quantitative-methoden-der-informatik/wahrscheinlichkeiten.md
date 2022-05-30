@@ -188,6 +188,23 @@ Beschrieben mit 2 Parametern:
 Wenn $X \sim N(\mu, \sigma^2) \neq N(0,1)$, dann können wir $X$ standardtisieren  
 $Z = \frac{X-\mu}{\sigma} \sim N(0,1)$
 
+#### Andere wichtige Eigenschaften
+Stauchen (Strecken) / Verschieben einer Normalverteilung => Ergebnis erneut Normalverteilung
+
+Diversität (z.B. Aktienportfolio-Optimierung)  
+Wenn   
+$X_1 \sim N(\mu_1, \sigma^2_1), X_2 \sim N(\mu_2, \sigma^2_2)$   
+unabhänging sind dann gilt:  
+$X_1 + X_2 \sim N(\mu_1 + \mu_2, \sigma^2_1 + \sigma^2_2)$   
+Die Schwankungen einer Aktie wird von der Stabilität der zweiten aufgefangen.
+
+#### Weitere wichitge Eigenschaften
+Eine normalverteilte Zufallsvariable beobanchtet an $n$ verschiedenen unabhängigen Objekten.
+Für jedes beobachtete Objekt hat die Zufallsvariable die gleiche Normalverteilung.
+> $X_1, ..., X_n \sim N(\mu, \sigma^2)$   
+> => Summe der Zufallsvariablen hat eine Normalverteilung $\displaystyle\sum_{i=1}^{n}X_i \sim N(n\mu, n\sigma^2)$   
+> => arithmetisches Mittel ist ebenfals normalverteilt $\bar{X}=\frac{1}{n}\displaystyle\sum_{i=1}^{n}X_i \sim N(\mu,\frac{\sigma^2}{n})$  
+&#8203;
 
 
 ## Stetige Wahrscheinlichkeitsverteilung
@@ -227,3 +244,51 @@ $E(X) = \int_{-\infty}^{\infty}x*f(x)dx$
 Die Varianz ist die mittlere quadratische Abweichung der Zufallsvariablen von ihrem Erwartungswert und somit ein Streumaß  
 $var(X) = \int_{-\infty}^{\infty}(x-E(X))^2*f(x)dx$  
 &#8203;
+
+# Mehr über Zufallsvariablen und ihre Verteilung
+
+## Ziehen von Stichproben
+
+Stichprobenziehung ist der Prozess der Auswahl von Objekten aus einer Population.
+
+Ziel:
+- Lernen über die Population
+- mehr über die Verteilung einer Variable erfahren
+
+Modell:
+$X_1, ..., X_n$ iid, verteilt wie $X$   
+iid => "independenly identically distributed" (unabhängig & gleichmäßig verteilt)
+
+Wichtig ist:
+- Stichprobenmittelwert $\bar{X} = \frac{1}{n}\displaystyle\sum_{i=1}^{n}X_i$  &#8203;
+
+Kann zur Schätzung von $E(X)$ (Theoretischer Mittelwert) benutzt werden.
+
+- Stichprobenvarianz $S^2 = \frac{1}{n}\displaystyle\sum_{i=1}^{n}(X_i-\bar{X})^2$ &#8203;
+Kann zur Schätzung von $var(X)$ (Varianz) benutzt werden.
+
+Intressant:
+- Verteilungseigenschaften von $\bar{X}$ und $S^2$  
+- Verhalten von von $\bar{X}$ und $S^2$ bei wachsendem Stichprobenumfang $n$
+&#8203;
+## Der Zentrale Grenzwert Satz (ZGWS)
+### Binominalverteilung $B(n,p)$ bei großen $n$&#8203;
+Ist $X \sim B(n,p)$ dann gilt approximativ für großes $n$:  &#8203;
+$X \sim N(np, np(1-p))$
+&#8203;
+
+Beispiel:  
+$B(100, 0.5)$ => 50 / 100  sagen JA  
+$n = 100$  
+$p = 0,5 (50\%)$  
+$X \sim N(100*0.5, 100*0.5*(1-0,5))$  
+$X \sim N(50, 25)$  
+&#8203;
+
+> Die Approxtimation ist gut falls für die Varianz $np(1-p)$ gilt:  
+> $np(1-p) > 9$  
+> (Datenverteilung muss breit genug sein) 
+
+&#8203;
+
+S141
