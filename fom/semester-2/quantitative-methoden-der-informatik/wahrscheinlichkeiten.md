@@ -291,4 +291,14 @@ $X \sim N(50, 25)$
 
 &#8203;
 
-S141
+## Andere Verteilungen
+
+### t-Verteilung
+
+Vorraussetzungen:
+- benutzt wenn Standardabweichung / Varianz unbekannt 
+- Stichprobe muss zufällig entnommen sein
+- Grundgesamtheit muss annähernd normalverteilt 
+
+[Weitere Informationen zur t-Verteilung](https://welt-der-bwl.de/t-Verteilung)
+
