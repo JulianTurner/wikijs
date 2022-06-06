@@ -13,7 +13,8 @@ dateCreated: 2022-03-08T19:21:23.407Z
 
 > *unbekannte Verteilungen* charakterisiert gesamte Population
 
-TODO: Link zu ### Beboachtungen und stochaistische Modelle in Warscheinlichkeiten
+<!-- TODO überprüfen -->
+[Beboachtungen und stochaistische Modelle](wahrscheinlichkeiten.md#beboachtungen-und-stochaistische-modelle)
 
 ## Schätzung 
 Methoden der statistischen Inferenz
@@ -131,12 +132,23 @@ Entscheidung über $H_0$:
 
 ### 3 Möglichkeiten:
 #### prob Value
-Wahrscheinlichkeit das gemessene Ergebnis der Stichprobe zustande gekommen sein könnte, falls die Nullhypothese stimmt  
+> Wahrscheinlichkeit das gemessene Ergebnis der Stichprobe zustande gekommen sein könnte, falls die Nullhypothese stimmt  
 
-Warscheinlichkeit dies zu beobachten muss min. so weit von den erwarteten 10% sein wie die 8,75%
+Warscheinlichkeit dies zu beobachten muss min. so weit von den erwarteten 10% sein wie die 8,75% (Stichprobenumfang **relevant**)
 
 => 8,75% (10% - 1,25%) < 10% < 11,25% (10% + 1,25%)  
 ![](prob-value.png)
 
+#### Kritischer Bereich
+
+TODO S50.
+
 #### Konfidenzintervall
-#### Signifikanztest
+![](Hypothesen_Konfidenzintervall.png)
+1. $\sigma$ von Verteilung nehmen
+1. zu $2 \sigma$ Bereich erweitern (links und rechts) (braun in der Grafik)  
+1. Bereich zu $\hat{p}$ verschieben (8,75%)
+1. Beurteilung ob 10% noch im $2 \sigma$ Bereich (braun) liegt
+
+- wenn im Bereich: **nicht ablehen**
+- wenn außerhalb Bereich: **ablehen**
