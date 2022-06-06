@@ -2,7 +2,7 @@
 title: Quantitative Methoden der Informatik
 description: 
 published: 1
-date: 2022-05-16T18:20:53.720Z
+date: 2022-06-06T19:08:34.214Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:12.295Z
@@ -16,6 +16,8 @@ dateCreated: 2022-03-04T12:23:12.295Z
 
 
 [Mittelwerte](/fom/semester-2/quantitative-methoden-der-informatik/mittelwerte)
+
+[Statistische Inferenz](/fom/semester-2/quantitative-methoden-der-informatik/statistische-inferenz)
 
 
 [Klausurvorbereitung](/fom/semester-2/quantitative-methoden-der-informatik/klausurvorbereitung)
