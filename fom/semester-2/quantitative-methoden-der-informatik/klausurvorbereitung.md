@@ -37,6 +37,16 @@ Was ist der Unterschied zwischen deduktiver und induktiver Schlussfolgerung / Lo
 
 ![deduktiv-induktiv.png](/fom/semester-2/quantitative-methoden/deduktiv-induktiv.png)
 
+Häufigkeit, Varianz, aritmetisches Mittel, Median  
+[Lage, Streuung und Gestalt einer Verteilung](statistik.md#lage-streuung-und-gestalt-einer-verteilung) 
+
+Wie sieht leptkurtisch/platokurtische Verteilung aus und welche Eigenschaften hat sie  
+Angelehnt an Daten-Beispiel (Bsp. Redite - normalerweise Leptokurtisch -> was bedeutet das -> erklären Sie mit einer Skizze)   
+Probleme bei Leptokurtisch -> Plex-One   
+[Kurtosis](statistik.md#kurtosis)  
+
+Statistik (Konfidenzintervall berechnen und interpretieren)
+[Konfidenzintervall](statistische-inferenz.md#konfidenzintervall)
 
 <!-- Unvollständig:
 Meiste Aufgaben wird irgendwo nach Diagram gefragt
@@ -45,20 +55,6 @@ Bei Aufgabe ähnlich Köche-Gehälter erst Interpretation dann Diagramm
 Daten werden gegeben, damit soll man etwas rechnen/interpretieren (eher interpretieren als rechnen)
 
 Bei deskriptiver Statistik mehr rechnen, bei induktiver Statistik mehr interpretieren
-
-
-Teil 1 Kapitel 3 + 4 (Häufigkeiten, Varianz, aritmetisches Mittel, Median, ...)
-Statistik (Konfidenzintervall berechnen und interpretieren)
-
-Kein Multiple-Choice
-
-
-Wie sieht leptkurtisch/platokurtische Verteilung aus und welche Eigenschaften hat sie
-Angelehnt an Daten-Beispiel (Bsp. Redite - normalerweise Leptokurtisch -> was bedeutet das -> erklären Sie mit einer Skizze)
-
-Verstehen beweisen, nicht auswendig lernen
-
-Probleme bei Leptokurtisch -> Plex-One
 
 
 Arbeitsblatt 1:

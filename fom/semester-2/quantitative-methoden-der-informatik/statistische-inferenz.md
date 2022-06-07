@@ -172,3 +172,5 @@ Wahrscheinlichkeit für Fehler **zweiter Art** ist nicht unter Kontrolle (kann s
 > Nicht-Ablehnung von $H_0$ = keine neue Information
 
 
+> Es ist nicht zulässig eine Nullhypothese mit den selben Daten zu entwickeln und zu testen
+> Konsequenz bei unzulässigem Handeln: Fehler erster Art nicht mehr unter Kontrolle
