@@ -13,7 +13,6 @@ dateCreated: 2022-03-08T19:21:23.407Z
 
 > *unbekannte Verteilungen* charakterisiert gesamte Population
 
-<!-- TODO überprüfen -->
 [Beboachtungen und stochaistische Modelle](wahrscheinlichkeiten.md#beboachtungen-und-stochaistische-modelle)
 
 ## Schätzung 
@@ -95,7 +94,7 @@ $\hat{\theta}$ = Punktschätzer für $\theta$
 
 ## Testen von Hypothesen 
 Definition:  
-$H$ = Hypothese
+$H$ = Hypothese  
 $p$ = typischer Wert  
 $\hat{p}$ = Beobachtung (in einer Stichprobe)
 
@@ -152,3 +151,24 @@ TODO S50.
 
 - wenn im Bereich: **nicht ablehen**
 - wenn außerhalb Bereich: **ablehen**
+
+
+## Fehler in statistischen Tests
+Induktive Schlussfolgerungen haben immer Fehlentscheidungsrisiko
+
+2 Arten von Fehlentscheidungen:  
+Fehler erster Art => $H_0$ abgelehnt obwohl wahr   
+Fehler zweiter Art => $H_0$ nicht abgelehnt obwohl falsch  
+
+Kein Fehler => $H_0$ wahr & nicht abgehlehnt  
+Kein Fehler => $H_0$ falsch & abgelehnt  
+
+### Asymmetrie von Signifikanztest
+Wahrscheinlichkeit für Fehler **erster Art** ist klein und unter Kontrolle (höchstens so groß wie $\alpha$)
+
+Wahrscheinlichkeit für Fehler **zweiter Art** ist nicht unter Kontrolle (kann so groß sein wie $1 - \alpha$ also 95%)
+
+> Ablehnung von $H_0$ = Vertrauen in Entdeckung  
+> Nicht-Ablehnung von $H_0$ = keine neue Information
+
+
