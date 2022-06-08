@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-06-08T17:38:53.759Z
+date: 2022-06-08T17:39:01.895Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:15.741Z
@@ -13,7 +13,7 @@ dateCreated: 2022-03-04T12:23:15.741Z
 
 Fragen:
 - Absolute vs relative Häufigkeit Histogram
-- Prozeduren für den Siginifikatnztest
+- 3 Prozeduren für den Siginifikatnztest
 
 ## Lektion 1
 
