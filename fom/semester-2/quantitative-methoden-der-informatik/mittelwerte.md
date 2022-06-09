@@ -2,7 +2,7 @@
 title: Mittelwerte
 description: 
 published: 1
-date: 2022-05-02T17:37:44.824Z
+date: 2022-06-09T17:05:08.987Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T19:21:23.407Z
@@ -22,10 +22,17 @@ Es handelt sich um einen sog. Mittelwert. Umgangssprachlich sagt man zum arithme
 ## geometrische Mittel
 Im Gegensatz zum arithmetischen Mittel dient das geometrische Mittel zur **Messung des Durchschnitts einer prozentualen Veränderung**. Aus diesem Grund sagt man zum geometrischen Mittel auch <u>durchschnittliche Veränderungsrate</u>.
 
-> (Anzahl der Daten)te Wurzel ziehen von (Multiplikation aller Daten)
+> (Anzahl der Daten)te Wurzel ziehen von (Multiplikation aller Faktoren)
 {.is-info}
 
-## harmonisches Mittel
+> Faktoren Bsp.:
+> +50% => 1,5
+> +20% => 1,2
+> -50% => 0,5
+> -20% => 0,8
+{.is-info}
+
+## harmonisches Mittel (nicht Prüfungsrelevant)
 Das harmonische Mittel kommt meist dann zum Einsatz, wenn der Mittelwert von Verhältniszahlen gesucht ist.
 ![harmonischesmittel.png](/fom/semester-2/quantitative-methoden/harmonischesmittel.png)
 Beispiel:
