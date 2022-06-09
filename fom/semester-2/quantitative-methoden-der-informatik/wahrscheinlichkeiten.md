@@ -2,7 +2,7 @@
 title: Wahrscheinlichkeiten
 description: 
 published: 1
-date: 2022-06-09T15:12:06.290Z
+date: 2022-06-09T15:22:25.133Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-23T16:58:04.676Z
@@ -136,7 +136,7 @@ Der Binominalkoeffizient $\binom{n}{k}$ berechnet für uns die Anzahl der Mögli
 
 Beispiel Befragung:
 $n$ = Alle Befragten  
-$p$ = Warscheinlichkeit (zwischen 0 und 1, 1 = 100%)  
+$p$ = Warscheinlichkeit (zwischen 0 und 1; 1 = 100%)  
 $k$ = Anzahl der Erfolge
 
 > $X \sim B(n, p)$ 
