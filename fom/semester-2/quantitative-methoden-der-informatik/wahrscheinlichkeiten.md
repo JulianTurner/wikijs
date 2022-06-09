@@ -2,10 +2,10 @@
 title: Wahrscheinlichkeiten
 description: 
 published: 1
-date: 2022-05-02T17:37:44.824Z
+date: 2022-06-09T15:05:00.728Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-08T19:21:23.407Z
+dateCreated: 2022-05-23T16:58:04.676Z
 ---
 
 # Wahrscheinlichkeiten
@@ -138,6 +138,9 @@ Beispiel Befragung:
 $n$ = Alle Befragten  
 $p$ = Warscheinlichkeit (zwischen 0 und 1, 1 = 100%)  
 $k$ = Anzahl der Erfolge
+
+> $X \sim B(n, p)$ 
+> Die Zufallsvariable $X$ folgt der Binominalverteilung mit den Parametern $n$ und $p$
 
 &#8203;
 
