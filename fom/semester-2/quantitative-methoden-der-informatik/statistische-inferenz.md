@@ -2,16 +2,18 @@
 title: Statistische Inferenz
 description: 
 published: 1
-date: 2022-05-02T17:37:44.824Z
+date: 2022-06-09T17:09:19.431Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-08T19:21:23.407Z
+dateCreated: 2022-06-03T18:14:38.764Z
 ---
 
 # Statistische Inferenz
 >Benutzt empirische Daten (Beobachtungen) um über *unbekannte Verteilungen* (oder unbekannte Parameter) zu lernen
+{.is-info}
 
 > *unbekannte Verteilungen* charakterisiert gesamte Population
+{.is-info}
 
 [Beboachtungen und stochaistische Modelle](wahrscheinlichkeiten.md#beboachtungen-und-stochaistische-modelle)
 
@@ -38,6 +40,7 @@ Besser Konfidenzintervall and Stelle Punktschätzer
 unbekannte Parameter einer Verteilung wird mit einem Konfidenzintervall (Intervall von Zahlen) geschätzt
 
 > Konfidenz = Vertrauen
+{.is-info}
 
 Definition Konfidenzintervall:
 - Verteilung $X$ hat einen unbekannten Parameter $\theta$
@@ -53,8 +56,10 @@ $\theta$ = unbekannter Parameter (ein Wert aus den möglichen Werten)
 
 > Vor Stichprobe => Zufallsintervall  
 > Nach Stichprobe => Intervall wurde beobachtet => Konfidenzintervall
+{.is-info}
 
 > warscheinlichkeit, dass Zufallsintervall den wahren Wert $\theta$ enthält, soll groß
+{.is-info}
 
 ### Konfodenzintervall $p$
 
@@ -69,6 +74,7 @@ Intervall:
 $\left[\hat{p} -1,96 \space \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}, \space \hat{p} + 1,96 \space \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \right]$ 
 &#8203;
 > Formelsammlung S. 8
+{.is-info}
 
 Anmerkungen:
 - Jeder Wert im Konfidenzintervall => plausible Schätzung für unbekannten Parameter
@@ -82,6 +88,7 @@ $\left[\hat{\mu}-1,96\frac{\sigma}{\sqrt{n}}, \space \hat{\mu}+1,96\frac{\sigma}
 
 > Standardabweichung von $\hat{\mu} = \bar{X}$ => $\frac{\sigma}{\sqrt{n}}$ 
 > Standardabweichung eines Punktschätzers => Standardfehler
+{.is-info}
 
 ### Approximative Konfidenzintervalle
 Approximative 95% Konfidenzgrenzen für unbekannte Parameter $\theta$  
@@ -128,10 +135,12 @@ Entscheidung über $H_0$:
 	- **nicht ablehnen** von $H_1$
 
 > Bewertungs des Unterschieds => stochastisches Modell
+{.is-info}
 
 ### 3 Möglichkeiten:
 #### prob Value
-> Wahrscheinlichkeit das gemessene Ergebnis der Stichprobe zustande gekommen sein könnte, falls die Nullhypothese stimmt  
+> Wahrscheinlichkeit das gemessene Ergebnis der Stichprobe zustande gekommen sein könnte, falls die Nullhypothese stimmt
+{.is-info}
 
 Warscheinlichkeit dies zu beobachten muss min. so weit von den erwarteten 10% sein wie die 8,75% (Stichprobenumfang **relevant**)
 
@@ -170,7 +179,8 @@ Wahrscheinlichkeit für Fehler **zweiter Art** ist nicht unter Kontrolle (kann s
 
 > Ablehnung von $H_0$ = Vertrauen in Entdeckung  
 > Nicht-Ablehnung von $H_0$ = keine neue Information
-
+{.is-info}
 
 > Es ist nicht zulässig eine Nullhypothese mit den selben Daten zu entwickeln und zu testen
 > Konsequenz bei unzulässigem Handeln: Fehler erster Art nicht mehr unter Kontrolle
+{.is-info}
