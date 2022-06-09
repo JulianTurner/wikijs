@@ -2,7 +2,7 @@
 title: Wahrscheinlichkeiten
 description: 
 published: 1
-date: 2022-06-09T15:05:00.728Z
+date: 2022-06-09T15:12:06.290Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-23T16:58:04.676Z
@@ -163,6 +163,13 @@ $λ$ manchmal $µ$
 Da der Binomialkoeffiziert bei größeren Werten nur unter erhöhtem Rechenaufwand – selbst für moderne Computersystem – zu berechnen ist, kann man die Poisson-Verteilung benutzen, um die Binomialverteilung anzunähern. Man benutzt die Poisson-Verteilung im allgemeinen zu Annäherung der Binomialverteilung, wenn $n$ groß ist und $p$ klein. Als Erwartungswert $µ$ der Poisson-Verteilung verwenden wir $µ = λ = n · p$.
 
 >Wird vor allem dort eingesetzt, wo die Häufigkeit eines Ereignisses über eine gewisse Zeit betrachtet wird.
+
+&#8203;
+
+> $X \sim Po(\lambda)$ 
+> Die Zufallsvariable $X$ folgt der Poissonverteilung mit dem Parameter $\lambda$
+
+&#8203;
 
 ### Normalverteilung
 
