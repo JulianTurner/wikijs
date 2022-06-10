@@ -2,7 +2,7 @@
 title: Wahrscheinlichkeiten
 description: 
 published: 1
-date: 2022-06-09T15:22:25.133Z
+date: 2022-06-10T18:12:12.577Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-23T16:58:04.676Z
@@ -21,13 +21,12 @@ Induktike Statistik:
 
 > z.B. Würfelwurf - Stochastisches Model erzeugt Ergebnisse beim Würfelwurf
   
-> $p$ und $\^p$ sind nicht das selbe denn $\^p$ ist der Schätzwert
+> $p$ und $\hat{p}$ sind nicht das selbe denn $\hat{p}$ ist der Schätzwert
 
 
 ### Beboachtungen und stochaistische Modelle
-Beobachtungen(, , , )  Stochastische Model(, , , )
-
-
+  
+  
 Beobachtungen | Zusammenhang | Stochastische Model
 ---------|----------|---------
 &#8203; | -- statistische Inferenz -> | &#8203;
