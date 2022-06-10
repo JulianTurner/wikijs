@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-08T17:11:11.974Z
+date: 2022-06-10T16:58:54.270Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -292,8 +292,8 @@ Die Gestalt betimmt die **Schiefe** & **Kurtosis (Wölbung)**
 ***
 # Lage, Streuung und Gestalt einer Verteilung
 ## Askpekte der Verteilung einer metrischen Variable
-- **Lage**: Wo liegen die Werte / Beobachtungen
-- **Streuung**: Wie verstreut sind die Werte / Beobachtungen
+- **Lage**: Wo liegen die Werte / Beobachtungen (Mitte der Werte)
+- **Streuung**: Wie verstreut sind die Werte / Beobachtungen (um die Mitte)
 ***
 ## Charakterisierung der Lager einer Verteilung
 **Modus / Modalwert**: häufigster Wert
