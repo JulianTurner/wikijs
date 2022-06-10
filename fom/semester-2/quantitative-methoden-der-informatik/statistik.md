@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T18:08:41.560Z
+date: 2022-06-10T18:57:56.968Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -341,6 +341,7 @@ Im Gegensatz zum arithmetischen Mittel dient das geometrische Mittel zur **Messu
 > $\bar{x}_{G} = \sqrt[Anzahl \space Werte]{Produkt \space Faktoren}$
 {.is-info}
 
+&#8203;
 
 
 > Faktoren Bsp.:
