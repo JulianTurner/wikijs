@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T17:40:12.075Z
+date: 2022-06-10T18:02:35.251Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -279,7 +279,7 @@ Jede Klasse: Untergrenze, Obergrenze & Breite
 
 ***
 ### Boxplot
-![](boxplot.png)
+![boxplot.png](/fom/semester-2/quantitative-methoden-der-informatik/boxplot.png)
 > Funktioniert immer bei stetigen Variablen
 
 ***
@@ -291,20 +291,27 @@ Die Gestalt betimmt die **Schiefe** & **Kurtosis (Wölbung)**
 ![](https://www.wiwiweb.de/assets/courses/media1/abb21-rechtsschiefe-verteilung-print.png)
 
 #### Kurtosis
-![](kurtosis.png)
+![kurtosis.png](/fom/semester-2/quantitative-methoden-der-informatik/kurtosis.png)
 
 ***
 # Lage, Streuung und Gestalt einer Verteilung
 ## Askpekte der Verteilung einer metrischen Variable
 - **Lage**: Wo liegen die Werte / Beobachtungen (Mitte der Werte)
 - **Streuung**: Wie verstreut sind die Werte / Beobachtungen (um die Mitte)
+![Abweichung](https://datatab.de/assets/tutorial/streuungsma%C3%9Fe.png)
 ***
+
 ## Charakterisierung der Lager einer Verteilung
 **Modus / Modalwert**: häufigster Wert
 
 > Bei metrisch stetigen Variablen ist die modale Klasse das Intervall mit der größten Häufigkeitsdichte
 ***
 ## Arithmetisches Mittel
+
+Das arithmetische Mittel beschreibt die zentrale Lage einer Verteilung. 
+Es handelt sich um einen sog. Mittelwert. Umgangssprachlich sagt man zum arithmetischen Mittel auch einfach <u>Durchschnitt</u>.
+
+
 $\bar{x} = Summe \space  Bebobachtungen \space / \space Anzahl \space Beobachtungen$
 &#8203;
 ***
@@ -328,7 +335,21 @@ Skalierung:
 > Faustegel: rechtsschiefe Verteilung: arithmetisches Mittel > Median
 
 ## Geometrisches Mittel
-$\bar{x}_{G} = \sqrt[Anzahl \space Werte]{Produkt \space Werte}$
+
+Im Gegensatz zum arithmetischen Mittel dient das geometrische Mittel zur **Messung des Durchschnitts einer prozentualen Veränderung**. Aus diesem Grund sagt man zum geometrischen Mittel auch <u>durchschnittliche Veränderungsrate</u>.
+
+> $\bar{x}_{G} = \sqrt[Anzahl \space Werte]{Produkt \space Faktoren}$
+{.is-info}
+
+
+
+> Faktoren Bsp.:
+> +50% => 1,5
+> +20% => 1,2
+> -50% => 0,5
+> -20% => 0,8
+{.is-info}
+
 
 > typischer Anwendungsfall: Änderungsfaktoren
 ***
@@ -338,9 +359,23 @@ $s^2 = \frac{1}{n} \displaystyle\sum_{i=1}^n \space (x_i - \bar{x})^2 = \frac{1}
 > Varianz ist die Streuung um das arithmetische Mittel
 ***
 ## Standardabweichung
-$s = \sqrt{s^2}$
+
+
+Die Standardabweichung gibt die Streubreite einer Variable rund um deren Mittelwert an. Damit ist die Standardabweichung die durchschnittliche Entfernung aller gemessenen Werte einer Variable vom Mittelwert der Verteilung.
+
+
+
+![Abweichung](https://datatab.de/assets/tutorial/standardabweichung.png)
+
+> $s = \sqrt{s^2}$
+{.is-info}
+
 
 > durchschnittliche Entfernung aller gemessenen Werte zum arithmetische Mittel
+{.is-info}
+
+
+
 ***
 ## Sigma Regeln
 ![](sigma-regeln.png)
