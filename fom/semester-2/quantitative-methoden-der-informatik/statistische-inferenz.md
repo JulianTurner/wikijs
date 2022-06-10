@@ -2,7 +2,7 @@
 title: Statistische Inferenz
 description: 
 published: 1
-date: 2022-06-09T17:09:19.431Z
+date: 2022-06-10T18:14:27.159Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-03T18:14:38.764Z
@@ -94,7 +94,7 @@ $\left[\hat{\mu}-1,96\frac{\sigma}{\sqrt{n}}, \space \hat{\mu}+1,96\frac{\sigma}
 Approximative 95% Konfidenzgrenzen für unbekannte Parameter $\theta$  
 
 $\theta \pm 2* Standardfehler \space von \space \hat{\theta}$  
-
+&#8203;
 $\hat{\theta}$ = Punktschätzer für $\theta$
 &#8203;
 
