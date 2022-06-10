@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T18:02:35.251Z
+date: 2022-06-10T18:03:28.939Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -354,6 +354,12 @@ Im Gegensatz zum arithmetischen Mittel dient das geometrische Mittel zur **Messu
 > typischer Anwendungsfall: Änderungsfaktoren
 ***
 ## Varianz
+In der Statistik misst die Varianz die Abweichung vom Mittelwert. Zur Berechnung der Varianz, wird die Summe der quadrierten Abweichungen durch die Anzahl der Werte geteilt.
+
+![Varianz](https://datatab.de/assets/tutorial/equ/var_std.svg)
+Die Varianz beschreibt also die quadrierte durchschnittliche Entfernung vom Mittelwert. Weil die Werte quadriert werden, hat das Ergebnis eine andere Einheit (eben die Einheit zum Quadrat) als die ursprünglichen Werte. Daher ist es schwer, die Ergebnisse in Bezug zu setzen.
+
+
 $s^2 = \frac{1}{n} \displaystyle\sum_{i=1}^n \space (x_i - \bar{x})^2 = \frac{1}{n} \displaystyle\sum_{i=1}^n \space x_i^2 - \bar{x}^2$
 
 > Varianz ist die Streuung um das arithmetische Mittel
@@ -374,7 +380,13 @@ Die Standardabweichung gibt die Streubreite einer Variable rund um deren Mittelw
 > durchschnittliche Entfernung aller gemessenen Werte zum arithmetische Mittel
 {.is-info}
 
+## Unterschiede zwischen Standardabweichung und Varianz
+Der Unterschied zwischen dem Streuungsparameter Varianz und der Standardabweichung ist also, dass die Standardabweichung die durchschnittliche Entfernung vom Mittelwert misst und die Varianz die quadrierte durchschnittliche Entfernung vom Mittelwert. Andersherum gesagt, die Varianz ist die quadrierte Standardabweichung und die Standardabweichung ist die Wurzel der Varianz.
 
+Durch diese Quadrierung ergibt sich jedoch eine schwer zu interpretierende Kennzahl, da eben die Einheit nicht mit den Ausgangsdaten übereinstimmt. Aus diesem Grund ist es ratsam, zur Beschreibung einer Stichprobe stets die Standardabweichung heranzuziehen, da damit die Interpretation leichter von der Hand geht.
+![UnterschiedeFormel](https://datatab.de/assets/tutorial/unterschied-Varianz-und-Standardabweichung.png)
+
+[weitere Infos](https://datatab.de/tutorial/standardabweichung-varianz-spannweite)
 
 ***
 ## Sigma Regeln
