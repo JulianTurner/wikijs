@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T16:58:54.270Z
+date: 2022-06-10T16:59:26.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -36,7 +36,7 @@ Anhaltspunkte die zu beachten sind:
 - veracity (Wahrheit)
 - value (Mehrwert der Daten)
 
-> Daten müssen ver der Analyse strukturiert werden.
+> Daten müssen vor der Analyse strukturiert werden.
 
 ### Statistik und der Computer
 - manche Techniken mit Stift und Papier
