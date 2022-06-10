@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T18:07:12.255Z
+date: 2022-06-10T18:08:41.560Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -391,7 +391,7 @@ Durch diese Quadrierung ergibt sich jedoch eine schwer zu interpretierende Kennz
 
 ***
 ## Sigma Regeln
-![](sigma-regeln.png)
+
 1 Sigma Regel: Etwa 2/3
 - $[\bar{x} - s, \bar{x} + s]$
 
@@ -400,6 +400,8 @@ Durch diese Quadrierung ergibt sich jedoch eine schwer zu interpretierende Kennz
 
 3 Sigma Regel: mehr als 99%
 - $[\bar{x} - 3s, \bar{x} + 3s]$
+
+![sigma-regeln.png](/fom/semester-2/quantitative-methoden-der-informatik/sigma-regeln.png)
 &#8203;
 ***
 
