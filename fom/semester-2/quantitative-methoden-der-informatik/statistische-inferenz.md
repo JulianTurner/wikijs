@@ -2,7 +2,7 @@
 title: Statistische Inferenz
 description: 
 published: 1
-date: 2022-06-10T18:14:27.159Z
+date: 2022-06-10T18:16:26.804Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-03T18:14:38.764Z
@@ -85,10 +85,12 @@ Anmerkungen:
 
 $\left[\hat{\mu}-1,96\frac{\sigma}{\sqrt{n}}, \space \hat{\mu}+1,96\frac{\sigma}{\sqrt{n}} \right]$
 &#8203;
-
+Formelsammlung S.8
 > Standardabweichung von $\hat{\mu} = \bar{X}$ => $\frac{\sigma}{\sqrt{n}}$ 
 > Standardabweichung eines Punktschätzers => Standardfehler
 {.is-info}
+
+
 
 ### Approximative Konfidenzintervalle
 Approximative 95% Konfidenzgrenzen für unbekannte Parameter $\theta$  
