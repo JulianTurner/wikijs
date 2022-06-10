@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T18:03:28.939Z
+date: 2022-06-10T18:07:12.255Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -356,7 +356,8 @@ Im Gegensatz zum arithmetischen Mittel dient das geometrische Mittel zur **Messu
 ## Varianz
 In der Statistik misst die Varianz die Abweichung vom Mittelwert. Zur Berechnung der Varianz, wird die Summe der quadrierten Abweichungen durch die Anzahl der Werte geteilt.
 
-![Varianz](https://datatab.de/assets/tutorial/equ/var_std.svg)
+$Var = \sigma^2$
+
 Die Varianz beschreibt also die quadrierte durchschnittliche Entfernung vom Mittelwert. Weil die Werte quadriert werden, hat das Ergebnis eine andere Einheit (eben die Einheit zum Quadrat) als die ursprünglichen Werte. Daher ist es schwer, die Ergebnisse in Bezug zu setzen.
 
 
@@ -381,7 +382,7 @@ Die Standardabweichung gibt die Streubreite einer Variable rund um deren Mittelw
 {.is-info}
 
 ## Unterschiede zwischen Standardabweichung und Varianz
-Der Unterschied zwischen dem Streuungsparameter Varianz und der Standardabweichung ist also, dass die Standardabweichung die durchschnittliche Entfernung vom Mittelwert misst und die Varianz die quadrierte durchschnittliche Entfernung vom Mittelwert. Andersherum gesagt, die Varianz ist die quadrierte Standardabweichung und die Standardabweichung ist die Wurzel der Varianz.
+Der Unterschied zwischen Varianz und Standardabweichung ist, dass die Standardabweichung die durchschnittliche Entfernung vom Mittelwert misst und die Varianz die quadrierte durchschnittliche Entfernung vom Mittelwert. Andersherum gesagt, die Varianz ist die quadrierte Standardabweichung und die Standardabweichung ist die Wurzel der Varianz.
 
 Durch diese Quadrierung ergibt sich jedoch eine schwer zu interpretierende Kennzahl, da eben die Einheit nicht mit den Ausgangsdaten übereinstimmt. Aus diesem Grund ist es ratsam, zur Beschreibung einer Stichprobe stets die Standardabweichung heranzuziehen, da damit die Interpretation leichter von der Hand geht.
 ![UnterschiedeFormel](https://datatab.de/assets/tutorial/unterschied-Varianz-und-Standardabweichung.png)
@@ -391,7 +392,7 @@ Durch diese Quadrierung ergibt sich jedoch eine schwer zu interpretierende Kennz
 ***
 ## Sigma Regeln
 ![](sigma-regeln.png)
-1 Sigma Regel: Etwa 1/3
+1 Sigma Regel: Etwa 2/3
 - $[\bar{x} - s, \bar{x} + s]$
 
 2 Sigma Regel: Etwa 95%
