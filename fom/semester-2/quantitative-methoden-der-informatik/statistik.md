@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T16:59:26.280Z
+date: 2022-06-10T17:40:12.075Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -52,15 +52,19 @@ Ziele der deskriptiven Statistik sind Daten zu:
 - zusammenfassen
 - darstellen
 
-Reduzierung der Datenmenge auf das wichtigste
+Daten sollten reduziert werden
 
-> Daten sollten reduziert werden
+> Reduzierung der Datenmenge auf das wichtigste
+{.is-info}
+
 
 Ziele der induktiven Statistik sind:
 - schließen von Daten auf allgemeine Prinzipien (Beobachtungen)
 - schließen auf unbeobachtes (statische Inferenz)
 
-Aufstellen von allgemeingültigen Regeln und Prinzipen
+> Aufstellen von allgemeingültigen Regeln und Prinzipen
+{.is-info}
+
 
 ### Schlussfolgerungen
 
