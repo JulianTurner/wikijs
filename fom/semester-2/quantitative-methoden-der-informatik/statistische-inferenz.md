@@ -2,7 +2,7 @@
 title: Statistische Inferenz
 description: 
 published: 1
-date: 2022-06-10T18:16:26.804Z
+date: 2022-06-10T18:26:17.021Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-03T18:14:38.764Z
@@ -186,3 +186,7 @@ Wahrscheinlichkeit für Fehler **zweiter Art** ist nicht unter Kontrolle (kann s
 > Es ist nicht zulässig eine Nullhypothese mit den selben Daten zu entwickeln und zu testen
 > Konsequenz bei unzulässigem Handeln: Fehler erster Art nicht mehr unter Kontrolle
 {.is-info}
+
+
+## Trennschärfe
+Stichproben mit großem Umfang haben eine hohe Trennschräfe da einzene zufällige Ausreißer das Gesamtergebnis nicht leicht verfälschen können. 
