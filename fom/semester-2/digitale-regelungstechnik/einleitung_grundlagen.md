@@ -70,4 +70,4 @@ Regelung wird deaktiviert und Wert vom Gaspedal übernommen
 Stellegröße u(t): folgt Führungsgröße (Gaspedal)
 
 ## Zusammenfassung
-![](messen-steuern-regeln.png)
+![](messen-steuern-regeln.png) 
