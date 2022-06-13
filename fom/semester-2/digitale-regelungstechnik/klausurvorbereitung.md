@@ -10,3 +10,12 @@ dateCreated: 2021-12-16T19:44:54.647Z
 
 # Klausurvorbereitung
 
+## [Einleitung und Grundlagen](einleitung_grundlagen.md)
+Blockschaltbilder sollte man Zeichnen können
+Wie hängen Einheiten zusammen?
+Was ist eine Regelung?
+Was ist ein betrachtete System?
+Was ist der Unterschied zwischen einer Steuerung und Regelung?
+Was ist der Vorteil einer Steuerung?
+Was ist der Vorteil einer Regelung?
+Was ist eine Zwei-Freiheitsgrade-Regelung?
