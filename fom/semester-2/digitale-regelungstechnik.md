@@ -2,7 +2,7 @@
 title: Digitale Regelungstechnik
 description: 
 published: 1
-date: 2022-06-13T18:08:36.649Z
+date: 2022-06-13T18:08:42.905Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:22:58.660Z
@@ -15,4 +15,4 @@ dateCreated: 2022-03-04T12:22:58.660Z
 [Regelkreise & Übertragungsglieder](regelkreise.md)
 [Regelstrecken](regelstrecken.md)
 [Klausurvorbereitung](klausurvorbereitung.md)
-[Klausurvorbereitung](/fom/semester-2/digitale-regelungstechnik/klausurvorbereitung)
+
