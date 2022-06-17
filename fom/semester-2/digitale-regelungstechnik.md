@@ -14,5 +14,6 @@ dateCreated: 2022-03-04T12:22:58.660Z
 [Unterstuchungen der Systemdynamik im Zeitbereich](digitale-regelungstechnik/systemdynamik.md)
 [Regelkreise & Übertragungsglieder](digitale-regelungstechnik/regelkreise.md)
 [Regelstrecken](digitale-regelungstechnik/regelstrecken.md)
+[Regeler](digitale-regelungstechnik/regler.md.md)
 [Klausurvorbereitung](digitale-regelungstechnik/klausurvorbereitung.md)
 
