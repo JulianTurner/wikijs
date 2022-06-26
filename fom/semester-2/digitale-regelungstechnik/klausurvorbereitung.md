@@ -72,50 +72,113 @@ Die Regelabweichung wird deutlich schneller abgebaut.
 
 
 ## [Elementare Übertragungsglieder & Grundlagen Messtechnik](uebertragungsglieder.md)
-Nennen Sie 3 elementare Übertragungsglieder.
-Was ist ein vollständiges Messergebnis?
-Wonach unterscheidet man Messgeräte Kategorien?
-Unterschied Präzesion und Validität?
-Wie ermittelt man eine Messabweichung?
-Woraus setzt sich die Messabweichung zusammen bei indirekter Messung?
-Was ist der Unterschied zwischen Messgröße und Messwert?
-Welche Probleme gibt es bei der Abtastung beim Ozsiloskop?
+### Nennen Sie 3 elementare Übertragungsglieder.  
+P-Glied (proportional), I-Glied (integral), D-Glied (differential)  
 
+### Was ist ein vollständiges Messergebnis?  
+Messergebnis $\pm$ Messabweichung  
+
+### Wonach unterscheidet man Messgeräte Kategorien?
+Präzisionsmessgeräte, Feinmessgeräte, Betriebsmessgeräte
+
+### Unterschied Präzession und Validität?
+Präzision: Reproduzierbarkeit der Messergebnisse  
+Validität: Güte der Messergebnisse  
+
+### Erklären Sie warum der Unterschied zwischen präzise / nicht valide und präzise / valide interessant ist.
+- Bei Wiederholung der Messung kann Unterschied nicht erkannt werden  
+
+### Wie ermittelt man eine Messabweichung?
+Abschätzung der Abweichung aus:
+- Datenblatt des Herstellers
+- Daten von der Kalibrierung
+- Daten aus früheren Messungen
+
+### Woraus setzt sich die Messabweichung zusammen bei indirekter Messung?
+abhängig vom Einfluss auf einzelne Messparameter des Gesamtergebnisses
+
+### Was ist der Unterschied zwischen Messgröße und Messwert?
+Messgröße: physikalische Größe der Messung (Masse, Länge, Temperatur, Zeit)
+Messwert: mit Abweichung behaftetes Abbild der Messgröße
+
+### Welche Probleme gibt es bei der Abtastung beim Oszilloskop?
+Balance zwischen zu ausreichenden Daten (keine Unterabtastung) und nicht zu vielen Daten (Datenvolumen)
 
 
 
 
 ## [Untersuchung der Systemdynamik](systemdynamik.md)
-Verlauf analaoges Signal geben => Umwandlung in Wert/Zeitdiskretes Signal  
+Verlauf analoges Signal geben => Umwandlung in Wert / Zeitdiskretes Signal  
 Funktionsweise einen Theroelemts  
 Wie funktioniert ein Thermoelemt  
-Wie wird der thermoelektrische Effekt genutzt um eine Temperatur zu messen?
-Digitales unterabtasten von analogen Signalen
-Unterchied PTC/NTC  
+Wie wird der thermoelektrische Effekt genutzt um eine Temperatur zu messen?  
+Digitales unterabtasten von analogen Signalen  
+Unterschied PTC/NTC    
 PTC Regulierender Effekt  
-Unterschied Wiederstandsthermometer zu Thermoelement?
+Unterschied Widerstandsthermometer zu Thermoelement?  
 Inkrementelle Messung braucht 2 lineare und braucht einen Endanschlag  
-Bei einer absoluten Messverfahren braucht man keine Referentzfahrt, ist aber komplizierter  
-Wie funktioniert ein potentiometrischer Sensor?
+Bei einer absoluten Messverfahren braucht man keine Referenzfahrt, ist aber komplizierter  
+Wie funktioniert ein potentiometrischer Sensor?  
 Wie funktioniert ein Potentiometer?  
 Wie funktioniert ein induktiv Sensor?  
-Welche Möglichkeiten hat man bei einem Plattenkondensator die Kapazitätsänderung zu kontrollieren?
+Welche Möglichkeiten hat man bei einem Plattenkondensator die Kapazitätsänderung zu kontrollieren?  
 Plattenkondensator => Änderungsparameter  
 
 
 
 
 ## [Regelkreise und Übertragungsglieder](regelkreise.md)
-Wirkungspläne  
-Piezo Elemente  
-Mikroelektronik Vor und Nachteile
-Was ist die Verzugzeit bei einem $PT_1 \space System$ 
-Nennen Sie Beispiele für fluidmechanische Aktoren 
+Wirkungsplan
+![](wirkungsplan.png)
+### Wofür ist ein Aktor zuständig?
+Umsetzung des elektrischen Regelsignals in eine physikalische Stellgröße
+Der Aktor ist das einzige Element welches tatsächlich in das Regelsystem eingreift. 
+
+### Sensoren und Aktoren sind beides Wandler. Was unterscheidet sie?
+Der Sensor erfasst eine nichtelektrische physikalische Größe.
+Der Aktor erzeugt eine nichtelektrische physikalische Größe.
+
+### Erklären Sie die Wirkungsweise eines piezoelektrischen Bauteils
+Mechanische deformation erzeugt eine proportionale elektrische Spannung.
+Anlegen einer elektrischen Spannung erzeugt eine mechanische Deformation.
+
+### Mikroelektronik Vor- und Nachteile  
+Vorteile:
+- hohe Dynamik
+- genaue Positionierung
+- geringe Geräuschbelastung für Menschen
+- keine elektromagnetisches Feld im Außenbereich
+Nachteile:
+- größere Geräuschbelastung für manche Tiere
+- Kräfte gering (mit anderen Systemen lösbar)
+
+### Beispiele für Einsatz von Piezoelementen
+- Piezoinjektion
+- Klopfsensor
+- Piezofeuerzeug
+- Druckkopf vom Tintenstrahldrucker
+- 3d Drucker
+- **D**igitel **L**ight **P**rocessing Beamer
+
+
+### Nennen Sie Beispiele für fluid mechanische Aktoren  
+Pneumatikzylinder, Hydraulikzylinder, Pneumatischer Muskel
+
+### Vor- und Nachteile von fluid mechanischen Aktoren
+Vorteile:
+- hohe Kräfte möglich
+- Orts- und Neigungsunabhängig
+Nachteile:
+- Verschleiß durch Bewegung
 
 ## [Regelstrecken](regelstrecken.md)
 Regelstrecke mit Ausgleich
+Was ist die Verzugszeit bei einem $PT_1 \space System$  
+
 ## [Regler](regler.md)
 Ist es möglich mit einem P-Glied eine stationäre Genauigkeit zu erreichen?  
-Zeichenen Sie einen Regelkreis und beschriften sie?  
+Zeichnen Sie einen Regelkreis und beschriften sie?  
 Unterschied zwischen P PI und PID Regler  
 Graphen beschriften  
+
+
