@@ -108,21 +108,87 @@ Balance zwischen zu ausreichenden Daten (keine Unterabtastung) und nicht zu viel
 
 
 ## [Untersuchung der Systemdynamik](systemdynamik.md)
-Verlauf analoges Signal geben => Umwandlung in Wert / Zeitdiskretes Signal  
-Funktionsweise einen Theroelemts  
-Wie funktioniert ein Thermoelemt  
-Wie wird der thermoelektrische Effekt genutzt um eine Temperatur zu messen?  
-Digitales unterabtasten von analogen Signalen  
-Unterschied PTC/NTC    
-PTC Regulierender Effekt  
-Unterschied Widerstandsthermometer zu Thermoelement?  
-Inkrementelle Messung braucht 2 lineare und braucht einen Endanschlag  
-Bei einer absoluten Messverfahren braucht man keine Referenzfahrt, ist aber komplizierter  
-Wie funktioniert ein potentiometrischer Sensor?  
-Wie funktioniert ein Potentiometer?  
-Wie funktioniert ein induktiv Sensor?  
-Welche Möglichkeiten hat man bei einem Plattenkondensator die Kapazitätsänderung zu kontrollieren?  
-Plattenkondensator => Änderungsparameter  
+
+### Verlauf analoges Signal geben => Umwandlung in Wert / Zeitdiskretes Signal    
+![](analog-digital.png)
+### Wie funktioniert ein Thermoelement?
+nutzt thermoelektrischen Effekt
+
+### Wie wird der thermoelektrische Effekt genutzt um eine Temperatur zu messen?   
+- zwei Metalle am Ende verschweißt
+- unterschiedliche elektrische Potentiale
+- kann als Spannung gemessen werden
+
+Vorteile:
+- passiver Sensor (ohne Hilfsenergie)
+- weiter Temperaturmessbereich
+- robust
+
+Nachteile:  
+- kleine Messspannung  
+- unerwünschte Thermospannungen im Messkreis  
+- konstante Vergleichsstellen erforderlich 
+
+### PTC **selbstregulierender** Effekt  (Kaltleiter)
+Bei steigender Temperatur steigt der Widerstand.
+Bei steigendem Widerstand wird der Stromfluss begrenzt was die Temperatur nicht weiter steigen lässt.
+
+### Unterschied PTC/NTC (Kaltleiter / Heißleiter)
+
+NTC:
+- Widerstand <u>sinkt</u> bei steigender Temperatur exponentiell
+- negativer Temperaturkoeffizient
+
+PTC:
+- Widerstand <u>steigt</u> bei steigender Temperatur exponentiell
+- positiver Temperaturkoeffizient
+
+### Unterschied Widerstandsthermometer zu Thermoelement?
+Thermoelement:
+- zwei verschiedene Metalle  
+- Spannung wird gemessen  
+- für größeren Temperaturbereich einsetzbar als Widerstandsthermometer  
+
+Widerstandsthermometer:
+- ein Metall
+- Widerstand wird gemessen
+- Hohe Reproduzierbarkeit
+- Metall bestimmt messbaren Temperaturbereich
+- annähernd lineare Kennlinie
+
+### Wie funktioniert ein potentiometrischer Sensor? 
+1. Schleifer auf Widerstand mit konstanter Spannung
+1. Ausgangsspannung linear vom Weg abhängig
+
+Vorteil:
+- linear
+Nachteil: 
+- Verschleiß durch Reibung
+
+### Wie funktioniert ein induktiv Sensor?
+Magnetischer Fluss einer stromdurchflossenen Spule abhängig von Induktivität.
+Änderung des Abstands ändert Induktivität
+
+Vorteil:
+- berührungslos (kein Verschleiß) 
+Nachteil:
+- nicht linear
+
+### Unterschiede inkrementelle Messung und absolutes Messverfahren?
+inkrementelle Messung:
+- 2 Lineale für die Richtung 
+- 0 Punkt (Referenzmarke)
+ 
+
+absolutes Messverfahren (Code-Lineal):
+- keine Referenzmarke
+- direkte Postionsinformation
+
+
+### Welche Möglichkeiten hat man bei einem Plattenkondensator die Kapazitätsänderung zu kontrollieren?  
+- Abstand
+- Dielektrikum (Volumen für das elektrische Feld)
+- Wirksame Fläche
 
 
 
@@ -172,13 +238,23 @@ Nachteile:
 - Verschleiß durch Bewegung
 
 ## [Regelstrecken](regelstrecken.md)
-Regelstrecke mit Ausgleich
-Was ist die Verzugszeit bei einem $PT_1 \space System$  
+### Ausgleich einer Regelstrecke einzeichnen
+![](ptn-ausgleich.png)
+### Was ist die Verzugszeit bei einem $PT_1 \space System$
+- keine Verzugszeit
+- Wendepunkt liegt im Ursprung
+![](pt1-system.png)
+
 
 ## [Regler](regler.md)
-Ist es möglich mit einem P-Glied eine stationäre Genauigkeit zu erreichen?  
-Zeichnen Sie einen Regelkreis und beschriften sie?  
-Unterschied zwischen P PI und PID Regler  
-Graphen beschriften  
+### Ist es möglich mit nur einem P-Glied (auch kein I-Glied in Strecke) eine stationäre Genauigkeit zu erreichen?
+Nein, da der Sollwert durch die Messabweichung nie erreicht werden.
+
+### Unterschied zwischen P PI und PID Regler
+- P = Proportional  
+- I = Integral  
+- D = Differential  
+### Graphen von Reglern beschriften
+![](regelkurven.png)  
 
 
