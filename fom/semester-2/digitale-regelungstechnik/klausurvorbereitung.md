@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-07-07T16:55:07.573Z
+date: 2022-07-07T16:58:29.743Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:02.108Z
@@ -163,6 +163,7 @@ Widerstandsthermometer:
 
 Vorteil:
 - linear
+
 Nachteil: 
 - Verschleiß durch Reibung
 
@@ -172,6 +173,7 @@ Magnetischer Fluss einer stromdurchflossenen Spule abhängig von Induktivität.
 
 Vorteil:
 - berührungslos (kein Verschleiß) 
+
 Nachteil:
 - nicht linear
 
