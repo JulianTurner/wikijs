@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-07-07T16:53:30.107Z
+date: 2022-07-07T16:55:07.573Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:02.108Z
@@ -257,6 +257,8 @@ Nachteile:
 Nein, da der Sollwert durch die Messabweichung nie erreicht werden.
 
 ### Unterschied zwischen P PI und PID Regler
+
+Enthalten unterschiedliche Glieder:
 - P = Proportional  
 - I = Integral  
 - D = Differential  
