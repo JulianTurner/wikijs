@@ -2,10 +2,10 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-01-13T19:25:58.309Z
+date: 2022-07-07T16:45:51.361Z
 tags: 
 editor: markdown
-dateCreated: 2021-12-16T19:44:54.647Z
+dateCreated: 2022-03-04T12:23:02.108Z
 ---
 
 # Klausurvorbereitung
@@ -135,11 +135,11 @@ Bei steigendem Widerstand wird der Stromfluss begrenzt was die Temperatur nicht 
 
 ### Unterschied PTC/NTC (Kaltleiter / Heißleiter)
 
-NTC:
+NTC (Negative Temperature Coefficient):
 - Widerstand <u>sinkt</u> bei steigender Temperatur exponentiell
 - negativer Temperaturkoeffizient
 
-PTC:
+PTC (Positive Temperature Coefficient):
 - Widerstand <u>steigt</u> bei steigender Temperatur exponentiell
 - positiver Temperaturkoeffizient
 
