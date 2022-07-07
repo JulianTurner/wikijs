@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-07-07T16:50:47.553Z
+date: 2022-07-07T16:53:30.107Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:23:02.108Z
@@ -32,6 +32,7 @@ Black Box Betrachtung
 ![Blackbox](https://upload.wikimedia.org/wikipedia/commons/4/44/Blackbox3D.png)
 
 ### Was ist eine Regelung?  
+
 ![Regelung](regelung.png)
 
 
@@ -109,8 +110,8 @@ Balance zwischen zu ausreichenden Daten (keine Unterabtastung) und nicht zu viel
 
 ## [Untersuchung der Systemdynamik](systemdynamik.md)
 
-### Verlauf analoges Signal geben => Umwandlung in Wert / Zeitdiskretes Signal    
-![](analog-digital.png)
+### Verlauf analoges Signal geben => Umwandlung in Wert / Zeitdiskretes Signal   
+![analog-digital.png](/fom/semester-2/digitale-regelungstechnik/analog-digital.png)
 ### Wie funktioniert ein Thermoelement?
 nutzt thermoelektrischen Effekt
 
@@ -195,7 +196,8 @@ absolutes Messverfahren (Code-Lineal):
 
 ## [Regelkreise und Übertragungsglieder](regelkreise.md)
 Wirkungsplan
-![](wirkungsplan.png)
+![wirkungsplan.png](/fom/semester-2/digitale-regelungstechnik/wirkungsplan.png)
+
 ### Wofür ist ein Aktor zuständig?
 Umsetzung des elektrischen Regelsignals in eine physikalische Stellgröße
 Der Aktor ist das einzige Element welches tatsächlich in das Regelsystem eingreift. 
@@ -235,16 +237,19 @@ Pneumatikzylinder, Hydraulikzylinder, Pneumatischer Muskel
 Vorteile:
 - hohe Kräfte möglich
 - Orts- und Neigungsunabhängig
+
 Nachteile:
 - Verschleiß durch Bewegung
 
 ## [Regelstrecken](regelstrecken.md)
 ### Ausgleich einer Regelstrecke einzeichnen
-![](ptn-ausgleich.png)
+![ptn-ausgleich.png](/fom/semester-2/digitale-regelungstechnik/ptn-ausgleich.png)
+
 ### Was ist die Verzugszeit bei einem $PT_1 \space System$
 - keine Verzugszeit
 - Wendepunkt liegt im Ursprung
-![](pt1-system.png)
+
+![pt1-system.png](/fom/semester-2/digitale-regelungstechnik/pt1-system.png)
 
 
 ## [Regler](regler.md)
