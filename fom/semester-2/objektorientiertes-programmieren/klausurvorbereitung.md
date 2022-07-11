@@ -121,3 +121,50 @@ Unten = Klassendiagramm
 ![](Vererbungshierarchie.png)
 
 # Skript 10
+
+## final 
+- final Instanzvariable kann nach Instanzsierung nicht geändert werden
+- final Klassenvariable kann kein anderer Wert zugewiesen werden 
+- final Methode kann nicht überschrieben werden
+- final Klasse kann nicht geerbt werden
+
+# Skript 11
+
+## Primitive Datentypen
+- aus performace Gründen nicht als eigene Klasse implementiert
+- Wrapper Klassen für zusätzliche Funktionen 
+- wenn nicht Feld von Objekt dann auf dem Stack
+
+## Referenzdatentypen
+- konstrukte um aus primitiven Datentypen eigene Typen zu erzeugen
+- Zugriff nur indirekt über Referenz
+
+## Referenzvariablen
+- stellen Verknüpfung zu einem Objekt dar
+- ermöglichen Zugriff auf Objekte über Referenz
+
+Bei Instanz- Klassenvariable erfolgt Initialisierung mit default Werten.
+Lokale Variable muss selbst initialisiert werden.
+
+> Objekte ohne Referenzvariablen werden im Garbage Collector freigegeben.
+
+## Wo liegen Objekte von Referenzvariablen?
+- Klassenvariable (static) in der Method Area
+- Instanzvariablen im Heap
+- lokale Variablen im Stack
+
+## Was kommt zuerst? Klasse oder Objekt?
+zuerst Klasse, dann Objekt
+da Objekt Instanz einer Klasse
+
+# Skript 14
+
+## Was macht die this-Referenz?
+- Referenz auf das aktuelle Objekt
+
+## this Anwendungsfälle
+- Datenfelder haben den selben Namen wie Übergabeparameter (häufig im constructor, spart neue Namen)
+- Darstellung dass auf eine Instanzvariable/-methode des aktuellen Objekts verwiesen wird
+- Rückhabe einer Referenz auf das aktuelle Objekt
+
+# Skript 15
