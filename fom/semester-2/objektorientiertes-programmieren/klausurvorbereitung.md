@@ -168,3 +168,103 @@ da Objekt Instanz einer Klasse
 - Rückhabe einer Referenz auf das aktuelle Objekt
 
 # Skript 15
+
+## Was ist Methoden Überladung?
+- Methoden mit selebn Namen aber unterschiedlichen formalen Parametern
+
+## Was ist eine Sigantur?
+Methodenname + formale Parameter
+
+## Wie werden Objekte zur Laufzeit erstellt?
+
+```java
+Class b;         // Deklaration
+b = null;        // Initialisierung
+b = new Class(); // Instanzierung
+```
+
+> Konstruktoren haben die selben Namen wie die Klasse
+
+## init Klassenvariable
+
+```java
+class Klasse {
+	static int zahl;  // 0 wenn nicht initialisiert
+
+	static {
+		zahl = 10;
+	}
+}
+```
+
+## init Instanzvariablen
+
+```java
+class Klasse {
+	int zahl;
+
+	{
+		zahl = 10;
+	}
+}
+```
+
+## Was zeichnet einen Konstruktor aus?
+- selber Name wir Klasse
+- wird bei Erzeugung des Objektes ausgeführt
+- Inistalizierungsroutine
+- kein Rückgabewert 
+- wird nicht vererbt
+- mehere Konstruktorern mit unterschiedlichen formalen Parametern
+
+> Default Konstruktor ist der no Args Konstruktor
+
+## Was zeichnet den default Konstruktor aus?
+- keine Parameter
+- wird automatisch definiert
+- nicht mehr verfügbar wenn ein Konstruktor definiert wurde
+
+# Skript 16
+## Assoziation
+- Beziehung zwischen Objekten
+![](https://p7x7q5i4.rocketcdn.me/wp-content/uploads/2018/12/assoziation-1080x346.jpg)
+
+## Komposition
+- muss vorhanden sein  
+![](https://p7x7q5i4.rocketcdn.me/wp-content/uploads/2019/01/komposition.jpg)
+
+## Aggregation
+- kann vorhanden sein  
+![](https://p7x7q5i4.rocketcdn.me/wp-content/uploads/2020/03/uml-aggregation-wissen-kompakt.jpg)
+
+
+## Wozu ist Vererbung gut?
+- Wiederverwendung von Code
+- Eigenschaften und Verhaltensweisen auf andere Klassen übertragen
+- Hierachien aufbauen
+- Modularisierung
+
+# Skript 17
+
+## Wann ist eine Klasse polymorph?
+1. Oberklasse
+1. Kinderklasse
+1. Kindklasse tritt in gestalt der Oberklasse auf
+
+# Skript 18
+
+## Wofür brauche ich Exceptions?
+zur strukturieten Ausnahmebehandlung
+
+> Wenn die Exception nicht gecatched wird, wird sie zur nächsten Exception weitergereicht
+
+## Wo ist der Unterschied zwischen Checked und UnChecked Exceptions?
+Checked Exception:
+- muss behandelt werden
+UnChecked Exception:
+- wird nicht behandelt
+
+> Alle Exceptions bis auf Error und Runtime sind Checked Exceptions
+> UnChecked Exceptions beenden das Programm
+
+![](https://images-ext-1.discordapp.net/external/kbH3gpY0TGSZBE7NA73u2xPE2wQjgvAeePgTINXCUAI/https/lh5.googleusercontent.com/WqqNoyFEkZXfmZBBQjgIutY72_BUV6_By_BAe7Ih9u36HfelS3nTWQEYtdRUkQS32Tuhg9P9CUXo-jgvOpkO84vLm2viI4Od0BNustwONdMm7DKZnKC6kyVHyRJbsESLIPV4uBU?width=810&height=280)
