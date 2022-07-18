@@ -9,5 +9,6 @@ dateCreated: 2022-03-04T12:22:51.826Z
 ---
 
 # Datenbankmanagment
+[Loker Server](/fom/semester-2/datenbankmanagement/server_installieren.md)  
 [Klausurvorbereitung](/fom/semester-2/datenbankmanagement/klausurvorbereitung)
 
