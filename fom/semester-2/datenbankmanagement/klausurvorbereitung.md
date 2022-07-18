@@ -13,3 +13,7 @@ Hälfte der Fragen sind mulitpile choice anddere Hälfte offene Fragen.
 
 [Einführung](/fom/semester-2/datenbankmanagement/01_einfuehrung.md)
 
+[Datenbankentwurf](/fom/semester-2/datenbankmanagement/02_datenbankentwurf.md)
+
+<!-- weiter mit Skript 04 -->
+
