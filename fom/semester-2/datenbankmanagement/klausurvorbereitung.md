@@ -15,5 +15,9 @@ Hälfte der Fragen sind mulitpile choice anddere Hälfte offene Fragen.
 
 [Datenbankentwurf](/fom/semester-2/datenbankmanagement/02_datenbankentwurf.md)
 
-<!-- weiter mit Skript 04 -->
+[Relationales Modell](/fom/semester-2/datenbankmanagement/03_relationales_modell.md)
+
+[SQL](/fom/semester-2/datenbankmanagement/04_sql.md)
+
+<!-- weiter mit Skript 07 -->
 
