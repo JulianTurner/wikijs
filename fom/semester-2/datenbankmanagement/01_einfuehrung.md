@@ -30,7 +30,8 @@ Datenbankmanagement System
 Werden die Daten auf einem physischen Medium gespeichert.
 > Physische Datenunabhängigkeit => ändern der physischen Speicherstruktur ohne ändern der logischen Ebene
 ### Logische Ebene
-Wie werden Daten gespeichert(welche Daten, welche Beziehung)
+Welche Daten werden gespeichert  
+Welche Beziehung haben Daten zueinander
 > Logische Datenunabhängigkeit: Anwendung sind bei geringfügigen Änderungen nicht betroffen 
 
 ### Sichten
