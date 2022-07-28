@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-07-28T18:08:10.848Z
+date: 2022-07-20T17:05:20.330Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T12:22:55.269Z
@@ -19,6 +19,15 @@ Hälfte der Fragen sind mulitpile choice anddere Hälfte offene Fragen.
 
 [SQL](/fom/semester-2/datenbankmanagement/04_sql.md)
 
-<!-- weiter mit Skript 07 -->
-[08_normalformen](/fom/semester-2/datenbankmanagement/08_normalformen)
+[Relationale Algebra](/fom/semester-2/datenbankmanagement/05_realationale_algebra.md)
+
+[Entwurfstheorie](/fom/semester-2/datenbankmanagement/07_entwurfstheorie.md)
+
+[Normalformen](/fom/semester-2/datenbankmanagement/08_normalformen.md)
+
+[Rekursion](/fom/semester-2/datenbankmanagement/09_rekursion.md)
+
+[Datenorganisation](/fom/semester-2/datenbankmanagement/10_datenorganisation.md)
+
+
 
