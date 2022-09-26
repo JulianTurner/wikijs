@@ -12,7 +12,7 @@ dateCreated: 2021-12-16T19:53:06.780Z
 
 
 
-Was ist eine Programierrsprache?
+Was ist eine Programmiersprache?
 - eine formale Sprache
 - beschreiben Algorithmen die auf einer Maschine ausgeführt werden
 - Schnittstelle zwischen Programmierer und Maschine 
