@@ -199,6 +199,134 @@ Nachteile:
 - schwierig zu planen
 ## Monumentale Modelle
 Genaue Beschreibung wie Prozess und Qualitätsziele erreicht werden sollen 
+Basismodell Grundgedanken (Sequentiell, Parallel, Iterativ) auch im Monumentalen Modell aber ganzheitlich Betrachtet (Was, Wer, Wie).
+Vorlagen für für typische Anwendungsszenarien.
+
+Für individuelles Projekt wird vorab festgelegt (tailoring): 
+	- Aktivitäten und deren Reihenfolge
+	- Rollen
+	- Produkten
+
+### V-Modell XT
+XT steht für extreme tailoring  => Fokus auf Verhältnis zwischen Auftraggeber und Auftragnehmer 
+Einheitliche Vorgabe von Aktivitäten und Produkten
+Produkte haben Verantwortlichkeiten nach RACI:
+- R: Responsible (operativ Verantwortlich)
+- A: Accountable (finanzielle Verantwortlich)
+- C: Consulted (Beratend)
+- I: Informed (Informiert)
+
+> Produktgetrieben
+{.is-info}
+
+#### Von wem stammt das V-Modell XT?
+Wurde voBundesministerium für Verteidigung vereinheitlicht
+#### Aus welchen Elementen besteht das V-Modell XT?
+Aktivitäten & Produkten (Ergebnisse)
+
+#### Was bedeutet Produktorientierung?
+- Produkte stehen im Mittelpunkt
+- Produktqualität ist überprüfbar
+- für jedes Produkt ist eine Rolle verantwortlich (vermeidet unterschiedliche Entscheidungen)
+
+#### Was sind Projektfortschrittsstufen im V-Modell XT?
+Wichtige Ergebnisse / Phasen im Projekt welche in der Projektdurchführungsstrategie definiert wurden
+
+### RUP (Rational Unified Process)
+für objektorientierte Softwareentwicklung
+ist eng verbunden mit der Entstehung von UML
+
+> Aktivitätsgetrieben
+{.is-info}
+
+#### Welche Phasen existieren im RUP?
+- Inception (Konzeption)
+	- Ermittlung zentraler Anforderungen, Projektumfang
+- Elaboration (Ausarbeitung)
+	- stabile, möglichst Vollständige Anforderungen
+- Construction (Konstruktion)
+	- Entwicklung der Software
+- Transition (Übergang)
+	- Übergabe an den Kunden
+
+
+#### Was ist im RUP eine Disziplin?
+Kerndisziplinen decken fachliche und technische Aufgaben ab.
+Unterstützungsdisziplinen bündeln unabhängige Querschnittsaufgaben.
+z.B.
+- Entwicklung
+- Test
+- Auslieferung
 
 ## Agile Modelle
 Gegenbewegung zu den monumentalen Modellen
+Agil = flink
+
+![](agile_uebersicht.png)
+
+#### Welche Kritik üben die agilen Ansätze?
+Nicht Werkzeug/Methode macht Projekte erfolgreich, sondern Menschen
+
+#### Was ist das agile Manifest?
+Verhaltensregeln, Grundgerüst für Einhaltung der Werte in der Praxis
+
+### Was sind die agilen Prinzipien?
+- frühe und kontinuierliche Lieferung von Software
+- Zusammenarbeit mit Kunden
+- Reaktion auf Veränderungen
+- Nutzung von Veränderungen zum Wettbewerbsvorteil  
+
+
+### SCRUM
+Interaktives, inkrementelles Prozessmodell
+
+
+#### Was ist der Product Owner?
+- hat Produktvision
+- trägt wirtschaftliche Verantwortung (accountable)
+- legt Ziele fest
+- definiert & priorisiert
+
+#### Was ist der Scrum Master
+- verantwortlich für den Scrum-Prozess (Rituale)
+- hilft zusammenarbeit zu optimieren
+- beseitigt Hindernisse
+
+#### Was ist das Entwicklungsteam?
+- Entwickler des Produkts
+- selbstorganisiert
+
+#### Was ist der Product Backlog?
+- Liste aller Anforderungen
+- Priorisiert
+- wird vom Product Owner gepflegt
+
+#### Was ist der Sprint Backlog?
+- Liste der Aufgaben für den Sprint
+- wird vom Entwicklungsteam in Tasks aufgeteilt
+- Beitrag muss im aktuellen Sprint fertig sein
+
+#### Was ist das Sprint-Ergebnis?
+- Produkt, das am Ende des Sprints fertig ist (Demonstrierbare Funktionalität, auslieferbarer Code)
+- wird im Stakeholder Review validiert
+
+#### Was ist das Definition of Done?
+Was ein Artefakt haben muss, damit es als fertig gilt
+
+#### Was ist ein Sprint?
+- Zeitraum in dem ein Sprint Backlog implementiert wird
+
+#### Was ist das Sprint Planning?
+- Planung des Sprints
+
+#### Was ist das Daily Scrum?
+- tägliche Besprechung von ca. 15 Minuten
+
+#### Was ist das Sprint Review?
+- Veranstaltung um das Produkt zu überprüfen
+
+#### Was ist die Sprint-Retrospektive?
+- Überprüfung der eigenen Arbeit und Planung für Verbesserungen
+
+#### Was ist das Backlog Refinement?
+- Überarbeitung des Product Backlogs
