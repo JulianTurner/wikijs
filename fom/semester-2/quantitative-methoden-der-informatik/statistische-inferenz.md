@@ -151,8 +151,6 @@ Warscheinlichkeit dies zu beobachten muss min. so weit von den erwarteten 10% se
 
 #### Kritischer Bereich
 
-TODO S50.
-
 #### Konfidenzintervall
 ![](Hypothesen_Konfidenzintervall.png)
 1. $\sigma$ von Verteilung nehmen

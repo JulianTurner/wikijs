@@ -105,3 +105,6 @@ MongoDb:
 - Kundenbindung
 - Kundenverhalten
 ### Wichtigsten Domänen für Data Science?
+
+## Hadoop
+[siehe Hadoop](./hadoop.md#hadoop)
