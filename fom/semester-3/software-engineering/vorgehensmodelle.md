@@ -2,7 +2,7 @@
 title: Vorgehensmodelle
 description: 
 published: 1
-date: 2022-10-12T15:44:58.614Z
+date: 2022-10-12T15:49:06.421Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:16:08.635Z
@@ -381,5 +381,15 @@ Nachteile:
 - Alle müssen mitmachen und sich auf ein Modell einigen
 - Arbeiten in fest vorgegebenen Schienen behindert Kreativität => Innovations-Verlust
 
+### Trends
+
+- Monumentale Modelle werden abgemagert
+- Agile Modelle werden erweitert
+- Monumentale und agile Modelle koexistieren (hybride Modelle/bimodale IT)
+
+## Bimodale IT
+
+Zweiteilung von IT Organisation in traditionelle IT und agile IT Teams.
+Traditionelle IT gibt langfristige Sicherheit, während das agile IT Team flexibel auf sich verändernde Trends reagieren kann.
 
 
