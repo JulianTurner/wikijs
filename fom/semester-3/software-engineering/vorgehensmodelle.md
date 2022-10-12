@@ -2,10 +2,10 @@
 title: Vorgehensmodelle
 description: 
 published: 1
-date: 2022-06-10T18:03:55.907Z
+date: 2022-10-12T15:25:05.707Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:23:12.295Z
+dateCreated: 2022-09-13T18:16:08.635Z
 ---
 
 # Vorgehensmodelle
@@ -330,3 +330,28 @@ Was ein Artefakt haben muss, damit es als fertig gilt
 
 #### Was ist das Backlog Refinement?
 - Überarbeitung des Product Backlogs
+
+### Kanban
+- linearer Ablauf (Iteration nicht vorgesehen aber mgölich)
+- visualisiert Fluss der Arbeit
+- begrenzt Menge angefangener Arbeit
+- bessere Nutzung von Personalressourcen (vgl. Autofertigung Fließband-Stationen)
+- Tasks durchlaufen Phasen
+	- jede Phase unterteilt in "In Arbeit" u. "Done"
+	- jede Phase hat eigenes "Definition of Done" (=> Zustandsbeschreibung für Tasks wenn in "Done")
+
+## Rahmenmodelle
+Prozessabläufen übergeordnetes Managementwerkzeug.
+Betreffen hauptsächlich die Unternehmen und Gruppe/Projekt Ebene.
+
+### CMMI (Capability Maturity Model Integration)
+- Zusammenfassung praxisorientierter Best-Practices
+- Ziel: Prozessverbesserung in Software-Unternehmen
+- Stufenförmige Darstellung von Reifegraden
+
+### SPICE (Software Process Improvement and Capability Determination)
+(heute ISO / IEC 15504 Information Technology - Process assessment)
+
+Hat auch Reifegrade wie CMMI, allerdings für anders gruppierte Themenbereiche.
+
+
