@@ -2,7 +2,7 @@
 title: Vorgehensmodelle
 description: 
 published: 1
-date: 2022-10-12T15:25:05.707Z
+date: 2022-10-12T15:44:58.614Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:16:08.635Z
@@ -353,5 +353,33 @@ Betreffen hauptsächlich die Unternehmen und Gruppe/Projekt Ebene.
 (heute ISO / IEC 15504 Information Technology - Process assessment)
 
 Hat auch Reifegrade wie CMMI, allerdings für anders gruppierte Themenbereiche.
+
+## Vergeleich monumentale / agile Modelle
+
+### Monumentales Modell
+
+Besser geeignet für vorhersagbare Prozesse, geführt mit formaler Kommunikation, mit umfaangreicher Dokumentation, großen Teams und Festpreisaufträge.
+
+### Agiles Modell
+
+Besser geeignet für adaptive Prozesse die schnell liefern müssen, weniger Dokumentation kleinere Teams, Auftrag nach Aufwand.
+
+### Vorgehensmodelle Vorteile/Nachteile
+
+Vorteile:
+
+- Gemeinsame Abbildung von Projektmanagement-, QS- u. produkterstellenden-Prozessen
+- Projekte können geordnet ablaufen
+- verbesserte Übersichtlichkeit des Gesamtprojekts
+- Projektbegleitende Dokumentation
+- Verbesserte Koordination von Teams
+
+Nachteile:
+
+- sehr viele verschiedene Modelle - hat sich kein einzig-richtiger Standard durchgesetzt
+- Aufwendige Vorgehensmodelle können Softwareentwicklung behindern und verteuern
+- Alle müssen mitmachen und sich auf ein Modell einigen
+- Arbeiten in fest vorgegebenen Schienen behindert Kreativität => Innovations-Verlust
+
 
 
