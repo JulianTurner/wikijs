@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-12T16:10:21.145Z
+date: 2022-10-12T16:17:31.060Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -35,4 +35,17 @@ Verallgemeinerung mit 3 Ebenen:
 	- strukturierte passive Elemente -> Klassen
 	- unstrukturierte passive Elemente -> Attribute von Klassen
 	- aktive Elemente -> Operationen von Klassen
-  
+
+#### Prinzip der Strukturierung
+
+- Sichtbarmachen großer Zusammenhänge unter Weglassung bestimmter Details
+- Darstellung bestimmter Details ohne alle Details darzustellen
+- Herstellung eines bestimmten Zusammenhangs (nicht zwangsläufig hierarchisch)
+- Unterscheidung von statischen, dynamischen und organisatorischen Strukturen
+
+#### Prinzip der Hierarchisierung
+
+Strukturierung mit erzwungener Rangfolge
+
+#### Prinzip der Modularisierung
+
