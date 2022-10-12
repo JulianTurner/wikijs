@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-12T16:21:43.570Z
+date: 2022-10-12T16:26:07.954Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -50,9 +50,16 @@ Strukturierung mit erzwungener Rangfolge
 #### Prinzip der Modularisierung
 
 - Große Lösung gegliedert in kleineren, überschaubaren Teillösungen
-- Jedes Modul = in sich geschlossene Einheit
+- Jedes Modul = benannte, in sich geschlossene, abgegrenzte Einheit/Komponente eines Systems
 - Verwendung eines Moduls erfordert keine Kenntnisse über inneren Aufbau des Moduls
 - Außen-Kommunikation mit Modul via klar definierter Schnittstellen
 - Interne Moduländerungen haben keine Seiteneffekte
 - jedes Modul einzeln testbar ohne Einbettung ins Gesamtsystem
+
+#### Bindung und Kopplung
+
+- Kohäsion: Maß für Stärke des inneren Zusammenhangs eines Moduls
+	- höhere Kohäsion wünschenswert (High Cohesion)
+- Kopplung: Maß für die Abhängigkeit zwischen zwei Modulen
+	- geringe wechselseitige Kopplung zwischen Modulen wünschenswert (Low Coupling)
 
