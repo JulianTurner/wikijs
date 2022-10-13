@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:21:54.662Z
+date: 2022-10-13T14:27:19.111Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -93,7 +93,7 @@ def add_b(my_obj: A):
 
 if __name__ == '__main__':
     a_obj = A()
-    print(add_b(a_obj))  # gibt den String 'ab' aus
+    print(add_b(a_obj))  # ab
 ```
 
 kann ein Verwender der Bibliothek der Funktion `add_b` ein Objekt mit einem anderen Typen übergeben:
@@ -106,7 +106,7 @@ class B:
 
 if __name__ == '__main__':
     b_obj = B()
-    print(add_b(b_obj))  # gibt den String 'bb' aus
+    print(add_b(b_obj))  # bb
 ```
 
 IDEs mögen in diesem Fall eine Warnung im Code anzeigen, da die Funktion `add_b` mit `: A` eine Annotation am Parameter enthält, welche darauf Hinweist das `my_obj` vom Typ `A` sein sollte, aber ausführen lässt sich der Code komplett ohne Fehler oder Warnungen.
@@ -168,4 +168,32 @@ print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id ->
 - Nicht equivalent zu `0` oder `False` (eigener Datentyp `NoneType`)
 - None ist `falsey´ (wird `None` im Kontext eines boolischen Ausdrucks verwendet, wird es zu `False` ausgewertet)
 
+
+## Kontrollstrukturen
+
+### Sequenz
+
+Einfache lineare Abfolge von Befehlen
+
+```python
+a = 5
+b = 10
+c = a + b
+print(c)  # 15
+```
+
+### Auswahl
+
+Verzweigung des Programmflusses
+
+```python
+a = 5
+b = 10
+c = a + b
+
+if c > 7:
+	c += 20
+
+print(c)  # 35
+```
 
