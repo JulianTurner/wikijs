@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T13:23:15.134Z
+date: 2022-10-13T13:26:32.183Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -79,16 +79,16 @@ Objekte werden im Speicher mit einer generierten Id, der zugewiesenen Value und 
 
 Solange ein Objekt die benötigten Methoden/Attribute hat, kann es in einem Szenario verwendet werden, welches ursprünglich gar nicht für diesen bestimmten Objekttyp vorgesehen war.
 
-Schreibt beispielsweise ein Bibliothek Author folgenden Code:
+Schreibt beispielsweise ein Bibliothek-Author folgenden Code:
 
 ```python 
 class A:
     def __init__(self):
-        self.a = 'a'
+        self.own_letter = 'a'
 
 
 def add_b(my_obj: A):
-    return my_obj.a + 'b'
+    return my_obj.own_letter + 'b'
 
 
 if __name__ == '__main__':
@@ -101,7 +101,7 @@ kann ein Verwender der Bibliothek der Funktion `add_b` ein Objekt mit einem ande
 ```python
 class B:
     def __init__(self):
-        self.a = 'b'
+        self.own_letter = 'b'
 
 
 if __name__ == '__main__':
@@ -110,5 +110,9 @@ if __name__ == '__main__':
 ```
 
 IDEs mögen in diesem Fall eine Warnung im Code anzeigen, da die Funktion `add_b` mit `: A` eine Annotation am Parameter enthält, welche darauf Hinweist das `my_obj` vom Typ `A` sein sollte, aber ausführen lässt sich der Code komplett ohne Fehler oder Warnnungen.
+
+Dies ist möglich, da Objekte vom Typ `B` ebenfalls ein Attribut `own_letter` besitzen.
+
+
 
 
