@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:36:33.609Z
+date: 2022-10-13T14:38:31.622Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -133,6 +133,8 @@ Immutable (Nicht Veränderbar):
 
 ## Vergleiche
 
+Ergebnis ist immer ein boolischer Wert (`True`/`False`)
+
 ### `a == b` -> (Wertmäßige) Gleichheit
 
 ```python
@@ -172,6 +174,12 @@ Prüft ob Objekte ungleich sind (unterschiedliche Ids haben).
 - `<` -> Kleiner als
 - `>=` -> Größer/Gleich als
 - `>=` -> Kleiner/Gleich als
+
+### Und, Oder, Nicht
+
+- `x and y` -> Logisches UND
+- `x or y` -> Logisches OR
+- `not x` -> Logisches NOT
 
 
 ## None
