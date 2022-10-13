@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:13:32.393Z
+date: 2022-10-13T14:16:11.354Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -147,7 +147,7 @@ print(a == c)  # Vergleiche Wert der zwei Objekte -> True
 print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id -> False
 ```
 
-> Python verwendet für Integer im Bereich -5 <= x <= 256 für Performance-Verbesserungen Singletone-Instanzen (Wird nur ein mal Speicher für den gleichen Wert reserviert, egal wie vielen Variablen man den gleichen Wert zuweist). `is` Vergleiche von zwei Objekten mit dem gleichen Wert aus diesem Wertebereich werden `True` ergeben, während ein `is` Vergleich von zwei Variablen denen beispielsweise `1000` zugewiesen wurde `False` ergibt.
+> Python verwendet für Integer im Bereich -5 <= x <= 256 für Performance-Verbesserungen Singletone-Instanzen (wird nur ein mal Speicher für den gleichen Wert reserviert, egal wie vielen Variablen man den gleichen Wert zuweist). `is` Vergleiche von zwei Objekten mit dem gleichen Wert aus diesem Wertebereich werden `True` ergeben, während ein `is` Vergleich von zwei Variablen denen beispielsweise `1000` zugewiesen wurde `False` ergibt.
 {.is-warning}
 
 > `None` ist ebenfalls eine Singletone-Instanz -> `is` Vergleiche zweier Variablen denen `None` zugewiesen wurde ergibt `True`.
@@ -155,5 +155,8 @@ print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id ->
 
 ## None
 
+- Pythons Version von `Null` Werten
+- Nicht equivalent zu `0` oder `False` (eigener Datentyp `NoneType`)
+- None ist `falsey´ (wird `None` im Kontext eines boolischen Ausdrucks verwendet, wird es zu `False` ausgewertet)
 
 
