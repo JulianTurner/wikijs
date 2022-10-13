@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T13:47:56.048Z
+date: 2022-10-13T14:07:13.121Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -131,6 +131,22 @@ Immutable:
 - Mengen (`frozenset` - nicht verwechseln mit mutierbarem `set`)
 - Bytes (`bytes`)
 
+## Vergleiche
 
+- `a == b` -> Gleichheit
+- `a is b` -> Referenzielle Gleicheit (equivalent zu `id(a) == id(b)`
 
+```python
+a = [1, 2, 3]
+b = a
+c = a[:]  # erstellt eine neue Liste die alle Elemente von a enthält
+
+print(a == b)  # Vergleiche Wert der zwei Objekte -> True
+print(a is b)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id -> True
+print(a == c)  # Vergleiche Wert der zwei Objekte -> True
+print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id -> False
+```
+
+> Python verwendet für Integer im Bereich -5 <= x <= 256 Singletone-Instanzen (Wird nur ein mal Speicher für den gleichen Wert reserviert, egal wie vielen Variablen man den gleichen Wert zuweist). `is` Vergleiche der Objekte dieser Variablen werden `True` zurückliefern, während ein `is` Vergleich von zwei Variablen denen beispielsweise `1000` zugewiesen wurde `False` zurückliefert.
+{.is-warning}
 
