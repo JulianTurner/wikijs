@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:50:07.745Z
+date: 2022-10-13T14:54:34.920Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -198,7 +198,7 @@ Truthy:
 
 - Pythons Version von `Null` Werten
 - Nicht equivalent zu `0` oder `False` (eigener Datentyp `NoneType`)
-- None ist `falsey´ (wird `None` im Kontext eines boolischen Ausdrucks verwendet, wird es zu `False` ausgewertet)
+- None ist `falsey` (wird `None` im Kontext eines boolischen Ausdrucks verwendet, wird es zu `False` ausgewertet)
 
 
 ## Kontrollstrukturen
@@ -260,4 +260,15 @@ for i in range(10):
 else:
     print('Fertig')  # Wird nicht aufgerufen
 ```
+
+`range(...)` Generator gibt nacheinander Zahlen in einem gewissen Bereich mit einer gewissen Schrittweite zurück.
+
+## Operatoren Rangfolge
+
+- `()` Klammern haben hohe Präzedenz
+- `and` hat höhere Präzedenz als `or`
+- `= `Zuweisungen haben niedrige Präzedenz
+
+> Im Zweifelsfall Klammern setzen
+{.is-info}
 
