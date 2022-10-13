@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T13:32:54.856Z
+date: 2022-10-13T13:47:56.048Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -114,6 +114,22 @@ IDEs mögen in diesem Fall eine Warnung im Code anzeigen, da die Funktion `add_b
 Objekte vom Typ `B` haben nie etwas von Objekte vom Typ `A` mitbekommen, sie erben nicht von `A` und stehen auch sonst in keinerlei Beziehung zu `A`.
 
 Dies ist möglich, da Objekte vom Typ `B` ebenfalls ein Attribut `own_letter` besitzen.
+
+
+## Veränderlichkeit
+
+Mutable: 
+- Listen (`list`)
+- Mengen (`set`)
+- Wörterbücher (`dict`)
+- Byte-Felder (`bytearray`)
+
+Immutable: 
+- Nummerisch (`int`, `float`, `complex`, `bool`)
+- Zeichenketten (`str`)
+- Tupel (`tuple`)
+- Mengen (`frozenset` - nicht verwechseln mit mutierbarem `set`)
+- Bytes (`bytes`)
 
 
 
