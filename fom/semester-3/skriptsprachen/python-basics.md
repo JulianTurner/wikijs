@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T13:26:32.183Z
+date: 2022-10-13T13:32:54.856Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -109,7 +109,9 @@ if __name__ == '__main__':
     print(add_b(b_obj))  # gibt den String 'bb' aus
 ```
 
-IDEs mögen in diesem Fall eine Warnung im Code anzeigen, da die Funktion `add_b` mit `: A` eine Annotation am Parameter enthält, welche darauf Hinweist das `my_obj` vom Typ `A` sein sollte, aber ausführen lässt sich der Code komplett ohne Fehler oder Warnnungen.
+IDEs mögen in diesem Fall eine Warnung im Code anzeigen, da die Funktion `add_b` mit `: A` eine Annotation am Parameter enthält, welche darauf Hinweist das `my_obj` vom Typ `A` sein sollte, aber ausführen lässt sich der Code komplett ohne Fehler oder Warnungen.
+
+Objekte vom Typ `B` haben nie etwas von Objekte vom Typ `A` mitbekommen, sie erben nicht von `A` und stehen auch sonst in keinerlei Beziehung zu `A`.
 
 Dies ist möglich, da Objekte vom Typ `B` ebenfalls ein Attribut `own_letter` besitzen.
 
