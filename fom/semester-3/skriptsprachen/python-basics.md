@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:16:11.354Z
+date: 2022-10-13T14:19:58.410Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -133,16 +133,23 @@ Immutable (Nicht Veränderbar):
 
 ## Vergleiche
 
-- `a == b` -> (Wertmäßige) Gleichheit
-- `a is b` -> Referenzielle Gleichheit (äquivalent zu `id(a) == id(b)`
+### `a == b` -> (Wertmäßige) Gleichheit
 
 ```python
 a = [1, 2, 3]
 b = a
-c = a[:]  # erstellt eine neue Liste die alle Elemente von a enthält
 
 print(a == b)  # Vergleiche Wert der zwei Objekte -> True
 print(a is b)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id -> True
+```
+
+
+### `a is b` -> Referenzielle Gleichheit (äquivalent zu `id(a) == id(b)`)
+
+```python
+a = [1, 2, 3]
+c = a[:]  # erstellt eine neue Liste die alle Elemente von a enthält
+
 print(a == c)  # Vergleiche Wert der zwei Objekte -> True
 print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id -> False
 ```
