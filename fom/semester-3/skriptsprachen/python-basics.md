@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T13:08:08.903Z
+date: 2022-10-13T13:23:15.134Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -74,3 +74,41 @@ a = 'auto`
 ```
 
 Objekte werden im Speicher mit einer generierten Id, der zugewiesenen Value und einem Typ abgelegt.
+
+## Duck Typing
+
+Solange ein Objekt die benötigten Methoden/Attribute hat, kann es in einem Szenario verwendet werden, welches ursprünglich gar nicht für diesen bestimmten Objekttyp vorgesehen war.
+
+Schreibt beispielsweise ein Bibliothek Author folgenden Code:
+
+```python 
+class A:
+    def __init__(self):
+        self.a = 'a'
+
+
+def add_b(my_obj: A):
+    return my_obj.a + 'b'
+
+
+if __name__ == '__main__':
+    a_obj = A()
+    print(add_b(a_obj))  # gibt den String 'ab' aus
+```
+
+kann ein Verwender der Bibliothek der Funktion `add_b` ein Objekt mit einem anderen Typen übergeben:
+
+```python
+class B:
+    def __init__(self):
+        self.a = 'b'
+
+
+if __name__ == '__main__':
+    b_obj = B()
+    print(add_b(b_obj))  # gibt den String 'bb' aus
+```
+
+IDEs mögen in diesem Fall eine Warnung im Code anzeigen, da die Funktion `add_b` mit `: A` eine Annotation am Parameter enthält, welche darauf Hinweist das `my_obj` vom Typ `A` sein sollte, aber ausführen lässt sich der Code komplett ohne Fehler oder Warnnungen.
+
+
