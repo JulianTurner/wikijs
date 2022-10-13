@@ -1,11 +1,11 @@
 ---
-title: Klausurvorbereitung
+title: Scriptsprachen
 description: 
 published: 1
-date: 2022-07-20T17:05:20.330Z
+date: 2022-10-13T12:31:45.809Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:22:55.269Z
+dateCreated: 2022-09-13T18:15:56.928Z
 ---
 
 # Klausurvorbereitung
