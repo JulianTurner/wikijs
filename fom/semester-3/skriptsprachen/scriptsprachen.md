@@ -1,14 +1,14 @@
 ---
-title: Scriptsprachen
+title: Scriptsprachen allgemein
 description: 
 published: 1
-date: 2022-10-13T12:32:04.280Z
+date: 2022-10-13T12:33:13.528Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:56.928Z
 ---
 
-# Scriptsprachen
+# Scriptsprachen allgemein
 
 ## Paradigmen
 ![](paradigm.png)
