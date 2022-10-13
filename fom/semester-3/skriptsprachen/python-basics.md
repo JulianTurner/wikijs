@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:19:58.410Z
+date: 2022-10-13T14:21:54.662Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -143,6 +143,8 @@ print(a == b)  # Vergleiche Wert der zwei Objekte -> True
 print(a is b)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id -> True
 ```
 
+`==` ist ein typsicherer Vergleich
+-> Außnahmen `1` == `True` und `0` == `False`
 
 ### `a is b` -> Referenzielle Gleichheit (äquivalent zu `id(a) == id(b)`)
 
