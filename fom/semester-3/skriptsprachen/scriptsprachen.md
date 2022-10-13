@@ -2,13 +2,13 @@
 title: Scriptsprachen
 description: 
 published: 1
-date: 2022-10-13T12:31:45.809Z
+date: 2022-10-13T12:32:04.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:56.928Z
 ---
 
-# Klausurvorbereitung
+# Scriptsprachen
 
 ## Paradigmen
 ![](paradigm.png)
