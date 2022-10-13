@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:54:34.920Z
+date: 2022-10-13T15:03:53.327Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -267,7 +267,7 @@ else:
 
 - `()` Klammern haben hohe Präzedenz
 - `and` hat höhere Präzedenz als `or`
-- `= `Zuweisungen haben niedrige Präzedenz
+- `=` Zuweisungen haben niedrige Präzedenz
 
 > Im Zweifelsfall Klammern setzen
 {.is-info}
