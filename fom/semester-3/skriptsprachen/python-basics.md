@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:27:19.111Z
+date: 2022-10-13T14:36:33.609Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -162,6 +162,18 @@ print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id ->
 > `None` ist ebenfalls eine Singletone-Instanz -> `is` Vergleiche zweier Variablen denen `None` zugewiesen wurde ergibt `True`.
 {.is-info}
 
+### `a is not b` -> Referenzielle Unleichheit (äquivalent zu `id(a) != id(b)`)
+
+Prüft ob Objekte ungleich sind (unterschiedliche Ids haben).
+
+### Größer, Kleiner, Größer/Gleich, Kleiner/Gleich
+
+- `>` -> Größer als
+- `<` -> Kleiner als
+- `>=` -> Größer/Gleich als
+- `>=` -> Kleiner/Gleich als
+
+
 ## None
 
 - Pythons Version von `Null` Werten
@@ -191,9 +203,16 @@ a = 5
 b = 10
 c = a + b
 
-if c > 7:
-	c += 20
+if c > 30:
+    c += 20
+elif c > 10:
+    c += 10
+else:
+    c += 1
 
-print(c)  # 35
+print(c)  # 25
 ```
+
+### Iteration
+
 
