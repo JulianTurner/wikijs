@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T14:38:31.622Z
+date: 2022-10-13T14:50:07.745Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -181,6 +181,18 @@ Prüft ob Objekte ungleich sind (unterschiedliche Ids haben).
 - `x or y` -> Logisches OR
 - `not x` -> Logisches NOT
 
+## Truthy, Falsey
+
+Werte sind nicht gleich `True` oder `False`, sondern werden im Kontext eines boolischen Ausdrucks zu `True` oder `False` evaluiert.
+
+Truthy:
+- `True`
+- Die meisten Objekte (nicht `None`)
+- Ganzzahlen ohne `0`
+- Gleitkommazahlen ohne `0.0`
+- Collections mit Inhalt (Listen, Dictionaries, Strings (String Ausnahme `'False'`)
+
+
 
 ## None
 
@@ -221,6 +233,31 @@ else:
 print(c)  # 25
 ```
 
+Leere Kontrollstruktur-Körper mit `pass` füllen.
+
+```python
+a = 5
+if a > 10:
+    pass
+
+print
+```
+
 ### Iteration
 
+`while` (kein `do ... while`), `for` sollte bekannt sein.
+
+- `break` bricht Schleifenausführung ab
+- `continue` überspringt Rest der aktuellen Schleifenausführung
+
+Jeweils ergänzbar mit `else` Block -> wird nur ausgeführt, wenn Schleife ohne Aufruf von `break` beendet wurde.
+
+```python
+for i in range(10):
+    print(i)
+    if i > 7:
+        break
+else:
+    print('Fertig')  # Wird nicht aufgerufen
+```
 
