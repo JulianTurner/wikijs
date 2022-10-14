@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-13T15:03:53.327Z
+date: 2022-10-14T11:18:35.077Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -190,8 +190,14 @@ Truthy:
 - Die meisten Objekte (nicht `None`)
 - Ganzzahlen ohne `0`
 - Gleitkommazahlen ohne `0.0`
-- Collections mit Inhalt (Listen, Dictionaries, Strings (String Ausnahme `'False'`)
+- Collections mit Inhalt (Listen, Dictionaries, Strings)
 
+Falsey:
+- `False`
+- `None` Objekte
+- Die Ganzahl `0`
+- Die Gleitkommazahl `0.0`
+- Collections ohne Inhalt (Listen, Wörterbücher, Strings)
 
 
 ## None
@@ -240,7 +246,7 @@ a = 5
 if a > 10:
     pass
 
-print
+print(a)
 ```
 
 ### Iteration
