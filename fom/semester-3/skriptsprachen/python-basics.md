@@ -2,7 +2,7 @@
 title: Python Basics
 description: 
 published: 1
-date: 2022-10-14T11:21:01.881Z
+date: 2022-10-14T11:23:05.735Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-13T12:49:44.966Z
@@ -140,7 +140,7 @@ Ergebnis ist immer ein boolischer Wert (`True`/`False`)
 ```python
 a = [1, 2, 3]
 b = a
-c = [1, 2, 3]
+c = a[:]  # erstellt eine neue Liste die alle Elemente von a enthält
 
 print(a == b)  # Vergleiche Wert der zwei Objekte -> True
 print(a == c)  # Vergleiche Wert der zwei Objekte -> True
