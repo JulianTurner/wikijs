@@ -89,3 +89,48 @@ Nutzt vorteile von Schema on Write (strukturierte Daten) und Schema on Read (uns
 - Reducer aggregiert Ergebnisse von verschiedenen Map Task
 
 ### Was ist der Applikation Master?
+Verantwortlich für alle MapReduce Aufgaben im Cluster und im Netzwerk
+
+## Hadoop vs. Spark
+
+Hadoop | Spark
+---------|----------
+schnell | 100x schneller als MapReduce
+Speicherung auf Festplatte | Speicherung im Arbeitsspeicher
+Stapelverarbeitung | Verarbeitung in Echtzeit
+kostengünstig | höhere Kosten 
+
+Spark:
+- Geschwindigkeit durch Daten im RAM
+- Datenverlust bei Stromausfall / Reboot (USV unabdingbar)
+- Arbeitsspeicher / Rechenleistung kann über verschiedene Nodes verteilt werden
+
+Hadoop:
+- Geschwindigkeit kommt von der Festplatte & Netzwerk
+- Daten überleben Stromausfall / Reboot
+- Festplatten / Rechenleistung kann über verschiedene Nodes verteilt werden
+
+
+### RDD (Resilient Distributed Dataset)
+Resilient: unverwüstlich
+Distributed: verteilt
+Dataset: Datensatz
+
+- kann Dateifehler handeln über Parität & Redundanz
+- sieht für den Nutzer als 1 Datenset aus
+- Datenset = Key-Value Paare 
+- Parameter kann eine Lambda Funktion sein
+
+### RDD Prozess
+1. Daten liegen in langsamer Datenquelle vor (HDFS, JSON, CSV, ...)
+1. initiale RDD wird aus Datenquelle erstellt
+1. Umwandlung in neue RDD (Map, Filter, ... - Zwischenschritte sind kalt, werden nicht ausgeführt bis Ergebnis benötigt wird)
+1. Abschließende Operation wird ausgeführt (z.B. count, collect)
+1. Ergebnis: Ziel RDD (speichern, ausgeben, Basis für neue RDD Umwandlung)
+
+> RDDs sind unveränderlich (immutable) und werden nur durch Transformationen verändert
+{.is-info}
+### SparkContext 
+- verantwortlich RDDs belastbar und verteilt zu machen
+- Erzeugt RDDs
+- Ökosystem rund um RDDs

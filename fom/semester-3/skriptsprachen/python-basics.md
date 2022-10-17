@@ -166,7 +166,7 @@ print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id ->
 > `None` ist ebenfalls eine Singletone-Instanz -> `is` Vergleiche zweier Variablen denen `None` zugewiesen wurde ergibt `True`.
 {.is-info}
 
-### `a is not b` -> Referenzielle Unleichheit (äquivalent zu `id(a) != id(b)`)
+### `a is not b` -> Referenzielle Ungleichheit (äquivalent zu `id(a) != id(b)`)
 
 Prüft ob Objekte ungleich sind (unterschiedliche Ids haben).
 
