@@ -9,5 +9,6 @@ dateCreated: 2022-09-13T18:15:52.908Z
 ---
 
 # Skriptsprachenorientiertes Programmieren
-[Scriptsprachen allgemein](/fom/semester-3/skriptsprachen/scriptsprachen-allgemein)
-[Python Basics](/fom/semester-3/skriptsprachen/python-basics)
+[Scriptsprachen allgemein](/fom/semester-3/skriptsprachen/scriptsprachen-allgemein)  
+[Python Basics](/fom/semester-3/skriptsprachen/python-basics)  
+[Datentypen](/fom/semester-3/skriptsprachen/datentypen)  
