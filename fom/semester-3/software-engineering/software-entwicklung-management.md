@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T14:58:50.223Z
+date: 2022-10-24T14:59:51.629Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -134,7 +134,7 @@ Beispiel Funktionalität: Farbliche Codierung bei Syntax-Highlighting
 
 Beispiel-Tools:
 - Geschäftsprozessmodellierung: ARIS-Toolset
-- Integrierte Entwicklungsumbgebung (IDE): Eclipse, IntelliJ IDEA, ...
+- Integrierte Entwicklungsumgebung (IDE): Eclipse, IntelliJ IDEA, ...
 - Versionierung: CVS, Subversion, Git
 - Testen: JUnit
 - Fehler-/Änderungsmanagement: Bugzila
