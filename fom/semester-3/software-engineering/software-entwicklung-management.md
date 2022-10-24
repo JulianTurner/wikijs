@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T16:42:56.064Z
+date: 2022-10-24T16:43:33.340Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -287,7 +287,7 @@ Herausforderung: <strong style="color:green">geforderte Leistungen</strong> mit 
 Benötigt mehr Management als bei Produktionsprozess-Projekten:
 - Funktionierende Projektüberwachung und -steuerung
 - offene Kommunikation im Projekt und zum Auftraggeber
-- Mitarbeiter fürdern und entwickeln
+- Mitarbeiter fördern und entwickeln
 - Expertenmeinung ernst nehmen
 - Entwicklungsprozess messbar gestalten
 - Projekt in kleinere Einheiten zerlegen
