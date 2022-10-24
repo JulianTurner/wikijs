@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T14:59:51.629Z
+date: 2022-10-24T15:28:20.528Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -166,8 +166,44 @@ Für Klausur relevant:
 - Aktivitätsdiagramm
 - Zustandsdiagramm
 
+## Qualitätsmodelle und -management
 
+Grundproblem: Software ist immateriell => Qualität schwer messbar
 
+### Relative Fehlerkosten über die Projektzeit
 
+Kosten größer je später Fehler im Projekt aufgedeckt werden
+Daher: mit Methoden Qualität frühzeitig prüfen/kontrollieren/sichern
 
+### Qualität
+
+- Fehlerfreiheit nicht einziger Qualitätsaspekt
+- Fehlen von Qualität -> Nutzen der Software führt zu: Stress, Unzufriedenheit, Unbrauchbarkeit, Unnötigkeit, Lästigkeit
+- Präsenz von Qualität -> Nutzen der Software führt zu: Zufriedenheit, Erstaunen
+
+> Qualität ist der Grad in dem ein Satz inhärenter Merkmale Anforderungen erfüllt.
+
+Software hat Qualität wenn sie
+- korrekt ist (geforderte Funktionalität bietet)
+- alle geforderten Eigenschaften besitzt
+
+Software Engineering befasst sich mit:
+- Projektqualität (Qualität des Projekts in dem Produkt hergestellt wird)
+- Produktqualität (Qualität des Produkts)
+	- Gebrauchsqualität (Qualität aus Sicht des Nutzers; Qualität die Kunde direkt fordert)
+	- Wartungsqualität (Qualität aus Sicht eines Wartenden, Bsp.: Entwickler/Betreiber)
+  
+<!-- TODO: 03a Seite 44 Bedeutung QUalitätsaspekte über Zeit Grafik einfügen -->
+
+#### Qualitätsmodelle und Qualitätsmanagement
+
+- Qualität nicht automatisch in Software
+- Qualität muss in Produkt hinein entwickelt werden
+- Qualität-Stärke Abhängig von Qualitätsmodell
+	- Starke Abhängigkeit zw. Prozess- und Qualitätsmodellen
+		- Qualität muss durch Entwicklungsprozess sichergestellt werden (Bsp.: Think Aloud/Pair-Programming)
+- Nicht jedes Projekt hat gleiche Qualitätsanforderungen (vgl. Steuerung Atomkraftwerk/Raumfahrt mit Internet-Infoseite)
+- Qualitätsmanagement hat Aufgabe, aufgestellte Qualitätsanforderungen zu erreichen
+	- Konstruktive Maßnahmen: Maßnahmen die aktiv während der Entwicklung beachtet werden müssen (Methoden, Sprachen, Richtlinien, Standards, ...)
+	- Analytische Maßnahmen: Maßnahmen die diagnostisch existierendes Qualitätsniveau messen (Reviews, Inspektion, Testende Verfahren, ...)
 
