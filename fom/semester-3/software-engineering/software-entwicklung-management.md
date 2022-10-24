@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T15:54:34.483Z
+date: 2022-10-24T16:23:35.081Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -241,7 +241,7 @@ Problem: ein Risiko, das eingetreten ist
 - begrenzter Umfang
 - individuelle Anforderungen
 - hohe Komplexität
-- Erfüllung bedingt Organisation, die für Umsetung der Tätigkeiten eine Projektmethode anwendet
+- Erfüllung bedingt Organisation, die für Umsetzung der Tätigkeiten eine Projektmethode anwendet
 	- Projektmethode: plant, steuert, führt durch und kontrolliert anfallende Arbeiten
 
 #### Maß/Metrik
@@ -250,3 +250,36 @@ Problem: ein Risiko, das eingetreten ist
 
 #### Projektmanagement
 Anwenden von Wissen, Fähigkeiten Werkzeugen und Methoden in Vorgängen für die Erfüllung von Projekt-Anforderungen
+
+Methoden-Beispiele: DIN 69901, ISO 10006, V-Modell XT
+
+### Risiken managen
+
+Risikomanagement: systematische Vorgehensweise über Korrekturmaßnahmen nachzudenken, bevor Problem auftritt (solange Problem noch abstrakte Vorstellung ist).
+
+Gegenteil:
+Krisenmanagement: Lösung für ein Problem finden, nachdem es aufgetreten ist.
+
+#### Aktivitäten Risikomanagement-Prozess
+
+Risiko-Bewertung:
+Aktivität|Anmerkung
+---|---
+1. Risikoidentifikation|Aufstellen Liste projektspezifischer/-gefährdender Risikoelemente
+2. Risikoanalyse|Bestimmung Risikofaktor = Eintrittswahrscheinlichkeit * Schadenshöhe
+3. Risikoprioritätsbildung|Ordnung Risiken nach Priorität für Identifikation wirklich relevanter Risiken
+
+Risikobeherrschung:
+Aktivität|Anmerkung
+---|---
+4. Planung des Risikofalls|Eventualitätspläne (Was ist zu tun, wenn...) aufstellen
+5. Risikominderung|Was kann vor Eintreten des Risikos getan werden
+6. Risikoüberwachung|Kontinuierliche Überprüfung ob Risiko eingetreten
+
+### Erfolgreiche Projekte
+
+Herausforderung: <strong style="color:green">geforderte Leistungen</strong> mit <strong style="color:blue">hoher Qualität</strong> <strong style="color:Crimson">innerhalb des Budgetrahmens</strong> <strong style="color:Coral">rechtzeitig fertig</strong> stellen.
+
+<!-- TODO 03a Seite 57 Grafik Magiesches Dreieck und Teufelsquadrat einfügen-->
+
+
