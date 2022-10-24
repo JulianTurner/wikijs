@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T16:23:35.081Z
+date: 2022-10-24T16:42:56.064Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -282,4 +282,39 @@ Herausforderung: <strong style="color:green">geforderte Leistungen</strong> mit 
 
 <!-- TODO 03a Seite 57 Grafik Magiesches Dreieck und Teufelsquadrat einfügen-->
 
+### Besonderheiten IT-Projekte
 
+Benötigt mehr Management als bei Produktionsprozess-Projekten:
+- Funktionierende Projektüberwachung und -steuerung
+- offene Kommunikation im Projekt und zum Auftraggeber
+- Mitarbeiter fürdern und entwickeln
+- Expertenmeinung ernst nehmen
+- Entwicklungsprozess messbar gestalten
+- Projekt in kleinere Einheiten zerlegen
+
+#### Produkt (Software) ist immateriell
+Sieht es nicht, nicht anfassbar, aber es ist immer fast fertig
+
+#### Software Entwicklung nicht-deterministisch
+- Neue Erkenntnisse während Entwicklung haben Auswirkung auf bisherige Ergebnisse
+- Teilprodukt ist immer nur bedingt fertig
+- oft Hälfte der Arbeitskraft für Überarbeitung bereits erstellter Teilprodukte benötigt
+
+#### Kein klares Verständnis von Entwicklungsprozess
+- keine Lange Historie wie bei anderen Ingenieursdisziplinen
+- Erster Schritt immer: individuell passendes Vorgehensmodell finden
+
+#### Einmaligkeit
+- Viele IT-System-Entwicklungen absolut einmalig
+- Gewonnene Erfahrungen von begrenztem Wert (Bsp.: erfolgreiche SAP Einführung kein Indiz für zukünftige erfolgreiche SAP Einführungen)
+- Risiko des Scheiterns nur minimierbar, nicht eliminierbar
+- Projekt hat hohe Komplexität und daher auch hohes Risiko
+
+#### Unteilbarkeit der Arbeit
+- Lösung eines Software-Problems erfordert intensive Beschäftigung eines Entwicklers mit dem Problem
+- Übertragung von Aufgaben teuer, da neuer Mitarbeiter Einarbeitungszeit benötigt
+- Spezialisten für bestimmte Probleme sind äußerst schwer ersetzbar
+- In Projektplänen wird häufig davon ausgegangen, dass Mitarbeiter austauschbar sind (Personalresource auf Arbeitsmarkt einkaufen)
+
+> Kein Plug & Play für Projektmitarbeiter
+{.is-info}
