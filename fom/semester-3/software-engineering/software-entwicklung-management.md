@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T15:47:50.101Z
+date: 2022-10-24T15:54:34.483Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -236,12 +236,17 @@ Kosten|Rechtfertigen Ergebnisse den finanziellen/personellen Aufwand des Messver
 Risiko: ein potentielles Problem
 Problem: ein Risiko, das eingetreten ist
 
-Projekt: ein vorhaben mit
-- eindeutigem Ziel
-- begrenztem Umfang
-- individuellen Anforderungen
-- hoher Komplexität
+#### Projekt-Vorhaben
+- eindeutiges Ziel
+- begrenzter Umfang
+- individuelle Anforderungen
+- hohe Komplexität
+- Erfüllung bedingt Organisation, die für Umsetung der Tätigkeiten eine Projektmethode anwendet
+	- Projektmethode: plant, steuert, führt durch und kontrolliert anfallende Arbeiten
 
-Maß/Metrik
+#### Maß/Metrik
 - bezieht sich auf Eigenschaften eines Software-Entscheidungsprozesses/-Produkts
 - versucht Erfüllungsgrad der Eigenschaften in einem Zahlwert auszudrücken
+
+#### Projektmanagement
+Anwenden von Wissen, Fähigkeiten Werkzeugen und Methoden in Vorgängen für die Erfüllung von Projekt-Anforderungen
