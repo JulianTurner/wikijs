@@ -10,4 +10,5 @@ dateCreated: 2022-03-04T12:23:12.295Z
 
 # IT-Infrastruktur
 
-[Klausurvorbereitung](/fom/semester-3/it-infrastruktur/klausurvorbereitung.md)
+[Klausurvorbereitung](/fom/semester-3/it-infrastruktur/klausurvorbereitung.md)  
+[IT-Infrastruktur](/fom/semester-3/it-infrastruktur/it-infrastruktur.md)
