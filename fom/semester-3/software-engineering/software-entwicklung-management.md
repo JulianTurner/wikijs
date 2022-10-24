@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T15:40:24.023Z
+date: 2022-10-24T15:47:50.101Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -228,3 +228,20 @@ Aktualität|Ergebnisse des Verfahrens aktuell?
 Eindeutigkeit|lassen Ergebnisse eindeutige Rückschlüsse auf Qualitätsbeurteilung zu?
 Steuerbarkeit|Liefern Ergebnisse Anhaltspunkte für gezielte Qualitätsverbesserung?
 Kosten|Rechtfertigen Ergebnisse den finanziellen/personellen Aufwand des Messverfahrens?
+
+## Software-Management
+
+### Management von Software-Projekten
+
+Risiko: ein potentielles Problem
+Problem: ein Risiko, das eingetreten ist
+
+Projekt: ein vorhaben mit
+- eindeutigem Ziel
+- begrenztem Umfang
+- individuellen Anforderungen
+- hoher Komplexität
+
+Maß/Metrik
+- bezieht sich auf Eigenschaften eines Software-Entscheidungsprozesses/-Produkts
+- versucht Erfüllungsgrad der Eigenschaften in einem Zahlwert auszudrücken
