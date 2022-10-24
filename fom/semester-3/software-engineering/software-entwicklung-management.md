@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T14:39:10.677Z
+date: 2022-10-24T14:58:50.223Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -118,3 +118,56 @@ Ein guter Entwurf ist
 - effektiv: erfüllt Vorgaben und Löst Problem
 - wirtschaftlich: gebrauchstauglich, kostengünstig und mehrfach verwendbar/verwendet
 - softwaretechnisch gut: leicht verständlich, robust, zuverlässig, änderungsfreundlich
+
+### Modell
+
+Modell ist Ergebnis eines Abbildungsprozesses oder Systems mit Ziel, dessen Verhalten zu simulieren/analysieren.
+
+### Softwareentwicklungswerkzeuge
+
+- soll Effektivität (Ergebnis/Ziel orientiert) erhöhen
+- soll Effizienz (Ergebnis/Ziel mit möglichst geringem Mitteleinsatz erreichen) erhöhen
+- werden von talentierten Mitarbeitern für die Softwareentwicklung benötigt (sind <u>nicht</u> optional)
+- ersetzen nicht Talent von Mitarbeitern - Mitarbeiter müssen für Aufgaben geeignet sein
+
+Beispiel Funktionalität: Farbliche Codierung bei Syntax-Highlighting
+
+Beispiel-Tools:
+- Geschäftsprozessmodellierung: ARIS-Toolset
+- Integrierte Entwicklungsumbgebung (IDE): Eclipse, IntelliJ IDEA, ...
+- Versionierung: CVS, Subversion, Git
+- Testen: JUnit
+- Fehler-/Änderungsmanagement: Bugzila
+
+### ARIS Konzept
+
+Architektur integrierter Informationssysteme
+
+Fünf Sichten-Architektur:
+- Organisationssicht (Modelltyp: Organigramm)
+- Datensicht (Modelltyp: Entity-Relationship-Model (ERM))
+- Steuerungssicht (Modelltyp: Ereignisgesteuerte Prozesskette (EPK))
+- Funktionssicht (Modelltyp: Funktionshierarchiebaum)
+- Leistungssicht
+
+Jede Sicht hat 3 Beschreibungsebenen:
+- Fachkonzept
+- Datenverarbeitung-Konzept
+- Implementierungsebene (=> Architekturentwurf)
+
+<!-- TODO 03a Seite 32 ARIS-Konzept Grafik einfügen -->
+
+### Unified Modeling Language (UML)
+
+Für Klausur relevant:
+- Klassendiagramm
+- Objektdiagramm
+- Anwendungsfalldiagramm
+- Aktivitätsdiagramm
+- Zustandsdiagramm
+
+
+
+
+
+
