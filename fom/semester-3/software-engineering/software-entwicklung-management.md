@@ -21,17 +21,21 @@ Software Entwicklung verwendet Prinzipien, Methoden und Werkzeuge für die ingen
 
 ### Entwurfsprinzipien des Software Engineering
 
-<!--- Eifügen Bild Script 3 Seite 20 - Abhängigkeit der Prinzipien --->
+![](prinzipien.png)
 
 #### Prinzip der Abstraktion
 
 Verallgemeinerung mit 3 Ebenen:
-- Exemplar-Ebene: tatsächliche Handlungen, spezifische Ereignisse, konkrete Sachverhalte in ihren Beziehungen/zeitlichen Abläufen
-- Typ-Ebene
+- Exemplar-Ebene: 
+    - tatsächliche Handlungen
+    - spezifische Ereignisse 
+    - konkrete Sachverhalte  
+    in ihren Beziehungen/zeitlichen Abläufen
+- Typ-Ebene:
 	- generalisiert Aussagen mit Klassifizierung
 	- passive Elemente (z. B. Kunde, Mitarbeiter, Konto)
 	- aktive Elemente: Handlungen/Aktivitäten bzw. Ereignisse an denen passive Elemente beteiligt sind (z. B. Konto eröffnen)
-- Meta-Ebene
+- Meta-Ebene:
 	- strukturierte passive Elemente -> Klassen
 	- unstrukturierte passive Elemente -> Attribute von Klassen
 	- aktive Elemente -> Operationen von Klassen
@@ -83,7 +87,7 @@ Unterstützt durch:
 
 Erschwert durch:
 - Vererbung (Infos müssen entlang Vererbungsbeziehungen zusammengesucht werden)
-- Programmiersprachen die keine Methoden-Verschachtelung erlauben (Bsp.: C++, Java)
+- Programmiersprachen die keine Methoden-Verschachtlung erlauben (Bsp.: C++, Java)
 
 #### Prinzip der Verbalisierung
 
@@ -93,10 +97,6 @@ Erreicht durch:
 - aussagekräftige Namensgebung ("sprechende" (Variablen-)Namen)
 - geeignete Kommentare
 - selbst dokumentierende Konzepte und Sprachen
-
-#### Abhängigkeit der Prinzipien
-
-<!-- TODO 03a Seite 20 Abhängigkeit-Grafik einfügen -->
 
 #### Prinzip der Wiederverwendbarkeit
 
@@ -155,7 +155,7 @@ Jede Sicht hat 3 Beschreibungsebenen:
 - Datenverarbeitung-Konzept
 - Implementierungsebene (=> Architekturentwurf)
 
-<!-- TODO 03a Seite 32 ARIS-Konzept Grafik einfügen -->
+![](https://upload.wikimedia.org/wikipedia/commons/5/5b/ARIS-Modell.png)
 
 ### Unified Modeling Language (UML)
 
@@ -193,7 +193,7 @@ Software Engineering befasst sich mit:
 	- Gebrauchsqualität (Qualität aus Sicht des Nutzers; Qualität die Kunde direkt fordert)
 	- Wartungsqualität (Qualität aus Sicht eines Wartenden, Bsp.: Entwickler/Betreiber)
   
-<!-- TODO: 03a Seite 44 Bedeutung QUalitätsaspekte über Zeit Grafik einfügen -->
+![](aspekte.png)
 
 #### Qualitätsmodelle und Qualitätsmanagement
 
@@ -278,9 +278,9 @@ Aktivität|Anmerkung
 
 ### Erfolgreiche Projekte
 
-Herausforderung: <strong style="color:green">geforderte Leistungen</strong> mit <strong style="color:blue">hoher Qualität</strong> <strong style="color:Crimson">innerhalb des Budgetrahmens</strong> <strong style="color:Coral">rechtzeitig fertig</strong> stellen.
+Herausforderung: <strong style="color:green">geforderte Leistungen</strong> mit <strong style="color:lightblue">hoher Qualität</strong> <strong style="color:Crimson">innerhalb des Budgetrahmens</strong> <strong style="color:Coral">rechtzeitig fertig</strong> stellen.
 
-<!-- TODO 03a Seite 57 Grafik Magiesches Dreieck und Teufelsquadrat einfügen-->
+![](dreieck_quadrat.png)
 
 ### Besonderheiten IT-Projekte
 
@@ -314,7 +314,7 @@ Sieht es nicht, nicht anfassbar, aber es ist immer fast fertig
 - Lösung eines Software-Problems erfordert intensive Beschäftigung eines Entwicklers mit dem Problem
 - Übertragung von Aufgaben teuer, da neuer Mitarbeiter Einarbeitungszeit benötigt
 - Spezialisten für bestimmte Probleme sind äußerst schwer ersetzbar
-- In Projektplänen wird häufig davon ausgegangen, dass Mitarbeiter austauschbar sind (Personalresource auf Arbeitsmarkt einkaufen)
+- In Projektplänen wird häufig davon ausgegangen, dass Mitarbeiter austauschbar sind (Personalressource auf Arbeitsmarkt einkaufen)
 
 > Kein Plug & Play für Projektmitarbeiter
 {.is-info}
