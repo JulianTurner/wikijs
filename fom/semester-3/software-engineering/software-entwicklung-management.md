@@ -2,7 +2,7 @@
 title: Software- Entwicklung & -Management
 description: 
 published: 1
-date: 2022-10-24T15:28:20.528Z
+date: 2022-10-24T15:40:24.023Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
@@ -207,3 +207,24 @@ Software Engineering befasst sich mit:
 	- Konstruktive Maßnahmen: Maßnahmen die aktiv während der Entwicklung beachtet werden müssen (Methoden, Sprachen, Richtlinien, Standards, ...)
 	- Analytische Maßnahmen: Maßnahmen die diagnostisch existierendes Qualitätsniveau messen (Reviews, Inspektion, Testende Verfahren, ...)
 
+#### Atomare Merkmale Prozessqualität
+
+Merkmal | Anmerkung
+---|---
+Entwicklungseffizienz|hoch, wenn Entwicklungsaufwand gering
+Entwicklungsgeschwindigkeit|hoch, wenn Resultat nach kurzer Zeit verfügbar
+Termineinhaltung|hoch, wenn prognostizierte Termine genau eingehalten
+Bausteingewinn|hoch, wenn viele verwendbare Software-Komponenten entstehen oder verbessert werden
+Know-how-Gewinn|hoch, wenn Mitarbeiter neue Kenntnisse/Erfahrungen zu Anwendungen/Methoden/Werkzeugen erwerben
+Projektklima|gut, wenn Mitarbeiter Zusammenarbeit als angenehm empfinden und wieder zusammenarbeiten würden
+
+#### Kriterien erfolgreicher Qualitätsmessung
+
+Kriterium | Anmerkung
+---|---
+Relevanz|Sind Beurteilungskriterien Kaufentscheidungskriterien für Kunden  => für Marketingentscheidungen relevant?
+Vollständigkeit|Ermöglicht Verfahren Messung aller aus Kundensicht relevanter Qualitätsdimensionen?
+Aktualität|Ergebnisse des Verfahrens aktuell?
+Eindeutigkeit|lassen Ergebnisse eindeutige Rückschlüsse auf Qualitätsbeurteilung zu?
+Steuerbarkeit|Liefern Ergebnisse Anhaltspunkte für gezielte Qualitätsverbesserung?
+Kosten|Rechtfertigen Ergebnisse den finanziellen/personellen Aufwand des Messverfahrens?
