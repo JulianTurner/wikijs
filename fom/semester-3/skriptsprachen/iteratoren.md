@@ -9,9 +9,11 @@ dateCreated: 2022-10-13T12:49:44.966Z
 ---
 
 # Iteratoren
-Objekt welches Zustand der Iteration repräsentiert 
+
+Objekt welches Zustand der Iteration repräsentiert
 
 `iter()` & `next()`:
+
 - mit `iter()` wird ein Iterator erzeugt
 - mit `next()` wird der nächste Wert des Iterators zurückgegeben
 - gibt Fehler wenn kein weiterer Wert vorhanden ist
@@ -31,8 +33,8 @@ StopIteration
 ```
 
 ## Enumerate
-Gibt zu einem Collection-Objekt eine Enumerate-Objekt zurück
 
+Gibt zu einem Collection-Objekt eine Enumerate-Objekt zurück
 
 ```python
 my_list = [1, 2, 3]
@@ -46,12 +48,14 @@ next(my_iter)
 ```
 
 ## Generator
+
 Jeder Generator ist ein Iterator, aber nicht jeder Iterator ist ein Generator
+
 - Aufruf führt nicht direkt Code aus
 - liefert Generator Objekt zurück
-- verwenden `yield` 
-    - hält Funktion an und liefer Wert zurück
-    - beim nächsten Aufruf wird an der Stelle weitergemacht
+- verwenden `yield`
+  - hält Funktion an und liefer Wert zurück
+  - beim nächsten Aufruf wird an der Stelle weitergemacht
 - Trennung von Erzeugung und Verarbeitung (lazy evaluation)
 
 ```python
@@ -68,9 +72,8 @@ next(my_gen)
 2
 ```
 
-
-
 ### Generator Expression
+
 Analog zu List Comprehension  
 
 ```python
@@ -81,9 +84,10 @@ next(my_gen)
 1
 next(my_gen)
 2
-```	
+```
 
 ## Zip
+
 Erzeugt Iterator dessen Elemente Tupel sind
 
 ```python
@@ -100,9 +104,11 @@ next(my_zip)
 ```
 
 ## Itertools
+
 Bietet Hilfsfunktionen für Iteratoren
 
 ### count
+
 Erzeugt unendlichen Iterator mit Startwert und Schrittweite
 
 ```python
@@ -135,6 +141,7 @@ next(iterator)
 ```
 
 ### cycle
+
 durchläuft eine Collection endlos
 
 ```python
@@ -179,4 +186,3 @@ next(iterator)
 3
 # ...
 ```
-

@@ -21,24 +21,25 @@ Software Entwicklung verwendet Prinzipien, Methoden und Werkzeuge für die ingen
 
 ### Entwurfsprinzipien des Software Engineering
 
-![](prinzipien.png)
+![Prinzipien](prinzipien.png)
 
 #### Prinzip der Abstraktion
 
 Verallgemeinerung mit 3 Ebenen:
-- Exemplar-Ebene: 
-    - tatsächliche Handlungen
-    - spezifische Ereignisse 
-    - konkrete Sachverhalte  
+
+- Exemplar-Ebene:
+  - tatsächliche Handlungen
+  - spezifische Ereignisse
+  - konkrete Sachverhalte  
     in ihren Beziehungen/zeitlichen Abläufen
 - Typ-Ebene:
-	- generalisiert Aussagen mit Klassifizierung
-	- passive Elemente (z. B. Kunde, Mitarbeiter, Konto)
-	- aktive Elemente: Handlungen/Aktivitäten bzw. Ereignisse an denen passive Elemente beteiligt sind (z. B. Konto eröffnen)
+  - generalisiert Aussagen mit Klassifizierung
+  - passive Elemente (z. B. Kunde, Mitarbeiter, Konto)
+  - aktive Elemente: Handlungen/Aktivitäten bzw. Ereignisse an denen passive Elemente beteiligt sind (z. B. Konto eröffnen)
 - Meta-Ebene:
-	- strukturierte passive Elemente -> Klassen
-	- unstrukturierte passive Elemente -> Attribute von Klassen
-	- aktive Elemente -> Operationen von Klassen
+  - strukturierte passive Elemente -> Klassen
+  - unstrukturierte passive Elemente -> Attribute von Klassen
+  - aktive Elemente -> Operationen von Klassen
 
 #### Prinzip der Strukturierung
 
@@ -63,10 +64,9 @@ Strukturierung mit erzwungener Rangfolge
 #### Bindung und Kopplung
 
 - Kohäsion: Maß für Stärke des inneren Zusammenhangs eines Moduls
-	- höhere Kohäsion wünschenswert (High Cohesion)
+  - höhere Kohäsion wünschenswert (High Cohesion)
 - Kopplung: Maß für die Abhängigkeit zwischen zwei Modulen
-	- geringe wechselseitige Kopplung zwischen Modulen wünschenswert (Low Coupling)
-  
+  - geringe wechselseitige Kopplung zwischen Modulen wünschenswert (Low Coupling)
   
 #### Geheimnisprinzip (Information Hiding)
 
@@ -81,11 +81,13 @@ Strukturierung mit erzwungener Rangfolge
 - Nicht benötigte Infos ausblenden/auslagern
 
 Unterstützt durch:
+
 - Entscheidungstabellen
 - Hierarchische Zustandsautomaten
 - Objektorientierte Analyse (OOA)
 
 Erschwert durch:
+
 - Vererbung (Infos müssen entlang Vererbungsbeziehungen zusammengesucht werden)
 - Programmiersprachen die keine Methoden-Verschachtlung erlauben (Bsp.: C++, Java)
 
@@ -94,6 +96,7 @@ Erschwert durch:
 Begriffe, Klassifizierungen u. Namen müssen sich an Namensgebung Vorschrift/Regeln orientieren.
 
 Erreicht durch:
+
 - aussagekräftige Namensgebung ("sprechende" (Variablen-)Namen)
 - geeignete Kommentare
 - selbst dokumentierende Konzepte und Sprachen
@@ -133,6 +136,7 @@ Modell ist Ergebnis eines Abbildungsprozesses oder Systems mit Ziel, dessen Verh
 Beispiel Funktionalität: Farbliche Codierung bei Syntax-Highlighting
 
 Beispiel-Tools:
+
 - Geschäftsprozessmodellierung: ARIS-Toolset
 - Integrierte Entwicklungsumgebung (IDE): Eclipse, IntelliJ IDEA, ...
 - Versionierung: CVS, Subversion, Git
@@ -144,6 +148,7 @@ Beispiel-Tools:
 Architektur integrierter Informationssysteme
 
 Fünf Sichten-Architektur:
+
 - Organisationssicht (Modelltyp: Organigramm)
 - Datensicht (Modelltyp: Entity-Relationship-Model (ERM))
 - Steuerungssicht (Modelltyp: Ereignisgesteuerte Prozesskette (EPK))
@@ -151,15 +156,17 @@ Fünf Sichten-Architektur:
 - Leistungssicht
 
 Jede Sicht hat 3 Beschreibungsebenen:
+
 - Fachkonzept
 - Datenverarbeitung-Konzept
 - Implementierungsebene (=> Architekturentwurf)
 
-![](https://upload.wikimedia.org/wikipedia/commons/5/5b/ARIS-Modell.png)
+![ARIS-Modell](https://upload.wikimedia.org/wikipedia/commons/5/5b/ARIS-Modell.png)
 
 ### Unified Modeling Language (UML)
 
 Für Klausur relevant:
+
 - Klassendiagramm
 - Objektdiagramm
 - Anwendungsfalldiagramm
@@ -184,28 +191,30 @@ Daher: mit Methoden Qualität frühzeitig prüfen/kontrollieren/sichern
 > Qualität ist der Grad in dem ein Satz inhärenter Merkmale Anforderungen erfüllt.
 
 Software hat Qualität wenn sie
+
 - korrekt ist (geforderte Funktionalität bietet)
 - alle geforderten Eigenschaften besitzt
 
 Software Engineering befasst sich mit:
+
 - Projektqualität (Qualität des Projekts in dem Produkt hergestellt wird)
 - Produktqualität (Qualität des Produkts)
-	- Gebrauchsqualität (Qualität aus Sicht des Nutzers; Qualität die Kunde direkt fordert)
-	- Wartungsqualität (Qualität aus Sicht eines Wartenden, Bsp.: Entwickler/Betreiber)
+  - Gebrauchsqualität (Qualität aus Sicht des Nutzers; Qualität die Kunde direkt fordert)
+  - Wartungsqualität (Qualität aus Sicht eines Wartenden, Bsp.: Entwickler/Betreiber)
   
-![](aspekte.png)
+![Aspekte](aspekte.png)
 
 #### Qualitätsmodelle und Qualitätsmanagement
 
 - Qualität nicht automatisch in Software
 - Qualität muss in Produkt hinein entwickelt werden
 - Qualität-Stärke Abhängig von Qualitätsmodell
-	- Starke Abhängigkeit zw. Prozess- und Qualitätsmodellen
-		- Qualität muss durch Entwicklungsprozess sichergestellt werden (Bsp.: Think Aloud/Pair-Programming)
+  - Starke Abhängigkeit zw. Prozess- und Qualitätsmodellen
+    - Qualität muss durch Entwicklungsprozess sichergestellt werden (Bsp.: Think Aloud/Pair-Programming)
 - Nicht jedes Projekt hat gleiche Qualitätsanforderungen (vgl. Steuerung Atomkraftwerk/Raumfahrt mit Internet-Infoseite)
 - Qualitätsmanagement hat Aufgabe, aufgestellte Qualitätsanforderungen zu erreichen
-	- Konstruktive Maßnahmen: Maßnahmen die aktiv während der Entwicklung beachtet werden müssen (Methoden, Sprachen, Richtlinien, Standards, ...)
-	- Analytische Maßnahmen: Maßnahmen die diagnostisch existierendes Qualitätsniveau messen (Reviews, Inspektion, Testende Verfahren, ...)
+  - Konstruktive Maßnahmen: Maßnahmen die aktiv während der Entwicklung beachtet werden müssen (Methoden, Sprachen, Richtlinien, Standards, ...)
+  - Analytische Maßnahmen: Maßnahmen die diagnostisch existierendes Qualitätsniveau messen (Reviews, Inspektion, Testende Verfahren, ...)
 
 #### Atomare Merkmale Prozessqualität
 
@@ -237,18 +246,21 @@ Risiko: ein potentielles Problem
 Problem: ein Risiko, das eingetreten ist
 
 #### Projekt-Vorhaben
+
 - eindeutiges Ziel
 - begrenzter Umfang
 - individuelle Anforderungen
 - hohe Komplexität
 - Erfüllung bedingt Organisation, die für Umsetzung der Tätigkeiten eine Projektmethode anwendet
-	- Projektmethode: plant, steuert, führt durch und kontrolliert anfallende Arbeiten
+  - Projektmethode: plant, steuert, führt durch und kontrolliert anfallende Arbeiten
 
 #### Maß/Metrik
+
 - bezieht sich auf Eigenschaften eines Software-Entscheidungsprozesses/-Produkts
 - versucht Erfüllungsgrad der Eigenschaften in einem Zahlwert auszudrücken
 
 #### Projektmanagement
+
 Anwenden von Wissen, Fähigkeiten Werkzeugen und Methoden in Vorgängen für die Erfüllung von Projekt-Anforderungen
 
 Methoden-Beispiele: DIN 69901, ISO 10006, V-Modell XT
@@ -265,6 +277,7 @@ Krisenmanagement: Lösung für ein Problem finden, nachdem es aufgetreten ist.
 Risiko-Bewertung:
 Aktivität|Anmerkung
 ---|---
+
 1. Risikoidentifikation|Aufstellen Liste projektspezifischer/-gefährdender Risikoelemente
 2. Risikoanalyse|Bestimmung Risikofaktor = Eintrittswahrscheinlichkeit * Schadenshöhe
 3. Risikoprioritätsbildung|Ordnung Risiken nach Priorität für Identifikation wirklich relevanter Risiken
@@ -272,6 +285,7 @@ Aktivität|Anmerkung
 Risikobeherrschung:
 Aktivität|Anmerkung
 ---|---
+
 4. Planung des Risikofalls|Eventualitätspläne (Was ist zu tun, wenn...) aufstellen
 5. Risikominderung|Was kann vor Eintreten des Risikos getan werden
 6. Risikoüberwachung|Kontinuierliche Überprüfung ob Risiko eingetreten
@@ -285,6 +299,7 @@ Herausforderung: <strong style="color:green">geforderte Leistungen</strong> mit 
 ### Besonderheiten IT-Projekte
 
 Benötigt mehr Management als bei Produktionsprozess-Projekten:
+
 - Funktionierende Projektüberwachung und -steuerung
 - offene Kommunikation im Projekt und zum Auftraggeber
 - Mitarbeiter fördern und entwickeln
@@ -293,24 +308,29 @@ Benötigt mehr Management als bei Produktionsprozess-Projekten:
 - Projekt in kleinere Einheiten zerlegen
 
 #### Produkt (Software) ist immateriell
+
 Sieht es nicht, nicht anfassbar, aber es ist immer fast fertig
 
 #### Software Entwicklung nicht-deterministisch
+
 - Neue Erkenntnisse während Entwicklung haben Auswirkung auf bisherige Ergebnisse
 - Teilprodukt ist immer nur bedingt fertig
 - oft Hälfte der Arbeitskraft für Überarbeitung bereits erstellter Teilprodukte benötigt
 
 #### Kein klares Verständnis von Entwicklungsprozess
+
 - keine Lange Historie wie bei anderen Ingenieursdisziplinen
 - Erster Schritt immer: individuell passendes Vorgehensmodell finden
 
 #### Einmaligkeit
+
 - Viele IT-System-Entwicklungen absolut einmalig
 - Gewonnene Erfahrungen von begrenztem Wert (Bsp.: erfolgreiche SAP Einführung kein Indiz für zukünftige erfolgreiche SAP Einführungen)
 - Risiko des Scheiterns nur minimierbar, nicht eliminierbar
 - Projekt hat hohe Komplexität und daher auch hohes Risiko
 
 #### Unteilbarkeit der Arbeit
+
 - Lösung eines Software-Problems erfordert intensive Beschäftigung eines Entwicklers mit dem Problem
 - Übertragung von Aufgaben teuer, da neuer Mitarbeiter Einarbeitungszeit benötigt
 - Spezialisten für bestimmte Probleme sind äußerst schwer ersetzbar

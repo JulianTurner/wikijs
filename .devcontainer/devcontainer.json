@@ -15,7 +15,13 @@
         "files.autoSave": "onFocusChange",
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "markdownlint.config": {
+            "default": true,
+            "MD025": false,
+            "no-hard-tabs": false
+        },
+        "cSpell.enableFiletypes": ["!jsonc"]
     },
 
     // Configure tool-specific properties.
@@ -25,10 +31,9 @@
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
                 "visualstudioexptteam.vscodeintellicode",
-                "aaron-bond.better-comments",
                 "github.copilot",
-                "esbenp.prettier-vscode",
-                "streetsidesoftware.code-spell-checker-german"
+                "streetsidesoftware.code-spell-checker-german",
+                "davidanson.vscode-markdownlint"
             ]
         }
     },

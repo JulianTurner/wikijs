@@ -12,9 +12,9 @@ dateCreated: 2022-10-12T16:10:21.145Z
 
 ## Beteiligte
 
--   Auftraggeber
--   Auftragnehmer
--   Endnutzer
+- Auftraggeber
+- Auftragnehmer
+- Endnutzer
 
 > Nicht nur fachkundige Personen beteiligt
 > {.is-info}
@@ -52,8 +52,8 @@ Spezifikation ist notwendig für:
 
 Bedingung / Fähigkeit die...
 
--   Person benötigt um ein Problem zu lösen
--   eine Software besitzen muss um einen Vertrag zu erfüllen
+- Person benötigt um ein Problem zu lösen
+- eine Software besitzen muss um einen Vertrag zu erfüllen
 
 #### Anforderungsspezifikation (Requirement Specification)
 
@@ -61,17 +61,17 @@ Zusammenstellung aller Anforderungen
 
 #### Anforderungsmanagement (Requirements Engineering)
 
--   systematische, disziplinierte & quantitativ erfassbares Vorgehen beim Spezifizieren von Anforderungen
+- systematische, disziplinierte & quantitativ erfassbares Vorgehen beim Spezifizieren von Anforderungen
 
--   verstehen von Kundenwünschen
+- verstehen von Kundenwünschen
 
 #### Bestandteile
 
--   Identifikator => eindeutige Identifikation
--   Beschreibung => was soll gemacht werden (kurz und prägnant)
--   Problembeschreibung => beschreibt das zugrunde liegende Problem
--   Quelle => anfordernde Person / Dokument
--   Abnahmekriterium => messbare Bedingung zur erfolgreichen Abnahme
+- Identifikator => eindeutige Identifikation
+- Beschreibung => was soll gemacht werden (kurz und prägnant)
+- Problembeschreibung => beschreibt das zugrunde liegende Problem
+- Quelle => anfordernde Person / Dokument
+- Abnahmekriterium => messbare Bedingung zur erfolgreichen Abnahme
 
 #### Funktionale Anforderungen
 
@@ -79,13 +79,13 @@ Anforderungen, welche Statik, Dynamik, Logik des Systems beschreiben
 
 Benutzersicht:
 
--   Anwendungsfälle
--   Benutzerschnittstelle
+- Anwendungsfälle
+- Benutzerschnittstelle
 
 Entwicklersicht:
 
--   Architektur
--   Vorgaben (Gesetze, Standards)
+- Architektur
+- Vorgaben (Gesetze, Standards)
 
 z.B.:
 An einem bestimmten Stichtag soll der Kunde eine Rechnung erhalten
@@ -95,12 +95,12 @@ An einem bestimmten Stichtag soll der Kunde eine Rechnung erhalten
 
 #### Nicht-funktionale Anforderungen
 
--   Zuverlässigkeit
--   Sicherheit
--   Performance
--   Benutzerfreundlichkeit
--   Wartbarkeit
--   Portabilität
+- Zuverlässigkeit
+- Sicherheit
+- Performance
+- Benutzerfreundlichkeit
+- Wartbarkeit
+- Portabilität
 
 z.B.:
 Soll innerhalb von 5 Sekunden starten
@@ -116,14 +116,14 @@ und/oder den Entwicklungsprozess fest
 
 Organisatorische Rahmenbedingungen:
 
--   Anwendungsbereiche (z.B. Textverarbeitung im Büro)
--   Zielgruppen (z.B. Kinder)
--   Betriebsbedingungen (z.B. 24/7)
+- Anwendungsbereiche (z.B. Textverarbeitung im Büro)
+- Zielgruppen (z.B. Kinder)
+- Betriebsbedingungen (z.B. 24/7)
 
 Technische Rahmenbedingungen:
 
--   technische Produktumgebung (z.B. Betriebssystem)
--   Entwicklungsumgebung (z.B. IDE)
+- technische Produktumgebung (z.B. Betriebssystem)
+- Entwicklungsumgebung (z.B. IDE)
 
 #### Qualitätsmerkmale nach ISO/IEC 9126-1
 
@@ -145,11 +145,11 @@ Technische Rahmenbedingungen:
 
 ### Probleme
 
--   Widersprüchliche Anforderungen von verschiedenen Stakeholdern
--   Effekte des Systems schwer vorhersehbar
--   Anforderungen ändern sich im Laufe des Projektes
--   Großer Umfang der Anforderungen
--   Komplexe Interaktion mit anderen Systemen
+- Widersprüchliche Anforderungen von verschiedenen Stakeholdern
+- Effekte des Systems schwer vorhersehbar
+- Anforderungen ändern sich im Laufe des Projektes
+- Großer Umfang der Anforderungen
+- Komplexe Interaktion mit anderen Systemen
 
 1. Ermittlung der Stakeholder
 1. Ermittlung der Ziele des Systems
@@ -158,25 +158,26 @@ Technische Rahmenbedingungen:
 
 Identifizierung der Anforderungsquellen
 
--   Kunden, Stakeholder, existierende Systeme, Vorgaben
+- Kunden, Stakeholder, existierende Systeme, Vorgaben
 
 Erheben der Anforderungen
 
--   Interviews, Workshops, Beobachtung, Brainstorming
+- Interviews, Workshops, Beobachtung, Brainstorming
 
 Kriterien
 
--   vollständig, eindeutig, verständlich, nachprüfbar, atomar, identifizierbar, einheitlich, konsistent
+- vollständig, eindeutig, verständlich, nachprüfbar, atomar, identifizierbar, einheitlich, konsistent
 
 ![](problemstellung.png)
 
-
 ## Begriffslexikon (Glossar)
+
 - wird frühzeitig aufgebaut und weiterentwickelt
 - enthält wichtige Begriffe und deren Definitionen
 - enthält Begrifft die verschieden ausgelegt werden könnten
 
 ### Informationen im Glossar
+
 - Begriff
 - Bedeutung
 - Abgrenzung
@@ -189,33 +190,36 @@ Kriterien
 > {.is-info}
 
 ## Stellenwert
+
 1. Anforderungen einfach erstmal aufnehmen (ohne hinterfragen)
 1. Wichtige Begriffe im Glossar definieren
 1. Zusammenhänge erkennen
 
-> Werden Erwartungen/Anforderungen nicht vollständig und präzise erfasst,ist damit zu rechnen, dass das entwickelte Produkt nicht den Erwartungen entspricht 
+> Werden Erwartungen/Anforderungen nicht vollständig und präzise erfasst,ist damit zu rechnen, dass das entwickelte Produkt nicht den Erwartungen entspricht
 {.is-info}
 
 ## Anforderungsanalyse
+
 Ergebnis: [Grob-Konzept / Lastenheft](#grobkonzept--lastenheft)  (Was und wofür wird es gebraucht)
 Ziel: Beschreibung einer angestrebten Lösung welche alle Anforderungen erfüllt
 
 - Analyse ermmittelter Anforderungen
-    - konkretisieren
-    - priorisieren
+  - konkretisieren
+  - priorisieren
 - Hilfsmittel
-    - Objektorientierte Analyse
-    - Datenanalyse
-    - Analyse funktionaler Szenarien
+  - Objektorientierte Analyse
+  - Datenanalyse
+  - Analyse funktionaler Szenarien
 - Kriterien
-    - Abhängigkeiten
-    - Zusammengehörigkeit
-    - Rollenbezug
+  - Abhängigkeiten
+  - Zusammengehörigkeit
+  - Rollenbezug
 
 > Vollständige + Präszise Anforderungserfassung ist wichtigste technische Voraussetzung für den Erfolg eines Projektes
 {.is-info}
 
 ### Ist-Analyse
+
 Ziel: Soll-Zustand feststellen / Lösung mind. so gut wie Altsystem
 
 - Kunde kann viele Anforderungen nicht nennen da für Kunde unbekannt
@@ -223,16 +227,17 @@ Ziel: Soll-Zustand feststellen / Lösung mind. so gut wie Altsystem
 - Kunde hat selbverständliche Anforderungen nicht erwähnt
 - Kunde will keine Veränderung sondern nur Verbesserung
 
-
-> Kunde beschreibt oft was nicht gefällt. Bei Lösen von Problemen nicht existierende Begeisterungsfaktoren verlieren. 
+> Kunde beschreibt oft was nicht gefällt. Bei Lösen von Problemen nicht existierende Begeisterungsfaktoren verlieren.
 {.is-info}
 
 ### Soll-Analyse
+
 - Aufnahme der gewünschten Veränderungen
 - Aufnahme ungefilterter Kundenwünsche (Wunschzettel)
 - anschließend Bewertung und Filterung der Kundenwünsche
 
 ### Eigenschaften von Spezifikationen
+
 - **zutreffend**: Sie gibt die Vorstellungen des Kunden richtig wieder
 - **vollständig**: Jede vorhandene Anforderung ist spezifiziert
 - **Widerspruchsfrei** (Oder konstistent): Keine unvereinbaren Anforderungen
@@ -241,10 +246,12 @@ Ziel: Soll-Zustand feststellen / Lösung mind. so gut wie Altsystem
 - **objektivierbar**: Das reale System kann gegen die Spezifikation geprüft werden
 
 ### Aänderungsmanagment
+
 - Änderungen an Spezifikation sollten mit einer Versionsverwaltung dokumentiert werden
 - Änderungen sollten Projektlaufzeit / -kosten nicht beeinflussen
 
 ## Zehn Regeln
+
 1. Begriffslexikon anlegen und entwickeln
 1. Von Aufgabe ausgehen, nicht von Lösung
 1. Nach Daten (Objekten) suchen, nicht (vermuteten)
@@ -258,9 +265,11 @@ Programmabläufe beschreiben
 1. Spezifikation intensiv verwenden
 
 ## Grobkonzept / Lastenheft
-Zusammenstellung aller Anforderungen des **Auftraggebers** hinsichtlich der Liefer und Leistungsumfänge. Beschreibt aus Anwendersicht was wofür zu lösen ist. 
+
+Zusammenstellung aller Anforderungen des **Auftraggebers** hinsichtlich der Liefer und Leistungsumfänge. Beschreibt aus Anwendersicht was wofür zu lösen ist.
 
 ## Feinkonzept / Pflichtenheft
+
 Beschreibung der Realisierung aller Anforderungen des [Lastenhefts](#grobkonzept--lastenheft) durch den Auftragnehmer. Beschreibt aus Entwicklersicht wie und womit etwas zu lösen ist.
 
 > Pflichtenheft bedarf der Genehmigung durch den Auftraggeber

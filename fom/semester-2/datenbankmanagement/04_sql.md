@@ -9,27 +9,26 @@ dateCreated: 2021-12-16T19:44:54.647Z
 ---
 
 # SQL
+
 Die Abarbeitung erfolgt über einen Parser und Anfragenoptimierer
 
 ## Einfache Abfrage
 
-
-```sql	
+```sql 
 SELECT * 
 FROM professoren;
 ```
 
 ## Einfache Abfrage ohne Duplikate
 
-
-```sql	
+```sql 
 SELECT DISTINCT rang 
 FROM professoren;
 ```
 
 ## Einfache Abfrage sortiert
 
-```sql	
+```sql 
 SELECT * 
 FROM professoren
 ORDER BY rang;
@@ -37,7 +36,7 @@ ORDER BY rang;
 
 ## Abfrage über mehrere Tabellen mit alias
 
-```sql	
+```sql 
 SELECT *
 FROM professoren p, assistenten a
 WHERE a.boss = p.persnr;
@@ -47,15 +46,15 @@ WHERE a.boss = p.persnr;
 
 ```sql
 (
-	SELECT *
-	FROM studenten
-	WHERE semester = 2
+ SELECT *
+ FROM studenten
+ WHERE semester = 2
 )
 UNION
 (
-	SELECT *
-	FROM studenten
-	WHERE semester = 8
+ SELECT *
+ FROM studenten
+ WHERE semester = 8
 );
 ```
 
@@ -91,8 +90,8 @@ GROUP BY semester;
 SELECT name
 FROM studenten
 WHERE semester = (
-	SELECT MAX(sSub.semester)
-	FROM studenten sSub
+ SELECT MAX(sSub.semester)
+ FROM studenten sSub
 );
 ```
 
@@ -103,14 +102,14 @@ SELECT name
 FROM studenten
 WHERE name like 'X%nokrates';
 ```
+
 > % = beliebig viele Zeichen (inkl. kein Zeichen)  
 > _ = genau ein Zeichen
-
 
 ## Left Join
 
 Alle Tupel meiner Ausgangstabelle mit den verknpüft mit den Tupeln aus der rechten Tabelle wo ON Bedingung erfüllt ist
- 
+
 ```sql
 SELECT *
 FROM studenten s
