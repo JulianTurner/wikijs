@@ -168,3 +168,6 @@ DV (Datenverarbeitung) => organisierter Umgang mit Daten mit Ziel Informationen 
 ### Programm
 Abfolge von Befehlen
 ![](programm.png)
+
+## Hardware
+Siehe [Hardware](/fom/semester-1/hardware-grundlagen/klausurvorbereitung.md#von-neumann-architektur)
