@@ -1,21 +1,23 @@
 ---
 title: Anforderungen
-description: 
+description:
 published: 1
 date: 2022-10-24T16:43:33.340Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-10-12T16:10:21.145Z
 ---
 
 # Anforderungen
+
 ## Beteiligte
-- Auftraggeber
-- Auftragnehmer
-- Endnutzer
+
+-   Auftraggeber
+-   Auftragnehmer
+-   Endnutzer
 
 > Nicht nur fachkundige Personen beteiligt
-{.is-info}
+> {.is-info}
 
 ## Analyse und Spezifikation
 
@@ -29,11 +31,12 @@ dateCreated: 2022-10-12T16:10:21.145Z
 1. Übergabe
 
 > Klient bekommt nur was er wollte, wenn seine Anforderungen richtig / sorgfältig formuliert wurden und nicht verfälscht wurden
-{.is-info}
+> {.is-info}
 
 ### Nutzen
 
 Spezifikation ist notwendig für:
+
 1. Abstimmung mit Kunden
 1. Entwurf & Implementierung
 1. Benutzerhandbuch
@@ -46,77 +49,86 @@ Spezifikation ist notwendig für:
 ### Arten
 
 #### Anforderung (Requirement)
+
 Bedingung / Fähigkeit die...
-- Person benötigt um ein Problem zu lösen
-- eine Software besitzen muss um einen Vertrag zu erfüllen
+
+-   Person benötigt um ein Problem zu lösen
+-   eine Software besitzen muss um einen Vertrag zu erfüllen
 
 #### Anforderungsspezifikation (Requirement Specification)
+
 Zusammenstellung aller Anforderungen
 
 #### Anforderungsmanagement (Requirements Engineering)
-- systematische, disziplinierte & quantitativ erfassbares Vorgehen beim Spezifizieren von Anforderungen
 
-- verstehen von Kundenwünschen
+-   systematische, disziplinierte & quantitativ erfassbares Vorgehen beim Spezifizieren von Anforderungen
+
+-   verstehen von Kundenwünschen
 
 #### Bestandteile
-- Identifikator => eindeutige Identifikation
-- Beschreibung => was soll gemacht werden (kurz und prägnant)
-- Problembeschreibung => beschreibt das zugrunde liegende Problem
-- Quelle => anfordernde Person / Dokument
-- Abnahmekriterium => messbare Bedingung zur erfolgreichen Abnahme 
+
+-   Identifikator => eindeutige Identifikation
+-   Beschreibung => was soll gemacht werden (kurz und prägnant)
+-   Problembeschreibung => beschreibt das zugrunde liegende Problem
+-   Quelle => anfordernde Person / Dokument
+-   Abnahmekriterium => messbare Bedingung zur erfolgreichen Abnahme
 
 #### Funktionale Anforderungen
 
 Anforderungen, welche Statik, Dynamik, Logik des Systems beschreiben
 
 Benutzersicht:
-- Anwendungsfälle 
-- Benutzerschnittstelle
+
+-   Anwendungsfälle
+-   Benutzerschnittstelle
 
 Entwicklersicht:
-- Architektur
-- Vorgaben (Gesetze, Standards)
-  
-    
+
+-   Architektur
+-   Vorgaben (Gesetze, Standards)
+
 z.B.:
 An einem bestimmten Stichtag soll der Kunde eine Rechnung erhalten
 
 > Stellt eine Funktion dar, welche das System erfüllen soll
-{.is-info}
-
+> {.is-info}
 
 #### Nicht-funktionale Anforderungen
 
-- Zuverlässigkeit
-- Sicherheit
-- Performance
-- Benutzerfreundlichkeit
-- Wartbarkeit
-- Portabilität
+-   Zuverlässigkeit
+-   Sicherheit
+-   Performance
+-   Benutzerfreundlichkeit
+-   Wartbarkeit
+-   Portabilität
 
 z.B.:
 Soll innerhalb von 5 Sekunden starten
 
 > Qualitative oder quantitative Eigenschaften, welche das System erfüllen soll
-{.is-info}
+> {.is-info}
 
 #### Rahmenbedingungen
+
 Eine Rahmenbedingung (constraint) — auch Restriktion genannt — legt
 organisatorische und/oder technische Restriktionen für das Softwaresystem
 und/oder den Entwicklungsprozess fest
 
 Organisatorische Rahmenbedingungen:
-- Anwendungsbereiche (z.B. Textverarbeitung im Büro)
-- Zielgruppen (z.B. Kinder)
-- Betriebsbedingungen (z.B. 24/7)
+
+-   Anwendungsbereiche (z.B. Textverarbeitung im Büro)
+-   Zielgruppen (z.B. Kinder)
+-   Betriebsbedingungen (z.B. 24/7)
 
 Technische Rahmenbedingungen:
-- technische Produktumgebung (z.B. Betriebssystem)
-- Entwicklungsumgebung (z.B. IDE)
+
+-   technische Produktumgebung (z.B. Betriebssystem)
+-   Entwicklungsumgebung (z.B. IDE)
 
 #### Qualitätsmerkmale nach ISO/IEC 9126-1
+
 **Funktionalität**: Angemessenheit, Genauigkeit, Interoperabilität, Sicherheit, Konformität der Funktionalität
-  
+
 **Zuverlässigkeit**: Reife, Fehlertoleranz, Wiederherstellbarkeit, Konformität der Zuverlässigkeit
 
 **Benutzbarkeit**: Verständlichkeit, Erlernbarkeit, Bedienbarkeit, Attraktivität, Konformität der Benutzbarkeit
@@ -128,24 +140,30 @@ Technische Rahmenbedingungen:
 **Portabilität**: Anpassbarkeit, Installierbarkeit, Koexistenz, Austauschbarkeit, Konformität der Portabilität
 
 ## Aktivitäten des Anforderungsmanagements
+
 ![](anforderungsmanagment_haus_des_nikolaus.png)
 
 ### Probleme
-- Widersprüchliche Anforderungen von verschiedenen Stakeholdern
-- Effekte des Systems schwer vorhersehbar
-- Anforderungen ändern sich im Laufe des Projektes
-- Großer Umfang der Anforderungen
-- Komplexe Interaktion mit anderen Systemen
+
+-   Widersprüchliche Anforderungen von verschiedenen Stakeholdern
+-   Effekte des Systems schwer vorhersehbar
+-   Anforderungen ändern sich im Laufe des Projektes
+-   Großer Umfang der Anforderungen
+-   Komplexe Interaktion mit anderen Systemen
 
 1. Ermittlung der Stakeholder
 1. Ermittlung der Ziele des Systems
 
 ### Anforderungsermittlung
+
 Identifizierung der Anforderungsquellen
-- Kunden, Stakeholder, existierende Systeme, Vorgaben
+
+-   Kunden, Stakeholder, existierende Systeme, Vorgaben
 
 Erheben der Anforderungen
-- Interviews, Workshops, Beobachtung, Brainstorming
+
+-   Interviews, Workshops, Beobachtung, Brainstorming
 
 Kriterien
-- vollständig, eindeutig, verständlich, nachprüfbar, atomar, identifizierbar, einheitlich, konsistent
+
+-   vollständig, eindeutig, verständlich, nachprüfbar, atomar, identifizierbar, einheitlich, konsistent
