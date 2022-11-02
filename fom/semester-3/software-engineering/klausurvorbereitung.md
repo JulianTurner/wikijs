@@ -11,3 +11,12 @@ dateCreated: 2022-03-04T12:22:55.269Z
 # Klausurvorbereitung
 
 //TODO warum Software Projekte fehlschlagen/scheitern
+
+Was sind Anforderungen?
+Welche Aktivitäten gehören zum Requirements Engineering?
+Welche Nachteile entstehen bei fehlender Spezifikation?
+Was sind Stakeholder?
+Was ist ein Begriffslexikon?
+Was ist ein Begriffsmodell?
+Was sind funktionale Anforderungen?
+Was sind nichtfunktionale Anforderungen?

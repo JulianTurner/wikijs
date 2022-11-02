@@ -167,3 +167,104 @@ Erheben der Anforderungen
 Kriterien
 
 -   vollständig, eindeutig, verständlich, nachprüfbar, atomar, identifizierbar, einheitlich, konsistent
+
+![](problemstellung.png)
+
+
+## Begriffslexikon (Glossar)
+- wird frühzeitig aufgebaut und weiterentwickelt
+- enthält wichtige Begriffe und deren Definitionen
+- enthält Begrifft die verschieden ausgelegt werden könnten
+
+### Informationen im Glossar
+- Begriff
+- Bedeutung
+- Abgrenzung
+- Gültigkeitsbereich
+- Fragen der Bezeichnung
+- Unklarheiten
+- Querverweise
+
+> Angaben werden aus Gesprächen und Interviews abgeleitet
+> {.is-info}
+
+## Stellenwert
+1. Anforderungen einfach erstmal aufnehmen (ohne hinterfragen)
+1. Wichtige Begriffe im Glossar definieren
+1. Zusammenhänge erkennen
+
+> Werden Erwartungen/Anforderungen nicht vollständig und präzise erfasst,ist damit zu rechnen, dass das entwickelte Produkt nicht den Erwartungen entspricht 
+{.is-info}
+
+## Anforderungsanalyse
+Ergebnis: [Grob-Konzept / Lastenheft](#grobkonzept--lastenheft)  (Was und wofür wird es gebraucht)
+Ziel: Beschreibung einer angestrebten Lösung welche alle Anforderungen erfüllt
+
+- Analyse ermmittelter Anforderungen
+    - konkretisieren
+    - priorisieren
+- Hilfsmittel
+    - Objektorientierte Analyse
+    - Datenanalyse
+    - Analyse funktionaler Szenarien
+- Kriterien
+    - Abhängigkeiten
+    - Zusammengehörigkeit
+    - Rollenbezug
+
+> Vollständige + Präszise Anforderungserfassung ist wichtigste technische Voraussetzung für den Erfolg eines Projektes
+{.is-info}
+
+### Ist-Analyse
+Ziel: Soll-Zustand feststellen / Lösung mind. so gut wie Altsystem
+
+- Kunde kann viele Anforderungen nicht nennen da für Kunde unbekannt
+- Analytiker haben eigene Interessen
+- Kunde hat selbverständliche Anforderungen nicht erwähnt
+- Kunde will keine Veränderung sondern nur Verbesserung
+
+
+> Kunde beschreibt oft was nicht gefällt. Bei Lösen von Problemen nicht existierende Begeisterungsfaktoren verlieren. 
+{.is-info}
+
+### Soll-Analyse
+- Aufnahme der gewünschten Veränderungen
+- Aufnahme ungefilterter Kundenwünsche (Wunschzettel)
+- anschließend Bewertung und Filterung der Kundenwünsche
+
+### Eigenschaften von Spezifikationen
+- **zutreffend**: Sie gibt die Vorstellungen des Kunden richtig wieder
+- **vollständig**: Jede vorhandene Anforderung ist spezifiziert
+- **Widerspruchsfrei** (Oder konstistent): Keine unvereinbaren Anforderungen
+- **neutral** (Oder abstrakt): Keine unnötige Einschränkung der Realisierung
+- **nachvollziehbar**: Quellen der Antorderungen Sind d0kumentiert
+- **objektivierbar**: Das reale System kann gegen die Spezifikation geprüft werden
+
+### Aänderungsmanagment
+- Änderungen an Spezifikation sollten mit einer Versionsverwaltung dokumentiert werden
+- Änderungen sollten Projektlaufzeit / -kosten nicht beeinflussen
+
+## Zehn Regeln
+1. Begriffslexikon anlegen und entwickeln
+1. Von Aufgabe ausgehen, nicht von Lösung
+1. Nach Daten (Objekten) suchen, nicht (vermuteten)
+Programmabläufe beschreiben
+1. Abstraktionsebene nicht innerhalb derselben Darstellung wechseln
+1. Spezifikation nach Aspekten organisieren und Checklisten verwenden, die weiterentwickelt werden
+1. Mengengerüst bilden
+1. Kunden (Anwender) einbeziehen
+1. Sprachen und Werkzeuge verwenden, die Regeln unterstützen
+1. Spezifikation der Konfigurationsverwaltung unterstellen und möglich prüfen, z. B. durch Reviews / Prototypen
+1. Spezifikation intensiv verwenden
+
+## Grobkonzept / Lastenheft
+Zusammenstellung aller Anforderungen des **Auftraggebers** hinsichtlich der Liefer und Leistungsumfänge. Beschreibt aus Anwendersicht was wofür zu lösen ist. 
+
+## Feinkonzept / Pflichtenheft
+Beschreibung der Realisierung aller Anforderungen des [Lastenhefts](#grobkonzept--lastenheft) durch den Auftragnehmer. Beschreibt aus Entwicklersicht wie und womit etwas zu lösen ist.
+
+> Pflichtenheft bedarf der Genehmigung durch den Auftraggeber
+{.is-info}
+
+Ein- / Zweistufiges Vorgehen:
+![Ein / Zweistufiges Vorgehen](feinkonzept-vorgang.png)
