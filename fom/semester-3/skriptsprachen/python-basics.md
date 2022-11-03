@@ -37,7 +37,6 @@ print('Die Antwort ist 42')
 - Ausgabe mit der `print` Funktion
 - Einfache Strings können mit einfachen oder doppelten Anführungszeichen übergeben werden
 
-
 ## Mehrzeilige Anweisungen (Beispiel if-Block)
 
 ```python
@@ -51,7 +50,6 @@ if answer == 42:
 
 ## Eingaben
 
-
 ```python
 eingabe = input('Mache eine Eingabe')
 print(eingabe)
@@ -59,7 +57,7 @@ print(eingabe)
 
 ## String zu Nummer Konvertierung
 
-Verwende Konstruktoren `int(...)`, `float(...)`, `complex(...)` für die Konvertierung von Text zu Integern, Float-Zahlen und komplexe Zahlen.
+Verwende Konstruktoren `int(...)`, `float(...)`, `complex(...)` für die Konvertierung von Text zu Integer, Float-Zahlen und komplexe Zahlen.
 
 ## Variablen
 
@@ -81,7 +79,7 @@ Solange ein Objekt die benötigten Methoden/Attribute hat, kann es in einem Szen
 
 Schreibt beispielsweise ein Bibliothek-Author folgenden Code:
 
-```python 
+```python
 class A:
     def __init__(self):
         self.own_letter = 'a'
@@ -115,16 +113,17 @@ Objekte vom Typ `B` haben nie etwas von Objekte vom Typ `A` mitbekommen, sie erb
 
 Dies ist möglich, da Objekte vom Typ `B` ebenfalls ein Attribut `own_letter` besitzen.
 
-
 ## Veränderlichkeit
 
-Mutable (Veränderbar): 
+Mutable (Veränderbar):
+
 - Listen (`list`)
 - Mengen (`set`)
 - Wörterbücher (`dict`)
 - Byte-Felder (`bytearray`)
 
-Immutable (Nicht Veränderbar): 
+Immutable (Nicht Veränderbar):
+
 - Nummerisch (`int`, `float`, `complex`, `bool`)
 - Zeichenketten (`str`)
 - Tupel (`tuple`)
@@ -133,7 +132,7 @@ Immutable (Nicht Veränderbar):
 
 ## Vergleiche
 
-Ergebnis ist immer ein boolischer Wert (`True`/`False`)
+Ergebnis ist immer ein boolescher Wert (`True`/`False`)
 
 ### `a == b` -> (Wertmäßige) Gleichheit
 
@@ -147,7 +146,7 @@ print(a == c)  # Vergleiche Wert der zwei Objekte -> True
 ```
 
 `==` ist ein typsicherer Vergleich
--> Außnahmen `1` == `True` und `0` == `False`
+-> Ausnahmen `1` == `True` und `0` == `False`
 
 ### `a is b` -> Referenzielle Gleichheit (äquivalent zu `id(a) == id(b)`)
 
@@ -160,10 +159,12 @@ print(a is b)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id ->
 print(a is c)  # Vergleiche ob Objekte an gleicher Speicheradresse/gleiche Id -> False
 ```
 
-> Python verwendet für Integer im Bereich -5 <= x <= 256 für Performance-Verbesserungen Singletone-Instanzen (wird nur ein mal Speicher für den gleichen Wert reserviert, egal wie vielen Variablen man den gleichen Wert zuweist). `is` Vergleiche von zwei Objekten mit dem gleichen Wert aus diesem Wertebereich werden `True` ergeben, während ein `is` Vergleich von zwei Variablen denen beispielsweise `1000` zugewiesen wurde `False` ergibt.
+> Python verwendet für Integer im Bereich -5 <= x <= 256 für Performance-Verbesserungen Singleton-Instanzen (wird nur ein mal Speicher für den gleichen Wert reserviert, egal wie vielen Variablen man den gleichen Wert zuweist). `is` Vergleiche von zwei Objekten mit dem gleichen Wert aus diesem Wertebereich werden `True` ergeben, während ein `is` Vergleich von zwei Variablen denen beispielsweise `1000` zugewiesen wurde `False` ergibt.
 {.is-warning}
 
-> `None` ist ebenfalls eine Singletone-Instanz -> `is` Vergleiche zweier Variablen denen `None` zugewiesen wurde ergibt `True`.
+Und:
+
+> `None` ist ebenfalls eine Singleton-Instanz -> `is` Vergleiche zweier Variablen denen `None` zugewiesen wurde ergibt `True`.
 {.is-info}
 
 ### `a is not b` -> Referenzielle Ungleichheit (äquivalent zu `id(a) != id(b)`)
@@ -183,31 +184,31 @@ Prüft ob Objekte ungleich sind (unterschiedliche Ids haben).
 - `x or y` -> Logisches OR
 - `not x` -> Logisches NOT
 
-## Truthy, Falsey
+## truthy, falsy
 
-Werte sind nicht gleich `True` oder `False`, sondern werden im Kontext eines boolischen Ausdrucks zu `True` oder `False` evaluiert.
+Werte sind nicht gleich `True` oder `False`, sondern werden im Kontext eines booleschen Ausdrucks zu `True` oder `False` evaluiert.
 
-Truthy:
+truthy:
+
 - `True`
 - Die meisten Objekte (nicht `None`)
 - Ganzzahlen ohne `0`
 - Gleitkommazahlen ohne `0.0`
 - Collections mit Inhalt (Listen, Dictionaries, Strings)
 
-Falsey:
+falsy:
+
 - `False`
 - `None` Objekte
-- Die Ganzahl `0`
+- Die Ganzzahl `0`
 - Die Gleitkommazahl `0.0`
 - Collections ohne Inhalt (Listen, Wörterbücher, Strings)
-
 
 ## None
 
 - Pythons Version von `Null` Werten
 - Nicht equivalent zu `0` oder `False` (eigener Datentyp `NoneType`)
-- None ist `falsey` (wird `None` im Kontext eines boolischen Ausdrucks verwendet, wird es zu `False` ausgewertet)
-
+- None ist `falsy` (wird `None` im Kontext eines booleschen Ausdrucks verwendet, wird es zu `False` ausgewertet)
 
 ## Kontrollstrukturen
 
@@ -279,4 +280,3 @@ else:
 
 > Im Zweifelsfall Klammern setzen
 {.is-info}
-

@@ -14,21 +14,21 @@ Die Abarbeitung erfolgt über einen Parser und Anfragenoptimierer
 
 ## Einfache Abfrage
 
-```sql 
+```sql
 SELECT * 
 FROM professoren;
 ```
 
 ## Einfache Abfrage ohne Duplikate
 
-```sql 
+```sql
 SELECT DISTINCT rang 
 FROM professoren;
 ```
 
 ## Einfache Abfrage sortiert
 
-```sql 
+```sql
 SELECT * 
 FROM professoren
 ORDER BY rang;
@@ -36,7 +36,7 @@ ORDER BY rang;
 
 ## Abfrage über mehrere Tabellen mit alias
 
-```sql 
+```sql
 SELECT *
 FROM professoren p, assistenten a
 WHERE a.boss = p.persnr;

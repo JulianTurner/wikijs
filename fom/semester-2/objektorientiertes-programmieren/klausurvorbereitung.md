@@ -11,12 +11,17 @@ dateCreated: 2022-03-04T12:23:08.923Z
 # Klausurvorbereitung
 
 # Skipt 1
+
 ## Was ist das Hauptziel der Entwicklung von Java?
+
 - Entwicklung vollständiger Betriebssystementwicklung
 - inkl. virtuelle CPU
 - unterschiedliche Einsatzzwecke
+
 ## Wesentliche Ziele der Java-Technology?
+
 - Plattforunabhängigkeit
+
 1. Quellcode in Bytecode kompiliert
 1. auf Zielsystem von der JRE
 	- in Maschienensprache übersetzt
@@ -27,20 +32,27 @@ dateCreated: 2022-03-04T12:23:08.923Z
 > für jedes ausführende Gerät muss eine passende JRE installiert sein
 
 ## Was ist der Unterschied zwischen JDK und JRE?
-JDK enthält JRE 
+
+JDK enthält JRE
+
 - JDK enthält Entwicklertools wie Compiler, Debugger, Profiler, etc.
 JRE enthält nur die Laufzeitumgebung
 
 # Skript 4
+
 ## Was ist ein Algorithmus?
+
 - eindeutige Handlungsvorschrift zur Lösung eines Problems
 - besteht aus endlich vielen Einzelschritten
 
 ## Was ist = ?
+
 ein Zuweisungsoperator
 
 # Skript 5
+
 ## Was ist ein einfacher Datentyp?
+
 - nicht weiter zerlegbar (atomar)
 - vordefinierter Standardtyp
 - primitives in Java
@@ -48,25 +60,32 @@ ein Zuweisungsoperator
 - nicht als Klasse realisiert
 
 ## Was ist eine Klasse?
+
 Verbund von Daten und Methoden
 
 # Skript 6
 
 ## Worum geht es bei OOP?
+
 - Objekte / Dinge / Konzepte der realen Welt zu beschreiben
 - miteinander ein Programmsystem bilden
 - durch Zusammenwirken ein Problem lösen
+
 ## Was sind Objekte?
+
 - Instanzen von Klasse
-- Beschreiben die wesentlichen Aspekte 
+- Beschreiben die wesentlichen Aspekte
+
 ## Was sind Klassen?
+
 - Klassen stellen allgemeine Baupläne für Objekte dar
 - werden von realen Objekten abstrahiert
 - haben einen Namen, Datenfelder, Methoden
 - sind wie Datentypen zu verwenden
-- werden zu Laufzeit für die Erzeugung von Objekten verwendet 
+- werden zu Laufzeit für die Erzeugung von Objekten verwendet
 
 ## Start für ein Java-Programm?
+
 ```java
 public class Main {
 	public static void main(String[] args) {
@@ -76,15 +95,20 @@ public class Main {
 ```
 
 ## Wann verwendet man den new-Operator?
+
 Um ein neues Objekt zu erzeugen
+
 - wickelt die Speicherreservierung im Heap ab
 
 # Skript 7
+
 Was ist Abstraktion?
+
 - auf das wesentliche konzentrieren
 - komplexe Zusammenhänge, Dinge vereinfachen
 
 ## Was bedeutet Kapselung?
+
 - Objekt besteht aus Daten und Methoden als eine Einheit
 - Objekt verwaltet seine Daten selbst
 - soll ein Objekt seine Daten ändern muss es Methoden aufweisen
@@ -92,11 +116,13 @@ Was ist Abstraktion?
 - Methoden die von anderen Objekten aufgerufen werden können sind Schnittstellenmethoden
 
 ## Was ist Information Hiding?
-- nach außen sichtbare Methoden sind ``public``	
+
+- nach außen sichtbare Methoden sind ``public``
 - nach innen sichtbare Methoden sind ``private``
-	- versteckt inneres Verhalten
+  - versteckt inneres Verhalten
 
 ## Was gilt in OOP grundsätzlich?
+
 - Programme basieren auf Klassen aus dene Objekte zu Laufzeit erzeugt werden
 - Objekte leben im Heap (Teil von RAM)
 - Objekte haben Daten und Methoden
@@ -105,41 +131,49 @@ Was ist Abstraktion?
 - Datenfelder sind i.d.R. ``private```
 
 ## Was sind Datenfelder?
+
 - legen Zustand des Objekts fest
 - Zustand wird durch Methoden verändert
 
 ## Was sind Methoden?
+
 - bewirken Zustandsänderungen
 - geben Werte aus
 
 ## Was sind Objekt und Klassendiagramme?
+
 ![](objekt-klassendiagramm.png)  
 Oben = Objektdiagramm  
 Unten = Klassendiagramm  
 
 ## Vererbungshierarchie
+
 ![](Vererbungshierarchie.png)
 
 # Skript 10
 
-## final 
+## final
+
 - final Instanzvariable kann nach Instanzsierung nicht geändert werden
-- final Klassenvariable kann kein anderer Wert zugewiesen werden 
+- final Klassenvariable kann kein anderer Wert zugewiesen werden
 - final Methode kann nicht überschrieben werden
 - final Klasse kann nicht geerbt werden
 
 # Skript 11
 
 ## Primitive Datentypen
+
 - aus performace Gründen nicht als eigene Klasse implementiert
-- Wrapper Klassen für zusätzliche Funktionen 
+- Wrapper Klassen für zusätzliche Funktionen
 - wenn nicht Feld von Objekt dann auf dem Stack
 
 ## Referenzdatentypen
+
 - konstrukte um aus primitiven Datentypen eigene Typen zu erzeugen
 - Zugriff nur indirekt über Referenz
 
 ## Referenzvariablen
+
 - stellen Verknüpfung zu einem Objekt dar
 - ermöglichen Zugriff auf Objekte über Referenz
 
@@ -149,20 +183,24 @@ Lokale Variable muss selbst initialisiert werden.
 > Objekte ohne Referenzvariablen werden im Garbage Collector freigegeben.
 
 ## Wo liegen Objekte von Referenzvariablen?
+
 - Klassenvariable (static) in der Method Area
 - Instanzvariablen im Heap
 - lokale Variablen im Stack
 
 ## Was kommt zuerst? Klasse oder Objekt?
+
 zuerst Klasse, dann Objekt
 da Objekt Instanz einer Klasse
 
 # Skript 14
 
 ## Was macht die this-Referenz?
+
 - Referenz auf das aktuelle Objekt
 
 ## this Anwendungsfälle
+
 - Datenfelder haben den selben Namen wie Übergabeparameter (häufig im constructor, spart neue Namen)
 - Darstellung dass auf eine Instanzvariable/-methode des aktuellen Objekts verwiesen wird
 - Rückhabe einer Referenz auf das aktuelle Objekt
@@ -170,9 +208,11 @@ da Objekt Instanz einer Klasse
 # Skript 15
 
 ## Was ist Methoden Überladung?
+
 - Methoden mit selebn Namen aber unterschiedlichen formalen Parametern
 
 ## Was ist eine Sigantur?
+
 Methodenname + formale Parameter
 
 ## Wie werden Objekte zur Laufzeit erstellt?
@@ -210,35 +250,41 @@ class Klasse {
 ```
 
 ## Was zeichnet einen Konstruktor aus?
+
 - selber Name wir Klasse
 - wird bei Erzeugung des Objektes ausgeführt
 - Inistalizierungsroutine
-- kein Rückgabewert 
+- kein Rückgabewert
 - wird nicht vererbt
 - mehere Konstruktorern mit unterschiedlichen formalen Parametern
 
 > Default Konstruktor ist der no Args Konstruktor
 
 ## Was zeichnet den default Konstruktor aus?
+
 - keine Parameter
 - wird automatisch definiert
 - nicht mehr verfügbar wenn ein Konstruktor definiert wurde
 
 # Skript 16
+
 ## Assoziation
+
 - Beziehung zwischen Objekten
 ![](https://p7x7q5i4.rocketcdn.me/wp-content/uploads/2018/12/assoziation-1080x346.jpg)
 
 ## Komposition
+
 - muss vorhanden sein  
 ![](https://p7x7q5i4.rocketcdn.me/wp-content/uploads/2019/01/komposition.jpg)
 
 ## Aggregation
+
 - kann vorhanden sein  
 ![](https://p7x7q5i4.rocketcdn.me/wp-content/uploads/2020/03/uml-aggregation-wissen-kompakt.jpg)
 
-
 ## Wozu ist Vererbung gut?
+
 - Wiederverwendung von Code
 - Eigenschaften und Verhaltensweisen auf andere Klassen übertragen
 - Hierachien aufbauen
@@ -247,6 +293,7 @@ class Klasse {
 # Skript 17
 
 ## Wann ist eine Klasse polymorph?
+
 1. Oberklasse
 1. Kinderklasse
 1. Kindklasse tritt in gestalt der Oberklasse auf
@@ -254,12 +301,15 @@ class Klasse {
 # Skript 18
 
 ## Wofür brauche ich Exceptions?
+
 zur strukturieten Ausnahmebehandlung
 
 > Wenn die Exception nicht gecatched wird, wird sie zur nächsten Exception weitergereicht
 
 ## Wo ist der Unterschied zwischen Checked und UnChecked Exceptions?
+
 Checked Exception:
+
 - muss behandelt werden
 UnChecked Exception:
 - wird nicht behandelt

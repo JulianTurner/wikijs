@@ -79,7 +79,7 @@ liste = [x for x in range(10)]
 - 8-Bit Zeichenkodierung
 - 1 Byte = 8 Bit
 - Anzahl der führenden 1en im ersten Byte definiert die Anzahl der Bytes (1110xxxx = 3 Bytes)
-- Flogebytes starten mit 10xxxxxx
+- Folgebytes starten mit 10xxxxxx
 - Bytes ohne Folgebytes sind ASCII-Zeichen: 0xxxxxxx
 - x = Payload-Bit
 

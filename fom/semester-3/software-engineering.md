@@ -14,3 +14,4 @@ dateCreated: 2022-09-13T18:16:00.734Z
 [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
 [Software-Entwicklung & -Management](/fom/semester-3/software-engineering/software-entwicklung-management)  
 [Anforderungen](/fom/semester-3/software-engineering/anforderungen)
+[Aufwandsschätzung](/fom/semester-3/software-engineering/aufwandschaetzng.md)

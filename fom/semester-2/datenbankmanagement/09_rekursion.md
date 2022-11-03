@@ -11,13 +11,15 @@ dateCreated: 2021-12-16T19:44:54.647Z
 # Rekursion
 
 ## Anmerkungen
+
 - Iteration wird ausgeführt bis Fixpunkt erreicht ist (keine neuen Tupel)
-- Anfrage muss monoton sein 
-	- wenn neue Tupel hinzugefügt wurden, müssen mindestens die gleichen Tupel wie bei der ersten Iteration in der Ergebnismenge vorhanden sein
+- Anfrage muss monoton sein
+  - wenn neue Tupel hinzugefügt wurden, müssen mindestens die gleichen Tupel wie bei der ersten Iteration in der Ergebnismenge vorhanden sein
 - SQL mit Rekursion ist Turing-vollständig
 - Es kann nicht mehr garantiert werden, das SQL Anfragen terminieren
 
 Beispiel:  Sucht alle Vorgänger zur Vorlesung 5052
+
 ```sql
 WITH RECURSIVE TransitivVorl(Vorg, Nachf)
 AS(

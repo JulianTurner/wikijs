@@ -141,7 +141,7 @@ Technische Rahmenbedingungen:
 
 ## Aktivitäten des Anforderungsmanagements
 
-![](anforderungsmanagment_haus_des_nikolaus.png)
+![Anforderungsmanagement](anforderungsmanagment_haus_des_nikolaus.png)
 
 ### Probleme
 
@@ -168,7 +168,7 @@ Kriterien
 
 - vollständig, eindeutig, verständlich, nachprüfbar, atomar, identifizierbar, einheitlich, konsistent
 
-![](problemstellung.png)
+![problemstellung](problemstellung.png)
 
 ## Begriffslexikon (Glossar)
 
@@ -191,7 +191,7 @@ Kriterien
 
 ## Stellenwert
 
-1. Anforderungen einfach erstmal aufnehmen (ohne hinterfragen)
+1. Anforderungen erstmals einfach  aufnehmen (ohne hinterfragen)
 1. Wichtige Begriffe im Glossar definieren
 1. Zusammenhänge erkennen
 
@@ -203,7 +203,7 @@ Kriterien
 Ergebnis: [Grob-Konzept / Lastenheft](#grobkonzept--lastenheft)  (Was und wofür wird es gebraucht)
 Ziel: Beschreibung einer angestrebten Lösung welche alle Anforderungen erfüllt
 
-- Analyse ermmittelter Anforderungen
+- Analyse ermittelter Anforderungen
   - konkretisieren
   - priorisieren
 - Hilfsmittel
@@ -215,7 +215,7 @@ Ziel: Beschreibung einer angestrebten Lösung welche alle Anforderungen erfüllt
   - Zusammengehörigkeit
   - Rollenbezug
 
-> Vollständige + Präszise Anforderungserfassung ist wichtigste technische Voraussetzung für den Erfolg eines Projektes
+> Vollständige + Präzise Anforderungserfassung ist wichtigste technische Voraussetzung für den Erfolg eines Projektes
 {.is-info}
 
 ### Ist-Analyse
@@ -224,7 +224,7 @@ Ziel: Soll-Zustand feststellen / Lösung mind. so gut wie Altsystem
 
 - Kunde kann viele Anforderungen nicht nennen da für Kunde unbekannt
 - Analytiker haben eigene Interessen
-- Kunde hat selbverständliche Anforderungen nicht erwähnt
+- Kunde hat selbstverständliche Anforderungen nicht erwähnt
 - Kunde will keine Veränderung sondern nur Verbesserung
 
 > Kunde beschreibt oft was nicht gefällt. Bei Lösen von Problemen nicht existierende Begeisterungsfaktoren verlieren.
@@ -240,12 +240,12 @@ Ziel: Soll-Zustand feststellen / Lösung mind. so gut wie Altsystem
 
 - **zutreffend**: Sie gibt die Vorstellungen des Kunden richtig wieder
 - **vollständig**: Jede vorhandene Anforderung ist spezifiziert
-- **Widerspruchsfrei** (Oder konstistent): Keine unvereinbaren Anforderungen
+- **Widerspruchsfrei** (Oder konsistent): Keine unvereinbaren Anforderungen
 - **neutral** (Oder abstrakt): Keine unnötige Einschränkung der Realisierung
-- **nachvollziehbar**: Quellen der Antorderungen Sind d0kumentiert
+- **nachvollziehbar**: Quellen der Anforderungen Sind dokumentiert
 - **objektivierbar**: Das reale System kann gegen die Spezifikation geprüft werden
 
-### Aänderungsmanagment
+### Änderungsmanagement
 
 - Änderungen an Spezifikation sollten mit einer Versionsverwaltung dokumentiert werden
 - Änderungen sollten Projektlaufzeit / -kosten nicht beeinflussen

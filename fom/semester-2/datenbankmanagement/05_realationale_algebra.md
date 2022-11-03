@@ -22,14 +22,13 @@ $\rho$ Umbenennung
 $\bowtie$ Join  
 $\ltimes$ Left-Join
 
-
-## Selektion 
+## Selektion
 
 $\sigma_F(R)$  
 Auswahl von Zeilen von R mit der Bedingung F  
 
 Beispiel:  
-Studenten > 10 Semester 
+Studenten > 10 Semester
 
 > $\sigma_{Semester > 10}(Studenten)$
 
@@ -44,7 +43,6 @@ Alle Rangbezeichnungen
 
 > $\prod_{Rang}(Professoren)$
 
-
 ## Vereinigung
 
 $R \cup S$  
@@ -54,5 +52,3 @@ Beispiel:
 Name der Professoren und Assistenten
 
 > $\prod_{Name}(Professoren) \cup \prod_{Name}(Assistenten)$
-
-

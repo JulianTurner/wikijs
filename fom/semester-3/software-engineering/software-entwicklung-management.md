@@ -141,7 +141,7 @@ Beispiel-Tools:
 - Integrierte Entwicklungsumgebung (IDE): Eclipse, IntelliJ IDEA, ...
 - Versionierung: CVS, Subversion, Git
 - Testen: JUnit
-- Fehler-/Änderungsmanagement: Bugzila
+- Fehler-/Änderungsmanagement: Bugzilla
 
 ### ARIS Konzept
 
@@ -294,7 +294,7 @@ Aktivität|Anmerkung
 
 Herausforderung: <strong style="color:green">geforderte Leistungen</strong> mit <strong style="color:lightblue">hoher Qualität</strong> <strong style="color:Crimson">innerhalb des Budgetrahmens</strong> <strong style="color:Coral">rechtzeitig fertig</strong> stellen.
 
-![](dreieck_quadrat.png)
+![dreieck_quadrat](dreieck_quadrat.png)
 
 ### Besonderheiten IT-Projekte
 

@@ -19,4 +19,4 @@ Was sind Stakeholder?
 Was ist ein Begriffslexikon?
 Was ist ein Begriffsmodell?
 Was sind funktionale Anforderungen?
-Was sind nichtfunktionale Anforderungen?
+Was sind nicht funktionale Anforderungen?

@@ -14,9 +14,6 @@ dateCreated: 2022-03-04T12:23:12.295Z
 
 [Wahrscheinlichkeiten](/fom/semester-2/quantitative-methoden-der-informatik/wahrscheinlichkeiten)
 
-
 [Statistische Inferenz](/fom/semester-2/quantitative-methoden-der-informatik/statistische-inferenz)
 
-
 [Klausurvorbereitung](/fom/semester-2/quantitative-methoden-der-informatik/klausurvorbereitung)
-

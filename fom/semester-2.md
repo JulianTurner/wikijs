@@ -10,7 +10,7 @@ dateCreated: 2022-03-04T12:23:19.207Z
 
 ## Module
 
-- [Datenbankmanagment](/fom/semester-2/datenbankmanagement.md)
+- [Datenbankmanagement](/fom/semester-2/datenbankmanagement.md)
 
 - [Digitale Regelungstechnik](/fom/semester-2/digitale-regelungstechnik)
 

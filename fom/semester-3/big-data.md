@@ -10,4 +10,6 @@ dateCreated: 2022-03-04T12:23:12.295Z
 
 # Big Data
 
+[Hadoop](/fom/semester-3/big-data/hadoop.md)
+
 [Klausurvorbereitung](/fom/semester-3/big-data/klausurvorbereitung.md)

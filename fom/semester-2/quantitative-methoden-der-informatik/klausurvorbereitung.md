@@ -10,44 +10,48 @@ dateCreated: 2022-03-04T12:23:15.741Z
 
 # Klausurvorbereitung
 
-
 Fragen:
+
 - Absolute vs relative Häufigkeit Histogram
-- 3 Prozeduren für den Siginifikatnztest
+- 3 Prozeduren für den Signifikanztest
 
 ## Lektion 1
 
-Was ist Emperie?
+Was ist Empirie?
+
 - Methode, die sich auf wissenschaftliche Erfahrung stützt, um Erkenntnisse zu gewinnen
 
 Was ist Statistik?
+
 - Wissenschaft vom Argumentieren mit empirischen Zahlen
 
 Ziele der Statistik:
+
 - Auffinden von Strukturen in Datenstätzen
-- Erleichterung der Kommunikatuion (visualisierung)
+- Erleichterung der Kommunikation (Visualisierung)
 - treffen von fundierten Entscheidungen
 - Vorhersagen
 - Verbindung zwischen Theorie umd Empirie
 - aufzeigen notwendiger Daten
 
 Was ist der Unterschied zwischen deduktiver und induktiver Schlussfolgerung / Logik?
+
 - deduktiv:
-	- top-down-Logik
+  - top-down-Logik
   - basierend auf einem Prinzip
   
 - induktiv:
-	- bottom-up-Logik
+  - bottom-up-Logik
   - basierend auf beobachteten Daten
 
 ![deduktiv-induktiv.png](/fom/semester-2/quantitative-methoden/deduktiv-induktiv.png)
 
-Häufigkeit, Varianz, aritmetisches Mittel, Median  
-[Lage, Streuung und Gestalt einer Verteilung](statistik.md#lage-streuung-und-gestalt-einer-verteilung) 
+Häufigkeit, Varianz, arithmetisches Mittel, Median  
+[Lage, Streuung und Gestalt einer Verteilung](statistik.md#lage-streuung-und-gestalt-einer-verteilung)
 
-Wie sieht leptkurtisch/platokurtische Verteilung aus und welche Eigenschaften hat sie  
-Angelehnt an Daten-Beispiel (Bsp. Redite - normalerweise Leptokurtisch -> was bedeutet das -> erklären Sie mit einer Skizze)   
-Probleme bei Leptokurtisch -> Plex-One   
+Wie sieht leptokurtisch/platokurtische Verteilung aus und welche Eigenschaften hat sie  
+Angelehnt an Daten-Beispiel (Bsp. Rendite - normalerweise leptokurtisch -> was bedeutet das -> erklären Sie mit einer Skizze)
+Probleme bei leptokurtisch -> Plex-One
 [Kurtosis](statistik.md#kurtosis)  
 
 Statistik (Konfidenzintervall berechnen und interpretieren)
@@ -60,7 +64,6 @@ Bei Aufgabe ähnlich Köche-Gehälter erst Interpretation dann Diagramm
 Daten werden gegeben, damit soll man etwas rechnen/interpretieren (eher interpretieren als rechnen)
 
 Bei deskriptiver Statistik mehr rechnen, bei induktiver Statistik mehr interpretieren
-
 
 Arbeitsblatt 1:
 Variable diskret oder stetig (unendlich)
