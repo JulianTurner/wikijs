@@ -137,3 +137,37 @@ Komplexität:
 - `add`: O(1) (konstant)
 - `remove`: O(1) (konstant)
 - `get`: O(1) (konstant)
+
+### Defaultdict
+
+- `defaultdict` ist ein Subklasse von `dict`
+- `defaultdict` erlaubt es, einen Standardwert für nicht vorhandene Schlüssel zu definieren
+- Standardwert wird nur zurückgegeben, wenn der Schlüssel nicht vorhanden ist
+
+```python
+from collections import defaultdict
+
+def default_value():
+    return 5
+
+my_dict = defaultdict(default_value)
+my_dict['a'] = 1
+my_dict['b'] = 2
+print(my_dict['c'])
+
+# 5
+```
+
+### Dict Comprehension
+
+- Erzeugung eines `dict` mit Hilfe einer `for`-Schleife
+- Syntax: `{key: value for key, value in iterable}`
+
+```python
+my_tupels = [('a', 1), ('b', 2)]
+
+my_dict = {key: value for key, value in my_tupels}
+print(my_dict)
+
+# {'a': 1, 'b': 2}
+```
