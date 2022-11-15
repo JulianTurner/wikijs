@@ -143,3 +143,183 @@ print_kwargs(**my_dict)
 
 > `*` erwartet eine Liste, `**` erwartet ein Dictionary
 {.is-info}
+
+### Spezielle Parameter
+
+- `/`: davor nur Positions-Argumente
+- `*`: danach nur Keyword-Argumente
+
+```python
+def print_args(a, b, /, c, d, *, e, f):
+    print(a, b, c, d, e, f)
+
+print_args(1, 2, 3, 4, e=5, f=6)
+
+# 1 2 3 4 5 6
+
+print_args(1, 2, c=3, d=4, e=5, f=6)
+
+# 1 2 3 4 5 6
+
+print_args(1, 2, 3, 4, 5, 6)
+
+# TypeError: print_args() takes 4 positional arguments but 6 were given
+
+print_args(a=1, b=2, c=3, d=4, f=5, e=6)
+# TypeError: print_args() got some positional-only arguments passed as keyword arguments: 'a, b'
+
+```
+
+> Spezielle Parameter sind optional
+{.is-info}
+
+### Call by value/reference
+
+Call by reference:
+
+- Mutable Objekte da diese verändert werden können
+
+```python
+def change_list(my_list):
+    my_list.append(4)
+
+my_list = [1, 2, 3]
+
+change_list(my_list)
+
+print(my_list)
+
+# [1, 2, 3, 4]
+```
+
+> my_list wird als Parameter übergeben
+{.is-info}
+
+Call by value:
+
+- Immutable Objekte da diese nicht verändert werden können
+
+```python
+def add_one(num):
+    num += 1
+
+my_num = 1
+
+add_one(my_num)
+
+print(my_num)
+
+# 1
+```
+
+> Wert von my_num (1) wird als Parameter übergeben
+{.is-info}
+
+## Lambda-Funktionen & Closure
+
+### Lambda-Funktionen
+
+- Lambda-Funktionen sind anonyme Funktionen
+- beliebig viele Parameter
+- nur eine Operation
+
+```python
+add_one = lambda num: num + 1
+
+print(add_one(1))
+
+# 2
+```
+
+### Globale & lokale Variablen
+
+- Globale Variablen sind in allen Funktionen verfügbar
+- Lokale Variablen sind nur in Funktionen verfügbar
+
+Beispiel:
+
+```python
+my_num = 1
+
+def add_one(num):
+    num += 1
+    return num
+
+print(add_one(my_num))
+
+# 2
+
+print(my_num)
+
+# 1
+```
+
+Beispiel mit `global` Keyword:
+
+```python
+my_num = 1
+
+def add_one():
+    global my_num
+    my_num += 1
+
+add_one()
+
+print(my_num)
+
+# 2
+```
+
+> bei `global` ist Variable im globalen Scope in Funktion verfügbar
+{.is-info}
+
+Beispiel mit `nonlocal` Keyword:
+
+```python
+my_num = 5
+def outer():
+    my_num = 1
+
+    def inner():
+        nonlocal my_num
+        my_num += 1
+
+    inner()
+    print(my_num)
+
+outer()
+
+# 2
+```
+
+> bei `nonlocal` muss die Variable zuvor in einem äußeren Scope (nicht global) definiert sein
+{.is-info}
+
+### Closure
+
+- Closure ist ein Funktionsobjekt die auf eine Variable aus einem äußeren Scope zugreift
+- ist nicht äquivalent zur Lambda Funktion
+- Ausführung außerhalb des ursprünglichen Gültigkeitsbereichs 
+- ermöglichen Data-Hiding
+
+```python
+def outer(name):
+    my_num = 1
+
+    def inner():
+        print(f'{name} + {my_num}')
+
+    return inner
+
+my_max_func = outer("Max")
+
+my_max_func()
+
+# Max + 1
+
+my_sepp_func = outer("Sepp")
+
+my_sepp_func()
+
+# Sepp + 1
+```
