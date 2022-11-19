@@ -2,10 +2,10 @@
 title: Aufwandschätzung
 description: 
 published: 1
-date: 2022-07-20T17:05:20.330Z
+date: 2022-11-19T10:28:38.926Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:22:55.269Z
+dateCreated: 2022-11-02T19:32:54.124Z
 ---
 
 # Aufwandschätzung
@@ -97,7 +97,21 @@ Aufwandsverteilung für Projektphasen ähnelt sich innerhalb bestimmter Projektg
 
 ### Function-Point-Verfahren
 
-![Function-Point-Chart](function-point-chart.png)
+```mermaid
+graph TD;
+    id1[funktionale Anforderungen]
+    id2[ungewichtete Function-Points]
+    id3[Einflussfaktoren]
+    id4[Projekteinflüsse]
+    id5[gewichtete Function-Points]
+    id6[Aufwand Personenmomante]
+    id1 -->|Schätzung|id2
+    id3 -->|Schätzung|id4
+    id2 & id4 -->|Berechnung|id5
+    id5 -->|Ableitung|id6
+```
+
+![function-point-chart.png](/fom/semester-3/software-engineering/function-point-chart.png)
 
 1. Funktionale Anforderungen werden in Elementarprozesse unterteilt.
 1. Bewertung der Elementarprozesse mit Function Points => ungewichtete Function Points
