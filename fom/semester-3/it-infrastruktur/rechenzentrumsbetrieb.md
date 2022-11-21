@@ -1,11 +1,11 @@
 ---
 title: Rechenzentrumsbetrieb
-description:
+description: 
 published: 1
-date: 2022-07-20T17:05:20.330Z
-tags:
+date: 2022-11-21T19:18:44.313Z
+tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:22:55.269Z
+dateCreated: 2022-11-15T19:29:01.687Z
 ---
 
 # Rechenzentrumsbetrieb
@@ -160,7 +160,7 @@ Hardwarezuordnung => Kunde erhält dedizierten Server (HW)
 
 siehe [Speichersysteme](/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#speichersysteme)
 
-siehe [RAID](/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#RAID)
+siehe [RAID](https://wiki.trner.de/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#RAID)
 
 #### Telekommunikation
 
