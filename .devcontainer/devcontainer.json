@@ -24,7 +24,9 @@
             "no-hard-tabs": false
         },
         "cSpell.enableFiletypes": ["!jsonc"],
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        "[markdown]": {
+            "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        }
     },
 
     // Configure tool-specific properties.
