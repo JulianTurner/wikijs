@@ -16,6 +16,7 @@ dateCreated: 2022-09-13T18:15:52.908Z
 [Iteratoren](/fom/semester-3/skriptsprachen/iteratoren)  
 [Mengen & Mapping](/fom/semester-3/skriptsprachen/mengen_mappings.md)
 [Funktionen](/fom/semester-3/skriptsprachen/funktionen.md)
+[Algorithmen](/fom/semester-3/skriptsprachen/algorithmen.md)
 
 # Klausurvorbereitung
 
