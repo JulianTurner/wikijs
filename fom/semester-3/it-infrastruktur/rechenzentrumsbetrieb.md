@@ -160,7 +160,7 @@ Hardwarezuordnung => Kunde erhält dedizierten Server (HW)
 
 siehe [Speichersysteme](/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#speichersysteme)
 
-siehe [RAID](https://wiki.trner.de/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#RAID)
+siehe [RAID](/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#RAID)
 
 #### Telekommunikation
 
