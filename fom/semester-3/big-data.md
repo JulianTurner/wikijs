@@ -12,5 +12,6 @@ dateCreated: 2022-03-04T12:23:12.295Z
 
 [Hadoop](/fom/semester-3/big-data/hadoop.md)
 [Maschine Learning](/fom/semester-3/big-data/maschine_learning.md)
+[Text Mining](/fom/semester-3/big-data/text_mining.md)
 
 [Klausurvorbereitung](/fom/semester-3/big-data/klausurvorbereitung.md)
