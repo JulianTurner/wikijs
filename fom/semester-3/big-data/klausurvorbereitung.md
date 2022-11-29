@@ -84,7 +84,7 @@ mithilfe von:
 
 ### Reifegrade der Unternehmen?
 
-![](reifegrad.png)
+![Reifegrad](reifegrad.png)
 
 ### Definition von Anwendungsfällen?
 
@@ -167,3 +167,10 @@ Hyperparameter:
 
 - werden vor dem Training festgelegt
 - beeinflussen die Leistung des Modells (z.B. Anzahl der Schichten, Anzahl der Neuronen, Anzahl der Epochen)
+
+## Text Mining
+
+### Wann verwendet man Precision und Recall?
+
+- [Precision](/fom/semester-3/big-data/text_mining.md#gütemaße): Misst den Anteil der tatsächlich relevanten Dokumente (True Positives) in den gefundenen Dokumenten
+- [Recall](/fom/semester-3/big-data/text_mining.md#gütemaße): Bruchteil aller relevanten Dokumente, die gefunden wurden
