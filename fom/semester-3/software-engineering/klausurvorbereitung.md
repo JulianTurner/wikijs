@@ -98,7 +98,7 @@ z.B.:
 
 ### Was sind Story Points?
 
-<!-- ! Muss noch geklärt werden -->
+Sind die Werte auf den Karten
 
 ### Wie ist der Ablauf beim Planning Poker?
 
@@ -109,3 +109,111 @@ z.B.:
 Beim Planning Poker Schätzt jedes Teammitglied den Aufwand der gleichen Anforderung bis zur Einigung auf einen Wert oder weiterer Zerlegung.
 
 Beim Magic Estimation werden die Anforderungen in Gruppe geschätzt und User Stories auf einer Zahlenreihe verschoben. Fall-Outs können mit andere Methode geschätzt werden.
+
+## [Analyse und Entwurf](/fom/semester-3/software-engineering/analyse-entwurf.md)
+
+### Wann ist die UML entstanden?
+
+- 1990er
+
+### Welche methodischen Wurzeln hat die UML?
+
+- Definiert Wörter und Regeln für die Kombination der Wörter
+- Syntax formal definiert
+- Semantik nur informell definiert
+
+### Was sind Strukturdiagramme?
+
+- Beschreiben Beziehungen zwischen Programmteilen
+
+### Was sind Verhaltensdiagramme?
+
+- Beschreiben einzelne Aspekte eines Systems und deren Veränderungen zur Laufzeit
+
+### Was sind Interaktionsdiagramme?
+
+- Beschreiben eine Menge von Nachrichten welche interaktiv Ausgetauscht werden
+
+### Welche Diagramme existieren in der UML?
+
+- Use Case Diagramme
+- Aktivitätsdiagramme
+- Klassendiagramme
+- Sequenzdiagramme
+- Zustandsdiagramme
+
+### In welcher Reihenfolge werden häufig Diagramme verwendet?
+
+1. Use Case Diagramme (Analyse)
+1. Aktivitätsdiagramme (Analyse)
+1. Klassendiagramme (Analyse, Entwurf)
+1. Sequenzdiagramme (Entwurf)
+1. Zustandsdiagramme/Kommunikationsdiagramme (Entwurf)
+
+### Was ist das Symbol für Akteure?
+
+Strichmännchen*innen
+
+### Was ist das Symbol für Use Cases?
+
+Oval
+
+### Wie unterscheiden sich «include» und «extend»?
+
+- Benutzt-Beziehung (include)
+  - Fragment welches auch in anderen Use Cases verwendet wird
+  - Fragment kann nicht alleine als Use Case verwendet werden
+  - Use Case ist nicht komplett ohne das Fragment
+
+- Erweitert-Beziehung (extend)
+  - Erweiterung mit einem eigenständigen Use Case
+  - Use Case wäre auch komplett ohne das Fragment
+
+### Was drückt die Assoziation in Use-Case-Diagrammen aus?
+
+Beziehung zwischen Akteuren und Use Cases
+
+### Modelliert man in Use-Case-Diagrammen Prozessketten?
+
+Nein
+
+### Modelliert man in Use-Case-Diagrammen Funktionshierarchien?
+
+Nein
+
+### Wofür Wird das Rauten-Symbol verwendet?
+
+- Entscheidung (Verzweigung)
+- Zusammenführung (Oder-Verknüpfung)
+
+### Wie werden Bedingungen modelliert?
+
+1. Pfeil von der Raute ausgehend
+1. Bedingung in eckigen Klammern annotieren
+
+### Was bedeuten Teilung und Synchronisation?
+
+- Teilung
+  - Teilung einer Aktivität in mehrere Aktivitäten
+  - Aktivitäten werden parallel ausgeführt
+
+- Synchronisation
+  - Warten auf die Ausführung aller Aktivitäten
+  
+### Was ist der Unterschied zwischen Aktion und Aktivität?
+
+Aktionen sind ein Bestandteil einer Aktivität
+
+### Was ist ein Objektknoten?
+
+Ein Trigger für eine Aktivität
+
+### Wie Wird ein Objektknoten modelliert?
+
+1. Rechteck auf der Grenze einer Aktivität
+1. Pfeil zur initialen Aktion
+1. Name des Objektknoten innerhalb des Rechtecks
+
+### Was dokumentieren Pfeile in Aktivitätsdiagrammen?
+
+Richtung des Kontrollflusses

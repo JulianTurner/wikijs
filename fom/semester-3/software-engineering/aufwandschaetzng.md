@@ -93,7 +93,8 @@ Aufwandsverteilung für Projektphasen ähnelt sich innerhalb bestimmter Projektg
 
 ### COCOMO
 
-<!-- ! Muss noch abgeklärt werden -->
+Es werden Aufwände für Entwicklung, Test und Wartung berechnet.
+Und je nach Technologie mit Werten multipliziert, um Personentage oder Anzahl der Entwickler als Artefakt zu ermitteln.
 
 ### Function-Point-Verfahren
 
@@ -104,7 +105,7 @@ graph TD;
     id3[Einflussfaktoren]
     id4[Projekteinflüsse]
     id5[gewichtete Function-Points]
-    id6[Aufwand Personenmomante]
+    id6[Aufwand Personenmonate]
     id1 -->|Schätzung|id2
     id3 -->|Schätzung|id4
     id2 & id4 -->|Berechnung|id5

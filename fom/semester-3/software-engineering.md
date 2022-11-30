@@ -15,3 +15,4 @@ dateCreated: 2022-09-13T18:16:00.734Z
 [Software-Entwicklung & -Management](/fom/semester-3/software-engineering/software-entwicklung-management)  
 [Anforderungen](/fom/semester-3/software-engineering/anforderungen)
 [Aufwandsschätzung](/fom/semester-3/software-engineering/aufwandschaetzng.md)
+[Analyse & Entwurf](/fom/semester-3/software-engineering/analyse-entwurf.md)
