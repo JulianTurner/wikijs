@@ -38,7 +38,30 @@ Verbreitete Einsatzreihefolge UML Diagramme:
 
 #### Klassendiagramme
 
+- Klassen & Beziehungen unabhängig von der Programmiersprache abbilden
+- Rahmen für Systemgrenze mit CD (Class Diagram) in der oberen linken Ecke
+- Klassen werden in Bereiche aufgeteilt
+  - Kopf: Name der Klasse
+  - Attribute: Eigenschaften der von der Klasse beschriebenen Objekte (Name, Typ, Sichtbarkeit)
+  - Methoden: Verhalten der Klasse (Name, Typ, Sichtbarkeit, Parameter)
+- Eigenschaften der Sichtbarkeit
+  - +: public
+  - -: private
+  - #: protected
+  - ~: package
+- Statische Attribute / Methoden werden unterstrichen
+- Kommentare: Gestrichelte Linie mit Text
+
+![Klassendiagramm](/fom/semester-3/software-engineering/Klassendiagramm.png)
+
 #### Objektdiagramme
+
+- Momentaufnahme eines Systems
+- Rahmen für Systemgrenze mit OD (Object Diagram) in der oberen linken Ecke
+- Jede Instanz hat einen Namen
+- Beziehungen heißen Links
+
+![Objektdiagramm](/fom/semester-3/software-engineering/Objektdiagramm.png)
 
 ### Verhaltensdiagramme
 
@@ -81,7 +104,25 @@ Beispiel:
 
 ##### Sequenzdiagramme
 
+- Darstellung der zeitlichen Abfolge von Nachrichten
+- Verwendung für Testfälle
+- Aktive Form des [Objektdiagramms](#objektdiagramme)
+- Zeit läuft von oben nach unten
+- Beteiligte (Akteure, Objekte) kommunizieren über Nachrichten (Methodenaufrufe) => Horizontale Linien
+- Gesamtheit der vertikalen Linie wird als Lebenslinie bezeichnet und mit X terminiert
+
+![Sequenzdiagramm-Nachrichten](/fom/semester-3/software-engineering/squenzdiagramm_nachrichten.png)
+
+![Sequenzdiagramm](/fom/semester-3/software-engineering/squenzdiagramm.png)
+
 ##### Kommunikationsdiagramme
+
+- Stellt zusammenarbeit von Objekten dar
+- keine Lebenslinien
+- einfache Linien für Beziehungen
+- Nachrichten werden mit Richtungsangaben versehen sowie in zeitlicher Reihenfolge durchnummeriert
+
+![Kommunikationsdiagramm](/fom/semester-3/software-engineering/Kommunikationsdiagramm.png)
 
 ## Schritte der Systemanalyse
 

@@ -217,3 +217,73 @@ Ein Trigger für eine Aktivität
 ### Was dokumentieren Pfeile in Aktivitätsdiagrammen?
 
 Richtung des Kontrollflusses
+
+### Wie werden Multiplizitäten modelliert?
+
+- beliebig viele : *
+- mindestens a, maximal b : a..b
+- genau a : a
+- keine Angabe : 1
+
+### Was sind Attribute?
+
+- Attribute: Eigenschaften der von der Klasse beschriebenen Objekte (Name, Typ, Sichtbarkeit)## Was sind Operationen?
+
+### Was ist der Unterschied zwischen Assoziation, Aggregation und Komposition?
+
+- Assoziation:
+
+Beziehung zwischen zwei Klassen
+
+- Aggregation:
+
+Die Aggregation kann ohne das Objekt existieren
+
+- Komposition:
+
+Die Komposition kann nicht ohne das Objekt existieren
+
+### Woran erkennt man eine abstrakte Klasse?
+
+1. Kann nicht instanziiert werden
+1. Am `{abstract}` Schlüsselwort im Kopf der Klasse
+
+### Woran erkennt man eine Generalisierung?
+
+1. Zwischen Ober- und Unterklasse besteht eine Is-A-Beziehung
+1. Gerichteter Beziehung mit leerer Pfeilspitze
+
+### Was ist der Unterschied zwischen Klassen und Objekten?
+
+Objekte sind Instanzen einer Klasse
+
+### Was ist ein Link?
+
+Verbindung zwischen zwei Instanzen
+
+### Werden im Sequenzdiagramm Objekte oder Klassen modelliert?
+
+Objekte
+
+### Was bedeutet im Sequenzdiagramm eine offene Pfeilspitze?
+
+Antwort auf eine Nachricht / Rückgabewert einer Methode
+
+### Was bedeutet im Sequenzdiagramm eine geschlossene Pfeilspitze?
+
+Anfrage / Aufruf einer Methode
+
+### Wie Wird eine Rückantwort modelliert?
+
+1. Pfeil mit offener Pfeilspitze
+1. Annotation mit Zuweisung und Rückgabewert oder nur Rückgabewert
+
+### Was ist der Unterschied zwischen Sequenz- und Kommunikationsdiagrammen?
+
+- Sequenzdiagramme stellen den zeitlichen Ablauf dar
+
+- Kommunikationsdiagramme stellen die Zusammenarbeit zwischen Objekten dar
+
+### Was bedeutet die Nummerierung im Kommunikationsdiagramm?
+
+zeitliche Reihenfolge der Nachrichten
