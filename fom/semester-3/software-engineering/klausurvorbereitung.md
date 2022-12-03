@@ -287,3 +287,27 @@ Anfrage / Aufruf einer Methode
 ### Was bedeutet die Nummerierung im Kommunikationsdiagramm?
 
 zeitliche Reihenfolge der Nachrichten
+
+### Was bedeuten Ereignis, Bedingung und Verhalten bei einem Zustandsdiagramm?
+
+Ereignis: Event, welches ein Zustandswechsel auslöst (z.B. Geburt)
+Bedingung: Bedingung, die erfüllt sein muss, damit ein Zustandswechsel stattfindet (z.B. Alter > 18)
+Verhalten: Verhalten, welches ausgeführt wird, wenn ein Zustand eintritt (z.B. Erwachsen)
+
+### Woran kann man Ereignis, Bedingung und Verhalten in einem Zustandsdiagramm erkennen?
+
+Ereignis: Pfeil mit offener Pfeilspitze  
+Bedingung: In eckigen Klammern bei Ereignis  
+Verhalten: Im Körper des Zustands
+
+### Woran erkennt man einen Startzustand?
+
+Erster Zustand nach vollständig gefüllter Kreis im Graphen
+
+### Woran erkennt man einen Endzustand?
+
+Letzter Zustand vor Kreis mit Umrandung im Graphen
+
+### Was passiert, wenn an einem Zustandsübergang nichts steht?
+
+Zustandsübergang geschieht automatisch nach ENTRY/DO/EXIT des Vorgängerzustands

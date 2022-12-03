@@ -91,6 +91,40 @@ Beispiel:
 
 #### Zustandsdiagramme
 
+- zeigt Zustände die ein Objekt einnehmen kann
+- Ereignisse lösen Zustandswechsel aus
+- Lebenszyklus kann über mehrere Anwendungsfälle hinweg abgebildet werden
+- muss deterministisch sein
+
+![zustandsdiagramm](/fom/semester-3/software-engineering/zustandsdiagramm.png)
+
+Zustandskörper:  
+
+ENTRY: Das Ereignis wird beim Eintritt in einen Zustand automatisch 1x ausgelöst => in allen hereinkommenden Übergängen  
+
+DO: Das Ereignis wird immer wieder ausgelöst, wenn der Zustand nicht gewechselt wird.  
+
+EXIT: Das Ereignis wird beim Verlassen eines Zustandes 1x ausgelöst => in allen abgehenden Übergängen.
+
+z.B.:
+
+![Tür Beispiel](https://www.ionos.de/digitalguide/fileadmin/DigitalGuide/Screenshots_2020/zustandsdiagramm-3.jpg)
+
+Der Zustand einer Tür ist „geschlossen“.  
+
+Um in diesen Zustand zu kommen, muss zunächst das Ereignis „Tür schließen“ (entry) erfolgen.  
+
+Während des Zustands gilt „Tür ist (durchgehend) geschlossen“ (do).
+
+Wird der Zustand verlassen, erfolgt das Ereignis „Tür öffnen“ (exit).
+
+Unterzustände:
+
+- Parallele Teilzustände
+- ohne parallele Teilzustände müsste Kreuzprodukt der Zustände gebildet werden
+
+![unterzustände](/fom/semester-3/software-engineering/unterzustand.png)
+
 #### Aktivitätsdiagramme
 
 - Ausschnitt eine Programmablaufs
@@ -126,6 +160,91 @@ Beispiel:
 
 ## Schritte der Systemanalyse
 
-## Betrachtete Funktionen in Systemanalyse und Systementwurf
+### Überprüfen der Anforderungen
 
-## Schritte im Systementwurf
+- unvollständigen Beschreibungen des Kunden => Requirements-Spezifikation erstellen
+- Anforderungen vereinzeln und hinterfragen
+- Vorstellungen des Kunden analysieren und verstehen
+
+> Nicht nur Probleme erkennen, sondern auch Gute Sachen beibehalten
+{.is-info}
+
+Requirements-Spezifikation:
+
+- Funktionale Anforderungen
+- Nicht-funktionale Anforderungen
+
+> Nicht nur aus Nutzersicht, sondern auch aus Betreiber- und Entwicklersicht betrachten
+{.is-info}
+
+### Spezifizieren der Geschäftsprozesse
+
+Geschäftsprozess:
+
+- Aufgrabe die ein Unternehmen ausführt
+- Analyse aller operationellen Geschäftsprozesse
+- von Technik abstrahieren
+- keine Festlegung auf eine Technologie
+
+Anwendungsfall:
+
+- Teilabschnitt eines Geschäftsprozesses, welcher mit einem zu erstellenden System automatisiert werden soll
+- spezifiziert durch funktionale Anforderung
+
+> Durch Analyse der Geschäftsprozesse können automatisierbare Anwendungsfälle identifiziert werden
+{.is-info}
+
+### Priorisieren der Anforderungen
+
+- Priorisierung aller Anforderungen / Geschäftsprozesse
+- Priorität bestimmt Umsetzungsreihenfolge
+- schrittweise Umsetzung wird erleichtert
+
+### Erstellen des Kontextdiagramms (Systemgrenzen festlegen)
+
+#### Kontextdiagramm
+
+- zeigt Datenflüsse zwischen System und Umgebung
+- Hilfsmittel zur Festlegung der Systemgrenzen
+- erster Überblick über zu erstellende Schnittstellenspezifikationen
+- Text in [] verweist auf Anforderung
+
+Umgebung:
+
+- alle Systeme, die mit dem zu erstellenden System interagieren
+
+### Anforderungen neu definieren (Pflichtenheft)
+
+Überarbeitung der Anforderungen entsprechend der definierten Systemgrenzen
+
+### Erstellen des Anwendungsfalldiagramms
+
+![Anwendungsfalldiagramm](#anwendungsfalldiagramme)
+
+### Kurzbeschreibung der Anwendungsfälle
+
+- bildet Übergang von Blackbox-Sicht zu Whitebox-Sicht
+- logischer Ablauf innerhalb des Systems => Erfüllung des Anwendungsfalls
+- Kurzbeschreibungstext => Aktivitätsdiagramm / Klassendiagramm
+
+### Finden von Klassen und Erstellen des Klassendiagramms der konzeptionellen Sicht
+
+1. Finden von Klassen mit z.B. [CRC-Methode](#crc-methode)
+1. Erstellen von [Klassendiagrammen](#klassendiagramme)
+
+#### CRC-Methode
+
+für jede Klasse eine Karteikarte erstellt:
+
+![CRC-Karteikarte](/fom/semester-3/software-engineering/crc-methode.png)
+
+### Langbeschreibung der Anwendungsfälle
+
+- Einbindung der gefunden Klassen in die Anwendungsfälle
+
+Ziel:
+Strukturierte Langbeschreibung der Anwendungsfälle
+
+### Erstellen der Kommunikationsdiagramme für jeden Anwendungsfall
+
+[Kommunikationsdiagramme](#kommunikationsdiagramme)
