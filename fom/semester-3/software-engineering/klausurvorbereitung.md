@@ -21,6 +21,201 @@ Was ist ein Begriffsmodell?
 Was sind funktionale Anforderungen?
 Was sind nicht funktionale Anforderungen?
 
+## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
+
+### Was sind die Nachteile von Code and Fix?
+
+- Fehler werden nachträglich behoben
+- häufige Überarbeitung notwendig
+- Arbeiten können nicht verteilt werden
+- schlechte Skalierbarkeit
+- keine Dokumentation
+
+### Zu welchen Problemen führt das Wasserfallmodell?
+
+- kein Feedback
+- keine parallele Arbeit möglich
+- bei Änderungen startet das Modell neu
+
+### Was sind Software-Prototypen?
+
+- kein Teil Software
+- Teil der Anforderungsanalyse
+
+### Was bedeutet Iterative Software-Entwicklung?
+
+Entwicklung in mehreren geplanten Iterationen.
+Jeder Iteration enthält die gleichen Teilschritte (z.B. Analyse, Design, Implementierung, Test).
+Die Basis für die nächste Iteration ist das Ergebnis der vorherigen Iteration.
+
+### Was ist das Spiralmodell?
+
+Ein iteratives Modell welches innerhalb einer Iteration ein Wasserfallmodell durchläuft. Wird gerne für große Projekte verwendet, um Risiken zu minimieren.
+
+### Von wem stammt das V-Modell XT
+
+Wurde vom Bundesministerium für Verteidigung vereinheitlicht
+
+### Aus welchen Elementen besteht das V-Modell XT?
+
+Aktivitäten & Produkten (Ergebnisse)
+
+### Was bedeutet Produktorientierung?
+
+- Produkte stehen im Mittelpunkt
+- Produktqualität ist überprüfbar
+- für jedes Produkt ist eine Rolle verantwortlich (vermeidet unterschiedliche Entscheidungen)
+
+### Was sind Projektfortschrittsstufen im V-Modell XT?
+
+Wichtige Ergebnisse / Phasen im Projekt welche in der Projektdurchführungsstrategie definiert wurden
+
+### Welche Phasen existieren im RUP?
+
+- Inception (Konzeption)
+  - Ermittlung zentraler Anforderungen, Projektumfang
+- Elaboration (Ausarbeitung)
+  - stabile, möglichst Vollständige Anforderungen
+- Construction (Konstruktion)
+  - Entwicklung der Software
+- Transition (Übergang)
+  - Übergabe an den Kunden
+
+### Was ist im RUP eine Disziplin?
+
+Kerndisziplinen decken fachliche und technische Aufgaben ab.
+Unterstützungsdisziplinen bündeln unabhängige Querschnittsaufgaben.
+z.B.
+
+- Entwicklung
+- Test
+- Auslieferung
+
+### Welche Kritik üben die agilen Ansätze?
+
+Nicht Werkzeug/Methode macht Projekte erfolgreich, sondern Menschen
+
+### Was ist das agile Manifest?
+
+Verhaltensregeln, Grundgerüst für Einhaltung der Werte in der Praxis
+
+### Was sind die agilen Prinzipien?
+
+- frühe und kontinuierliche Lieferung von Software
+- Zusammenarbeit mit Kunden
+- Reaktion auf Veränderungen
+- Nutzung von Veränderungen zum Wettbewerbsvorteil  
+
+### Was ist der Product Owner?
+
+- hat Produktvision
+- trägt wirtschaftliche Verantwortung (accountable)
+- legt Ziele fest
+- definiert & priorisiert
+
+### Was ist der Scrum Master
+
+- verantwortlich für den Scrum-Prozess (Rituale)
+- hilft zusammenarbeit zu optimieren
+- beseitigt Hindernisse
+
+### Was ist das Entwicklungsteam?
+
+- Entwickler des Produkts
+- selbstorganisiert
+
+### Was ist der Product Backlog?
+
+- Liste aller Anforderungen
+- Priorisiert
+- wird vom Product Owner gepflegt
+
+### Was ist der Sprint Backlog?
+
+- Liste der Aufgaben für den Sprint
+- wird vom Entwicklungsteam in Tasks aufgeteilt
+- Beitrag muss im aktuellen Sprint fertig sein
+
+### Was ist das Sprint-Ergebnis?
+
+- Produkt, das am Ende des Sprints fertig ist (Demonstrierbare Funktionalität, auslieferbarer Code)
+- wird im Stakeholder Review validiert
+
+### Was ist das Definition of Done?
+
+Was ein Artefakt haben muss, damit es als fertig gilt
+
+### Was ist ein Sprint?
+
+- Zeitraum in dem ein Sprint Backlog implementiert wird
+
+### Was ist das Sprint Planning?
+
+- Planung des Sprints
+
+### Was ist das Daily Scrum?
+
+- tägliche Besprechung von ca. 15 Minuten
+
+### Was ist das Sprint Review?
+
+- Veranstaltung um das Produkt zu überprüfen
+
+### Was ist die Sprint-Retrospektive?
+
+- Überprüfung der eigenen Arbeit und Planung für Verbesserungen
+
+### Was ist das Backlog Refinement?
+
+- kontinuierliche Überarbeitung des Product Backlogs
+
+## [Software-Entwicklung & -Management](/fom/semester-3/software-engineering/software-entwicklung-management)  
+
+## [Anforderungen](/fom/semester-3/software-engineering/anforderungen)
+
+### Was sind Anforderungen?
+
+Bedingung / Fähigkeit die...
+
+- eine Person benötigt um ein Problem zu lösen
+- eine Software besitzen muss um einen Vertrag zu erfüllen
+
+### Welche Aktivitäten gehören zum Requirements Engineering?
+
+- systematische, disziplinierte & quantitativ erfassbares Vorgehen beim Spezifizieren von Anforderungen
+
+- verstehen von Kundenwünschen
+
+### Welche Nachteile entstehen bei fehlender Spezifikation?
+
+- hohe Kosten
+- schlechte Qualität
+- hohe Fehlerquote
+- Kunde erhält nicht das was er wollte
+- rechtliche Probleme
+
+### Was sind Stakeholder?
+
+Personen, die von einem Projekt betroffen sind
+
+### Was ist ein Begriffslexikon?
+
+- wird frühzeitig aufgebaut und weiterentwickelt
+- enthält wichtige Begriffe und deren Definitionen
+- enthält Begrifft die verschieden ausgelegt werden könnten
+
+### Was ist ein Begriffsmodell?
+
+Hilft den Anwendungsbereich zu erfassen und den Kontext zwischen Begriffen zu verstehen.
+
+### Was sind funktionale Anforderungen?
+
+Anforderungen, welche Statik, Dynamik, Logik des Systems beschreiben
+
+### Was sind nicht funktionale Anforderungen?
+
+Anforderungen, welche Eigenschaften des Systems beschreiben
+
 ## [Aufwandschätzung](/fom/semester-3/software-engineering/aufwandschaetzng.md)
 
 ### Was ist der Schätztrichter?

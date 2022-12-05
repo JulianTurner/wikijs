@@ -52,7 +52,7 @@ Spezifikation ist notwendig für:
 
 Bedingung / Fähigkeit die...
 
-- Person benötigt um ein Problem zu lösen
+- eine Person benötigt um ein Problem zu lösen
 - eine Software besitzen muss um einen Vertrag zu erfüllen
 
 #### Anforderungsspezifikation (Requirement Specification)
@@ -94,6 +94,8 @@ An einem bestimmten Stichtag soll der Kunde eine Rechnung erhalten
 > {.is-info}
 
 #### Nicht-funktionale Anforderungen
+
+Anforderungen, welche Eigenschaften des Systems beschreiben
 
 - Zuverlässigkeit
 - Sicherheit
@@ -187,7 +189,11 @@ Kriterien
 - Querverweise
 
 > Angaben werden aus Gesprächen und Interviews abgeleitet
-> {.is-info}
+> {.is-info
+
+### Begriffsmodell
+
+Hilft den Anwendungsbereich zu erfassen und den Kontext zwischen Begriffen zu verstehen.
 
 ## Stellenwert
 

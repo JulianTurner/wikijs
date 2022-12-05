@@ -260,7 +260,7 @@ Produkte haben Verantwortlichkeiten nach RACI:
 
 #### Von wem stammt das V-Modell XT?
 
-Wurde voBundesministerium für Verteidigung vereinheitlicht
+Wurde vom Bundesministerium für Verteidigung vereinheitlicht
 
 #### Aus welchen Elementen besteht das V-Modell XT?
 
@@ -338,7 +338,7 @@ Interaktives, inkrementelles Prozessmodell
 - legt Ziele fest
 - definiert & priorisiert
 
-#### Was ist der Scrum Master
+#### Was ist der Scrum Master?
 
 - verantwortlich für den Scrum-Prozess (Rituale)
 - hilft zusammenarbeit zu optimieren
