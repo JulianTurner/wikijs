@@ -10,16 +10,54 @@ dateCreated: 2022-03-04T12:22:55.269Z
 
 # Klausurvorbereitung
 
-//TODO warum Software Projekte fehlschlagen/scheitern
+## Random Fragen aus den Notizen
 
-Was sind Anforderungen?
-Welche Aktivitäten gehören zum Requirements Engineering?
-Welche Nachteile entstehen bei fehlender Spezifikation?
-Was sind Stakeholder?
-Was ist ein Begriffslexikon?
-Was ist ein Begriffsmodell?
-Was sind funktionale Anforderungen?
-Was sind nicht funktionale Anforderungen?
+### Warum Software Projekte fehlschlagen/scheitern?
+
+- Mangelnde Planung
+- Mangelndes Know-How
+- Overstaffing (Überbesetzung)
+- Am falschen Ende sparen
+- Ungeeignete Technologie
+- Ungenaue Zielsetzung
+
+### Was zeichnet ein Projekt aus?
+
+- Komplexität
+- Neuartigkeit
+- Budget
+- Zeit
+
+### Was ist VUCA?
+
+- Volatile
+- Uncertain
+- Complex
+- Ambiguous
+
+Siehe [VUCA](/fom/semester-3/it-infrastruktur/it-infrastruktur.md#vuca-welt)
+
+### Wie bringe ich Qualität in Software?
+
+Über einen Prozess
+
+### Was macht Projekte erfolgreich?
+
+- In Time
+- In Budget
+- In Function
+
+### Welche Eigenschaften hat Software?
+
+- immateriell
+- kein Verschleiß
+- kein Verbrauch
+- lukrativ durch Wiederverwendung/Verkauf
+- nicht gefertigt sondern entwickelt
+
+### Was ist ein Vorgehensmodell?
+
+Ein Prozessmodell, das die Abfolge von Aktivitäten für den Prozess der SW-Entwicklung beschreibt
 
 ## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
 
