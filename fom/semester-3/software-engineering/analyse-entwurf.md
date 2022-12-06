@@ -86,7 +86,7 @@ Bestandteile:
   - Erweiterung mit einem eigenständigen Use Case
   - Use Case wäre auch komplett ohne das Fragment
 
-Beispiel:
+Beispiel:  
 ![Anwendungsfalldiagramm](/fom/semester-3/software-engineering/Anwendugsfalldiagramm.png)
 
 #### Zustandsdiagramme
@@ -219,7 +219,7 @@ Umgebung:
 
 ### Erstellen des Anwendungsfalldiagramms
 
-![Anwendungsfalldiagramm](#anwendungsfalldiagramme)
+[Anwendungsfalldiagramm](#anwendungsfalldiagramme)
 
 ### Kurzbeschreibung der Anwendungsfälle
 
