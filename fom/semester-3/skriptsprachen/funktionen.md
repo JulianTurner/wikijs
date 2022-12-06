@@ -299,7 +299,7 @@ outer()
 
 - Closure ist ein Funktionsobjekt die auf eine Variable aus einem äußeren Scope zugreift
 - ist nicht äquivalent zur Lambda Funktion
-- Ausführung außerhalb des ursprünglichen Gültigkeitsbereichs 
+- Ausführung außerhalb des ursprünglichen Gültigkeitsbereichs
 - ermöglichen Data-Hiding
 
 ```python
@@ -322,4 +322,33 @@ my_sepp_func = outer("Sepp")
 my_sepp_func()
 
 # Sepp + 1
+```
+
+## Decorators
+
+Syntaktischer Zucker um die Definition von Funktionen zu beeinflussen
+
+dekorierende Funktion:
+
+- erhält Original-Funktion als Parameter
+- gibt neue Funktion zurück (Wrapped idr. Original-Funktion)
+
+```python
+def my_decorator(func):
+    def wrapper():
+        print("Before")
+        func()
+        print("After")
+
+    return wrapper
+
+@my_decorator
+def my_func():
+    print("Hello World")
+
+my_func()
+
+# Before
+# Hello World
+# After
 ```

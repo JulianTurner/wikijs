@@ -15,3 +15,10 @@ dateCreated: 2022-10-13T12:49:44.966Z
 
 - in-Operator sucht linear in Listen durch iteration
 - in-Operator sucht in Sets mit einer Hash-Operation (möglicher Index kann direkt berechnet werden)
+
+## Algorithmen
+
+### Warum ist Rekursion ineffizient?
+
+- Kette von Funktionsaufrufen führt zu wachsendem Call Stack (Speicherplatzbedarf)
+- jeder Funktionsaufruf arbeitet in eigener lokaler Umgebung
