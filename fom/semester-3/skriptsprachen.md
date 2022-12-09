@@ -2,7 +2,7 @@
 title: Skriptsprachen
 description: 
 published: 1
-date: 2022-10-13T12:50:31.232Z
+date: 2022-12-09T09:53:35.992Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:52.908Z
@@ -18,6 +18,4 @@ dateCreated: 2022-09-13T18:15:52.908Z
 [Funktionen](/fom/semester-3/skriptsprachen/funktionen.md)
 [Algorithmen](/fom/semester-3/skriptsprachen/algorithmen.md)
 
-# Klausurvorbereitung
-
-[Klausurvorbereitung](/fom/semester-3/skriptsprachen/klausurvorbereitung.md)
+## [Klausurvorbereitung](/fom/semester-3/skriptsprachen/klausurvorbereitung.md)
