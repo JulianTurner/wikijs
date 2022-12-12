@@ -28,6 +28,12 @@ dateCreated: 2022-03-04T12:22:55.269Z
 - Budget
 - Zeit
 
+### Was zeichnet Software aus?
+
+- immateriell
+- Verschleißt nicht
+- wird entwickelt und nicht gefertigt
+
 ### Was ist VUCA?
 
 - Volatile
@@ -49,16 +55,85 @@ Siehe [VUCA](/fom/semester-3/it-infrastruktur/it-infrastruktur.md#vuca-welt)
 
 ### Welche Eigenschaften hat Software?
 
+- ist nicht natürlich
 - immateriell
 - kein Verschleiß
 - kein Verbrauch
 - lukrativ durch Wiederverwendung/Verkauf
 - nicht gefertigt sondern entwickelt
+- Kopie & Orignal sind gleich
+
+### Wie läuft eine Entwicklung ab?
+
+1. Analyse
+1. Spezifikation der Anforderungen
+1. Grobentwurf
+1. Feinentwurf
+1. Codierung
+1. Integration, Test, Abnahme
+1. Betrieb & Wartung 
+
+### Was ist ein Softwarelebenszyklus?
+
+Eine Periode in der eine Menge von Events fertiggestellt werden.
 
 ### Was ist ein Vorgehensmodell?
 
 Ein Prozessmodell, das die Abfolge von Aktivitäten für den Prozess der SW-Entwicklung beschreibt
 
+### Nennen Sie 3 Vorgehensmodelle
+
+- V-Modell XT 
+- Wasserfallmodell 
+- Code & Fix
+
+### Was Code & Fix?
+
+Es wird vor sich hin entwickelt, sobald Fehler entstehen werden diese behoben.  
+Es gibt meistens keine Dokumentation.  
+Architektur entsteht beim Entwickeln.  
+Häufige überarbeitung notwendig.  
+
+### Was ist Software Engineering?
+
+zielorientierte Bereitstellung und verwendung von Prinzipien, Methoden und Werkzeugen für die Entwicklung von Softwaresystemen
+
+### Auf welche Gebiete stützt sich Software Engineering?
+
+- Fachliches, Technisches und Methodik
+- Organisation & Management
+
+### Was sind die typischen Phasen bzw. Aktiviäten eines Vorgehensmodelles?
+
+1. Anforderungen
+1. Analyse
+1. Entwurf
+1. Implementierung
+1. Test & Integration
+
+### Was ist das Wasserfallmodell?
+
+### Was ist das V-Modell?
+
+### Was ist das Spiralmodell?
+
+### Was ist Scrum?
+
+### Was ist Prototyoing?
+
+### Was ist UML?
+
+### Was sind Prinzipien?
+
+### Was ist Modulrisierung?
+
+### Was ist Information Hiding?
+
+### Was ist Kopplung?
+
+### Was sind Qualitätsaskpekte?
+
+### Was ist Wartungsqualität?
 ## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
 
 ### Was sind die Nachteile von Code and Fix?
@@ -67,7 +142,7 @@ Ein Prozessmodell, das die Abfolge von Aktivitäten für den Prozess der SW-Entw
 - häufige Überarbeitung notwendig
 - Arbeiten können nicht verteilt werden
 - schlechte Skalierbarkeit
-- keine Dokumentation
+
 
 ### Zu welchen Problemen führt das Wasserfallmodell?
 
