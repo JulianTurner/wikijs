@@ -2,7 +2,7 @@
 title: Vorgehensmodelle
 description: 
 published: 1
-date: 2022-10-12T15:49:06.421Z
+date: 2022-12-12T07:22:57.740Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:16:08.635Z
@@ -122,7 +122,7 @@ Vorteile:
 
 Nachteile:
 
-- grundlegend Änderungen sind schwierig
+- grundlegende Änderungen sind schwierig
 - neue Anforderungen können unwirtschaftlich sein
 
 ### Komponentenmodell
