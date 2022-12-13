@@ -2,10 +2,10 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-07-20T17:05:20.330Z
+date: 2022-12-13T18:19:05.149Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:22:55.269Z
+dateCreated: 2022-09-13T18:16:04.788Z
 ---
 
 # Klausurvorbereitung
@@ -144,7 +144,7 @@ Wann => Ablaufmodell -> Scrum
 
 ### Was ist Code and Fix?
 
-einfach loslegen ohne Entwickler und später Fehler beheben
+einfach loslegen ohne Architektur und später Fehler beheben
 
 ### Was sind die Nachteile von Code and Fix?
 
