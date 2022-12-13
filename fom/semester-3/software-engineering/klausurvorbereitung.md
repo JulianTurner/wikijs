@@ -111,11 +111,105 @@ zielorientierte Bereitstellung und verwendung von Prinzipien, Methoden und Werkz
 1. Implementierung
 1. Test & Integration
 
+### Was ist ein Software System?
+
+eine Verbindung von miteinander kommunizierenden Komponenten auf Softwarebasis
+
+
+### Was ist ein Software Enticklungsprozess?
+
+eine hirachische Gruppierung von Aktivitäten, unter Berücksichtigung von Projektzielen, welche Eingansdaten(Anforderung) in Ausgangsdaten(Software System) transfomieren. 
+
+### Was ist ein Prozessmodell?
+
+- geplanter Gesamtprozess zur Entwicklung von Software. 
+- legt Abfolge der Aktivitäten fest, die zur Entwicklung durchgeführt werden sollen
+
+### Was ist ein Vorgehensmodell?
+
+Beschreibt systematische, ingenieurmäßige und quantifizierbare Vorgehensweisen um Aufgaben wiederholbar zu lösen
+
+### Was ist eine Methode?
+
+- spzifische und wiederholbare Vorgehensweise
+- struktriertes Vorgehen in einem definierten Problembereich
+
+### Bestandteile eines Vorgehensmodell?
+
+Womit => Werkzeuge -> IDE 
+Was => Artefakt -> Code 
+Wer => Rollenmodell -> Entwickler 
+Wie => Aktivität -> Schreibe Unit-Tests 
+Wann => Ablaufmodell -> Scrum
+
+### Was ist Code and Fix?
+
+einfach loslegen ohne Entwickler und später Fehler beheben
+
+### Was sind die Nachteile von Code and Fix?
+
+- Fehler werden nachträglich behoben
+- häufige Überarbeitung notwendig
+- Arbeiten können nicht verteilt werden
+- schlechte Skalierbarkeit
+
+### Was ist das sequenzielle Modell?
+
+- Entwicklung wird in Phasen aufgeteilt
+- eine Phase startet wenn die vorherige Phase abgeschlossen ist
+
+Phasen:
+
+1. definieren 
+1. entwerfen 
+1. entwickeln 
+
+### Was sind die Nachteile vom sequenziellen Modell?
+
+- Ergebnisse liegen spät vor
+- keine paralellisierung der Phasen möglich 
+- Modell kennt weder Phase noch Schleife
+
 ### Was ist das Wasserfallmodell?
+
+lineares Planungsmodell welches in mehere Phasen unterteilt wird, welche sequenziell aufeinander Folgen. Der Abschluss einer Phase startet die nächste Phase. Es bietet die möglichkeit in die vorherige Phase zurück zuspringen
+.
+
+### Was sind die Nachteile des Wasserfallmodells?
+
+- kein paralellisierung der Phasen
+- kein Weg vom Betrieb in die Entwicklung 
+- unflexibel gegenüber geänderten Anforderungen 
 
 ### Was ist das V-Modell?
 
+Erweiterung des Wasserfallmodells welche Maßnahmen zur Qualitätssicherung integriert.
+
+### Was ist der Unterschied zwischen horizontalem und vertikalem Prototyp?
+
+horizontal => Abbildung einer Ebene wie z.B. der Benutzeroberfläche 
+vertikale => technologischer Durchstick einer Funktionalität z.B. etwas über die Oberfläche in die Datenbank speichern
+
+### Was ist der Unterschied zwischen Inkrementell und interaktiv?
+
+Inkrementell: Entwicklung in Stufen, so dass Zwischenprodukte mit einem Teil der Funktionalität entstehen.
+
+Iterativ: In jeder Iteration werden Tätigkeiten Analysieren, Entwerfen, Codieren und Testen ausgeführt, und das resultierende System wird erprobt.
+
 ### Was ist das Spiralmodell?
+
+Fasst den Entwicklungsprozess als iterativen Prozess auf, wobei jeder Zyklus in Quadrate mit Aktiviäten aufgeteilt wird.
+
+Aktivitäten:
+
+1. Festlegung der Ziele
+1. Evaluierung von Alternativen
+1. Realisierung des Zwischenproduktes 
+1. Planung des nächsten Zyklus 
+
+### Was ist das V-Modell XT?
+
+Ein Produkt-zentriertes Vorgehensmodell in dem Projektergebnisse im Mittelpunkt stehen. Es definiert die Struktur und die Inhalte dieser Ergebnisse und beschreibt wie einzelne Ergebnisse aufeinander aufbauen und abhängen.
 
 ### Was ist Scrum?
 
@@ -134,14 +228,8 @@ zielorientierte Bereitstellung und verwendung von Prinzipien, Methoden und Werkz
 ### Was sind Qualitätsaskpekte?
 
 ### Was ist Wartungsqualität?
+
 ## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
-
-### Was sind die Nachteile von Code and Fix?
-
-- Fehler werden nachträglich behoben
-- häufige Überarbeitung notwendig
-- Arbeiten können nicht verteilt werden
-- schlechte Skalierbarkeit
 
 
 ### Zu welchen Problemen führt das Wasserfallmodell?
@@ -154,6 +242,8 @@ zielorientierte Bereitstellung und verwendung von Prinzipien, Methoden und Werkz
 
 - kein Teil Software
 - Teil der Anforderungsanalyse
+- realisieren nur rudimentäre Funktionalität 
+- Zeigt oft nur die Oberfläche des Zielsystems
 
 ### Was bedeutet Iterative Software-Entwicklung?
 
