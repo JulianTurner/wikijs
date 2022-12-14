@@ -10,7 +10,7 @@ dateCreated: 2022-09-13T18:16:04.788Z
 
 # Klausurvorbereitung
 
-## Random Fragen aus den Notizen
+## Random Fragen 
 
 ### Warum Software Projekte fehlschlagen/scheitern?
 
@@ -96,12 +96,12 @@ Häufige überarbeitung notwendig.
 
 ### Was ist Software Engineering?
 
-zielorientierte Bereitstellung und verwendung von Prinzipien, Methoden und Werkzeugen für die Entwicklung von Softwaresystemen
+zielorientierte Bereitstellung und Verwendung von Prinzipien, Methoden und Werkzeugen für die Entwicklung von Softwaresystemen
 
 ### Auf welche Gebiete stützt sich Software Engineering?
 
-- Fachliches, Technisches und Methodik
-- Organisation & Management
+- Fachliches, Technisches und Methodik aus der Informatik
+- Organisation & Management aus der Betriebswirtschaftslehre
 
 ### Was sind die typischen Phasen bzw. Aktiviäten eines Vorgehensmodelles?
 
@@ -113,12 +113,12 @@ zielorientierte Bereitstellung und verwendung von Prinzipien, Methoden und Werkz
 
 ### Was ist ein Software System?
 
-eine Verbindung von miteinander kommunizierenden Komponenten auf Softwarebasis
+Eine Verbindung von miteinander kommunizierenden Komponenten auf Softwarebasis.
 
 
 ### Was ist ein Software Enticklungsprozess?
 
-eine hirachische Gruppierung von Aktivitäten, unter Berücksichtigung von Projektzielen, welche Eingansdaten(Anforderung) in Ausgangsdaten(Software System) transfomieren. 
+Eine hirachische Gruppierung von Aktivitäten, unter Berücksichtigung von Projektzielen, welche Eingansdaten(Anforderung) in Ausgangsdaten(Software System) transfomieren. 
 
 ### Was ist ein Prozessmodell?
 
@@ -168,12 +168,13 @@ Phasen:
 
 - Ergebnisse liegen spät vor
 - keine paralellisierung der Phasen möglich 
-- Modell kennt weder Phase noch Schleife
+- Modell kennt weder Schleife noch Iteration  
 
 ### Was ist das Wasserfallmodell?
 
-lineares Planungsmodell welches in mehere Phasen unterteilt wird, welche sequenziell aufeinander Folgen. Der Abschluss einer Phase startet die nächste Phase. Es bietet die möglichkeit in die vorherige Phase zurück zuspringen
-.
+Lineares Planungsmodell welches in mehere Phasen unterteilt wird, welche sequenziell aufeinander folgen. 
+Der Abschluss einer Phase startet die nächste Phase.
+Es bietet die Möglichkeit in die vorherige Phase zurück zuspringen.
 
 ### Was sind die Nachteile des Wasserfallmodells?
 
@@ -185,16 +186,41 @@ lineares Planungsmodell welches in mehere Phasen unterteilt wird, welche sequenz
 
 Erweiterung des Wasserfallmodells welche Maßnahmen zur Qualitätssicherung integriert.
 
+### Was sind Prototypen im Software Engineering?
+
+- Realisieren nur rudimentäre Funktionalität 
+- Zeigen oft nur Oberflächte eines Zielsystems 
+- Teil der Anforderungsspezifikation
+- nicht Teil des Produkts 
+
+### Was ist Prototyping?
+
+Vorgehensweise bei der Attrappen entworfen, konstruiert, bewertet und revidiert werden 
+
+> Klären ob der Kunde das Produkt wirklich so haben will
+
 ### Was ist der Unterschied zwischen horizontalem und vertikalem Prototyp?
 
 horizontal => Abbildung einer Ebene wie z.B. der Benutzeroberfläche 
-vertikale => technologischer Durchstick einer Funktionalität z.B. etwas über die Oberfläche in die Datenbank speichern
+vertikal => technologischer Durchstich einer Funktionalität z.B. etwas über die Oberfläche in die Datenbank speichern
 
-### Was ist der Unterschied zwischen Inkrementell und interaktiv?
+### Vor- und Nachteile von Prototypen?
 
-Inkrementell: Entwicklung in Stufen, so dass Zwischenprodukte mit einem Teil der Funktionalität entstehen.
+Vorteile:
 
-Iterativ: In jeder Iteration werden Tätigkeiten Analysieren, Entwerfen, Codieren und Testen ausgeführt, und das resultierende System wird erprobt.
+- bessere Planbarkeit
+- Reduzierung des Risikos
+
+Nachteile:
+
+- zustätzlicher Aufwand 
+- Grenzen der Prototypen schwer ersichtlich 
+
+### Was ist der Unterschied zwischen inkrementell und interaktiv?
+
+inkrementell => Entwicklung in Stufen, so dass Zwischenprodukte mit einem Teil der Funktionalität entstehen.
+
+iterativ => In jeder Iteration werden Tätigkeiten wie Analysieren, Entwerfen, Codieren und Testen ausgeführt, und das resultierende System wird erprobt.
 
 ### Was ist das Spiralmodell?
 
@@ -209,25 +235,185 @@ Aktivitäten:
 
 ### Was ist das V-Modell XT?
 
-Ein Produkt-zentriertes Vorgehensmodell in dem Projektergebnisse im Mittelpunkt stehen. Es definiert die Struktur und die Inhalte dieser Ergebnisse und beschreibt wie einzelne Ergebnisse aufeinander aufbauen und abhängen.
+Ein Produkt-zentriertes Vorgehensmodell in dem Projektergebnisse im Mittelpunkt stehen. 
+Es definiert die Struktur und die Inhalte dieser Ergebnisse und beschreibt wie einzelne Ergebnisse aufeinander aufbauen und abhängen.
+
+### Was ist eine Aktivität, Rolle und Produkt im V-Modell XT?
+
+Aktivität beschreibt was gemacht werden soll  
+Rolle beschreibt wer an der Aktivität beteiligt ist  
+Produkt beschreibt was benötigt wird & was Ergebnis ist  
+
+### Welche Kritik gibt es an klassischen Vorgehensmodellen?
+
+- zu viele Dokumente müssen gepflegt werden 
+- eigene Wissenschaft
+- hemmt Kreativität 
+
+### Was ist das agile Manifest?
+
+Grundgerüst, für die Einhaltung der Werte in der Praxis 
+
+### Nennen Sie 3 agile Vorgehensmodelle 
+
+- Scrum 
+- Extreme Programming 
+- Kanban 
 
 ### Was ist Scrum?
 
-### Was ist Prototyoing?
+ein iteratives und inkrementelles Vorgehensmodell
 
-### Was ist UML?
+### Welche Merkmale haben Agile Modelle?
+
+- Entwicklung wird in Pakete aufgeteilt 
+- Test und Dokumentation wird während Entwicklung fortgeschriben 
+- Entwicklung erfolgt in Sprints 
+- tägliche Besprechungen 
+
+### Was ist der Product Owner?
+
+- hat Produktvision
+- trägt wirtschaftliche Verantwortung 
+- legt Ziele fest 
+
+### Was ist der Scrum Master?
+
+- Überwacht den Scrum Prozess 
+- Hilft bei der Zusammenarbeit 
+- beseitigt Hindernisse 
+
+### Was ust das Entwicklungsteam? 
+
+- Nimmt die Entwicklung vor
+- ist selbstorganisiert 
+
+### Was ist der Sprint? 
+
+- Zeitfenster in dem ein auslieferbares Produkt inkrement hergestellt werden soll 
+
+### Was ist Sprint Planning? 
+
+- Planung des kommenen Sprints 
+
+### Was ist Sprint Review? 
+
+- Veranstaltung am Ende des Sprints um inkrement zu überprüfen 
+
+### Was ist Sprint Restrospektive?
+
+- überprüfung der eigenen Arbeit sowie Planung von Vervesserung
+
+### Was ist das Backlog Refinement?
+
+- kontinuierliche Überarbeitung des Product Backlog 
+
+### Was ist Kanban?
+
+- Agiles Modell
+- Visualisiert den Fluss der Arbeit 
+- Begrezt Menge der angefangen Arbeit 
+- Iteration möglich aber nicht vorgesehen 
+
+### Was ist der Unterschied zwischen dem monumentalen und agilen Modell?
+
+Monumental:
+
+- vorhersagbar
+- prozessorientiert 
+- umfangreich Dokuentiert 
+- Festpreisauftrag 
+
+Agil: 
+
+- adaptiv 
+- teamorientiert 
+- informelle Dokumentation 
+- Auftrag nach Aufwand 
+
+### Was sind die Vor- und Nachteile von Vorgehensmodellen?
+
+Vorteile:
+
+- verschiedne Prozesse können gemeinsam abgebildet werden 
+- Projekte können geordnet werden 
+- verbesserte Übersichtlichkeit des Gesamtprojekts 
+
+Nachteile: 
+
+- kein Modell konnte sich durchsetzten 
+- aufwändige Vorgehensmodelle können Entwicklung bremsen 
+- kann Kreativiät behindern 
 
 ### Was sind Prinzipien?
 
+stellt gegebene Gesätzmäßigkeit darm die anderen Gesätzmäßigkeiten übergeordnet sind
+
+- sind Grundsätze die man seinem Handeln zugrunde legt
+- sind allgemeingültig
+- bilden theroretische Grundlage
+- werden aus Erfahrung gewonnen 
+
+### Was ist Abstraktion?
+
+- eine Veralgemeinerung
+- absehen von Besonderlichkeiten und dem Einzelnen 
+- Gegenteil von Konkretisierung 
+
+### Was beschreibt die Meta Ebene der Abstraktion?
+
+Zusammenhang gleichartiger Elemente der Typ-Ebene
+
+### Was ist Struktrierung?
+
+Ein Gefüge aus Teilen welche wechselseitig voneinander abhängen. 
+
+- systematischer Aufbau 
+- Sichtbarkeit größerer Zusammenhänge herstellen 
+
+### Was ist Hierachisierung?
+
+Rangordnung von Elementen
+
 ### Was ist Modulrisierung?
+
+- gliedert Lösung in kleinere überschaubare Teillösungen
+- jedes Modul ist eine geschlossene Einheit
+- Kommunkation des Moduls nach außen erfolgt über definierte Schnittstelle
+
+> eine benanne, klar abgegrenzte Kompenente eines Systems 
+
+### Was ist Bindung und Kopplung? 
+
+Bindung => Maß für die Stärke des inneren Zusammenhalts. -> Je höher desto besser 
+Kopplung => Maß für die Abhängigkeit zwischen Modulen. -> Je niedriger desto besser 
 
 ### Was ist Information Hiding?
 
-### Was ist Kopplung?
+Kapseln von Entwurfsentscheidungen beim Modularisieren, um Entwurfsentscheidungen zu verbergen und dadurch leichter Änderbar machen.
+
+- Es ist nur Was gemacht wird bekannt
+- Wie etwas gemacht wird, bleibt verborgen
+
+### Was ist Lokalität?
+
+Konzentration auf eine kleine Zahl and Eigenschaften um komplexe Probleme zu verstehen. 
+
+> Optimale Lokalität kann Information Hiding erschweren 
+
+### Was ist Wiederverwenbarkeit?
+
+Es sollte so viel wie möglich wiederverwendet werden 
 
 ### Was sind Qualitätsaskpekte?
 
+- effektiv
+- wirtschaftliche
+- technisch gut
+
 ### Was ist Wartungsqualität?
+
+### Was ist UML?
 
 ## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
 
