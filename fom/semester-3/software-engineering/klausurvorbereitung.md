@@ -411,12 +411,93 @@ Es sollte so viel wie möglich wiederverwendet werden
 - wirtschaftliche
 - technisch gut
 
-<!--S. 24 -->
+### Nennen sie 5 Entwurfsprinzipien
 
+- Information Hiding
+- Lokaizität 
+- Wiederverwendbarkeit
+- Modularisierung
+- Abstraktion
+
+### Was ist ein Modell?
+
+- Abbildung der Realität 
+- besteht aus meheren Sichten
+
+> Ist das Ergebnis eines Abblidungsprozesses eines Systems mit dem Ziel, desseb Verhalten zu verstehen und zu beschreiben.
+
+### Was ist Qualität?
+
+Übereinstimmung zwischen den Anforderungen und den Eigenschaften eines Produktes 
+
+### Was ist Gebrauchsqualität?
+
+- Qualität aus Sicht des Benutzers, der mit der Software arbeitet
 
 ### Was ist Wartungsqualität?
 
+- Qualität aus Sicht der Person, die an der Software arbeitet
+
+### Woraus setzt sich Produktqualität zusammen?
+
+Gebrauchsqualität und Wartungsqualität
+
 ### Was ist UML?
+
+- eine graphische Modellierungssprache zur Spezifikation, Visualisierung, Konstruktion und Dokumentation von Software-Systemen
+
+### Welche Eigenschaften hat ein Projekt?
+
+- eindeutiges Ziel
+- begrenzter Zeitraum
+- individuell 
+- Komplexität
+
+### Was versteht man unter nicht-desterministischer Softwareentwicklung?
+
+- neue Erkenntnisse während der Entwicklung haben Auswirkungen auf bisherige Ergebnisse
+- Ein Teilprodukt ist immer nur bedingt fertig 
+- oft wird viel Arbeit in die Überarbeitung bereits erstellter Teilprodukte benötigt 
+
+### Was erwartet ein Kunde von Software?
+
+- erbringt Leistung
+- kosetet ncht erheblich 
+
+### Für welche Bereiche ist eine Spezifikation notwendig?
+
+- Abstimmung mit dem Kunden
+- Entwurf 
+- Entwicklung 
+- Abnahme 
+
+### Was ist eine Anforderung? 
+
+Bedienung die von einer Person zur Lösung eines Problems gestellt wird.
+
+### Was ist eine Anforderungsspezifikation?
+
+Zusammenstellung aller Anforderungen an ein System 
+
+### Was ist Anforderungsmangement?
+
+systematische Erfassung, Analyse, Priorisierung und Verwaltung von Anforderungen
+
+### Was sind funktionale Anforderungen? 
+
+Eine Anforderung die die Funktionalität eines Systems beschreibt.
+
+z.B. "Das System soll die Anzahl der Wörter in einem Text zählen"
+
+### Was sind nicht-funktionale Anforderungen?
+
+Eine Anforderung welche eine qualitative oder quantitative Eigenschaft eines Systems beschreibt.
+
+z.B. "Das System soll Barrierefrei sein"
+
+### Was ist eine Rahmenbedingung?
+
+Eine Restriktion für das System und / oder die Entwicklung.: 
 
 ## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
 
