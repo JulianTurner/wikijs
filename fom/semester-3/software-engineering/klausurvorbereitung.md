@@ -411,6 +411,9 @@ Es sollte so viel wie möglich wiederverwendet werden
 - wirtschaftliche
 - technisch gut
 
+<!--S. 24 -->
+
+
 ### Was ist Wartungsqualität?
 
 ### Was ist UML?
