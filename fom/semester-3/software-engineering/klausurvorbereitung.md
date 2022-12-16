@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-12-13T18:19:05.149Z
+date: 2022-12-16T11:34:16.968Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:16:04.788Z
@@ -61,7 +61,7 @@ Siehe [VUCA](/fom/semester-3/it-infrastruktur/it-infrastruktur.md#vuca-welt)
 - kein Verbrauch
 - lukrativ durch Wiederverwendung/Verkauf
 - nicht gefertigt sondern entwickelt
-- Kopie & Orignal sind gleich
+- Kopie & Original sind gleich
 
 ### Wie läuft eine Entwicklung ab?
 
@@ -92,7 +92,7 @@ Ein Prozessmodell, das die Abfolge von Aktivitäten für den Prozess der SW-Entw
 Es wird vor sich hin entwickelt, sobald Fehler entstehen werden diese behoben.  
 Es gibt meistens keine Dokumentation.  
 Architektur entsteht beim Entwickeln.  
-Häufige überarbeitung notwendig.  
+Häufige Überarbeitung notwendig.  
 
 ### Was ist Software Engineering?
 
@@ -103,7 +103,7 @@ zielorientierte Bereitstellung und Verwendung von Prinzipien, Methoden und Werkz
 - Fachliches, Technisches und Methodik aus der Informatik
 - Organisation & Management aus der Betriebswirtschaftslehre
 
-### Was sind die typischen Phasen bzw. Aktiviäten eines Vorgehensmodelles?
+### Was sind die typischen Phasen bzw. Aktivitäten eines Vorgehensmodelles?
 
 1. Anforderungen
 1. Analyse
@@ -116,9 +116,9 @@ zielorientierte Bereitstellung und Verwendung von Prinzipien, Methoden und Werkz
 Eine Verbindung von miteinander kommunizierenden Komponenten auf Softwarebasis.
 
 
-### Was ist ein Software Enticklungsprozess?
+### Was ist ein Software Entwicklungsprozess?
 
-Eine hirachische Gruppierung von Aktivitäten, unter Berücksichtigung von Projektzielen, welche Eingansdaten(Anforderung) in Ausgangsdaten(Software System) transfomieren. 
+Eine hierarchische Gruppierung von Aktivitäten, unter Berücksichtigung von Projektzielen, welche Eingangsdaten (Anforderung) in Ausgangsdaten (Software System) transformieren. 
 
 ### Was ist ein Prozessmodell?
 
@@ -131,8 +131,8 @@ Beschreibt systematische, ingenieurmäßige und quantifizierbare Vorgehensweisen
 
 ### Was ist eine Methode?
 
-- spzifische und wiederholbare Vorgehensweise
-- struktriertes Vorgehen in einem definierten Problembereich
+- spezifische und wiederholbare Vorgehensweise
+- strukturiertes Vorgehen in einem definierten Problembereich
 
 ### Bestandteile eines Vorgehensmodell?
 
@@ -167,18 +167,18 @@ Phasen:
 ### Was sind die Nachteile vom sequenziellen Modell?
 
 - Ergebnisse liegen spät vor
-- keine paralellisierung der Phasen möglich 
+- keine Parallelisierung der Phasen möglich 
 - Modell kennt weder Schleife noch Iteration  
 
 ### Was ist das Wasserfallmodell?
 
-Lineares Planungsmodell welches in mehere Phasen unterteilt wird, welche sequenziell aufeinander folgen. 
+Lineares Planungsmodell welches in mehrere Phasen unterteilt wird, welche sequenziell aufeinander folgen. 
 Der Abschluss einer Phase startet die nächste Phase.
 Es bietet die Möglichkeit in die vorherige Phase zurück zuspringen.
 
 ### Was sind die Nachteile des Wasserfallmodells?
 
-- kein paralellisierung der Phasen
+- keine Parallelisierung der Phasen
 - kein Weg vom Betrieb in die Entwicklung 
 - unflexibel gegenüber geänderten Anforderungen 
 
@@ -189,7 +189,7 @@ Erweiterung des Wasserfallmodells welche Maßnahmen zur Qualitätssicherung inte
 ### Was sind Prototypen im Software Engineering?
 
 - Realisieren nur rudimentäre Funktionalität 
-- Zeigen oft nur Oberflächte eines Zielsystems 
+- Zeigen oft nur oberflächlich ein Zielsystems 
 - Teil der Anforderungsspezifikation
 - nicht Teil des Produkts 
 
@@ -213,7 +213,7 @@ Vorteile:
 
 Nachteile:
 
-- zustätzlicher Aufwand 
+- zusätzlicher Aufwand
 - Grenzen der Prototypen schwer ersichtlich 
 
 ### Was ist der Unterschied zwischen inkrementell und interaktiv?
@@ -224,7 +224,7 @@ iterativ => In jeder Iteration werden Tätigkeiten wie Analysieren, Entwerfen, C
 
 ### Was ist das Spiralmodell?
 
-Fasst den Entwicklungsprozess als iterativen Prozess auf, wobei jeder Zyklus in Quadrate mit Aktiviäten aufgeteilt wird.
+Fasst den Entwicklungsprozess als iterativen Prozess auf, wobei jeder Zyklus in Quadranten mit Aktivitäten aufgeteilt wird.
 
 Aktivitäten:
 
@@ -267,7 +267,7 @@ ein iteratives und inkrementelles Vorgehensmodell
 ### Welche Merkmale haben Agile Modelle?
 
 - Entwicklung wird in Pakete aufgeteilt 
-- Test und Dokumentation wird während Entwicklung fortgeschriben 
+- Test und Dokumentation wird während Entwicklung fortgeschrieben 
 - Entwicklung erfolgt in Sprints 
 - tägliche Besprechungen 
 
@@ -283,14 +283,14 @@ ein iteratives und inkrementelles Vorgehensmodell
 - Hilft bei der Zusammenarbeit 
 - beseitigt Hindernisse 
 
-### Was ust das Entwicklungsteam? 
+### Was ist das Entwicklungsteam? 
 
 - Nimmt die Entwicklung vor
 - ist selbstorganisiert 
 
 ### Was ist der Sprint? 
 
-- Zeitfenster in dem ein auslieferbares Produkt inkrement hergestellt werden soll 
+- Zeitfenster in dem ein auslieferbares Produkt inkrementell hergestellt werden soll 
 
 ### Was ist Sprint Planning? 
 
@@ -298,15 +298,15 @@ ein iteratives und inkrementelles Vorgehensmodell
 
 ### Was ist Sprint Review? 
 
-- Veranstaltung am Ende des Sprints um inkrement zu überprüfen 
+- Veranstaltung am Ende des Sprints für Ergebnis-Überprüfung
 
 ### Was ist Sprint Restrospektive?
 
-- überprüfung der eigenen Arbeit sowie Planung von Vervesserung
+- Überprüfung der eigenen Arbeit sowie Planung von Verbesserungen
 
 ### Was ist das Backlog Refinement?
 
-- kontinuierliche Überarbeitung des Product Backlog 
+- kontinuierliche Überarbeitung des Product Backlogs
 
 ### Was ist Kanban?
 
@@ -321,7 +321,7 @@ Monumental:
 
 - vorhersagbar
 - prozessorientiert 
-- umfangreich Dokuentiert 
+- umfangreich dokumentiert 
 - Festpreisauftrag 
 
 Agil: 
@@ -335,7 +335,7 @@ Agil:
 
 Vorteile:
 
-- verschiedne Prozesse können gemeinsam abgebildet werden 
+- verschiedene Prozesse können gemeinsam abgebildet werden 
 - Projekte können geordnet werden 
 - verbesserte Übersichtlichkeit des Gesamtprojekts 
 
@@ -343,20 +343,20 @@ Nachteile:
 
 - kein Modell konnte sich durchsetzten 
 - aufwändige Vorgehensmodelle können Entwicklung bremsen 
-- kann Kreativiät behindern 
+- kann Kreativität behindern 
 
 ### Was sind Prinzipien?
 
-stellt gegebene Gesätzmäßigkeit darm die anderen Gesätzmäßigkeiten übergeordnet sind
+stellt gegebene Gesetzmäßigkeit dar, welche anderen Gesetzmäßigkeiten übergeordnet ist
 
 - sind Grundsätze die man seinem Handeln zugrunde legt
 - sind allgemeingültig
-- bilden theroretische Grundlage
+- bilden theoretische Grundlage
 - werden aus Erfahrung gewonnen 
 
 ### Was ist Abstraktion?
 
-- eine Veralgemeinerung
+- eine Verallgemeinerung
 - absehen von Besonderlichkeiten und dem Einzelnen 
 - Gegenteil von Konkretisierung 
 
@@ -364,7 +364,7 @@ stellt gegebene Gesätzmäßigkeit darm die anderen Gesätzmäßigkeiten überge
 
 Zusammenhang gleichartiger Elemente der Typ-Ebene
 
-### Was ist Struktrierung?
+### Was ist Strukturierung?
 
 Ein Gefüge aus Teilen welche wechselseitig voneinander abhängen. 
 
@@ -375,13 +375,13 @@ Ein Gefüge aus Teilen welche wechselseitig voneinander abhängen.
 
 Rangordnung von Elementen
 
-### Was ist Modulrisierung?
+### Was ist Modularisierung?
 
 - gliedert Lösung in kleinere überschaubare Teillösungen
 - jedes Modul ist eine geschlossene Einheit
-- Kommunkation des Moduls nach außen erfolgt über definierte Schnittstelle
+- Kommunikation des Moduls nach außen erfolgt über definierte Schnittstelle
 
-> eine benanne, klar abgegrenzte Kompenente eines Systems 
+> eine benannte, klar abgegrenzte Komponente eines Systems 
 
 ### Was ist Bindung und Kopplung? 
 
@@ -397,15 +397,15 @@ Kapseln von Entwurfsentscheidungen beim Modularisieren, um Entwurfsentscheidunge
 
 ### Was ist Lokalität?
 
-Konzentration auf eine kleine Zahl and Eigenschaften um komplexe Probleme zu verstehen. 
+Konzentration auf eine kleine Zahl und Eigenschaften um komplexe Probleme zu verstehen. 
 
 > Optimale Lokalität kann Information Hiding erschweren 
 
-### Was ist Wiederverwenbarkeit?
+### Was ist Wiederverwendbarkeit?
 
 Es sollte so viel wie möglich wiederverwendet werden 
 
-### Was sind Qualitätsaskpekte?
+### Was sind Qualitätaspekte?
 
 - effektiv
 - wirtschaftliche
@@ -414,7 +414,7 @@ Es sollte so viel wie möglich wiederverwendet werden
 ### Nennen sie 5 Entwurfsprinzipien
 
 - Information Hiding
-- Lokaizität 
+- Lokalität 
 - Wiederverwendbarkeit
 - Modularisierung
 - Abstraktion
@@ -422,9 +422,9 @@ Es sollte so viel wie möglich wiederverwendet werden
 ### Was ist ein Modell?
 
 - Abbildung der Realität 
-- besteht aus meheren Sichten
+- besteht aus mehreren Sichten
 
-> Ist das Ergebnis eines Abblidungsprozesses eines Systems mit dem Ziel, desseb Verhalten zu verstehen und zu beschreiben.
+> Ist das Ergebnis eines Abbildungsprozesses eines Systems mit dem Ziel, dessen Verhalten zu verstehen und zu beschreiben.
 
 ### Was ist Qualität?
 
@@ -453,7 +453,7 @@ Gebrauchsqualität und Wartungsqualität
 - individuell 
 - Komplexität
 
-### Was versteht man unter nicht-desterministischer Softwareentwicklung?
+### Was versteht man unter nicht-deterministischer Softwareentwicklung?
 
 - neue Erkenntnisse während der Entwicklung haben Auswirkungen auf bisherige Ergebnisse
 - Ein Teilprodukt ist immer nur bedingt fertig 
@@ -462,7 +462,7 @@ Gebrauchsqualität und Wartungsqualität
 ### Was erwartet ein Kunde von Software?
 
 - erbringt Leistung
-- kosetet ncht erheblich 
+- kostet nicht erheblich 
 
 ### Für welche Bereiche ist eine Spezifikation notwendig?
 
@@ -479,7 +479,7 @@ Bedienung die von einer Person zur Lösung eines Problems gestellt wird.
 
 Zusammenstellung aller Anforderungen an ein System 
 
-### Was ist Anforderungsmangement?
+### Was ist Anforderungsmanagement?
 
 systematische Erfassung, Analyse, Priorisierung und Verwaltung von Anforderungen
 
@@ -504,11 +504,11 @@ Eine Restriktion für das System und / oder die Entwicklung.:
 - mit dem Problembereich 
 - fachlicher Logik der Anwendung 
 
-### Was ist der Systemenfwurf?
+### Was ist der Systementwurf?
 
 - befasst sich mit dem Lösungsbereich
 - technische Realisierung 
-- logik aus Systemanalyse wird in lauffähiges System gegossen
+- Logik aus Systemanalyse wird in lauffähiges System gegossen
 
 ### Was ist UML?
 
@@ -521,9 +521,9 @@ Eine Restriktion für das System und / oder die Entwicklung.:
 
 Klassendiagramm => für fast alles 
 Objektdiagramm => Zusammenhänge der Software 
-Anwendungsfalldiagramm => Geschätsprozesse
+Anwendungsfalldiagramm => Geschäftsprozesse
 Zustandsdiagramm => dynamisches Verhalten 
-Aktivitätsdiagramm => für paralelle Prozesse
+Aktivitätsdiagramm => für parallele Prozesse
 Sequenzdiagramm => zeitliche Abfolge 
 
 ### Welche Merkmale hat das Anwendungsfalldiagramm
