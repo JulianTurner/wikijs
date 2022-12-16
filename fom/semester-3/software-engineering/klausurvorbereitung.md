@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-12-16T11:34:16.968Z
+date: 2022-12-16T11:39:49.293Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:16:04.788Z
@@ -539,7 +539,7 @@ Sequenzdiagramm => zeitliche Abfolge
 
 ### Was ist das Klassendiagramm?
 
-- Klassen unabhänig von einer Programmiersprache abzubilden
+- Klassen unabhängig von einer Programmiersprache abzubilden
 - Beziehungen können dargestellt werden 
 - können Assoziationen enthalten
 - kann Vererbungen abbilden 
@@ -547,7 +547,7 @@ Sequenzdiagramm => zeitliche Abfolge
 ### Was ist eine Abstrakte Klasse?
 
 - bündeln Attribute und Methoden 
-- werden nicht instanziiert 
+- werden nicht instantiiert 
 - optimiert Kopplung und Bindung 
 - erhöht Wartbarkeit
 
@@ -565,7 +565,7 @@ Sequenzdiagramm => zeitliche Abfolge
 ### Was ist eine Zustandsdiagramm?
 
 - zeigt Zustände eines Objektes welche es im Lebenszyklus einnehmen kann
-- durch Ereignisse (Events) werden Zustadsübergänge eingenommen
+- durch Ereignisse (Events) werden Zustandsübergänge eingeleitet
 
 ## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
 
@@ -657,7 +657,7 @@ Verhaltensregeln, Grundgerüst für Einhaltung der Werte in der Praxis
 ### Was ist der Scrum Master
 
 - verantwortlich für den Scrum-Prozess (Rituale)
-- hilft zusammenarbeit zu optimieren
+- hilft Zusammenarbeit zu optimieren
 - beseitigt Hindernisse
 
 ### Was ist das Entwicklungsteam?
@@ -821,7 +821,7 @@ Referenzdaten | externes Teilnehmerverzeichnis​
 
 ### Was ist die Einflussbewertung in der Function-Point-Methode?
 
-Beachtung von unternehmens- & Projektspezifischen Faktoren, welche die ungewichteten Aufwände beeinflussen.
+Beachtung von Unternehmens- & Projektspezifischen Faktoren, welche die ungewichteten Aufwände beeinflussen.
 
 z.B.:
 
@@ -981,7 +981,7 @@ Die Komposition kann nicht ohne das Objekt existieren
 
 ### Woran erkennt man eine abstrakte Klasse?
 
-1. Kann nicht instanziiert werden
+1. Kann nicht instantiiert werden
 1. Am `{abstract}` Schlüsselwort im Kopf der Klasse
 
 ### Woran erkennt man eine Generalisierung?
