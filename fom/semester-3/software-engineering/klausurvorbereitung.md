@@ -499,6 +499,74 @@ z.B. "Das System soll Barrierefrei sein"
 
 Eine Restriktion für das System und / oder die Entwicklung.: 
 
+### Womit befasst sich die Systemanalyse?
+
+- mit dem Problembereich 
+- fachlicher Logik der Anwendung 
+
+### Was ist der Systemenfwurf?
+
+- befasst sich mit dem Lösungsbereich
+- technische Realisierung 
+- logik aus Systemanalyse wird in lauffähiges System gegossen
+
+### Was ist UML?
+
+- graphische Modellierungssprache zur Spezifikation, Visualisierung, Konstruktion und Dokumentation von Software-Systemen
+- keine Entwicklungsmethode
+- Basiert auf Metamodell
+- Objektorientierter Ansatz 
+
+### Nennen Sie wichtige UML Diagramme und ihrer Einsatzgebiet
+
+Klassendiagramm => für fast alles 
+Objektdiagramm => Zusammenhänge der Software 
+Anwendungsfalldiagramm => Geschätsprozesse
+Zustandsdiagramm => dynamisches Verhalten 
+Aktivitätsdiagramm => für paralelle Prozesse
+Sequenzdiagramm => zeitliche Abfolge 
+
+### Welche Merkmale hat das Anwendungsfalldiagramm
+
+- beschreibt Außensicht
+- spezifiziert konkrete Situationen
+- als Pakete gruppiert und durch Beziehungen (`include` & `exclude` miteinander Verknüpft)
+
+### Was ist eine Aktivitätsdiagramm?
+
+- zeigt Ausschnitt eines Programmablaufs
+- paralleles Verhalten kann dargestellt werden
+
+### Was ist das Klassendiagramm?
+
+- Klassen unabhänig von einer Programmiersprache abzubilden
+- Beziehungen können dargestellt werden 
+- können Assoziationen enthalten
+- kann Vererbungen abbilden 
+
+### Was ist eine Abstrakte Klasse?
+
+- bündeln Attribute und Methoden 
+- werden nicht instanziiert 
+- optimiert Kopplung und Bindung 
+- erhöht Wartbarkeit
+
+### Was ist eine Objektdiagramm? 
+
+- zeigt Klassendiagramm zur Laufzeit 
+- Beziehungen werden als Links bezeichnet
+
+### Was ist eine Sequenzdiagramm?
+
+- beschreibt Abläufe => aktive Form des Objektdiagramms 
+- Darstellungsmöglichkeit für Methodenaufrufe
+- ganzer zeitlicher Ablauf wird abgebildet 
+
+### Was ist eine Zustandsdiagramm?
+
+- zeigt Zustände eines Objektes welche es im Lebenszyklus einnehmen kann
+- durch Ereignisse (Events) werden Zustadsübergänge eingenommen
+
 ## [Vorgehensmodelle](/fom/semester-3/software-engineering/vorgehensmodelle)  
 
 
