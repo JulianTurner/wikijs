@@ -22,3 +22,10 @@ dateCreated: 2022-10-13T12:49:44.966Z
 
 - Kette von Funktionsaufrufen führt zu wachsendem Call Stack (Speicherplatzbedarf)
 - jeder Funktionsaufruf arbeitet in eigener lokaler Umgebung
+
+## Reguläre Sprachen
+
+### Wofür verwendet man regEx?
+
+- für die Suche nach Mustern in Texten
+- für die Validierung von Eingaben

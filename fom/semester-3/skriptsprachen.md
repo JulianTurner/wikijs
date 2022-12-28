@@ -17,5 +17,7 @@ dateCreated: 2022-09-13T18:15:52.908Z
 [Mengen & Mapping](/fom/semester-3/skriptsprachen/mengen_mappings.md)
 [Funktionen](/fom/semester-3/skriptsprachen/funktionen.md)
 [Algorithmen](/fom/semester-3/skriptsprachen/algorithmen.md)
+[Reguläre Sprachen](/fom/semester-3/skriptsprachen/regulare_sprachen.md)
+
 
 ## [Klausurvorbereitung](/fom/semester-3/skriptsprachen/klausurvorbereitung.md)

@@ -55,4 +55,4 @@ Eine formale [Sprache](/formaleBeschreibung/formaleSprachen/grammatik-sprache#sp
 
 Eine Sprache kann von einem höheren Typ sein als eine Grammatik die sie beschreibt, wenn es eine weitere Grammatik mit höherem Typen gibt, welche die gleiche Sprache bildet.
 
-![chomsky-gramatik-sprachen-hierarchie.png](/fom/semester-1/chomsky-gramatik-sprachen-hierarchie.png)
+![chomsky-gramatik-sprachen-hierarchie.png](/fom/semester-1/formale-beschreibungsverfahren/chomsky-gramatik-sprachen-hierarchie.png)
