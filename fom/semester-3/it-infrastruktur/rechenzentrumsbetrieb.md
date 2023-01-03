@@ -262,6 +262,40 @@ TCP/IP:
 
 ##### Netzwerk Hardware
 
+###### Repeater
+
+- verstäkt Signale
+- erweitert Reichweite
+
+###### Bridge
+
+- brückt zwei Netzwerke miteinander
+
+###### Hub
+
+- leitet alle eingehenden Signale an alle Anschlüsse weiter
+- kann zu Netzwerkkollisionen kommen
+
+###### Switch
+
+- leitet eingehenden Signale gezielt an Empfänger weiter
+- vermeidet Netzwerkkollisionen
+- speichert MAC Adressen der Teilnehmer
+
+###### Router
+
+- Netzwerkgrät was Datenpakete zwischen Netzwerken verschickt
+
+###### WLAN-Router / Multifunktionsgeräte
+
+- erweitert Router-Funktionalität
+  - Firewall
+  - DHCP
+  - DNS
+  - VFu
+
+<!-- Seite 75 -->
+
 #### Batterien
 
 #### Notstromaggregate
