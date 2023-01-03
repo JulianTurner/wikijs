@@ -164,6 +164,60 @@ siehe [RAID](/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#RAID)
 
 #### Telekommunikation
 
+##### Vermittlung
+
+Leitungsvermittlung:
+
+- physicher Übertragunsweg zwischen Datenstationen
+- Unabhängig von Daten
+- langsamer Verbindungsaufbau
+- schlechte Auslastung der Kapazität
+
+Paketvermittlung:
+
+- zerlegung der Daten in einzelne Pakete
+- jedes Paket bekommt Adress- und Steuerungsinformationen
+- Empfänger setzt Daten zusammen
+- keine durchgängige direkte Verbindung zwischen Teilnehmern
+- Kapazität kann besser genutzt werden
+
+##### WAN
+
+WAN steht für WIDE AREA NETWORK
+
+Teilnehmeranschlussleitung:
+
+- verbindet Teilnehmer / kleine Gewerbe mit Teilnehmervermittlungsstelle
+- analoge Twisted-Pair-Kabel / digitale Glasfaserkabel
+
+Verbindungsleitung:
+
+- verbindet Teilnehmer-/ Fernvermittlungsstellen
+- typisch Glasfaserkabel
+
+Vermittlungsstellen:
+
+- Teilnehmervermittlungsstelle => nimmt Anrufe entgegen, leiten Anrufe an Teilnehmer
+- Fervermittlungsstelle => vermitteln Anrufe bis zur Teilnehmervermittlungsstelle
+
+> Telefonnetz basiert auf Leitungsvermittlung
+{.is-info}
+
+##### Netzwerke
+
+Entfernung | Ausdehnung | Name | Beispiel
+-|-|-|-|
+1m | Armlänge | PAN | Bluetooth, AdHoc WLAN
+10m | Raum | LAN | Raum
+100m | Gebäude | LAN | alle Räume im Gebäude
+1km | Campus | LAN | zusammenhängende Gebäude
+10km | Stadt | MAN | eine Stadt
+1000km | Land | WAN | ein Land
+10000km | Kontinent | WAN | ein Kontinent
+100000km | Planet | WAN | ganzes Inernet
+
+<!-- TODO: Grafik von Seite 59 einfügen -->
+
 #### Batterien
 
 #### Notstromaggregate
