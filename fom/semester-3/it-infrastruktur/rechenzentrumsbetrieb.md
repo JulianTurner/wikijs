@@ -218,6 +218,50 @@ Entfernung | Ausdehnung | Name | Beispiel
 
 <!-- TODO: Grafik von Seite 59 einfügen -->
 
+##### Schichtenmodell
+
+Auflöung der Gesamtsituation in hierachisch strukturierte Ebenen, die als Schichten angeordnet werden
+
+- unmittelbare Kommunikation findet nur mit direkt darüber / darunter liegenden Schicht statt
+- gleiche Schichten kommunizieren über Protokolle
+
+OSI
+
+Nr | Ebene
+-|-
+7 | Anwendungsebene (Application Layer)
+6 | Darstellungsebene (Presentation Layer)
+5 | Sitzungsebene (Session Layer)
+4 | Transportebene (Transportation Layer)
+3 | Netzwerkebene (Network Layer)
+2 | Leitungsebene (Data Link Layer)
+1 | Physikalische Ebne (Physical Layer)
+
+Vorteile:
+
+- Unabhänig von Hard-/ Software
+- Änderungen/ Anpassungen von Diensten sind einfach möglich
+
+Prinzip:
+
+- Daten (Payload) werden via Schnittstellen über Ebenen transportiert
+- Protokollschichten fügen Daten weitere Transportinformationen (Header, Trailer) hinzu, welche für den Transport relevant sind
+- Auf der Empfängerseite werden pro Schicht nur die relevanten Transportinformationen (Header, Trailer) ausgewertet und entfernt
+
+<!-- ! TODO: Bild von Seite 66 einfügen -->
+
+TCP/IP:
+
+- logische Basis des Internets
+- vier Schichten Familie
+  - Anwendungsschicht (z.B. HTTP, POP, IMAP)
+  - Transportschicht (z.B. TCP, UDP)
+  - Internetschicht (z.B. IP, ICMP)
+  - Verbindungsschicht (z.B. ARP, Kupferkabel)
+- zusammenfassung herstellerneutralen Anwendungs- und Transportprotokollen
+
+##### Netzwerk Hardware
+
 #### Batterien
 
 #### Notstromaggregate
