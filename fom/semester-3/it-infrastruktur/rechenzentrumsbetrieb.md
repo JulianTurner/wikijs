@@ -168,14 +168,14 @@ siehe [RAID](/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2#RAID)
 
 Leitungsvermittlung:
 
-- physicher Übertragunsweg zwischen Datenstationen
+- physischer Übertragungsweg zwischen Datenstationen
 - Unabhängig von Daten
 - langsamer Verbindungsaufbau
 - schlechte Auslastung der Kapazität
 
 Paketvermittlung:
 
-- zerlegung der Daten in einzelne Pakete
+- Zerlegung der Daten in einzelne Pakete
 - jedes Paket bekommt Adress- und Steuerungsinformationen
 - Empfänger setzt Daten zusammen
 - keine durchgängige direkte Verbindung zwischen Teilnehmern
@@ -198,7 +198,7 @@ Verbindungsleitung:
 Vermittlungsstellen:
 
 - Teilnehmervermittlungsstelle => nimmt Anrufe entgegen, leiten Anrufe an Teilnehmer
-- Fervermittlungsstelle => vermitteln Anrufe bis zur Teilnehmervermittlungsstelle
+- Fernvermittlungsstelle => vermitteln Anrufe bis zur Teilnehmervermittlungsstelle
 
 > Telefonnetz basiert auf Leitungsvermittlung
 {.is-info}
@@ -214,13 +214,13 @@ Entfernung | Ausdehnung | Name | Beispiel
 10km | Stadt | MAN | eine Stadt
 1000km | Land | WAN | ein Land
 10000km | Kontinent | WAN | ein Kontinent
-100000km | Planet | WAN | ganzes Inernet
+100000km | Planet | WAN | ganzes Internet
 
-<!-- TODO: Grafik von Seite 59 einfügen -->
+![networks](networks.png)
 
 ##### Schichtenmodell
 
-Auflöung der Gesamtsituation in hierachisch strukturierte Ebenen, die als Schichten angeordnet werden
+Auflösung der Gesamtsituation in hierarchisch strukturierte Ebenen, die als Schichten angeordnet werden
 
 - unmittelbare Kommunikation findet nur mit direkt darüber / darunter liegenden Schicht statt
 - gleiche Schichten kommunizieren über Protokolle
@@ -239,7 +239,7 @@ Nr | Ebene
 
 Vorteile:
 
-- Unabhänig von Hard-/ Software
+- Unabhängig von Hard-/ Software
 - Änderungen/ Anpassungen von Diensten sind einfach möglich
 
 Prinzip:
@@ -248,7 +248,7 @@ Prinzip:
 - Protokollschichten fügen Daten weitere Transportinformationen (Header, Trailer) hinzu, welche für den Transport relevant sind
 - Auf der Empfängerseite werden pro Schicht nur die relevanten Transportinformationen (Header, Trailer) ausgewertet und entfernt
 
-<!-- ! TODO: Bild von Seite 66 einfügen -->
+![osi](osi.png)
 
 TCP/IP:
 
@@ -258,18 +258,18 @@ TCP/IP:
   - Transportschicht (z.B. TCP, UDP)
   - Internetschicht (z.B. IP, ICMP)
   - Verbindungsschicht (z.B. ARP, Kupferkabel)
-- zusammenfassung herstellerneutralen Anwendungs- und Transportprotokollen
+- zusammenfassung herstellerneutragen Anwendungs- und Transportprotokollen
 
 ##### Netzwerk Hardware
 
 ###### Repeater
 
-- verstäkt Signale
+- verstärkt Signale
 - erweitert Reichweite
 
 ###### Bridge
 
-- brückt zwei Netzwerke miteinander
+- bückt zwei Netzwerke miteinander
 
 ###### Hub
 
@@ -284,7 +284,7 @@ TCP/IP:
 
 ###### Router
 
-- Netzwerkgrät was Datenpakete zwischen Netzwerken verschickt
+- Netzwerkgerät was Datenpakete zwischen Netzwerken verschickt
 
 ###### WLAN-Router / Multifunktionsgeräte
 
@@ -294,8 +294,73 @@ TCP/IP:
   - DNS
   - VFu
 
-<!-- Seite 75 -->
+###### Netzwerktopologien
 
+- Bus
+  - alle Teilnehmer sind über einen gemeinsamen Bus verbunden
+&nbsp;<br>
+&nbsp;<br>  
+- Stern
+  - Endgeräte sind über einen zentralen Knoten verbunden
+  - Endgeräte sind nicht **direkt** miteinander verbunden
+- Ring
+&nbsp;<br>
+&nbsp;<br>
+  - jedes Endgerät ist mit zwei Nachbarn verbunden
+  - wanderndes Packet steuert Sendeerlaubnis
+&nbsp;<br>
+&nbsp;<br>
+- Baum
+  - jedes Gerät ist mit einem Verteiler verbunden
+  - Verteiler sind untereinander verbunden
+&nbsp;<br>
+&nbsp;<br>
+- Mesh
+  - Endgeräte sind mit mehreren Nachbarn verbunden
+  - sicherste Topologie
+&nbsp;<br>
+&nbsp;<br>
+- Zellen-Netzwerk (drahtlos)
+  - mehrere Access Points decken überlappend Bereiche ab
+&nbsp;<br>
+&nbsp;<br>
+- Diffusionsnetz (Broadcast)
+  - Datenpakete werden überall im Netzwerk verteilt
+  - Empfänger entscheidet ob er Datenpakete verarbeitet
+  - Kollisionen sind möglich
+  - einfach und schnell
+  - bei zu vielen Sendern -> Blockade möglich
+&nbsp;<br>
+&nbsp;<br>
+- Teilstreckennetz
+  - Datenpakete werden über einen oder mehre Teilstrecken gesendet
+  - Dazwischen liegende Knoten nehmen aktiv an der Datenübertragung teil
+  - keine Blockade möglich
+  - jede Station muss Nachbarn kennen
+  - Realisierung über Token-Passing
+    - Token wird vom Sender zum Empfänger in bestimmen Reihenfolge weitergegeben
+    - nur der Knoten mit dem Token darf senden
+    - nur an leeren Token dürfen Daten angehängt werden
+    - Empfänger entfernt Daten vom Token, und leitet leeren Token weiter
+
+##### Übertragungsmedien
+
+- Kupfer-/ Koaxialkabel
+  - einfache Handhabung
+  - aufwendige Installation
+  - Sonderfall Twisted Pair
+    - elektromagnetische Störungen wirken sich auf beide Leiter aus, und Signal wird aus der Differenz ermittelt
+- Funkstrecken
+  - beeinträchtigte Übertragungsgeschwindigkeit durch Wettereinflüsse
+  - einfache Verlegung
+  - begrenzte Funkfrequenzen
+- Glasfaser-/ Lichtwellenleiter
+  - keine elektromagnetischen / witterungsbedingten Störungen
+  - hohe Übertragungsgeschwindigkeit
+  - aufwendige Fertigung
+
+<!-- Seite 86 -->
+  
 #### Batterien
 
 #### Notstromaggregate
