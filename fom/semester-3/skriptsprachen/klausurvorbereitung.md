@@ -112,7 +112,7 @@ dateCreated: 2022-10-13T12:49:44.966Z
 - List Comprehension erzeugt eine Liste
 - Generator erzeugt ein Generator Objekt, und liefert keine Werte bis er nicht konsumiert wird
 - Runde Klammern bei Generator Expression
-- Eckige Klammern bei List Comprehension
+- Eckige Klammern bei der List Comprehension
 
 #### Warum ist der in-Operator in Sets deutlich schneller als in Listen?
 
