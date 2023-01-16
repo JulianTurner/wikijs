@@ -269,22 +269,22 @@ TCP/IP:
 
 ###### Bridge
 
-- bückt zwei Netzwerke miteinander
+- bückt zwei Netzwerksegmente physisch miteinander auf Layer 2
 
 ###### Hub
 
-- leitet alle eingehenden Signale an alle Anschlüsse weiter
+- leitet alle eingehenden Signale an alle Anschlüsse weiter (Stern-Verteiler)
 - kann zu Netzwerkkollisionen kommen
 
 ###### Switch
 
-- leitet eingehenden Signale gezielt an Empfänger weiter
+- leitet eingehenden Signale gezielt an Teilnehmer weiter
 - vermeidet Netzwerkkollisionen
 - speichert MAC Adressen der Teilnehmer
 
 ###### Router
 
-- Netzwerkgerät was Datenpakete zwischen Netzwerken verschickt
+- Netzwerkgerät was Datenpakete zwischen verschieden Netzwerken verschickt z.B. zwischen LAN und WAN
 
 ###### WLAN-Router / Multifunktionsgeräte
 
@@ -358,12 +358,81 @@ TCP/IP:
   - keine elektromagnetischen / witterungsbedingten Störungen
   - hohe Übertragungsgeschwindigkeit
   - aufwendige Fertigung
+  - werden paarig verlegt
+  - Signal unterliegt Dämpfung und muss über lange Strecken mit einem Repeater verstärkt werden
 
-<!-- Seite 86 -->
-  
+##### Rechenzentrenarchitektur
+
+- Baumstruktur
+![dcn-netzwerk](dcn-baumstruktur.png)
+  - Bottleneck zwischen den Ebenen
+  - Code-Schicht übernimmt Routing zu allen Dienste (Storage, Internet usw.)
+  - gut skalierbar
+- End-of-Row
+  - Aggregation und Core Layer für eine Reihe von Servern gebündelt
+- Top-of-Rack
+  - Aggregation und Core Layer für einen Rack gebündelt
+- Leaf-Spine
+  - Vermaschung von Leaf and Spine Layer
+  - reduziert Flaschenhälse
+  - hohe Kosten
+  - jeder Switch ist nur 1 Hop entfernt
+
 #### Batterien
 
+- It Equipment => Leistung von Servern, Storage und Netzwerkgeräten
+- Total Facility Power = Gesamtleistung aller IT Geräte + Overhead (Klimaanlage, Beleuchtung, etc.)
+
+> Größte Gefahr für Rechenzentrum ist Stromausfall
+{.is-info}
+
+Folgen vom Stromausfall:
+
+- Datenverlust
+- Transaktionen werden nicht abgeschlossen
+- Ausfall von Geschäftsprozessen
+
+USV (Unterbrechungsfreie Stromversorgung):
+
+- Kaskadierend
+  - wenige Stunden Akku
+
+USV muss ausreichend für:
+
+- bestimmte Zeit weiter zu betreiben
+- Server, Storage und Netzwerkgeräte kontrolliert herunterzufahren  
+
+Probleme:
+
+- Kapazität der USV häufig zu hoch ausgelegt
+- Erneuerung der Akkus
+
+Klassen:
+
+- Klasse 1: Online USV => keine Umschaltzeit, stetig online, hoher Verschleiß
+- Klasse 2: Netzinteraktive USV => geringe Umschaltzeit (verkraftbar für Server)
+- Klasse 3: Offline USV => hohe Umschaltzeit
+
+> je höher die Klasse, desto höher der Preis
+{.is-info}
+&nbsp;<br>
+&nbsp;<br>
+> USV überbrücken Zeit bis Notstromaggregate verfügbar sind
+{.is-info}
+
 #### Notstromaggregate
+
+Zweck von Notstromaggregaten:
+
+- Stromversorgung für IT Geräte bei Stomausfall
+- Unterstützung bei Spannungsspitzen
+
+Probleme von Notstromaggregaten:
+
+- Anlaufzeit
+- Wartungsaufwand
+- hoher Platzbedarf
+- Treibstoff verbrauch / vorrat
 
 #### Löschanlage
 
