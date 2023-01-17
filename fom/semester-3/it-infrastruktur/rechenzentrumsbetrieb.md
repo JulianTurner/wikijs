@@ -436,7 +436,29 @@ Probleme von Notstromaggregaten:
 
 #### Löschanlage
 
+- Brandprävention
+  - Menschliches Fehlerverhalten vermeiden
+  - frühzeitige Erkennung mit Sensoren
+  - Vermeidung brennbarer Stoffe
+  - Alternde Komponenten ersetzen (Steckerleisten, Kabel, etc.)
+
+- Brandbekämpfung
+  - Feuerlöschanalanlage mit Gas
+  - Gas kann erst nach verlassen der Gefahrenstelle eingeleitet werden
+  - Feuerwehr muss informiert werden
+
+> Brände sind die zweitgrößte Gefahr für Rechenzentren
+{.is-info}
+
 #### Kühlaggregate
+
+- jede Komponente saugt gekühlte Luft an, und gibt warme Luft ab
+- die Abluft der Komponenten wird Kühlaggregaten zugeführt, und gekühlt
+- gekühlte Luft wird den Komponenten zugeführt
+- Alternativ: Wasserkühlung => Wasser kann Wärme besser leiten als Luft
+- Abwärme kann als Wärmequelle für Heizung genutzt werden
+
+[siehe Kalte- und Warme Gänge](#airflow-kalte-und-heiße-gänge)
 
 #### Wärmerückgewinnung
 
