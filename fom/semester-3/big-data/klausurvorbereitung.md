@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-01-18T18:06:01.532Z
+date: 2023-01-18T18:08:19.867Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:41.464Z
@@ -60,7 +60,7 @@ mit Hilfe von:
 - NoSQL Datenbanken
 - Hadoop
 
-![](plattform-vergleich.png)
+![plattform-vergleich](/fom/semester-3/big-data/plattform-vergleich.png)
 
 ### Herausforderungen von Big Data?
 
@@ -84,20 +84,20 @@ mit Hilfe von:
 
 ### Reifegrade der Unternehmen?
 
-![Reifegrad](reifegrad.png)
+![Reifegrad](/fom/semester-3/big-data/reifegrad.png)
 
 ### Definition von Anwendungsfällen?
 
-![](anwendugsfaelle.png)
+![anwendugsfaelle](/fom/semester-3/big-data/anwendugsfaelle.png)
 
 ### Big Data Architekturen?
 <!-- TODO ! Abklären S. 138/139-->
 ### Nachteile der Strukturen?
 
-![](1-data-warehouse.png)
-![](2-hubedw.png)
-![](3-aio.png)
-![](4-newdw.png)
+![data-warehouse](/fom/semester-3/big-data/1-data-warehouse.png)
+![hubedw](/fom/semester-3/big-data/2-hubedw.png)
+![aio](/fom/semester-3/big-data/3-aio.png)
+![newdw](/fom/semester-3/big-data/4-newdw.png)
 
 ### Wann verwendet man Object Storage?
 
