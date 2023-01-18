@@ -2,10 +2,10 @@
 title: Hadoop
 description: 
 published: 1
-date: 2022-07-20T17:05:20.330Z
+date: 2023-01-18T18:30:42.531Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:22:55.269Z
+dateCreated: 2022-10-03T18:34:40.622Z
 ---
 
 # Hadoop
@@ -35,7 +35,7 @@ IOPS sollen pro GB verglichen werden (2TB = 2000 GB)
 
 ## Schema
 
-Nutzt vorteile von Schema on Write (strukturierte Daten) und Schema on Read (unstrukturierte Daten)
+Nutzt Vorteile von Schema on Write (strukturierte Daten) und Schema on Read (unstrukturierte Daten)
 
 ### Schema on Read (unstrukturierte Daten)
 
