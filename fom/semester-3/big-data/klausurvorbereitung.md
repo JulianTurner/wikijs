@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-01-18T18:22:53.794Z
+date: 2023-01-18T18:25:00.646Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:41.464Z
@@ -175,4 +175,5 @@ Hyperparameter:
 ### Wann verwendet man Precision und Recall?
 
 - [Precision](/fom/semester-3/big-data/text_mining.md#gütemaße): Misst den Anteil der tatsächlich relevanten Dokumente (True Positives) in den gefundenen Dokumenten
+	- zu hohe Precision kann Indiz für overfitting sein 
 - [Recall](/fom/semester-3/big-data/text_mining.md#gütemaße): Bruchteil aller relevanten Dokumente, die gefunden wurden
