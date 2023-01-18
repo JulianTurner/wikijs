@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-01-18T18:03:44.835Z
+date: 2023-01-18T18:05:27.032Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:41.464Z
@@ -40,7 +40,7 @@ Wirtschaftliche Gewinnung von Erkenntnissen aus qualitativen und unterschiedlich
 
 ### Wachstum von Big Data?
 
-mithilfe von:
+mit Hilfe von:
 
 - Mobilgeräten & Internet um Daten zu sammeln
 - Geschäftsmodellen welche Daten sammeln (z.B. Google, Facebook)
