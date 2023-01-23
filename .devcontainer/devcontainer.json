@@ -38,7 +38,8 @@
                 "visualstudioexptteam.vscodeintellicode",
                 "github.copilot",
                 "streetsidesoftware.code-spell-checker-german",
-                "davidanson.vscode-markdownlint"
+                "davidanson.vscode-markdownlint",
+                "mhutchie.git-graph"
             ]
         }
     },
