@@ -13,3 +13,5 @@ dateCreated: 2022-03-04T12:23:12.295Z
 [Klausurvorbereitung](/fom/semester-3/it-infrastruktur/klausurvorbereitung.md)  
 [IT-Infrastruktur](/fom/semester-3/it-infrastruktur/it-infrastruktur.md)
 [Rechenzentrumsbetrieb](/fom/semester-3/it-infrastruktur/rechenzentrumsbetrieb.md)
+[Zuverlässigkeit](/fom/semester-3/it-infrastruktur/zuverlaessigkeit.md)
+[Virtualisierung](/fom/semester-3/it-infrastruktur/virtualisierung.md)

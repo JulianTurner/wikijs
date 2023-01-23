@@ -462,8 +462,34 @@ Probleme von Notstromaggregaten:
 
 #### Wärmerückgewinnung
 
+- Abwärme kann als Wärmequelle für Heizung genutzt werden
+
 #### Kühlwasservorrat
+
+- zum Schutz vor Ausfall wird Vorrat an Kühlwasser bereitgestellt
 
 #### Gebäudesicherung
 
+- Böse Leute draußen halten
+- Zugangskontrolle
+- Videoüberwachung
+- Berechtigungskonzept
+  - Rollen
+  - Zeitliche Beschränkung
+  - Räumliche Beschränkung
+
 #### Kontrollzentrale
+
+Service Operations Center (SOC):
+
+- VoIP
+- AD
+- Exchange
+
+> Nicht nur Verfügbarkeit sondern auch Qualität der Dienste überwacht
+{.is-info}
+
+Network Operations Center (NOC):
+
+- überwacht Netzwerk
+- EDV Sicherheit, Firewall, etc.
