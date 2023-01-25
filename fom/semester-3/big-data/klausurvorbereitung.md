@@ -327,6 +327,18 @@ Unsupervised Learning:
 - Modell passt sich zu stark den Trainingsdaten an
 - Modell ist nicht generalisierbar
 
+### Was ist ein rekurrentes neuronales Netz?
+
+- nimmt frühere Eingaben in die Berechnung mit ein
+
+### Welche Rekurrenten neuronalen Netz Topologien gibt es?
+
+- one-to-one
+- one-to-many
+- many-to-one
+- many-to-many (sqeuence-to-sequence)
+- many-to-many (syncronous-sequence-to-sequence)
+
 ### Was sind Probleme beim One-Hot-Encoder?
 
 - Wörterbuch wird sehr groß
