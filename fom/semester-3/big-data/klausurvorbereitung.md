@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-01-25T19:07:06.170Z
+date: 2023-01-25T20:09:39.846Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:41.464Z
@@ -257,7 +257,7 @@ HDFS:
 
 ### Hot Spot Analyse
 
-![Hot Spot Analyse](ml_uebersicht.png)
+![ml_uebersicht.png](/fom/semester-3/big-data/ml_uebersicht.png)
 
 ### Unterschied zwischen Random Forrest und Decision Tree?
 
@@ -296,13 +296,20 @@ Hyperparameter:
 1. Ergebnisse bewerten
 1. Daten visualisieren
 
-### Was ist der Unterschied zwischen Supervised und Unsupervised Learning?
+### Was ist der Unterschied zwischen Supervised, Semi-Supervised und Unsupervised Learning?
 
 Supervised Learning:
 
 - gelabelte Daten
 - Ziel: Vorhersage
 - z.B. Klassifikation, Regression
+
+Semi-Supervised Learning:
+
+- gelabelte und ungelabelte Daten
+- Ziel: Vorhersage von Strukturen mit 
+- höherer Genauigkeit als Unsupervised Learning
+- geringere Kosten als Supervised Learning
 
 Unsupervised Learning:
 
@@ -338,6 +345,7 @@ Unsupervised Learning:
 - many-to-one
 - many-to-many (sqeuence-to-sequence)
 - many-to-many (syncronous-sequence-to-sequence)
+
 
 ### Was sind Probleme beim One-Hot-Encoder?
 
