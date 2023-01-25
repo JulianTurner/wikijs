@@ -23,7 +23,7 @@ dateCreated: 2022-09-13T18:15:41.464Z
 ## Fundamentals
 
 > LOB (Line of Business) = Geschäftsbereich
-.{is-info}
+{.is-info}
 
 ### Definition von Big Data?
 
