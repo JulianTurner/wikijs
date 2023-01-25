@@ -306,7 +306,7 @@ Supervised Learning:
 
 Semi-Supervised Learning:
 
-- gelabelte und ungelabelte Daten
+- gelabelte und un-gelabelte Daten
 - Ziel: Vorhersage von Strukturen
 - höherer Genauigkeit als Unsupervised Learning
 - geringere Kosten als Supervised Learning
@@ -326,7 +326,7 @@ Unsupervised Learning:
 ### Wann verwendet man Precision und Recall?
 
 - [Precision](/fom/semester-3/big-data/text_mining.md#gütemaße): Misst den Anteil der tatsächlich relevanten Dokumente (True Positives) in den gefundenen Dokumenten
-  - zu hohe Precision kann Indiz für overfitting sein
+  - zu hohe Precision kann Indiz für Overfitting sein
 - [Recall](/fom/semester-3/big-data/text_mining.md#gütemaße): Bruchteil aller relevanten Dokumente, die gefunden wurden
 
 ### Was ist Overfitting?
@@ -343,9 +343,8 @@ Unsupervised Learning:
 - one-to-one
 - one-to-many
 - many-to-one
-- many-to-many (sqeuence-to-sequence)
-- many-to-many (syncronous-sequence-to-sequence)
-
+- many-to-many (sequence-to-sequence)
+- many-to-many (synchronous-sequence-to-sequence)
 
 ### Was sind Probleme beim One-Hot-Encoder?
 
