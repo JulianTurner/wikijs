@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-01-25T20:09:39.846Z
+date: 2023-01-25T20:09:47.367Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:41.464Z
@@ -307,7 +307,7 @@ Supervised Learning:
 Semi-Supervised Learning:
 
 - gelabelte und ungelabelte Daten
-- Ziel: Vorhersage von Strukturen mit 
+- Ziel: Vorhersage von Strukturen
 - höherer Genauigkeit als Unsupervised Learning
 - geringere Kosten als Supervised Learning
 
