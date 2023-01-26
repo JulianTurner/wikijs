@@ -54,3 +54,37 @@ Verfügbarkeit ist die Wahrscheinlichkeit, dass ein Objekt verfügbar ist.
 Bei redundanten Systemen multiplizieren sich die Ausfallwahrscheinlichkeiten
 
 - $A_{redundant} = 1- \displaystyle \prod_{j=1}^{m}(1-A_j)$
+
+## Redundanz 
+
+Verfügbarkeiten von Rechenzentren sind in vier Stufen aufgeteilt 
+
+Tier I: 
+
+- kleinere Unternehmen 
+- einfach ausgelegte Strom- und Kühlsysteme
+- keine redundanten Systeme 
+
+Tier II: 
+
+- mittelständische Unternehmen 
+- einfach ausgelegte Strom- und Kühlsysteme 
+- wenig Redundanz in Strom- und Kühlsystemen
+
+Tier III: 
+
+- große Unternehmen 
+- Update und Wartung ohne Ausfall des Dienstes
+- verfügen nicht über vollständige Redundanz 
+- N + 1 Redundanz
+
+Tier IV: 
+
+- multi millionen Unternehmen 
+- 2 unabändige Strom- und Kühlsysteme 
+- vollständige Redundanz 2N + 1 
+
+> Redundanz ist eine zusätzliche technische Ressource als Reserve
+
+
+
