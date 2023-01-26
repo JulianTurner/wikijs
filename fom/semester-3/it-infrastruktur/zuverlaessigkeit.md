@@ -85,6 +85,6 @@ Tier IV:
 - vollständige Redundanz 2N + 1 
 
 > Redundanz ist eine zusätzliche technische Ressource als Reserve
-
+{.is-info}
 
 
