@@ -39,6 +39,8 @@
                 "github.copilot",
                 "streetsidesoftware.code-spell-checker-german",
                 "davidanson.vscode-markdownlint",
+                "eamodio.gitlens",
+                "mhutchie.git-graph"
             ]
         }
     },
