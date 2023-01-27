@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-01-25T20:09:52.390Z
+date: 2023-01-27T13:00:01.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:41.464Z
@@ -340,11 +340,11 @@ Unsupervised Learning:
 
 ### Welche Rekurrenten neuronalen Netz Topologien gibt es?
 
-- one-to-one
-- one-to-many
-- many-to-one
-- many-to-many (sequence-to-sequence)
-- many-to-many (synchronous-sequence-to-sequence)
+- one-to-one (z. B. Bildklassifikation: 1 Bild -> 1 wahrscheinlichste Klasse)
+- one-to-many (z. B. Bildbeschriftung: 1 Bild -> Satz (mehrere Wörter) der Bild beschreibt)
+- many-to-one (z. B. Sentiment-Analyse: Chatverlauf (mehrere Wörter) -> 1 Sentiment)
+- many-to-many (sequence-to-sequence) (z. B. englischer Satz (mehrere Wörter) -> französischer Satz (mehrere Wörter))
+- many-to-many (synchronous-sequence-to-sequence) (z. B. Videoklassifizierung: Video (mehrere Frames/Bilder) -> zu jedem Frame eine Klasse)
 
 ### Was sind Probleme beim One-Hot-Encoder?
 
