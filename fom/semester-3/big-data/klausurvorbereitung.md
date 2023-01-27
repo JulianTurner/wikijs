@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-01-27T13:00:01.419Z
+date: 2023-01-27T13:57:27.753Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:41.464Z
@@ -92,7 +92,7 @@ mit Hilfe von:
 
 ### Prozess der Integration von Big-Data-Analysefunktionen im Unternehmen
 
-⠀| Wave 1 | Wave 2 | Wave 3
+⠀| Wave 1: Diagnostic | Wave 2: Proactive | Wave 3: Prescriptive
 -|-|-|-
 Use case | Refine | Explore | Enrich
 Response time | Batch: Hours | Interactive: Minutes | Real-Time: Seconds
