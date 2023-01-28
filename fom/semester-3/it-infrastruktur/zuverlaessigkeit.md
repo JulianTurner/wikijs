@@ -2,7 +2,7 @@
 title: Zuverlässigkeit, Redundanz
 description: 
 published: 1
-date: 2023-01-28T10:14:20.487Z
+date: 2023-01-28T10:15:05.924Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-25T19:02:44.455Z
@@ -28,7 +28,7 @@ MTBF beschreibt wie lange ein Objekt durchschnittlich zwischen zwei Ausfällen a
 MTTR beschreibt wie lange ein Objekt durchschnittlich repariert werden muss um wieder zu funktionieren.
 
 - $MTTR = \frac {Ausfallzeit}{Anzahl \; Ausfälle}$
-
+&nbsp;
 Wartbarkeit erhöht sich mit:
 
 - Monitoring
@@ -41,12 +41,13 @@ Wartbarkeit erhöht sich mit:
 Verfügbarkeit ist die Wahrscheinlichkeit, dass ein Objekt verfügbar ist.
 
 - $A = \frac{MTBF}{MTBF + MTTR}$
+&nbsp;
 - $A = 1- W_{Ausfall} = 1- \frac{Ausfallzeit}{Gesamtzeit}$
-
+&nbsp;
 ### Verteilte Systeme
 
 - $A_{gesamt} = A_a * A_b = \displaystyle \prod_{i=1}^{n}A_i$
-
+&nbsp;
 > Auswirkungen hängen vom Kontext ab. Heimserver vs. AKWs
 {.is-info}
 
@@ -55,7 +56,7 @@ Verfügbarkeit ist die Wahrscheinlichkeit, dass ein Objekt verfügbar ist.
 Bei redundanten Systemen multiplizieren sich die Ausfallwahrscheinlichkeiten
 
 - $A_{redundant} = 1- \displaystyle \prod_{j=1}^{m}(1-A_j)$
-
+&nbsp;
 ## Redundanz 
 
 Verfügbarkeiten von Rechenzentren sind in vier Stufen aufgeteilt 
