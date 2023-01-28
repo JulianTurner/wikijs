@@ -2,10 +2,10 @@
 title: Zuverlässigkeit, Redundanz
 description: 
 published: 1
-date: 2022-11-21T19:18:44.313Z
+date: 2023-01-28T09:46:44.407Z
 tags: 
 editor: markdown
-dateCreated: 2022-11-15T19:29:01.687Z
+dateCreated: 2023-01-25T19:02:44.455Z
 ---
 
 # Zuverlässigkeit, Redundanz
@@ -14,7 +14,7 @@ dateCreated: 2022-11-15T19:29:01.687Z
 
 MTBF beschreibt wie lange ein Objekt durchschnittlich zwischen zwei Ausfällen arbeitet.
 
-- $MTBF = \frac{\Sigma(Betriebszeit)}{Anzahl \; Ausfälle}$
+- $MTBF =  \frac{\Sigma(Betriebszeit)}{Anzahl \; Ausfälle}$
 - $MTBF_{seriell} = \frac{1}{\frac{1}{MTBF_a}+\frac{1}{MTBF_b}+ \frac{MTTR}{MTBF_a * MTBF_b}}$
 
 - $MTBF_{parallel} = \frac{MTBF_a * MTBF_b}{MTTR} + MTBF_a + MTBF_b$
