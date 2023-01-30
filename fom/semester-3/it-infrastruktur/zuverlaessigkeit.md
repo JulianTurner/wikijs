@@ -61,26 +61,26 @@ Bei redundanten Systemen multiplizieren sich die Ausfallwahrscheinlichkeiten
 
 Verfügbarkeiten von Rechenzentren sind in vier Stufen aufgeteilt 
 
-Tier I: 
+Tier I (99.671%): 
 
 - kleinere Unternehmen 
 - einfach ausgelegte Strom- und Kühlsysteme
 - keine redundanten Systeme 
 
-Tier II: 
+Tier II (99.741%): 
 
 - mittelständische Unternehmen 
 - einfach ausgelegte Strom- und Kühlsysteme 
 - wenig Redundanz in Strom- und Kühlsystemen
 
-Tier III: 
+Tier III (99.982%): 
 
 - große Unternehmen 
 - Update und Wartung ohne Ausfall des Dienstes
 - verfügen nicht über vollständige Redundanz 
 - N + 1 Redundanz
 
-Tier IV: 
+Tier IV (99.995%): 
 
 - multi millionen Unternehmen 
 - 2 unabändige Strom- und Kühlsysteme 
