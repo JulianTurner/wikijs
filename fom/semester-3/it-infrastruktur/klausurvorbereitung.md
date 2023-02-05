@@ -9,3 +9,7 @@ dateCreated: 2022-03-04T12:22:55.269Z
 ---
 
 # Klausurvorbereitung
+
+## It-Service-Management
+
+### Was ist der Unterschied zwischen Produktion und Dienstleistung?
