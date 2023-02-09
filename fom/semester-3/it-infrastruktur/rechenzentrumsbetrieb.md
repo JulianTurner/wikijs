@@ -2,7 +2,7 @@
 title: Rechenzentrumsbetrieb
 description: 
 published: 1
-date: 2023-02-09T20:20:47.267Z
+date: 2023-02-09T20:21:28.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-15T19:29:01.687Z
@@ -248,7 +248,7 @@ Prinzip:
 - Protokollschichten fügen Daten weitere Transportinformationen (Header, Trailer) hinzu, welche für den Transport relevant sind
 - Auf der Empfängerseite werden pro Schicht nur die relevanten Transportinformationen (Header, Trailer) ausgewertet und entfernt
 
-![osi](osi.png)
+![osi.png](/fom/semester-3/it-infrastruktur/osi.png)
 
 TCP/IP:
 
