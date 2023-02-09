@@ -2,7 +2,7 @@
 title: Rechenzentrumsbetrieb
 description: 
 published: 1
-date: 2022-11-21T19:18:44.313Z
+date: 2023-02-09T20:15:27.056Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-15T19:29:01.687Z
@@ -415,8 +415,8 @@ Klassen:
 
 > je höher die Klasse, desto höher der Preis
 {.is-info}
-&nbsp;<br>
-&nbsp;<br>
+
+
 > USV überbrücken Zeit bis Notstromaggregate verfügbar sind
 {.is-info}
 
