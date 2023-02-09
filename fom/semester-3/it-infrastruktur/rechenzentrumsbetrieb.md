@@ -2,7 +2,7 @@
 title: Rechenzentrumsbetrieb
 description: 
 published: 1
-date: 2023-02-09T20:15:39.447Z
+date: 2023-02-09T20:20:14.799Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-15T19:29:01.687Z
@@ -298,31 +298,33 @@ TCP/IP:
 
 - Bus
   - alle Teilnehmer sind über einen gemeinsamen Bus verbunden
-&nbsp;<br>
+
 &nbsp;<br>  
 - Stern
   - Endgeräte sind über einen zentralen Knoten verbunden
   - Endgeräte sind nicht **direkt** miteinander verbunden
+
+
+
+&nbsp;<br>
 - Ring
-&nbsp;<br>
-&nbsp;<br>
   - jedes Endgerät ist mit zwei Nachbarn verbunden
   - wanderndes Packet steuert Sendeerlaubnis
-&nbsp;<br>
+
 &nbsp;<br>
 - Baum
   - jedes Gerät ist mit einem Verteiler verbunden
   - Verteiler sind untereinander verbunden
-&nbsp;<br>
+
 &nbsp;<br>
 - Mesh
   - Endgeräte sind mit mehreren Nachbarn verbunden
   - sicherste Topologie
-&nbsp;<br>
+
 &nbsp;<br>
 - Zellen-Netzwerk (drahtlos)
   - mehrere Access Points decken überlappend Bereiche ab
-&nbsp;<br>
+
 &nbsp;<br>
 - Diffusionsnetz (Broadcast)
   - Datenpakete werden überall im Netzwerk verteilt
@@ -330,7 +332,7 @@ TCP/IP:
   - Kollisionen sind möglich
   - einfach und schnell
   - bei zu vielen Sendern -> Blockade möglich
-&nbsp;<br>
+
 &nbsp;<br>
 - Teilstreckennetz
   - Datenpakete werden über einen oder mehre Teilstrecken gesendet
