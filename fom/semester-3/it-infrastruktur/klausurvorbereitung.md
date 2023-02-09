@@ -7,26 +7,6 @@ tags:
 editor: markdown
 dateCreated: 2022-03-04T12:22:55.269Z
 ---
-<!-- 
-
-Foliensatz 2,3,4
-
-	Schwerpunkte auf Skript 2 und 3
-	
-	Dienstleistungen sind nicht lagerfähig 
-	
-	Ausrichtig Itel
-	Itel v3 
-	5 Phasen ITIL V3 
-	Was ist Servicamanagment
-	Was ist ein ITService
-	Was ist ein SLA
-	Was ist ein Service Katalog
-	
-	
-	- Unterschiedliche Epochen der Betreibsmodelle 5 Stück
-	Zuverlässigkeit, Verfügbarkeit, Redudanz
--->
 
 # Klausurvorbereitung
 
@@ -341,12 +321,96 @@ Ist ein Prozess mit dem virtuelle Maschinen erstellt und ausgeführt werden kön
 Hand-Overs -> Geplante Übernahme
 Failover -> Ungeplante Übernahme (Fehlerfall)
 
-<!-- S.57 -->
+### Was ist Hardware Emulation?
 
-## Welche Modelle gibt es bei der Virtualisierung?
+- Hardware wird durch Software nachgebildet
+- es können andere Architekturen simuliert werden
+- Overhead durch Emulation
+- keine dynamische Ressourcenzuweisung
+
+siehe [Hardware-Emulation](/fom/semester-3/it-infrastruktur/virtualisierung.md#hardware-emulation)
+
+### Was ist Hardware Virtualisierung / Full-Virtualisierung?
+
+- mehrere VMs mit gleicher Architektur wie Host
+- Gast-OS hat keine direkten Zugriff zur Hardware
+- Hardware wird virtuell von Hypervisor an VMs übergeben
+- Kommunikation zwischen VMs nur über Netzwerk möglich
+
+siehe [Full Virtualisierung](/fom/semester-3/it-infrastruktur/virtualisierung.md#hardware-virtualisierung-full-virtualization)
+
+### Was ist Paravirtualisierung?
+
+- Weiterentwicklung der Full-Virtualization
+- Gast-OS weiß dass es virtualisiert wird (angepasstes OS notwendig)
+- Host stellt API bereit, welche von Gast-OS für Hardware-Ressourcen-Reservierung verwendet wird
+- Gast ist an die Host Architektur gebunden
+
+siehe [Paravirtualisierung](/fom/semester-3/it-infrastruktur/virtualisierung.md#paravirtualisierung)
+
+### Was ist Container Virtualisierung?
+
+- Virtualisierungsebene läuft als Anwendungen innerhalb des OS
+- VMs/Container teilen sich Kernel des Hosts
+- Container enthält nur Anwendungen und Abhängigkeiten
+- granulare Kommunikation zwischen Containern via Ports / Datei
+
+siehe [Container Virtualisierung](/fom/semester-3/it-infrastruktur/virtualisierung.md#container-virtualisierung)
+
+### Nennen Sie Use-Cases für Virtualisierung
+
+- VM unabhängig von Host Hardware
+- Isolation von Anwendungen
+- Ressourcenanpassung im laufenden Betrieb
+- Verschieben, Isolation, Snapshots, Cloning
 
 ## It-Service-Management
 
-## Was ist ein Hypervisor?
+### Was ist ein IT-Service?
+
+Zweckmäßige Kombination von Informationstechnologie, Menschen und Prozessen
+
+### Was sind die 5 Phasen des ITIL V3?
+
+- Service Strategy -> Welche Strategie wird verfolgt? z.B. Kostenreduzierung, Effizienzsteigerung
+- Service Design -> Ablauf des Prozesses wird definiert? z.B. Partnermanagement, Service Level Management
+- Service Transition -> Veränderungen im Service? z.B. Change Management, Release Management
+- Service Operation -> Betrieb des Services? z.B. Incident Management, Problem Management
+- Continual Service Improvement -> Verbesserung des Services?
 
 ### Was ist der Unterschied zwischen Produktion und Dienstleistung?
+
+Produktion:
+
+- physische Güter
+- lagerfähig, im Voraus produziert
+- Eigentum wird übertragen
+
+Dienstleistung:
+
+- Dienstlesitungspotential muss vorhanden sein
+- nicht lagerfähig
+- mitwirken des Kunden notwendig
+
+### Was ist ein SLA?
+
+Service Level Agreement -> Vereinbarung zwischen IT-Service-Provider und IT-Service-Kunden bezüglich der der Rechte, Pflichten und Konditionen des IT-Services
+
+### Welche Bestandteile hat ein SLA?
+
+- Beschreibung des IT-Services
+- Kontaktadressen der Verantwortlichen
+- Glossar
+- Service Level, z.B. Verfügbarkeit, Reaktionszeit, Wiederherstellungszeit
+
+### Was ist ein Service Katalog?
+
+- Beschreibung der IT-Services
+
+### Was ist ein OLA?
+
+Operational Level Agreement -> Interner Vertrag zwischen verschiedenen Abteilungen
+
+### Was ist ein UC?
+
+Underpinning Contract -> Vertrag mit externen Partnern
