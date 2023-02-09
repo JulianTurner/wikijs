@@ -2,10 +2,10 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2022-07-20T17:05:20.330Z
+date: 2023-02-09T20:08:33.155Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:22:55.269Z
+dateCreated: 2022-09-13T18:15:49.307Z
 ---
 
 # Klausurvorbereitung
@@ -31,7 +31,7 @@ Werte die u.a. durch Messung oder Beobachtung ermittelt werden
 explizites Wissen -> Wissen was unmittelbar vorliegt
 implizites Wissen -> Wissen was nicht unmittelbar vorliegt (Bauchgefühl; kann nicht weiter gegeben werden)
 
-### Grundkomponenten vin der von Neumann Architektur
+### Grundkomponenten der von Neumann Architektur
 
 - Prozessor
 - Speicher
