@@ -2,7 +2,7 @@
 title: Rechenzentrumsbetrieb
 description: 
 published: 1
-date: 2023-02-09T20:21:28.325Z
+date: 2023-02-09T20:28:43.323Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-15T19:29:01.687Z
@@ -216,7 +216,7 @@ Entfernung | Ausdehnung | Name | Beispiel
 10000km | Kontinent | WAN | ein Kontinent
 100000km | Planet | WAN | ganzes Internet
 
-![networks](networks.png)
+![networks](/fom/semester-3/it-infrastruktur/networks.png)
 
 ##### Schichtenmodell
 
