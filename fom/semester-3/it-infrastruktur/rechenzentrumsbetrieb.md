@@ -2,7 +2,7 @@
 title: Rechenzentrumsbetrieb
 description: 
 published: 1
-date: 2023-02-09T20:20:14.799Z
+date: 2023-02-09T20:20:47.267Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-15T19:29:01.687Z
@@ -303,8 +303,6 @@ TCP/IP:
 - Stern
   - Endgeräte sind über einen zentralen Knoten verbunden
   - Endgeräte sind nicht **direkt** miteinander verbunden
-
-
 
 &nbsp;<br>
 - Ring
