@@ -2,7 +2,7 @@
 title: Scriptsprachen allgemein
 description: 
 published: 1
-date: 2023-02-09T20:33:09.068Z
+date: 2023-02-09T20:34:46.554Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:56.928Z
@@ -11,7 +11,8 @@ dateCreated: 2022-09-13T18:15:56.928Z
 # Scriptsprachen allgemein
 
 ## Paradigmen
-![](paradigm.png)
+
+![paradigm.png](/fom/semester-3/skriptsprachen/paradigm.png)
 
 ## Compiler & Interpreter
 #### Compiler
@@ -29,7 +30,7 @@ dateCreated: 2022-09-13T18:15:56.928Z
 - Instruktionen werden einzeln verarbeitet (ohne Cache)
 ### Was ist ein JIT Compiler?
 - compiliert mehrfach verwendeten Code in Maschinencode und speichert das Kompilat im Cache
-![](jit.png)
+![Jit](/fom/semester-3/skriptsprachen/jit.png)
 
 
 ## Typisierung
@@ -39,7 +40,7 @@ typisiert | nicht typisiert
 ---------|----------
 an Datentyp gebunden | nicht an Datentyp gebunden  
 
-```
+```python
 	int a = 5; // typisiert
 	a = 5 // nicht typisiert
 ```
@@ -48,7 +49,7 @@ statisch | dynamisch
 ---------|----------
 Typisierung bekannt bei Kompilierung | Typisierung bekannt bei Laufzeit
 
-```
+```python
 	int a = 5; // typ ist bekannt bei Kompilierung  
 	a = locator.create(); // typ ist abhängig von create() Laufzeitergebis
 
@@ -68,7 +69,7 @@ explizit | implizit
 ---------|----------
 Typ im Quellcode | Typ durch Kontext
   
-```
+```python
 	String a = "abc";
 	var a = "abc";
 ```
@@ -77,7 +78,7 @@ optional | erzwungen
 ---------|----------
 kann man Angeben | muss man Angeben
 
-```
+```python
 	// optional + erzwungen
 	function sub(a: number, b: number) : number {
 		return a - b;
@@ -97,4 +98,3 @@ kann man Angeben | muss man Angeben
 - automatische Speicherverwaltung
 - meist erweiterbar
 - interaktive Shell
-
