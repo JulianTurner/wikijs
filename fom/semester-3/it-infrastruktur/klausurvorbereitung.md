@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-02-09T20:22:49.392Z
+date: 2023-02-10T21:09:07.337Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T18:15:49.307Z
@@ -183,7 +183,6 @@ Koaxialkabel:
 - Mantel
 - Kern
 - Mantel
-- Beschichtung
 
 ### Was ist der Unterschied zwischen Online, netzinteraktiv und Offline USV?
 
