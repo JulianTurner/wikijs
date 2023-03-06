@@ -40,7 +40,8 @@
                 "streetsidesoftware.code-spell-checker-german",
                 "davidanson.vscode-markdownlint",
                 "eamodio.gitlens",
-                "mhutchie.git-graph"
+                "mhutchie.git-graph",
+                "bierner.markdown-mermaid"
             ]
         }
     },
