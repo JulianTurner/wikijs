@@ -10,3 +10,4 @@ dateCreated: 2022-03-04T12:23:19.207Z
 # Algorithmen und Datenstrukturen
 
 - [Klausurvorbereitung](semester-4/algorithmen-und-datenstrukturen/klausurvorbereitung.md)
+- [Heranführung](semester-4/algorithmen-und-datenstrukturen/heranfuehrung.md)
