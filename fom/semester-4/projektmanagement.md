@@ -10,5 +10,5 @@ dateCreated: 2022-03-04T12:23:19.207Z
 # Projektmanagement
 
 - [Unternehmen im Projektmanagement](semester-4/projektmanagement/unternehmen-im-projektmanagement.md)
-- [Grundlagen](semester-4/projektmanagement/grundlagen.md)
+- [Grundlagen Projektmanagement](semester-4/projektmanagement/grundlagen-projektmanagement.md)
 - [Klausurvorbereitung](semester-4/projektmanagement/klausurvorbereitung.md)
