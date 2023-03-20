@@ -56,7 +56,7 @@ Grenzen:
 funktionale Linieneinheit|Projektarbeit
 ---|---
 Massenproduktion|Individuallösung
-seltene Änderungen| temporär
+seltene Änderungen|temporär
 teilzielorientiert|projektzielorientiert
 Spezialisten|Projektteams
 geringe Unsicherheit|hohe Unsicherheit
