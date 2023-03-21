@@ -14,3 +14,4 @@ dateCreated: 2022-03-04T12:23:19.207Z
 - [Geschäftsprozessmodellierung](semester-4/geschaeftsprozessmodellierung.md)
 - [Projektmanagement](semester-4/projektmanagement.md)
 - [Verteilte Systeme](semester-4/verteilte-systeme.md)
+- [IT-Management](semester-4/it-management.md)
