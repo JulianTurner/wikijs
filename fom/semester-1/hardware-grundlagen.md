@@ -9,6 +9,7 @@ dateCreated: 2021-12-16T19:43:44.671Z
 ---
 
 # Hardware - Grundlagen moderner Informationstechnik
+
 - [Klausurvorbereitung](/fom/semester-1/hardware-grundlagen/klausurvorbereitung)
 - [Klausurvorbereitung2](/fom/semester-1/hardware-grundlagen/Klausurvorbereitung2)
 - [klausurvorbereitung3](/fom/semester-1/hardware-grundlagen/klausurvorbereitung3)

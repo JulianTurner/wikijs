@@ -65,4 +65,4 @@ Edge Computing:
 
 ## Cloud Computing
 
-[Cloud Computing](/fom/semester-4/semester-4/verteilte-systeme/cloud_computing.png)
+[Cloud Computing](/fom/semester-4/verteilte-systeme/cloud_computing.png)

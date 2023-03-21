@@ -9,9 +9,11 @@ dateCreated: 2021-12-16T19:36:19.110Z
 ---
 
 # Formale Beschreibungsverfahren
+
 - [Klausurvorbereitung](/fom/semester-1/formale-beschreibungsverfahren/klausurvorbereitung)
 
 ## Graphen
+
 - [dag-tree](/fom/semester-1/formale-beschreibungsverfahren/graphen/dag-tree)
 - [gerichtete-ungerichtete-graphen](/fom/semester-1/formale-beschreibungsverfahren/graphen/gerichtete-ungerichtete-graphen)
 - [gewichteter-graph-bipartiter-graph](/fom/semester-1/formale-beschreibungsverfahren/graphen/gewichteter-graph-bipartiter-graph)
@@ -23,6 +25,7 @@ dateCreated: 2021-12-16T19:36:19.110Z
 - [graphenTypen](/fom/semester-1/formale-beschreibungsverfahren/graphen/graphenTypen)
 
 ## Formale Sprachen
+
 - [chomsky-hierarchie](/fom/semester-1/formale-beschreibungsverfahren/formaleSprachen/chomsky-hierarchie)
 - [dfa](/fom/semester-1/formale-beschreibungsverfahren/formaleSprachen/dfa)
 - [grammatik-sprache](/fom/semester-1/formale-beschreibungsverfahren/formaleSprachen/grammatik-sprache)
