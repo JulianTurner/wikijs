@@ -10,7 +10,7 @@ dateCreated: 2022-03-04T12:23:19.207Z
 
 ## Module
 
-- [Software Engineering](semester-3/software-engineering.md)
-- [Big Data](semester-3/big-data.md)
-- [IT-Infrastruktur](semester-3/it-infrastruktur.md)
-- [Skriptsprachenorientiertes Programmieren](semester-3/skriptsprachen.md)
+- [Software Engineering](/fom/semester-3/software-engineering.md)
+- [Big Data](/fom/semester-3/big-data.md)
+- [IT-Infrastruktur](/fom/semester-3/it-infrastruktur.md)
+- [Skriptsprachenorientiertes Programmieren](/fom/semester-3/skriptsprachen.md)

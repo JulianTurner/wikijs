@@ -9,5 +9,5 @@ dateCreated: 2022-03-04T12:23:19.208Z
 
 # Verteilte Systeme
 
-- [Grundlagen](semester-4/verteilte-systeme/grundlagen.md)
-- [Klausurvorbereitung](semester-4/verteilte-systeme/klausurvorbereitung.md)
+- [Grundlagen](/fom/semester-4/verteilte-systeme/grundlagen.md)
+- [Klausurvorbereitung](/fom/semester-4/verteilte-systeme/klausurvorbereitung.md)

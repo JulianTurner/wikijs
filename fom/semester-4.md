@@ -10,8 +10,8 @@ dateCreated: 2022-03-04T12:23:19.207Z
 
 ## Module
 
-- [Algorithmen und Datenstrukturen](semester-4/algorithmen-und-datenstrukturen.md)
-- [Geschäftsprozessmodellierung](semester-4/geschaeftsprozessmodellierung.md)
-- [Projektmanagement](semester-4/projektmanagement.md)
-- [Verteilte Systeme](semester-4/verteilte-systeme.md)
-- [IT-Management](semester-4/it-management.md)
+- [Algorithmen und Datenstrukturen](/fom/semester-4/algorithmen-und-datenstrukturen.md)
+- [Geschäftsprozessmodellierung](/fom/semester-4/geschaeftsprozessmodellierung.md)
+- [Projektmanagement](/fom/semester-4/projektmanagement.md)
+- [Verteilte Systeme](/fom/semester-4/verteilte-systeme.md)
+- [IT-Management](/fom/semester-4/it-management.md)
