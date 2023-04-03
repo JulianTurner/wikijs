@@ -47,9 +47,9 @@ Prozessarten:
     - indirekt -> Maschine wird gewartet
   - Führungsprozesse
 - nach Marktbezug:
-  - primärer Prozess
-  - sekundärer Prozess
-  - innovativer Prozess
+  - primärer Prozess -> primäre Werteschöpfung
+  - sekundärer Prozess -> Unterstützung der Werteschöpfung
+  - innovativer Prozess -> Neuentwicklung
   
 Wie unterscheiden sich Prozesse von Projekten?
 
@@ -191,5 +191,15 @@ Prozessprobleme:
 > Prozesskosten ist die Menge der Ressourcen, die für Erstellung des Prozessergebnisses notwendig ist.
 {.is-info}
 
-<!-- S. 53 -->
-### Prozessmodellierung und Geschäftsprozessmanagement
+## Modellarten
+
+- IST-Modelle
+  - gegenwärtiger Zustand
+  - Identifikation von Schwachstellen
+  - Basis für die Optimierung
+- SOLL-Modelle
+  - zu erreichender Zustand
+  - bilden Basis für die Realisierung
+  - Optimierter Prozess
+- Referenzmodelle
+  - best practice
