@@ -102,4 +102,51 @@ Service Advertisements:
 
 ## Internet
 
-<!-- Seite 78 -->
+- Medium für Weltweite Datenkommunikation
+- Schwerpunkt liegt auf Betriebs- und Ausfallsicherheit
+- nicht zentral organisiert
+
+### Protokolle
+
+- Verbindungsorientiert
+  - TCP:
+    1. Verbindungsaufbau
+    1. Nach dem Verbindungsaufbau erfolgt die Kommunikation
+    1. Kontrolle der Verbindung durch ACKs
+    1. Verbindung besteht zwischen zwei Endpunkten
+- Verbindungslos
+  - UDP:
+    1. Daten werden einfach so gesendet
+    1. Keine Empfangskontrolle
+    1. Effektive Datenübertragung
+- Sequencing
+  - Reihefolge der Daten wird sichergestellt
+
+Weitere Aspekte:
+
+- Streaming Protokolle
+- Paketbasierte Protokolle
+- Fehlerkontrolle
+- Flusskontrolle
+- Übertragungsmethoden:
+  - Half-Duplex
+  - Full-Duplex
+
+### Dienste im Internet
+
+- NTP (Network Time Protocol)
+  - wichtig für Services die aktuelle Zeit benötigen z.b TLS
+- DNS (Domain Name System)
+  - Wandelt Domainnamen in IP-Adressen um
+  - Hierarchischer Aufbau zwingend notwendig
+  - Grundsätzlicher Aufbau: Host . Domain-Name(n) . Top-Level-Domain .
+  - Domain -> Bereich eigener Verantwortlichkeit
+  - Zone -> Bereich der vom Nameserver verwaltet wird
+  - Subdomain -> Teilbaum der Domain
+  - Nameserver
+    - Primary -> Verwaltet Daten der autoritativen Zone
+    - Secondary -> Kopie der Daten der Primary
+  - Dynamic DNS
+    - Verwaltet dynamische IP-Adresse zu einem Hostnamen
+
+<!-- S. 121 -->
