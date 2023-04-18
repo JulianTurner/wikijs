@@ -12,4 +12,5 @@ dateCreated: 2022-03-04T12:23:19.208Z
 - [Grundlagen](/fom/semester-4/verteilte-systeme/grundlagen.md)
 - [Einführung](/fom/semester-4/verteilte-systeme/einfuehrung.md)
 - [ISO/OSI Schichtenmodell](/fom/semester-4/verteilte-systeme/iso-osi-schichtenmodell.md)
+- [Drahtlose Kommunikation](/fom/semester-4/verteilte-systeme/dahrt-kommunikation.md)
 - [Klausurvorbereitung](/fom/semester-4/verteilte-systeme/klausurvorbereitung.md)

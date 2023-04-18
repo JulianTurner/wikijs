@@ -148,5 +148,35 @@ Weitere Aspekte:
     - Secondary -> Kopie der Daten der Primary
   - Dynamic DNS
     - Verwaltet dynamische IP-Adresse zu einem Hostnamen
-
-<!-- S. 121 -->
+- Whois
+  - Abfrage von Informationen zu einer Domain
+- E-Mail
+  - Versand und Empfang über TCP/IP
+  - SMTP, POP3, IMAP Arbeiten mit Klartextübertragung
+  - SPAM : unerwünschte E-Mails
+    - Greylisting -> E-Mail wird nicht sofort zugestellt, sondern abgelehnt und muss später erneut versendet werden
+- FTP
+  - Command Connection
+  - Data Connection
+  - Setzt normalerweise Nutzername und Passwort voraus (Anonyme Anmeldung möglich)
+- Telnet (Terminal Emulation)
+  - Klartext Übertragung
+  - Keine Verschlüsselung
+- SSH (Secure Shell)
+  - Verschlüsselte Verbindung
+  - Heutiger Standard für Remote-Login
+- WWW (World Wide Web)
+  - Inhalte werden auf Webservern hinterlegt
+  - Clients rufen diese Inhalte ab
+  - Übertragung erfolgt meist über HTTP
+- URL (Uniform Resource Locator)
+- URI (Uniform Resource Identifier)
+- HTTPS
+  - SSL Handshake
+- Zero Configuration Networking
+  - DLNA
+  - Streaming
+  - UPnP
+  - Bonjour
+  - mDNS
+  - RTP
