@@ -11,7 +11,8 @@ dateCreated: 2021-12-16T20:41:31.719Z
 # Gerichtete und ungerichtete Graphen
 
 Gerichtete und ungerichtete Graph besteht aus
-- einer Menge an Knoten (V = Verticies)
+
+- einer Menge an Knoten (V = Vertices)
 - einer Menge von Kanten (E = Edges)
 
 Mit Knoten und Kanten werden Zustandsübergänge $\phi$  beschrieben.
@@ -29,6 +30,7 @@ Bei einem ungerichteten Graphen verbindet jede Kante ein <ins>ungeordnetes</ins>
 ## Gerichtete Graphen
 
 Bei gerichteten Graphen verbindet jede Kante ein <ins>geordnetes</ins> Paar von Knoten.
+
 - Der erste Knoten heißt Startpunkt *T* (tail)
 - Der zweite Knoten heißt Endpunkt *H* (head)
 

@@ -11,3 +11,4 @@ dateCreated: 2022-03-04T12:23:19.207Z
 
 - [Klausurvorbereitung](/fom/semester-4/algorithmen-und-datenstrukturen/klausurvorbereitung)
 - [Heranführung](/fom/semester-4/algorithmen-und-datenstrukturen/heranfuehrung.md)
+- [Fundamentale Datenstrukturen](/fom/semester-4/algorithmen-und-datenstrukturen/fundamentale-datenstrukturen.md)
