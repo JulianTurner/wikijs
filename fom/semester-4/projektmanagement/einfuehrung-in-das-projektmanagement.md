@@ -81,3 +81,156 @@ Zeitgleiche Optimierung der drei Faktoren ist nicht möglich, da sie sich gegens
 - Zeit
 
 Zeitgleiche Optimierung der vier Faktoren ist nicht möglich, da sie sich gegenseitig beeinflussen. Die aufgespannte Fläche zwischen den vier Faktoren bleibt gleich.
+
+## Was ist Qualität?
+
+- schwierig zu bestimmen
+
+> Qualität: Die Gesamtheit der Merkmale und Merkmalswerte eines Produkts oder Dienstleistung, die sich auf deren Eignung beziehen, festgelegte und vorausgesetzte Erfordernisse zu erfüllen
+
+## Was ist der Unterschied zwischen Projektantrag und Projektauftrag?
+
+Projektantrag:
+
+- Skizzierung von:
+  - Ausgangslage
+  - Zielsetzung
+  - Projektergebnisse
+  - Kosten
+  - Nutzen
+  - Organisation
+
+Projektauftrag:
+
+- folgt auf Projektantrag
+- Formeller Startschuss des Projekts
+- beinhaltet wichtigsten Eckdaten des Projekts
+
+## Was ist der Unterschied zwischen Lasten und Pflichtenheft?
+
+Lastenheft:
+
+- Gesamtheit der Anforderungen an das Produkt
+- Was und Wofür
+
+Pflichtenheft:
+
+- Konkrete Lösungsvorschläge
+- Was und Womit
+
+## Was ist eine Projektphase?
+
+Ein zeitlicher Abschnitt eines Projektablaufs der sachlich gegenüber anderen Phasen abgrenzbar ist.
+
+## Wie unterscheiden sich die vier Projektphasen?
+
+Projektdefinition:
+
+- Machbarkeitsstudie
+- Ist-Analyse
+- Zieldefinition
+
+Projektplanung:
+
+- Grobplanung
+- Feinplanung
+- Aktionsplan
+
+Projektdurchführung
+
+- Informationsaustausch
+- Projektsteuerung
+- Identifikation von Problemen
+
+Projektabschluss:
+
+- Projektabnahme
+- Rollout
+- Abschlussbericht
+
+## Wie verteilt sich der Aufwand in den Projektphasen?
+
+- Projektvorbereitung: 5%
+- Projektplanung: 20%
+- Projektdurchführung: 60%
+- Projektabschluss: 15%
+
+## Wie sieht die Projektorganisation aus?
+
+Arbeitsverteilung:
+
+- Aufbauorganisation -> institutionelle Struktur von Aufgabenträgern
+
+Koordination:
+
+- Ablauforganisation -> Zeitliche & räumliche Struktur der Aufgabenerfüllung
+
+## Was sind Projektbeteiligte?
+
+- Auftraggeber: Initiator des Projekts; Erarbeitung von Grobzielen und Projektauftrag
+- Lenkungsausschuss: ernennt Projektleiter, kontrolliert Projektfortschritt
+- Projektleiter: Zuständig für Operative Planung; Verantwortlich für Zielerreichung
+- Projektmitarbeiter: Führen die Aufgaben aus; Verantwortlich für Umsetzung der Arbeitspakete
+- Experten: Fachliche Unterstützung; Beratung bei Entscheidungen
+- Sponsor: Unterstützt das Projekt; Vertritt das Projekt
+
+## Was sind die Grundformen der Projektorganisation?
+
+Stab-Linien-Organisation:
+
+- Projektleitung als Stab, koordiniert Aufgaben ohne direkte Befugnis
+- einfach zu verwirklichen
+- abteilungsübergreifende Perspektive
+- Position des Projektleiters ist schwach
+- Lange Reaktionszeiten
+
+Matrixorganisation:
+
+- Mischform mit Kompetenzaufteilung, Projektleitung trägt Verantwortung und delegiert Aufgaben
+- Mitarbeiter können flexibel eingesetzt werden
+- Spezialisten können flexibel eingesetzt werden
+- Überwindet Abteilungsgrenzen
+- Gute Abstimmung notwendig
+- hohes Konfliktpotential
+- Projektleiter mit hoher Verantwortung und geringer Befugnis
+
+"reine" Projektorganisation:
+
+- Projektmitarbeiter sind ausschließlich für das Projekt tätig
+- klare Führungsrolle des Projektleiters
+- kurze Reaktionszeiten
+- Projekt hat eigene Ressourcen
+- Mitarbeiter oft nicht gleichmäßig ausgelastet
+- Koordination mit dem Fachbereich schwierig
+
+## Was ist eine Stakeholderanalyse?
+
+1. Identifikation der Stakeholder
+1. Betroffenheit und Macht untersuche
+1. Verhalten untersuchen
+1. Maßnahmen & Marketing festlegen
+1. Dokumentation der Analyse
+
+> Ziel: Erkennen der Stakeholderziele und offenlegen von Konfliktbereichen
+{.is-warning}
+
+## Wer sind Stakeholder?
+
+intern:
+
+- Geschäftsführung
+- Mitarbeiter
+- Betriebsrat
+
+extern:
+
+- Kunden
+- Lieferanten
+- Konkurrenz
+
+## Welche Maßnahmen können zur Lösung von Stakeholder-Konflikten ergriffen werden?
+
+- offene Kommunikation
+- auf die Bedürfnisse / Bedenken der Stakeholder eingehen
+- Verhandlungen
+- Kinderfahrrad
