@@ -234,3 +234,90 @@ extern:
 - auf die Bedürfnisse / Bedenken der Stakeholder eingehen
 - Verhandlungen
 - Kinderfahrrad
+
+## Risikomanagement
+
+Je früher ein Risiko erkannt wird, desto besser kann es behoben werden.
+
+> Risiko ist mögliches zukünftiges Ereignis, das zu unerwünschten Folgen führen
+{.is-info}
+
+## Schritte des Risikomanagements
+
+1. Risikoidentifikation
+1. Risikoanalyse
+1. Risikobehandlung
+1. Risikokontrolle
+
+### Risikoidentifikation
+
+Methoden:
+
+- Brainstorming
+- Checklisten
+
+Beispiele:
+
+- Endtermin kann nicht eingehalten werden
+- Qualität wird nicht vom Kunden akzeptiert
+
+### Risikoanalyse
+
+Methoden:
+
+- Risikoabschätzung (Eintrittswahrscheinlichkeit und Auswirkung)
+- mit Punktesystem schätzen
+- Risikomatrix
+- nach Risikoklassen
+- nach Eintrittswahrscheinlichkeit
+
+### Risikobehandlung
+
+Maßnahmen:
+
+- Eintrittswahrscheinlichkeit verringern
+  - sorgfältige Projektvorbereitung
+  - Stakeholderanalyse
+- Negative Auswirkungen in Risikofällen reduzieren
+  - Risikopuffer einplanen
+  - Versicherung abschließen
+
+> Lieber Risikopuffer einplanen statt direkt ins Arbeitspaket einplanen
+{.is-info}
+
+### Risikokontrolle
+
+- Risiken während der gesamten Projektlaufzeit beobachten
+- bei Bedarf Risikoidentifikation und -analyse systematisch wiederholen
+
+<!-- SWOT übersprungen -->
+
+## Teambildungsprozess
+
+![Teambildungsprozess](/fom/semester-4/projektmanagement/Teambildungsprozess.png)
+
+## Regeln im Umgang mit Informationen
+
+Festlegung für die Projektarbeit:
+
+- Wer Informationen weitergibt
+- Wem Informationen weitergegeben werden
+- Wozu werden diese Informationen benötigt
+- Wann werden Informationen weitergegeben
+- Welche Informationen werden weitergegeben
+- Wie diese Informationen dargestellt/vermittelt werden
+
+> Zahl der Kommunikationswege steigt mit der Anzahl der Projektmitglieder $ \frac{n * (n-1)}{2}$ quadratisch
+{.is-info}
+
+## Was gehört zum Informationsfluss und Kommunikation?
+
+Festlegen von:
+
+- Besprechungen
+- Protokolle
+- Projektordner
+- E-Mail-Verteiler
+- Beantwortungszeiten
+- Informationsverantwortliche
+- Konventionen für Datenhaltung
