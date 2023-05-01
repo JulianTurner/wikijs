@@ -25,10 +25,10 @@ flowchart LR
 ## Elemente der SADT (Structured Analysis and Design Technique)
 
 Max 6 Aktionselement pro Diagramm
-![SDAT](/fom/semester-4/projektmanagement/SDAT.png)
+![SDAT](/fom/semester-4/geschaeftsprozessmodellierung/SDAT.png)
 
 Hierarchische Bezeichnung
-![Parent-Child](/fom/semester-4/projektmanagement/SDAT-Parent-Child.png)
+![Parent-Child](/fom/semester-4/geschaeftsprozessmodellierung/SDAT-Parent-Child.png)
 
 > Alle ein- und ausgehenden Pfeile einer Parent-Box müssen in dem Child-Diagramm erscheinen.
 {.is-warning}
