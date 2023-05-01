@@ -12,4 +12,5 @@ dateCreated: 2022-03-04T12:23:19.207Z
 - [Unternehmen im Projektmanagement](/fom/semester-4/projektmanagement/unternehmen-im-projektmanagement.md)
 - [Grundlagen Projektmanagement](/fom/semester-4/projektmanagement/grundlagen-projektmanagement.md)
 - [Einführung in das Projektmanagement](/fom/semester-4/projektmanagement/einfuehrung-in-das-projektmanagement.md)
+- [Grafische Basisnotationen](/fom/semester-4/projektmanagement/grafische-basisnotationen.md)
 - [Klausurvorbereitung](/fom/semester-4/projektmanagement/klausurvorbereitung.md)
