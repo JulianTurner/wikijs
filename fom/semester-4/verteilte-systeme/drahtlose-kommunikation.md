@@ -175,4 +175,13 @@ indirektes Routing:
 - Status des Teilnehmers wird über Mittelsmann ermittelt
 - Kommunikation über Mittelsmann
 
-<!-- TODO: GSM -->
+### GSM Handoff
+
+Gründe für Handoff:
+
+- stärkeres Signal zu neuem BSS (Base Station System)
+- Lastverteilung
+
+> GSM schreibt nicht vor wann und warum ein Handoff stattfinden muss, sondern nur wie
+{.is-info}
+
