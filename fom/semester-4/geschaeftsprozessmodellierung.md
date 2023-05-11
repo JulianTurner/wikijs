@@ -13,4 +13,5 @@ dateCreated: 2022-03-04T12:23:19.207Z
 - [Prozessorientierte Organisation](/fom/semester-4/geschaeftsprozessmodellierung/prozessorientierte-organisation.md)
 - [Erhebungstechniken für Prozesse](/fom/semester-4/geschaeftsprozessmodellierung/erhebungstechniken-fuer-prozesse.md)
 - [Grafische Basisnotation](/fom/semester-4/geschaeftsprozessmodellierung/grafische-basisnotationen.md)
+- [Ereignisprozessketten](/fom/semester-4/geschaeftsprozessmodellierung/ereignisprozessketten.md)
 - [Klausurvorbereitung](/fom/semester-4/geschaeftsprozessmodellierung/klausurvorbereitung.md)
