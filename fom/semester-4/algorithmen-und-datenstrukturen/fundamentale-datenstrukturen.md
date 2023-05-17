@@ -111,9 +111,9 @@ Weitere Begriffe:
 
 Geordneter Mehrwege-Baum mit Rang 2, d.h. jeder Knoten hat exakt maximal zwei Kinder
 
-- Full -> Jeder innere Knoten hat genau zwei Kinder
-- Complete -> Jeder Ebene ist von links nach rechts befüllt, neue Ebenen werden erst befüllt wenn alle vorherigen Ebenen keine freien Plätze mehr haben
-- Perfect -> Vollständiger Baum mit vollständigen Ebenen
+- Full/Voll -> Jeder innere Knoten hat genau zwei Kinder
+- Complete/Komplett -> Jeder Ebene ist von links nach rechts befüllt, neue Ebenen werden erst befüllt wenn alle vorherigen Ebenen keine freien Plätze mehr haben
+- Perfect/Perfekt -> Vollständiger Baum mit vollständigen Ebenen
 
 ### Theoreme
 
@@ -159,3 +159,44 @@ Repräsentation:
   - Schnelles löschen einer Verbindung (O(1))
   - Speicherintensiv
   - komplexes Hinzufügen neue Knoten  
+
+## Heap
+
+Datenstruktur in Form eines kompletten [Baumes](./fundamentale-datenstrukturen.md#binary-tree), welcher die Heap-Eigenschaft erfüllt.
+
+- Min-Heap -> Eltern < Kinder
+- Max-Heap -> Eltern > Kinder
+- Speicherung von Mengen wenn schnell ein Element mit dem größten/kleinsten Wert gefunden werden soll (Priority Queue)
+- eindimensionale Liste:
+  - Wurzel: $i = 0$
+  - Linkes Kind: $2i+1$
+  - Rechtes Kind: $2i+2$
+  - Elternknoten: $\lfloor(i-1)/2\rfloor$
+Beispiel:
+![Heap](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Max-Heap.svg/1200px-Max-Heap.svg.png)
+
+heapify:
+
+- muss auf Elternknoten angewendet werden von Kindern die bereits ge-heapified wurden
+- Bottom-Up
+- O(n) Laufzeit für kompletten Baum
+- O(log n) Laufzeit für einen Knoten
+![Heapify](/fom/semester-4/algorithmen-und-datenstrukturen/heapify.png)
+
+### Min-Max-Heap
+
+- Unterscheidung zwischen geraden und ungeraden Ebenen
+- Gerade Ebenen -> Min-Heap
+- Ungerade Ebenen -> Max-Heap
+- Finden des größten/kleinsten Elements in O(1)
+
+### Binomial Heap
+
+- Gemergte Heaps
+
+## Wahl der Datenstruktur
+
+> Wahl der Datenstruktur auf Basis der aktuellen und zukünftigen Anforderungen
+{.is-info}
+> So wenig Overhead wie möglich
+{.is-info}
