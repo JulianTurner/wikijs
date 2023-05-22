@@ -42,6 +42,7 @@ Umsetzung:
 - Verschlüsselung
   
 > Verhindern, dass vertrauliche/geheime Information für unberechtigte Dritte zugänglich wird
+{.is-info}
 
 #### Pseudonymität
 
@@ -139,4 +140,124 @@ Umsetzung:
   - RSA
   - Diffie-Hellman
 
-<!-- TODO! bis Seite 325 -->
+### WLAN Verschlüsselung
+
+- WEP -> unsicher
+- WPA -> unsicher
+- WPA2 -> EOL
+- WPA3 -> aktuell
+
+Authentifizierung:
+
+- PSK -> Pre-Shared Key
+- RADIUS
+
+### Hash / Einwegfunktionen
+
+- Ermittlung einer irreversiblen Prüfsumme
+- Verwendung:
+  - digitale Signaturen
+  - Passwörter
+  - Prüfsummen
+  - Integritätssicherung
+
+> AES256 ist sicher da symmetrisch, und quantencomputersicher
+{.is-info}
+
+### Digitale Signaturen
+
+- kryptographisches Verfahren zur Prüfung der Authentizität von Inhalten
+
+Ziele:
+
+- Integrität -> Prüfung der Unversehrtheit
+- Authentifikation -> Identitätsnachweis auf Authentizität (Echtheit) geprüft
+
+#### Prozessablauf
+
+Sender:  
+
+  1. Hashwert der Nachricht berechnen
+  2. Hashwert mit privatem Schlüssel verschlüsseln -> Signatur
+  3. Nachricht und Signatur übertragen  
+
+Empfänger:  
+
+  4. Hashwert der Nachricht berechnen  
+  5. Signatur mit öffentlichem Schlüssel entschlüsseln -> Hashwert  
+  6. Hashwerte von Schritt 4 & 5 vergleichen
+
+### Digitale Zertifikate
+
+- gewährleisten Authentizität von öffentlichen Schlüsseln
+- Zertifikate werden von vertrauenswürdigen Zertifizierungsstellen (CA) ausgestellt
+- beglaubigen die Zusammengehörigkeit von öffentlichem Schlüssel und Identität (vergleichbar mit Notar)
+
+#### Hybridverschlüsselung
+
+> Kombination aus symmetrischer und asymmetrischer Verschlüsselung
+{.is-info}
+
+1. Generierung eines zufälligen symmetrischen Sitzungs-Schlüssels (Session-Key)
+1. Verschlüsselung des Session-Keys mit dem öffentlichen Schlüssel des Empfängers
+1. Übertragung des verschlüsselten Session-Keys
+1. Empfänger entschlüsselt den Session-Key mit seinem privaten Schlüssel
+1. Verschlüsselung aller Nachrichten mit dem Session-Key
+
+Vorteile:
+
+- schnelle symmetrische Verschlüsselung / Entschlüsselung
+- sichere asymmetrische Schlüsselübertragung
+
+Nachteile:
+
+- Schlüsselaustausch notwendig
+- anfällig gegen Man-in-the-Middle-Angriffe
+
+Lösung: [Digitale Zertifikate](#digitale-zertifikate)
+
+#### Zertifikatstypen
+
+- Domain Validated (DV) -> Domaininhaber
+- Organization Validated (OV) -> CA prüft Domaininhaber und Organisation
+- Extended Validation (EV) -> CA prüft Domaininhaber, Organisation und Identität des Antragstellers
+
+Arten:
+
+- Class 1 -> Überprüfung der E-Mail
+- Class 2 -> Überprüfung anhand von Dokumenten
+- Class 3 -> Überprüfung der Person IRL
+
+#### PKI (Public Key Infrastructure)
+
+- Infrastruktur zur Erstellung, Verwaltung und Verteilung von Zertifikaten
+- besteht aus:
+  - Zertifizierungsstelle (CA)
+  - Registrierungsstelle (RA)
+  - Zertifikatssperrliste (CRL)
+
+#### IKE (Internet Key Exchange)
+
+- Protokoll zur sicheren Schlüsselverteilung
+- verwendet Diffie-Hellman-Schlüsselaustausch
+- PSK (Pre-Shared Key) oder Zertifikate zur Authentifizierung
+
+### Diffie-Hellman
+
+- asymmetrisches Schlüsselaustauschverfahren
+- ermöglicht sicheren Schlüsselaustausch über unsichere Kanäle
+- basiert auf mathematischen Problemen, die in eine Richtung schwer zu lösen sind (multiplizieren von Primzahlen)
+
+#### Funktionsweise
+
+1. Alice und Bob einigen sich auf 2 öffentliche Zahlen (p & g)
+1. Alice wählt eine zufällige private Zahl (a) und berechnet öffentliches (A) -> $A = g^a \mod p$
+1. Bob wählt eine zufällige private Zahl (b) und berechnet öffentliches (B) -> $B = g^b \mod p$
+1. Alice und Bob tauschen öffentliche Schlüssel A, B aus
+1. Alice berechnet gemeinsamen Schlüssel (K) -> $K = B^a \mod p$
+1. Bob berechnet gemeinsamen Schlüssel (K) -> $K = A^b \mod p$
+
+#### Perfect Forward Secrecy (PFS)
+
+- verhindert das Entschlüsseln von Daten, falls der private Schlüssel kompromittiert wurde
+- nach dem benutzen des Schlüssels wird dieser verworfen und es wird ein neuer erzeugt
