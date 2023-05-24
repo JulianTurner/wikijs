@@ -261,3 +261,25 @@ Arten:
 
 - verhindert das Entschlüsseln von Daten, falls der private Schlüssel kompromittiert wurde
 - nach dem benutzen des Schlüssels wird dieser verworfen und es wird ein neuer erzeugt
+
+### MAC (Message Authentication Code)
+
+1. Nachricht und Schlüssel werden mit Hashfunktion gehasht
+1. Hashwert wird mit Schlüssel verschlüsselt
+1. MAC wird an Nachricht angehängt
+1. Empfänger berechnet mit symmetrischem Schlüssel und Nachricht die MAC
+1. Vergleich der MACs (empfangen, berechnet)
+
+> Sind beide MACs identisch, ist die Nachricht unverändert (erhöht die Integrität)
+{.is-info}
+
+### DANE (DNS-Based Authentication of Named Entities)
+
+- DNSSEC
+  - eigene PKI für DNS
+  - Antwort vom DNS-Server kann verifiziert werden
+- Schwachstellen:
+  - Zertifikatsaussteller
+  - DNS Cache Poisoning
+- DANE
+  - Automatische Überprüfung der TLS-Zertifikate über DNS
