@@ -283,3 +283,120 @@ Arten:
   - DNS Cache Poisoning
 - DANE
   - Automatische Überprüfung der TLS-Zertifikate über DNS
+
+## Angriffsvektoren und Szenarien
+
+- Schatten-IT
+- Social Engineering
+- Phishing
+- Personen in stressiger Lage neigen zu Fehlern
+
+Arten von Angriffen:
+
+- indirekte externe Angriffe -> Phishing, PDF
+- Interne Angriffe -> Social Engineering, Bestechung
+- Physische Angriffe -> Diebstahl, Manipulation
+- Brute-Force
+- Passwort Spraying -> Account und Passwort Kombinationen werden bei anderen Diensten ausprobiert
+- OAuth Phishing -> Angriff auf OAuth Token
+
+### Reconnaissance
+
+- Finden von Angriffszielen, Sicherheitslücken und Schwachstellen
+
+Passiv:
+
+- verwenden von Informationen, die öffentlich zugänglich sind
+
+Aktiv:
+
+- aktives Scannen von Systemen und Netzwerken
+
+> Menschliche Schwachstellen sind oft die größte Schwachstelle
+{.is-info}
+
+## Netzwerke sichern
+
+Aufgaben Cloud Provider:
+
+- physikalische Sicherheit
+- Sicherheit der Infrastruktur
+
+Aufgaben Cloud Nutzer:
+
+- Sicherheit der Betriebsumgebung
+- Backups und Wartungen
+- Zugangskontrolle
+- Monitoring und Logging (SIEM -> Security Information and Event Management)
+
+### Sichere Architektur
+
+- Client grundsätzlich nicht vertrauen
+- WAF (Web Application Firewall) verwenden -> Prüfung von Anfragen und Antworten des Webservers
+- Datenbank Firewall verwenden -> Prüfung von Datenbankanfragen
+
+Zugriffskontrollen:
+
+- Regelbasierte Zugriffskontrolle (MAC) -> Zugriff auf Objekte wird durch Regeln festgelegt (z.B. MAC-Adressen Filter)
+- Discretionary Access Control (DAC) -> Zugriff auf Objekte wird durch den Eigentümer festgelegt (z.B. Dateiberechtigungen werden vom Ersteller vergeben)
+- Rollenbasierte Zugriffskontrolle (RBAC) -> Zugriff auf Objekte wird durch Rollen festgelegt (z.B. Admin, User, Gast)
+- Chinese Wall -> Zugriff auf Objekte wird durch die Zugehörigkeit zu einer Gruppe festgelegt (z.B. Mitarbeiter dürfen nur auf Daten von Kunden zugreifen, die nicht in Konkurrenz zueinander stehen)
+
+### VPN (Virtual Private Network)
+
+Anforderungen:
+
+- Privates Netzwerk über öffentliches Netzwerk
+- Verschlüsselung der Daten
+- Datenintegrität sicherstellen
+- Feststellen der Authentizität der Kommunikationspartner
+
+Implementierung:
+
+- Intranet VPN -> Verbindung zwischen zwei Standorten
+- Extranet VPN -> Verbindung zwischen zwei Unternehmen
+- Access VPN -> Verbindung von einem Client in bekanntest Netzwerk
+
+Protokolle:
+
+Layer 2:
+
+- PPTP (Point-to-Point Tunneling Protocol) -> unsicher
+- L2TP (Layer 2 Tunneling Protocol) -> unsicher
+
+Höhere Ebenen:
+
+- IPSec (Internet Protocol Security) -> sicher
+- OpenVPN -> sicher
+- S/MIME (Secure/Multipurpose Internet Mail Extensions) -> sicher
+- PGP (Pretty Good Privacy) -> sicher
+- TLS (Transport Layer Security) -> sicher
+
+### Firewall
+
+- Lösung, Sicherheitskonzept
+- Zusammenstellung von Komponenten welche den Datenverkehr zentral kontrollieren
+- Prüfung von Datenpaketen auf Basis von Regeln
+- Paketfilter -> Prüfung von IP-Adressen und Ports
+- Protokollieren, Alarmieren, Blockieren
+- Schutz vor DoS (Denial of Service) und DDoS (Distributed Denial of Service) Angriffen
+- Intrusion Detection System (IDS) -> Erkennen von Angriffen
+- IP-Masquerading -> Kombination von PAT (Port Address Translation) und NAT (Network Address Translation) -> Verbergen von internen IP-Adressen
+- FW-Regeln:
+  - Verbindung
+  - Bedingung
+  - Limit/Trigger
+  - Aktion
+- DMZ (Demilitarized Zone) -> Netzwerksegment zwischen internem und externem Netzwerk
+- Stateful Inspection -> Prüfung von Paketen auf Basis von Anfragen und Antworten
+
+Herausforderung:
+
+- Dynamische Portvergabe überwachen -> White- und Blacklisting, Deep Packet Inspection
+
+NGFW (Next Generation Firewall):
+
+- Muss nicht nur Pakete filtern, sondern auch Anwendungen erkennen
+- Muss User und Geräte erkennen
+
+### VLAN (Virtual Local Area Network)
