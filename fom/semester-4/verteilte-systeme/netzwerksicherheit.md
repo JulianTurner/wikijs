@@ -400,3 +400,36 @@ NGFW (Next Generation Firewall):
 - Muss User und Geräte erkennen
 
 ### VLAN (Virtual Local Area Network)
+
+- logische Aufteilung eines physischen Netzwerks
+- layer 2
+
+Geswitchtes VLAN:
+
+- Paket wird bis auf Layer 2 ausgepackt
+- VLAN-Tag wird geprüft
+- Paket wird in das richtige VLAN gepackt
+- Paket wird an entsprechenden Port weitergeleitet
+
+Static VLAN:
+
+- statische Zuordnung von Ports zu VLANs
+
+Dynamic VLAN:
+
+- dynamische Zuordnung mit Software
+- VLAN Management Policy Server (VMPS) ordnen Geräte zu VLANs zu
+- Port / Authentifizierungsbasiert
+
+Vorteile:
+
+- Abschottung von Netzen
+- Segmentierung von Netzen
+- Abhören von Datenpaketen in anderen VLANs nicht möglich
+- Erhöhte Performance durch Broadcast-Reduktion
+
+Angriffsvektoren:
+
+- Überfluten mit MAC
+- Ungesicherte Ports
+- Angreifer kann sich als Root Switch ausgeben
