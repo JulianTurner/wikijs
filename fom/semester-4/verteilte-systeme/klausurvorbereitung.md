@@ -15,11 +15,11 @@ Layer:
 
 - 1: Bits
 - 2: Frames
-- 3: Pakete
+- 3: Pakete (mit IPSEC asymmetrisch verschlüsselt)
 - 4: Segmente
 - 5: Daten (Session)
-- 6: Data
-- 7: Data
+- 6: Daten (Daten mit AES symmetrisch verschlüsselt, Codierung)
+- 7: Daten (Cookies, HTML, CSS, JavaScript)
 
 ## Was ist peer to peer?
 
@@ -37,6 +37,11 @@ Layer:
 - Verlagern von Rechenleistung an den Rand des Netzwerks
 - Verlagern von Rechenleistung an den Ort der Datenentstehung
 
+## Vorteile von Edge Computing
+
+- Reduzierung der Latenz
+- Reduzierung der Netzwerklast
+
 ## Was ist ein verteiltes System?
 
 - Ein verteiltes System ist ein System, welches aus mehreren, räumlich verteilten Komponenten besteht, die über ein Netzwerk miteinander kommunizieren und gemeinsam eine Aufgabe erfüllen.
@@ -46,7 +51,7 @@ Layer:
 - Zugriff -> wie wird auf Ressourcen zugegriffen
 - Ort -> wo befindet sich die Ressource
 - Migration -> wie wird die Ressource verschoben
-- Relocation -> wie wird die Ressource verschoben
+- Relocation -> verbirgt das Verschieben der Ressource
 - Replikation -> wie wird die Ressource repliziert
 - Nebenläufigkeit -> wie wird mit konkurrierenden Zugriffen umgegangen
 - Fehler -> wie wird mit Fehlern umgegangen (Wiederherstellung)
@@ -62,7 +67,12 @@ Layer:
 1. Root DNS Server sendet Antwort an lokalen DNS Server
 1. Lokaler DNS Server sendet Antwort an DNS Client
 
-> DNS ist ein hierarchisches System, welches die Namensauflösung von Domains in IP Adressen ermöglicht.
+> DNS ist ein hierarchisches System, welches die Namensauflösung   von Domains in IP Adressen delegativ und rekursiv ermöglicht
+{.is-info}
+
+## Was ist Middleware?
+
+Ein zwischengelagerter Dienst
 
 ## Was ist die Aufgabe des Layers 5 (Session)?
 
