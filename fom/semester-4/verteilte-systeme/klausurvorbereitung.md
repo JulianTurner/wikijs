@@ -56,20 +56,6 @@ Layer:
 - Nebenläufigkeit -> wie wird mit konkurrierenden Zugriffen umgegangen
 - Fehler -> wie wird mit Fehlern umgegangen (Wiederherstellung)
 
-## Wie funktioniert die Namensauflösung (DNS)?
-
-1. DNS Client sendet Anfrage an lokalen DNS Server
-1. Lokaler DNS Server sendet Anfrage an Root DNS Server
-1. Root DNS Server sendet Anfrage an TLD DNS Server
-1. TLD DNS Server sendet Anfrage an Authoritative DNS Server
-1. Authoritative DNS Server sendet Antwort an TLD DNS Server
-1. TLD DNS Server sendet Antwort an Root DNS Server
-1. Root DNS Server sendet Antwort an lokalen DNS Server
-1. Lokaler DNS Server sendet Antwort an DNS Client
-
-> DNS ist ein hierarchisches System, welches die Namensauflösung   von Domains in IP Adressen delegativ und rekursiv ermöglicht
-{.is-info}
-
 ## Was ist Middleware?
 
 Ein zwischengelagerter Dienst
@@ -94,7 +80,127 @@ Ein zwischengelagerter Dienst
 - S/MIME
 - PGP
 
+## Was ist die Aufgabe des Layers 7 (Application)?
+
+- Bereitstellen von Diensten für Anwendungen
+- Schnittstelle zwischen Benutzer und Computer, Client und Server
+
+## Was macht das NTP?
+
+- zentrale Zeitverwaltung im Netzwerk
+
+## Wofür ist NTP wichtig?
+
+- Kontrolle von zeitlicher Gültigkeit von Zertifikaten
+- Synchronisation von Systemen
+
+## Wie funktioniert die Namensauflösung (DNS) für die Domain de.wikipedia.org?
+
+1. Client sucht in hosts Datei -> Falls nicht gefunden
+1. Client fragt DNS Server -> Falls nicht gefunden
+1. DNS Server fragt Root Server -> mit Anfrage nach de.wikipedia.org
+1. Root Server antwortet mit IP Adresse des .org Nameservers
+1. DNS Server fragt .org Nameserver -> mit Anfrage nach de.wikipedia.org
+1. .org Nameserver antwortet mit IP Adresse des wikipedia.org Nameservers
+1. DNS Server fragt wikipedia.org Nameserver -> mit Anfrage nach de.wikipedia.org
+1. wikipedia.org Nameserver antwortet mit IP Adresse des de.wikipedia.org Nameservers
+1. DNS antwortet mit IP Adresse von de.wikipedia.org
+
+> DNS ist ein hierarchisches System, welches die Namensauflösung von Domains in IP Adressen delegativ und rekursiv ermöglicht
+{.is-info}
+
+## Was ist eine DNS Zone?
+
+- Unterscheidung getrennt verwalteter Bereiche im DNS-Namespace
+- ermöglicht präzise Steuerung der DNS-Komponenten, wie z.B. autoritative Nameserver
+- Wird von einer Organisation / Administrator verwaltet wird
+- Wird zur Delegation von Subdomains verwendet
+
+## Was sind DNS Records?
+
+- Eintrag in einem autoritativen DNS Server
+- enthält Informationen über eine Domain -> IP Adresse, Mailserver, Nameserver, etc.
+
+## Was ist DNSSEC?
+
+- Erweiterung des DNS Protokolls
+- ermöglicht Authentizität von DNS Daten
+- verhindert DNS Spoofing
+
+## Was ist Dynamic DNS?
+
+- ermöglicht die automatische Aktualisierung von DNS Records zu einer dynamischen IP Adresse
+
+## Ist IPv4 DNS mit IPv6 kompatibel?
+
+- IPv4 und IPv6 sind nicht kompatibel
+- IPv6 hat AAAA Records
+- IPv4 hat A Records
+
+## Was ist ein DNS Cache?
+
+- Zwischenspeicher für DNS Anfragen
+
+## Welche Arten von Records gibt es?
+
+- A -> IPv4 Adresse
+- AAAA -> IPv6 Adresse
+- CNAME -> Alias für einen anderen Record
+- MX -> Mailserver
+- NS -> Nameserver
+- PTR -> Reverse DNS
+- TXT -> Text
+
+## DNS Dump von Wireshark erklären
+
+## Wie funktioniert FTP?
+
+- FTP verwendet zwei Verbindungen -> Steuerkanal und Datenkanal
+
+## Was ist der Unterschied zwischen FTPS und SFTP?
+
+- FTPS ist FTP über SSL/TLS (Erweiterung von FTP)
+- SFTP ist FTP über SSH (Erweiterung von SSH)
+
+## Was ist der Unterschied zwischen aktiven und passiven FTP?
+
+Aktives FTP:
+
+- Steuerkanal vom Client
+- Datenkanal vom Server
+- kann durch Firewalls blockiert werden
+
+Passives FTP:
+
+- Steuerkanal vom Client
+- Datenkanal vom Client
+- alle Verbindungen werden vom Client aufgebaut
+
+## Was ist SSH?
+
+- verschlüsselter Konsolenzugriff
+- Nachfolger von unverschlüsselten Telnet
+
+## Wie funktioniert der SSL Handshake?
+
+1. Client sendet Client Hello mit unterstützten Algorithmen
+1. Server sendet Server Hello mit ausgewählten Algorithmen
+1. Server sendet Zertifikat
+1. Server sendet Hello Done
+1. Server wartet auf Client Key Exchange
+1. Client sendet Secret mit Server Public Key verschlüsselt
+1. Client sendet Finished
+1. Server antwortet Finished
+1. Kommunikation wird mit symmetrischem Schlüssel verschlüsselt
+
+## Wie funktioniert ein Zero Configuration Netzwerk?
+
+- automatische Konfiguration von IP Adressen ohne DHCP
+- auflösen von Hostnamen ohne DNS-Server
+- finden von Diensten ohne Directory Server
+
+z.B. Bonjour, AirDrop, AirPlay, AirPrint
+
 <!-- 
 Es wird ein Bild von WireShark Dump gegeben in dem man FTP Steuer- und Datenkanal identifizieren und erklären muss.
-Welche Ports wurden verwendet? -->
-e
+ -->

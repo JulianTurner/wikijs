@@ -95,6 +95,7 @@
         "Kolmogorovs",
         "Komponentenmodell",
         "Konsistenzerhaltung",
+        "Konsolenzugriff",
         "kostenrelevanten",
         "kwargs",
         "Lageparamter",
@@ -228,7 +229,9 @@
         "Warscheinlichkeitsverteilungen",
         "Whitebox",
         "Whois",
+        "wikipedia",
         "Wireframes",
+        "Wireshark",
         "WPAN",
         "ZGWS"
     ]
