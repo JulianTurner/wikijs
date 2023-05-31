@@ -8,7 +8,9 @@ dateCreated: 2022-03-04T12:23:19.207Z
 ---
 
 # Klausurvorbereitung
-
+<!-- 
+Es wird ein Bild von WireShark Dump gegeben in dem man FTP Steuer- und Datenkanal identifizieren und erklären muss.
+ -->
 ## Mit was wird in den Sichten im OSI Modell operiert?
 
 Layer:
@@ -201,6 +203,42 @@ Passives FTP:
 
 z.B. Bonjour, AirDrop, AirPlay, AirPrint
 
-<!-- 
-Es wird ein Bild von WireShark Dump gegeben in dem man FTP Steuer- und Datenkanal identifizieren und erklären muss.
- -->
+## Was ist Freiraumdämpfung?
+
+- mit zunehmender Entfernung nimmt die Signalstärke ab, dafür nimmt die Streuung zu
+
+## Was ist Streuung?
+
+- variable Reflexion des Signals an unebenen Objekten
+
+## Was ist Überlagerung?
+
+- verschiedene Signale stärken oder schwächen sich gegenseitig
+
+## Was ist Abschattung?
+
+- Abschirmung des Signals durch Hindernisse
+
+## Was ist die Bit-Error-Rate?
+
+- Anzahl der falsch empfangenen Bits im Verhältnis zur Gesamtzahl der empfangenen Bits
+
+## Was ist der Signal-Rausch-Abstand?
+
+- Abstand zwischen Signalen -> Hoher Abstand = Gute Trennbarkeit
+
+## Was ist MSC, BSC?
+
+- MSC -> Mobile Switching Center -> Vermittlungsstelle zwischen Mobilfunknetz und Festnetz, Zentrales Netzelement
+- BSC -> Base Station Controller -> Zuständig für Steuerung der BTS z.B Handover
+- BTS -> Base Transceiver Station -> Sendet und Empfängt Signale
+
+## Wie funktioniert ein ausgehender Anruf im Mobilfunknetz (MOC)?
+
+![MOC](/fom/semester-4/verteilte-systeme/moc.png)
+
+1. MS sendet Verbindungsaufbauanforderung
+1. BSC leitet Anforderung an MSC weiter
+1. MSC prüft, ob Teilnehmer und Gerät berechtigt sind, die geforderten  Dienste in Anspruch zu nehmen (AUC, VLR, HLR)
+1. Prüfung, ob genügend Ressourcen im GSM- und Festnetz verfügbar sind
+1. MSC baut Verbindung zwischen MS (Mobile Station) und Festnetz auf
