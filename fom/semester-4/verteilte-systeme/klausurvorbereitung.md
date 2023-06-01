@@ -242,3 +242,114 @@ z.B. Bonjour, AirDrop, AirPlay, AirPrint
 1. MSC prüft, ob Teilnehmer und Gerät berechtigt sind, die geforderten  Dienste in Anspruch zu nehmen (AUC, VLR, HLR)
 1. Prüfung, ob genügend Ressourcen im GSM- und Festnetz verfügbar sind
 1. MSC baut Verbindung zwischen MS (Mobile Station) und Festnetz auf
+
+## Wofür braucht man 5g?
+
+- geringere Latenz (IOT, Industrie 4.0)
+- höhere Bandbreite (4k, 8k, VR, AR)
+
+## Was ist der Nachteil von 5g?
+
+- geringere Reichweite
+- höherer Energieverbrauch
+
+## Was ist MIMO?
+
+- Multiple Input Multiple Output
+- Mehrere Antennen senden und empfangen gleichzeitig
+
+## Was zeichnet den Ad-Hoc Modus aus?
+
+- Kein Access Point
+- Direkte Kommunikation zwischen Geräten
+
+## Was ist der Infrastruktur Modus?
+
+- Datentransfer über Access Point
+- Access Point dient als Brücke zum Netzwerk
+
+## Welche WLAN Verschlüsselungen sind sicher?
+
+WPA3
+WPA2 mit AES
+
+## Nenne weiterführende drahtlose Technologien
+
+- LoRaWAN
+- ZigBee
+- Bluetooth
+- NFC, RFID
+- UWB
+
+## Was ist der Unterschied zwischen NFC und RFID?
+
+- RFID
+  - One-Way Kommunikation (Read-Only)
+  - RFID Tags können nicht (neu) beschrieben werden
+- NFC
+  - Zwei-Wege Kommunikation (Peer-to-Peer)
+  - Senden und Empfangen von verschiedenen Daten
+
+## Was ist der Unterschied zwischen indirektem und direktem Routing?
+
+- Indirektes Routing
+  - Adresse des Empfängers wird vom Foreign Agent and das Heimnetz des Empfängers gesendet
+  - Sender sendet immer in Heimnetz des Empfängers
+  - Heimnetz des Empfängers leitet an Empfänger weiter
+  - Empfänger antwortet an eigenes Heimnetz
+  - Heimnetz leitet an Sender weiter
+
+- Direktes Routing (löst Dreiecksproblem)
+  - Adresse des Empfängers wird vom Foreign Agent and das Heimnetz des Empfängers gesendet
+  - Empfänger holt Adresse vom Heimnetz des Empfängers ab
+  - Sender sendet Paket direkt an Empfänger
+  - Empfänger sendet Paket direkt an Sender
+
+## Was ist Jitter?
+
+- variable Laufzeitverzögerung von Paketen im Netzwerk
+- Empfang mit variabler Rate
+- kann durch Pufferung ausgeglichen werden
+
+## Was ist Streaming?
+
+Client spielt Daten ab, während noch weitere Teile vom Server an den Client übertragen werden. z.B. Video Streaming
+
+## Welche Streaming Arten gibt es?
+
+- Best Effort Streaming
+  - Keine Garantie für Verluste / Qualität / Verzögerung
+  - verwenden Techniken auf der Anwendungsschicht um Verluste / Qualität / Verzögerung zu kompensieren
+  - Puffern im Client
+  - wechsel auf UDP
+  - Kompression
+  - Fehlerkorrektur
+- RTP -> standardisiert Paketformat für Audio / Video Übertragung
+- HLS ->
+
+## Was ist RTP, RTSP und RTCP?
+
+- RTP -> Real Time Protocol
+  - Übertragung von Medieninhalten
+
+- RTSP -> Real Time Streaming Protocol
+  - Steuerung von Datenverbindung
+  - z.B. Play, Pause, Stop
+
+- RTCP -> Real Time Control Protocol
+  - Übertragung von Steuernachrichten
+  - Aushandlung und Einhaltung von Parametern der Dienstqualität
+  
+## Was ist der Unterschied zwischen SIP und VoIP?
+
+- SIP -> Session Initiation Protocol
+  - Aufbau und Abbau von Sitzungen
+  - z.B. Telefonanruf
+  - Verbindungsaufbau
+  - Verbindungstrennung
+  - Verbindungsaufrechterhaltung
+  - Verbindungsumleitung
+
+- VoIP -> Voice over IP
+  - Übertragung von Sprache über IP Netzwerke
+  - z.B. Telefonanruf
