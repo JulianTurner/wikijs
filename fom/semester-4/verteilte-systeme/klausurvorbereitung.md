@@ -353,3 +353,111 @@ Client spielt Daten ab, während noch weitere Teile vom Server an den Client üb
 - VoIP -> Voice over IP
   - Übertragung von Sprache über IP Netzwerke
   - z.B. Telefonanruf
+
+## Wie wird ein SIP Anruf an eine bekannte IP-Adresse aufgebaut?
+
+1. Alice sendet INVITE an Bob (mit IP-Adresse, Port, Codierung)
+1. Bob antwortet mit 200 OK (mit IP-Adresse, Port, Codierung)
+1. Alice sendet ACK an Bob
+1. Alice und Bob senden RTP Pakete aneinander
+
+> Falls Bob die Codierung bereitstellen kann, sendet er eine Liste an unterstützten Codierungen zu
+Alice
+{.is-info}
+
+## Welche Schutzziele der IT-Sicherheit gibt es?
+
+- Vertraulichkeit
+- Integrität
+- Verfügbarkeit
+- Transparenz
+- Kontingenz
+
+## Was ist der unterschied zwischen symmetrischer und asymmetrischer Verschlüsselung?
+
+- symmetrisch
+  - gleicher Schlüssel zum verschlüsseln und entschlüsseln
+  - z.B. AES
+  - schnell
+  - Schlüsselaustausch schwierig
+  - Schlüssel muss geheim bleiben
+- asymmetrisch
+  - unterschiedliche Schlüssel zum verschlüsseln und entschlüsseln
+  - z.B. RSA
+  - langsamer als symmetrisch
+  - Schlüsselaustausch einfacher
+  - benötigt öffentlichen & privaten Schlüssel
+  - kann zum signieren verwendet werden
+
+## Was ist ein Hash?
+
+- Einwegfunktion
+- reduziert eine Menge von Daten auf feste Länge (Fingerabdruck)
+- bietet eine Art Prüfsumme
+
+## Was ist eine digitale Signatur?
+
+- kryptographisch erzeugter Nachweis dass Daten unverändert und authentisch sind
+- Integrität und Authentizität
+
+## Was ist ein digitales Zertifikat?
+
+- Assoziierung von Identität und öffentlichem Schlüssel
+
+## Was ist hybride Verschlüsselung?
+
+1. Generierung von symmetrischem Schlüssel (Session Key)
+1. Session Key wird mit asymmetrischem Schlüssel verschlüsselt
+1. Nachricht wird mit symmetrischem Schlüssel verschlüsselt
+
+> Nachteile von symmetrischer und asymmetrischer Verschlüsselung werden ausgeglichen
+{.is-info}
+
+## Was ist Perfect Forward Secrecy?
+
+- Schlüssel wird für jede Sitzung neu generiert
+- Schlüssel wird nicht übertragen
+
+## Was ist MAC (Message Authentication Code)?
+
+- kryptographischer Hashwert
+- MAC wird mit symmetrischem Schlüssel erzeugt
+- Nachricht und MAC werden übertragen
+- Empfänger erzeugt eigene MAC und vergleicht mit übertragenem MACs
+
+## Was ist eine Next Generation Firewall?
+
+- ersetzt, ergänzt klassische Port- und Protokollbasiserbe Regelwerke
+- erkennt User, Anwendungen und Inhalte
+
+## Was ist eine Web Application Firewall?
+
+- Analyse und Filterung von HTTP-Inhalten
+
+## Was ist Zero Trust?
+
+- Traue nicht und niemanden
+- kann nur im Rahmen eines Gesamtkonzepts funktionieren
+- Stufeweise Vertrauen (Quarantäne)
+
+## Was ist NAT?
+
+- Network Address Translation
+- Übersetzung von IP-Adressen
+- z.B. private IP-Adresse zu öffentlicher IP-Adresse
+
+## Was ist IP Masquerading?
+
+- Kombination von NAT und PAT (Port Address Translation)
+
+## Was ist STUN und TURN?
+
+STUN -> Session Traversal Utilities for NAT
+
+- dient zur Ermittlung der öffentlichen IP-Adresse und Port-Nummer
+- danach können Clients möglicherweise direkt miteinander kommunizieren
+
+TURN -> Traversal Using Relays around NAT
+
+- Medienströme werden über einen TURN-Server geleitet
+- Server leitet die Daten an den Empfänger weiter
