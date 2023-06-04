@@ -1,10 +1,11 @@
 ---
 title: It Management
+description: 
 published: 1
-date: 2023-03-21T20:28:13.207Z
+date: 2023-06-04T20:11:00.365Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-21T20:28:13.207Z
+dateCreated: 2023-03-21T19:31:25.822Z
 ---
 
 # It Management
