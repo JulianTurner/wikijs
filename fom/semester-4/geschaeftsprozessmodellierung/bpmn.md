@@ -2,7 +2,7 @@
 title: BPMN
 description: 
 published: 1
-date: 2023-06-04T17:50:01.049Z
+date: 2023-06-04T17:50:22.025Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-04T17:31:54.183Z
@@ -17,7 +17,8 @@ Business Process Model and Notation (BPMN)
 Ereignis
 
 
-```bpmn
+```kroki
+bpmn
 
 <?xml version="1.0" encoding="UTF-8"?>
 <semantic:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:semantic="http://www.omg.org/spec/BPMN/20100524/MODEL" id="_1275940932088" targetNamespace="http://www.trisotech.com/definitions/_1275940932088" exporter="Camunda Modeler" exporterVersion="1.16.0">
