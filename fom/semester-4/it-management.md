@@ -2,7 +2,7 @@
 title: It Management
 description: 
 published: 1
-date: 2023-06-04T20:14:08.515Z
+date: 2023-06-04T20:14:14.849Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:31:25.822Z
