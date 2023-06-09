@@ -2,7 +2,7 @@
 title: Portfolio- und Investitionsplanung
 description: 
 published: 1
-date: 2023-06-09T19:17:28.377Z
+date: 2023-06-09T19:17:56.771Z
 tags: investitionsplanung
 editor: markdown
 dateCreated: 2023-06-04T20:09:29.659Z
@@ -18,12 +18,12 @@ IT-Budgetierung:
 Portfolio- und Investitionsplanung:
 - Es wird vorgeschlagen, einen kombinierten Ansatz aus Portfolio-Planung und IT-Investitionsmanagement zu verwenden. Das bietet folgende Vorteile:
 
-	 1. 	Ganzheitliche Sichtweise auf geschäftsstrategische und technologische Aspekte.
-	 1. 	Abwägung von Technologie und Kosten für eine bessere Investitionsentscheidung.
-	 1. 	Optimierung der Ressourcennutzung durch sorgfältige Planung und Priorisierung.
-	 1. 	Risikominimierung durch Bewertung des Nutzen-Risiko-Verhältnisses.
-	 1. 	Strukturierte und fundierte Grundlage für Investitionsentscheidungen.
-	 1. 	Ausrichtung der Investitionen auf Geschäftsziele, Risikominimierung und effektive Ressourcennutzung.
+	 1. Ganzheitliche Sichtweise auf geschäftsstrategische und technologische Aspekte.
+	 1. Abwägung von Technologie und Kosten für eine bessere Investitionsentscheidung.
+	 1. Optimierung der Ressourcennutzung durch sorgfältige Planung und Priorisierung.
+	 1. Risikominimierung durch Bewertung des Nutzen-Risiko-Verhältnisses.
+	 1. Strukturierte und fundierte Grundlage für Investitionsentscheidungen.
+	 1. Ausrichtung der Investitionen auf Geschäftsziele, Risikominimierung und effektive Ressourcennutzung.
 
 - Ziel ist es, sicherzustellen, dass die richtigen Geschäftsprojekte zur richtigen Zeit unterstützt werden.
 - Bei der Auswahl der Projekte werden sowohl technologische Eignung als auch Kosteneffizienz berücksichtigt.
