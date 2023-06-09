@@ -2,7 +2,7 @@
 title: Portfolio- und Investitionsplanung
 description: 
 published: 1
-date: 2023-06-09T14:49:44.388Z
+date: 2023-06-09T14:51:16.757Z
 tags: investitionsplanung
 editor: markdown
 dateCreated: 2023-06-04T20:09:29.659Z
@@ -42,5 +42,5 @@ Operative Prozesse:
 Einsatz von PPM-Software:
 - PPM-Software wird von vielen IT-Organisationen verwendet, um optimale Projektinvestitionsentscheidungen zu treffen.
 
-Schwerpunkt des Dokuments:
-- Das Hauptaugenmerk liegt darauf, sicherzustellen, dass IT-Investitionen mit den Geschäftszielen übereinstimmen, einen maximalen Nutzen bringen und effektiv während ihres gesamten Lebenszyklus verwaltet werden.
+Kurze Zusammenfassung der gesamten PDF:
+Das Hauptaugenmerk liegt darauf, sicherzustellen, dass IT-Investitionen mit den Geschäftszielen übereinstimmen, einen maximalen Nutzen bringen und effektiv während ihres gesamten Lebenszyklus verwaltet werden.
