@@ -2,13 +2,13 @@
 title: Portfolio- und Investitionsplanung
 description: 
 published: 1
-date: 2023-06-09T19:28:15.420Z
+date: 2023-06-09T19:31:42.432Z
 tags: investitionsplanung
 editor: markdown
 dateCreated: 2023-06-04T20:09:29.659Z
 ---
 
-# Portfolio- und Investitionsplanung
+# Portfolio- und Investitionsplanung![portfolio_und_investitions.gif]
 
 **IT-Budgetierung:**
 
@@ -39,3 +39,5 @@ dateCreated: 2023-06-04T20:09:29.659Z
 - PPM-Software wird von vielen IT-Organisationen verwendet, um optimale Projektinvestitionsentscheidungen zu treffen. Sie ermöglicht es, aktuelle Informationen über jedes einzelne Projekt, wie seinen Nutzen, seine Leistung und seine strategische Ausrichtung, zu erfassen.
 
 Das Hauptaugenmerk des Whitepapers liegt darauf, sicherzustellen, dass IT-Investitionen mit den Geschäftszielen übereinstimmen, einen maximalen Nutzen bringen und effektiv während ihres gesamten Lebenszyklus verwaltet werden. Das effektive Management von IT-Investitionen kann dazu beitragen, das Vertrauen in die IT-Organisation zu stärken und ihre Beiträge zum Unternehmen transparent zu machen.
+
+(/fom/semester-4/it-management/portfolio_und_investitions.gif)
