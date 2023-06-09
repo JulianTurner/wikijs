@@ -2,13 +2,13 @@
 title: Portfolio- und Investitionsplanung
 description: 
 published: 1
-date: 2023-06-09T19:41:05.353Z
+date: 2023-06-09T20:36:16.411Z
 tags: investitionsplanung
 editor: markdown
 dateCreated: 2023-06-04T20:09:29.659Z
 ---
 
-# Portfolio- und Investitionsplanung![portfolio_und_investitions.gif]
+# Portfolio- und Investitionsplanung
 
 **IT-Budgetierung:**
 
