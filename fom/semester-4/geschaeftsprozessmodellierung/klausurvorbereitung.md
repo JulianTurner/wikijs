@@ -69,6 +69,7 @@ Erfragungstechniken:
 
 ## Wichtige Modelltypen
 
+- [Strukturierte Analyse und Design Technik (SADT)](./grafische-basisnotationen.md)
 - [Ereignisgesteuerte Prozesskette (EPK / eEPK)](./ereignisprozessketten.md#epk)
 - [Business Process Model and Notation (BPMN)](./bpmn.md#bpmn)
 - [UML-Aktivitätsdiagramm](./uml.md#aktivitätsdiagramm)
