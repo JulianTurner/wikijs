@@ -11,11 +11,6 @@ dateCreated: 2023-05-11T20:20:25.207Z
 
 ## EPK
 
-- beschreibt Arbeitsprozesse als Aufeinanderfolge von Ereignissen und Funktionen / Tätigkeiten
-- Funktion ist fachliche Aufgabe / Tätigkeit an einem Objekt
-  - Beschreibung mit Objekt und Verrichtung
-- Ereignis beschreibt einen eintretenden Zustand
-
 ```mermaid
 flowchart LR
 
@@ -34,28 +29,22 @@ Grundregeln:
 - Ereignisse lösen Funktionen aus
 - Funktionen erzeugen Ereignisse
 
+> Auf ein Ereignis kann kein weiteres Ereignis folgen
+{.is-warning}  
+> Auf eine Funktion kann keine weitere Funktion folgen
+{.is-warning}
+
 Verknüpfungsoperatoren:
 
 - können aufteilen und zusammenführen
-- UND
-- ODER
-- XOR (entweder oder)
+- UND  ![UND](epk_und.png)
+- ODER  ![ODER](epk_oder.png)
+- XOR (entweder oder)  ![XOR (entweder oder)](epk_xor.png)
 
 > Splits können nur mit gleichem JOIN zusammengeführt werden
 {.is-warning}
 
 ## Erweiterte EPK (eEPK)
-
-Zusätzliche Sichten möglich:
-
-- Datensicht
-  - Fluss von Daten
-- Organisationssicht
-  - Beziehungen zwischen Ressourcen
-- Funktionssicht
-  - Beziehungen zwischen Vorgängen
-- Leistungssicht
-  - Zuordnung von Dienst-, Sach-, und finanziellen Leistungen
 
 Zusätzliche Elemente:
 
@@ -74,3 +63,28 @@ Dokument: Informations- oder Planungsgrundlage
 ![Dokument](/fom/semester-4/geschaeftsprozessmodellierung/dokument.png)  
 Datenbank: Gespeicherte Informationen  
 ![Datenbank](/fom/semester-4/geschaeftsprozessmodellierung/datenbank.png)  
+
+## Beispiele
+
+![Urlaubsantrag](epk_urlaubsantrag.png)
+![Mangel](epk_mangel.png)
+
+## Sonstiges
+
+- beschreibt Arbeitsprozesse als Aufeinanderfolge von Ereignissen und Funktionen / Tätigkeiten
+- Funktion ist fachliche Aufgabe / Tätigkeit an einem Objekt
+  - Beschreibung mit Objekt und Verrichtung
+- Ereignis beschreibt einen eintretenden Zustand
+
+### eEPK
+
+Zusätzliche Sichten möglich:
+
+- Datensicht
+  - Fluss von Daten
+- Organisationssicht
+  - Beziehungen zwischen Ressourcen
+- Funktionssicht
+  - Beziehungen zwischen Vorgängen
+- Leistungssicht
+  - Zuordnung von Dienst-, Sach-, und finanziellen Leistungen

@@ -14,4 +14,12 @@ Business Process Model and Notation (BPMN)
 
 ## Elemente der BPMN
 
-Ereignis
+![bpmn_Elemente](bpmn_Elemente.png)
+![Aktivitäten](bpmn_aktivitäten.png)
+![Ad-Hoc-Subprozess](bpmn_Ad-Hoc-Subprozess.png)
+> Reihenfolge beim Ad-Hoc-Subprozess ist meist nicht festgelegt -> kann in beliebiger Reihenfolge abgearbeitet werden. Ad-Hoc-Subprozess endet, wenn alle Aktivitäten abgearbeitet sind.
+{.is-info}
+
+## Beispiele
+
+![bpmn_Urlaub](bpmn_Urlaub.png)

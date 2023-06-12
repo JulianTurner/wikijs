@@ -66,3 +66,10 @@ Erfragungstechniken:
 
 > Process Mining
 {.is-info}
+
+## Wichtige Modelltypen
+
+- [Ereignisgesteuerte Prozesskette (EPK / eEPK)](./ereignisprozessketten.md#epk)
+- [Business Process Model and Notation (BPMN)](./bpmn.md#bpmn)
+- [UML-Aktivitätsdiagramm](./uml.md#aktivitätsdiagramm)
+- [UML-Zustandsdiagramm](./uml.md#zustandsdiagramm)
