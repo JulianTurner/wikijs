@@ -30,7 +30,6 @@ Sortieralgorithmen ordnen eine Menge von Elementen gemäß einer Sortierfunktion
 - Die theoretische Laufzeit ist `O(n^2)`
 
 ```pseudo
-
 for i = 0 to n - 1
     swapped = false
     for j = 0 to n - i - 1
@@ -52,13 +51,143 @@ Nachteile:
 
 ## Selection Sort
 
+- in-place
+- instabil
+- Das kleinste Element wird gesucht und an die erste Stelle getauscht
+- Wiederholte Suche auf der restlichen unsortierten Teilliste
+- Die theoretische Laufzeit ist `O(n^2)`
+
+```pseudo
+for startindex = 0 to a.size() - 1
+    min = startindex
+    for vergleichsindex = startindex + 1 to n - 1
+        if a[vergleichsindex] < a[min]
+            min = vergleichsindex
+    swap(a[startindex], a[min])
+```
+
+Vorteile:
+
+- einfach zu implementieren
+
+Nachteile:
+
+- langsam
+
 ## Heap Sort
 
-## Merge Sort
+- in-place
+- instabil
+- Die Elemente werden in einen Heap eingefügt
+- Root-Element wird wiederholt entfernt und an den Anfang der sortierten Teilliste getauscht
+- Die theoretische Laufzeit ist `O(n * log(n))`
+
+```pseudo
+heapify(KompletteListe)
+for AnzahlSortierterElemente = 0 to KompletteListe.size() - 1
+    swap(KompletteListe.[0], KompletteListe.[KompletteListe.size() - AnzahlSortierterElemente  - 1])
+    heapify(KompletteListe.[0] bis KompletteListe.[KompletteListe.size() - AnzahlSortierterElemente  - 2])
+```
+
+Vorteile:
+
+- schnell
+
+Nachteile:
+
+- in der Praxis teuer
 
 ## Insertion Sort
 
+- in-place
+- stabil
+- Erstes Element der unsortierten Teilliste wird in die sortierte Teilliste eingefügt
+- Die theoretische Laufzeit ist `O(n^2)`
+
+```pseudo
+for ersterIndexUnsortierteListe = 1 to KompletteListe.size() - 1
+    key = KompletteListe[ersterIndexUnsortierteListe]
+    letzterIndexSortierteListe = ersterIndexUnsortierteListe - 1
+    while letzterIndexSortierteListe >= 0 and KompletteListe[letzterIndexSortierteListe] > key
+        KompletteListe[letzterIndexSortierteListe + 1] = KompletteListe[letzterIndexSortierteListe]
+        letzterIndexSortierteListe = letzterIndexSortierteListe - 1
+    KompletteListe[letzterIndexSortierteListe + 1] = key
+```
+
+Vorteile:
+
+- Datenmenge kann während des Sortierens wachsen (an Ende anfügen)
+- schnell wenn die Liste bereits sortiert ist
+
+Nachteile:
+
+- Indizes müssen beachtet werden
+
+## Merge Sort
+
+- out-of-place
+- stabil
+- Die unsortierte Liste wird maximal zerlegt
+- Je zwei Teillisten werden wiederholt zusammengeführt
+- Die theoretische Laufzeit ist `O(n * log(n))`
+
+```pseudo
+mergeSort(KompletteListe)
+    if KompletteListe.size() <= 1
+        return KompletteListe
+    else
+        Mitte = KompletteListe.size() / 2
+        LinkeTeilliste = mergeSort(KompletteListe[0] bis KompletteListe[Mitte - 1])
+        RechteTeilliste = mergeSort(KompletteListe[Mitte] bis KompletteListe[KompletteListe.size() - 1])
+        return merge(LinkeTeilliste, RechteTeilliste)
+
+merge(LinkeTeilliste, RechteTeilliste)
+    Ergebnis = []
+    linkerIndex = 0
+    rechterIndex = 0
+    while linkerIndex < LinkeTeilliste.size() and rechterIndex < RechteTeilliste.size()
+        if LinkeTeilliste[linkerIndex] <= RechteTeilliste[rechterIndex]
+            Ergebnis.append(LinkeTeilliste[linkerIndex])
+            linkerIndex = linkerIndex + 1
+        else
+            Ergebnis.append(RechteTeilliste[rechterIndex])
+            rechterIndex = rechterIndex + 1
+    
+    while linkerIndex < LinkeTeilliste.size()
+        Ergebnis.append(LinkeTeilliste[linkerIndex])
+        linkerIndex = linkerIndex + 1
+
+    while rechterIndex < RechteTeilliste.size()
+        Ergebnis.append(RechteTeilliste[rechterIndex])
+        rechterIndex = rechterIndex + 1
+    
+    return Ergebnis
+```
+
+Vorteile:
+
+- Links und Rechts können parallel sortiert werden (Multithreading)
+- schnell
+
+Nachteile:
+
+- out-of-place
+- Komplexität
+
 ## Quick Sort
+
+- in-place
+- instabil
+- Erstes Element der unsortierten Teilliste wird als Pivot gewählt
+- Ordne die restlichen Elemente so, dass zuerst Elemente < Pivot und dann Elemente > Pivot stehen
+- Tausche Pivot mit dem letzten Element der linken Teilliste
+- Wiederhole das Verfahren für die linke und rechte Teilliste
+- Die theoretische Laufzeit ist `O(n * log(n))`
+
+```pseudo
+
+
+```
 
 ## Counting Sort
 
