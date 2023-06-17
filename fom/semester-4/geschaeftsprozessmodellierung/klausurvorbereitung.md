@@ -60,12 +60,16 @@ Erfragungstechniken:
 
 ## Was ist ein datengetriebener Ansatz der Prozesserhebung?
 
-1. Sammeln von Ereignisdaten (z.B. durch ein Informationssystem)
+1. Sammeln von Ereignisdaten (z.B. Durch ein Informationssystem)
 1. Rekonstruktion von Prozessinstanzen
 1. Ermittlung von tatsächlichen Prozessabläufen
 
 > Process Mining
 {.is-info}
+
+## Was ist der Unterschied zwischen Prozess und Geschäftsprozess?
+
+Geschäftsprozess startet und endet mit dem Kunden
 
 ## Wichtige Modelltypen
 
