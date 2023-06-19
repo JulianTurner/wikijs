@@ -27,7 +27,7 @@ Sortieralgorithmen ordnen eine Menge von Elementen gemäß einer Sortierfunktion
 - Zwei benachbarte Elemente werden verglichen und bei Bedarf getauscht
 - Die größten Elemente werden nach und nach nach hinten verschoben
 - Die tatsächliche Laufzeit ist abhängig von der Anzahl der Elemente und der Anzahl der Vertauschungen
-- Die theoretische Laufzeit ist `O(n^2)`
+- Die theoretische Laufzeit ist $O(n^2)$
 
 ```pseudo
 for i = 0 to n - 1
@@ -55,7 +55,7 @@ Nachteile:
 - instabil
 - Das kleinste Element wird gesucht und an die erste Stelle getauscht
 - Wiederholte Suche auf der restlichen unsortierten Teilliste
-- Die theoretische Laufzeit ist `O(n^2)`
+- Die theoretische Laufzeit ist $O(n^2)$
 
 ```pseudo
 for startindex = 0 to a.size() - 1
@@ -80,7 +80,7 @@ Nachteile:
 - instabil
 - Die Elemente werden in einen Heap eingefügt
 - Root-Element wird wiederholt entfernt und an den Anfang der sortierten Teilliste getauscht
-- Die theoretische Laufzeit ist `O(n * log(n))`
+- Die theoretische Laufzeit ist $O(n * log(n))$
 
 ```pseudo
 heapify(KompletteListe)
@@ -102,7 +102,7 @@ Nachteile:
 - in-place
 - stabil
 - Erstes Element der unsortierten Teilliste wird in die sortierte Teilliste eingefügt
-- Die theoretische Laufzeit ist `O(n^2)`
+- Die theoretische Laufzeit ist $O(n^2)$
 
 ```pseudo
 for ersterIndexUnsortierteListe = 1 to KompletteListe.size() - 1
@@ -185,10 +185,73 @@ Nachteile:
 - Die theoretische Laufzeit ist `O(n * log(n))`
 
 ```pseudo
+quickSort(KompletteListe, start, ende)
+    if start < ende
+        pivot = partition(KompletteListe, start, ende)
+        quickSort(KompletteListe, start, pivot - 1)
+        quickSort(KompletteListe, pivot + 1, ende)
 
-
+partition(KompletteListe, fromIndex, toIndex): // A, H
+    pivot = KompletteListe[fromIndex] //25
+    insertIndex = fromIndex // D
+    for compareIndex in fromIndex + 1 to toIndex: // B - H
+        if KompletteListe[compareIndex] < pivot: // true
+            if compareIndex > insertIndex + 1 // true
+                var temp = KompletteListe[insertIndex + 1] // 40
+                KompletteListe[insertIndex + 1] = KompletteListe[compareIndex]
+                KompletteListe[compareIndex] = temp
+                insertIndex++
+              else
+                insertIndex = compareIndex
+    KompletteListe[fromIndex] = KompletteListe[insertIndex]
+    KompletteListe[insertIndex] = pivot
+    return insertIndex
 ```
 
+Vorteile:
+
+- schnell
+- multithreading möglich
+
+Nachteile:
+
+- instabil
+- komplex zu implementieren
+
 ## Counting Sort
+
+- out-of-place
+- stabil
+- Die Elemente werden gezählt und in ein Array geschrieben
+- Die theoretische Laufzeit ist $O(n + range)$
+
+```pseudo
+countingSort(KompletteListe)
+    min = max.int // 1
+    max = min.int // 9
+    for element in KompletteListe
+        if element < min:
+            min = element
+         if element > max:
+            max = element
+    range = max - min + 1
+    counter = new Array(range)
+    for element in KompletteListe:
+        counter[element-min]++
+    writeIndex = 0
+    for index, times in enumerate(counter): 
+        currentElement = index + min
+        for element in 1 to times
+            KompletteListe[writeIndex++] = currentElement
+```
+
+Vorteile:
+
+- lineares Laufzeitverhalten
+
+Nachteile:
+
+- Laufzeit hängt von der Größe des Wertebereichs ab
+- Speicherbedarf hängt von der Größe des Wertebereichs ab
 
 ## Radix Sort
