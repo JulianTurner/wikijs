@@ -78,3 +78,4 @@ Geschäftsprozess startet und endet mit dem Kunden
 - [Business Process Model and Notation (BPMN)](./bpmn.md#bpmn)
 - [UML-Aktivitätsdiagramm](./uml.md#aktivitätsdiagramm)
 - [UML-Zustandsdiagramm](./uml.md#zustandsdiagramm)
+- [UML-Usecase-Diagramm](/fom/semester-3/software-engineering/analyse-entwurf.md#anwendungsfalldiagramme)
