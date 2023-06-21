@@ -2,11 +2,10 @@
 title: Sortieralgorithmen
 published: 1
 date: 2023-05-17T19:59:25.207Z
-tags: 
+tags: null
 editor: markdown
 dateCreated: 2023-05-17T19:59:25.207Z
 ---
-
 # Sortieralgorithmen
 
 Sortieralgorithmen ordnen eine Menge von Elementen gemäß einer Sortierfunktion in eine bestimmten Reihenfolge
@@ -255,3 +254,20 @@ Nachteile:
 - Speicherbedarf hängt von der Größe des Wertebereichs ab
 
 ## Radix Sort
+
+- out-of-place && stabil
+- in-place && instabil
+- Elemente werden in (k -> Anzahl möglicher Werte pro Stelle) Türmen d (größte Anzahl der Stellen) aufgebaut
+- nach jedem Durchlauf Türme nach FIFO-Prinzip in Liste abbauen
+- Laufzeit $O(d * (N + k))$
+
+Vorteile:
+
+- vorhersehbares Laufzeitverhalten
+- Auf Bit-Ebene ausführbar
+
+Nachteile:
+
+- zusätzlicher Speicherplatz
+
+![Übersicht Sortieralgorithmen](sort_uebersicht.png)

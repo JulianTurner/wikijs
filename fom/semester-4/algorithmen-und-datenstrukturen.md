@@ -13,3 +13,4 @@ dateCreated: 2022-03-04T12:23:19.207Z
 - [Heranführung](/fom/semester-4/algorithmen-und-datenstrukturen/heranfuehrung.md)
 - [Fundamentale Datenstrukturen](/fom/semester-4/algorithmen-und-datenstrukturen/fundamentale-datenstrukturen.md)
 - [Sortieralgorithmen](/fom/semester-4/algorithmen-und-datenstrukturen/sortieralgorithmen.md)
+- [Suchalgorithmen](/fom/semester-4/algorithmen-und-datenstrukturen/suchalgorithmen.md)
