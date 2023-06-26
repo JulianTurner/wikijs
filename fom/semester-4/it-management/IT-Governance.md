@@ -2,7 +2,7 @@
 title: IT-Governance
 description: 
 published: 1
-date: 2023-06-26T16:25:30.036Z
+date: 2023-06-26T16:37:34.693Z
 tags: it-governance
 editor: markdown
 dateCreated: 2023-06-26T15:25:49.186Z
@@ -23,3 +23,4 @@ Die IT-Governance befasst sich mit der verantwortlichen und langfristig ausgeric
 - Es besteht ein Forschungsbedarf, um IT-Governance und Informationsmanagement in einen ganzheitlichen Ansatz zu integrieren.
 
 Die IT-Governance befasst sich also mit der Steuerung und Kontrolle der IT im Unternehmen, um sicherzustellen, dass sie die Geschäftsziele unterstützt, Werte schafft, Risiken minimiert und die Leistung messbar ist. Das COBIT-Referenzmodell bietet eine praktische Umsetzungshilfe für die IT-Governance.
+![it-governance_schwerpunkte.png](/fom/semester-4/it-management/it-governance_schwerpunkte.png) ![cobit_referenzmodell.png](/fom/semester-4/it-management/cobit_referenzmodell.png)
