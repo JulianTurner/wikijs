@@ -2,7 +2,7 @@
 title: It Management
 description: 
 published: 1
-date: 2023-06-26T15:26:43.929Z
+date: 2023-06-26T17:03:23.897Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:31:25.822Z
@@ -15,6 +15,7 @@ dateCreated: 2023-03-21T19:31:25.822Z
 - [Nutzwertanalyse](/fom/semester-4/it-management/Nutzwertanalyse)
 - [GoBD](/fom/semester-4/it-management/GoBD)
 - [Kanban](/fom/semester-4/it-management/Kanban)
+- [Risikoanalyse und Traceability-Matrix](/fom/semester-4/it-management/Risikoanalyse_und_Traceability-Matrix)
 - [IT-Governance](/fom/semester-4/it-management/IT-Governance)
 - [Klausurvorbereitung](/fom/semester-4/it-management/klausurvorbereitung.md)
 
