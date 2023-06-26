@@ -2,7 +2,7 @@
 title: Nutzwertanalyse
 description: 
 published: 1
-date: 2023-06-26T13:55:53.464Z
+date: 2023-06-26T13:56:57.530Z
 tags: nutzwertanalyse
 editor: markdown
 dateCreated: 2023-06-09T20:40:48.259Z
@@ -24,9 +24,9 @@ dateCreated: 2023-06-09T20:40:48.259Z
 - In einer Nutzwertanalyse sind manche Kriterien wichtiger als andere. Diese Wichtigkeit wird durch Gewichtungsfaktoren dargestellt.
 - Diese Faktoren sind eine Art von "Multiplikator" für die Punkte, die jede Option in den Zielerreichungsfaktoren erhalten hat.
 - Die Gewichtungsfaktoren können zum Beispiel so aussehen:
-	- 2 Punkte: Kriterium A ist wichtiger als Kriterium B.
-	- 1 Punkt: Beide Kriterien sind gleich wichtig.
-	- 0 Punkte: Kriterium A ist unwichtiger als Kriterium B.
+	- 2: Kriterium A ist wichtiger als Kriterium B.
+	- 1: Beide Kriterien sind gleich wichtig.
+	- 0: Kriterium A ist unwichtiger als Kriterium B.
 - Die Punkte, die jede Option nach den Kriterien bekommt, werden dann mit den entsprechenden Gewichtungsfaktoren multipliziert.
 - So können wir die Optionen auch nach ihrer Bedeutung für uns bewerten und die beste Option auswählen.
 
