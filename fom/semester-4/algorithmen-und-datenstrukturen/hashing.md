@@ -116,3 +116,28 @@ Vorteile:
 Nachteile:
 
 - Aufwand für Berechnung des Abstandes
+
+### Coalesced Hashing
+
+- hybrides Verfahren aus Separate Chaining und Open Addressing
+- bei Kollision
+  - wird Element an letzter freier Position gespeichert
+  - werden Links vom ursprünglichem Speicherplatz zu neuem Element gespeichert
+    - LISCH (Late Insert Standard Coalesced Hashing) -> neues Element ist letztes Element in Kette
+    - EISCH (Early Insert Standard Coalesced Hashing) -> neues Element ist erstes Element in Kette
+- mit Keller: ein Bereich nicht vom Hashverfahren adressiert
+  - LICH (Late Insert Coalesced Hashing) -> neues Element ist letztes Element in Kette
+  - EICH (Early Insert Coalesced Hashing) -> neues Element ist erstes Element in Kette
+  - VICH (Variable Insert Coalesced Hashing)
+    - neues Element im Keller -> LICH-Verfahren
+    - neues Element nicht im Keller -> Element wird nach letztem Element des Keller eingefügt
+
+Vorteile:
+
+- geringer Speicherbedarf (keine verschachtelte Datenstruktur)
+- Elemente werden immer am h(x) gespeichert (Link-Kette folgen)
+
+Nachteile:
+
+- es muss ein Link pro Element gespeichert werden
+- aufwändige Löschoperationen
