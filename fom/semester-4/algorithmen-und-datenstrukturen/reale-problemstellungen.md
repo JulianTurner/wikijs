@@ -18,7 +18,7 @@ dateCreated: 2023-06-29T20:22:18.207Z
 
 ### Dijkstra-Algorithmus
 
-- Greedy-Algorithmus zur Bestimmung des kürzesten Weges in einem Graphen
+- Greedy-Algorithmus zur Bestimmung des kürzesten Weges in einem gewichteten Graphen
 - Vorgehen:
   - Startknoten wird als aktueller Knoten gewählt
   - alle Nachbarknoten werden besucht und deren Distanz zum Startknoten wird berechnet
@@ -60,3 +60,61 @@ Eigenschaften:
 - Präfixfrei: kein Trennzeichen zwischen Codewörtern notwendig
 - Optimal: minimale Ergebnislänge
 - Verlustfrei: keine Information geht verloren
+
+## Divide-and-Conquer-Algorithmus
+
+- Algorithmus welcher ein Problem in kleinere Teilprobleme zerlegt
+- Vorgehen:
+  - Problem wird in kleinere Teilprobleme zerlegt
+  - Teilprobleme werden gelöst
+  - Lösungen werden zu einer Gesamtlösung zusammengefügt
+- bsp. Merge-Sort und Quick-Sort
+
+## Brute-Force-Algorithmus
+
+- Algorithmus welcher den kompletten Lösungsraum durchprobiert
+- bsp. Lineare Suche, Passwort Knacken
+
+## Backtracking-Algorithmus
+
+- Algorithmus welcher eine Tiefensuche im Lösungsraum durchführt, und bei einer Sackgasse zurückgeht
+- Teile des Lösungsraums kann durch logische Schlussfolgerungen ausgeschlossen werden
+- in der Regel rekursiv
+- Zeitkomplexität: $O(m^h)$ m: Grad des Baumes, h: Höhe des Baumes
+- bsp. Rat-in-a-Maze, Rucksack, Sudoku
+
+## Approximations-Algorithmus
+
+- Algorithmus welcher eine Lösung liefert, die nicht optimal ist, aber in akzeptabler Zeit berechnet werden kann
+
+Approximations-Güte:
+
+- Maximierungsproblem: $r_I =\frac{V*}{V(y)} c$
+- Minimierungsproblem: $r_I =\frac{V(y)}{V*} c$
+$I$ Eingabemenge
+$V*$ Optimale Lösung
+$V(y)$ Zielfunktion
+
+> Eine optimale Lösung ist $r = 1$, eine approximierte Lösung ist $r > 1$
+{.is-info}
+
+### Traveling Salesman Heuristik
+
+Nearest-Neighbor:
+
+1. Beginne bei einem beliebigen Knoten
+1. Wähle den nächsten Knoten, der noch nicht besucht wurde
+1. Wiederhole Schritt 2 bis alle Knoten besucht wurden
+1. Verbinde den letzten Knoten mit dem Startknoten
+
+Nearest-Insertion:
+
+1. Verbinde einige Knoten, für die sich eine schnelle exakte Route finden lässt
+1. Füge einen neuen Knoten in die Kante ein, welche am nächsten an dem neuen Knoten ist
+1. Wiederhole Schritt 2 bis alle Knoten besucht wurden
+
+Minimum-Spanning-Tree:
+
+1. Erstelle einen minimalen Spannbaum
+1. Dupliziere alle Kanten => Multi-Graph
+1. Mach Euler-Tour, bei Abzweigung immer die Kante mit dem geringsten Gewicht wählen
