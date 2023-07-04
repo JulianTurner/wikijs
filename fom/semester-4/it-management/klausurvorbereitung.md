@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-04T15:55:56.562Z
+date: 2023-07-04T15:57:09.359Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -26,6 +26,7 @@ _**IT-Governance:**_
 6. Wie kann eine Organisation sicherstellen, dass ihre IT-Governance transparent und effektiv ist?
 
 _**IT-Risikomanagement:**_
+
 7. Erklären Sie den Begriff "IT-Risiko" und nennen Sie Beispiele für IT-Risiken.
 8. Welche Rolle spielt das Risikomanagement bei der IT-Compliance?
 9. Wie können Risiken im IT-Betrieb identifiziert und bewertet werden?
@@ -37,6 +38,7 @@ _**IT-Risikomanagement:**_
 15. Wie kann eine Organisation sicherstellen, dass ihre IT-Governance transparent und effektiv ist?
 
 _**Compliance-Management:**_
+
 16. Erklären Sie den Unterschied zwischen internen und externen Compliance-Vorgaben.
 17. Wie können IT-Services und -Prozesse kontinuierlich verbessert werden?
 18. Welche Rolle spielt die IT bei der Einhaltung von Compliance-Anforderungen?
@@ -48,6 +50,7 @@ _**Compliance-Management:**_
 24. Welche Best Practices und Empfehlungen gibt es für das IT-Investitions- und Portfoliomanagement?
 
 _**IT-Investitionsmanagement:**_
+
 25. Wie kann eine Organisation sicherstellen, dass ihre IT-Investitionen einen Wertbeitrag liefern?
 26. Welche Faktoren sollten bei der Bewertung von IT-Investitionen berücksichtigt werden?
 27. Wie können Investitionen in IT-Projekte priorisiert und ausgewählt werden?
