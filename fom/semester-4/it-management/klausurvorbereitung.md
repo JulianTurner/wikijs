@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-04T15:48:12.777Z
+date: 2023-07-04T15:50:52.365Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -20,6 +20,7 @@ _**IT-Strategie:**_
 3. Welche Rolle spielt die IT-Organisation bei der Umsetzung der IT-Strategie eines Unternehmens?
 
 _**IT-Governance:**_
+
 4. Erklären Sie den Begriff "IT-Governance" und seine Bedeutung für das IT-Management.
 5. Welche Faktoren sollten bei der Gestaltung der IT-Governance berücksichtigt werden?
 6. Wie kann eine Organisation sicherstellen, dass ihre IT-Governance transparent und effektiv ist?
@@ -55,6 +56,7 @@ _**IT-Investitionsmanagement:**_
 30. Wie können IT-Risiken bei der Bewertung von IT-Investitionen identifiziert und bewertet werden?
 
 _**IT-Compliance:**_
+
 31. Was ist der Unterschied zwischen internen und externen Compliance-Vorgaben?
 32. Wie kann ein Unternehmen sicherstellen, dass es den rechtlichen Datenschutzbestimmungen entspricht?
 33. Erläutern Sie den Begriff "IT-Compliance" und seine Bedeutung für das IT-Management.
@@ -62,6 +64,7 @@ _**IT-Compliance:**_
 35. Welche Rolle spielt die IT bei der Einhaltung von Compliance-Anforderungen?
 
 _**IT-Service-Management:**_
+
 36. Erklären Sie den Begriff "IT-Service" und wie er im IT-Management definiert wird.
 37. Wie können IT-Services und -Prozesse kontinuierlich verbessert werden?
 38. Welche Auswirkungen kann ein IT-Ausfall auf ein Unternehmen haben?
@@ -70,6 +73,7 @@ _**IT-Service-Management:**_
 41. Nennen Sie drei gängige Compliance-Vorgaben im IT-Bereich.
 
 _**IT-Projekt- und Betriebsmanagement:**_
+
 42. Erklären Sie den Unterschied zwischen IT-Projektmanagement und IT-Betriebsmanagement.
 43. Wie können IT-Services und -Prozesse kontinuierlich verbessert werden?
 44. Welche Rolle spielt die IT-Organisation bei der Umsetzung der IT-Strategie eines Unternehmens?
