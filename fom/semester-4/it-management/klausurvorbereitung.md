@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-04T15:50:52.365Z
+date: 2023-07-04T15:55:56.562Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -71,6 +71,7 @@ _**IT-Service-Management:**_
 39. Wie können Risiken im IT-Betrieb identifiziert und bewertet werden?
 40. Welche Maßnahmen können ergriffen werden, um die Risiken des IT-Betriebs zu minimieren?
 41. Nennen Sie drei gängige Compliance-Vorgaben im IT-Bereich.
+	- DSGVO, PCI, SOX
 
 _**IT-Projekt- und Betriebsmanagement:**_
 
