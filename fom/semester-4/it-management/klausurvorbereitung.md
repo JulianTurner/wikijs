@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-05T11:05:08.591Z
+date: 2023-07-05T11:32:34.972Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -21,23 +21,36 @@ Die wichtigsten Schritte sind:
 - Schritt 4: Multiplikation der Bewertungen mit den Gewichtungen und Summierung der Ergebnisse für jede Alternative.
 - Schritt 5: Auswahl der Alternative mit dem höchsten Gesamtnutzwert als beste Option.
 
-Kurz gesagt ermöglicht die Nutzwertanalyse eine systematische Bewertung von Alternativen anhand klar definierter Kriterien und Gewichtungen, um die beste Option zu herauszufinden.
+> Kurz gesagt ermöglicht die Nutzwertanalyse eine systematische Bewertung von Alternativen anhand klar definierter Kriterien und Gewichtungen, um die beste Option zu herauszufinden.
+{.is-info}
+
 
 ## Potenzielle Prüfungsfragen:
-
 _**IT-Strategie:**_
-
 1. Was ist der Zweck der IT-Strategie in einem Unternehmen?
-	- Zweck der IT-Strategie in einem Unternehmen:
-	- Ausrichtung der IT auf die Geschäftsstrategie
+ 	- Ausrichtung der IT auf die Geschäftsstrategie
 	- Unterstützung der Unternehmensziele durch IT
 	- Planung und Steuerung der IT-Investitionen
 	- Schaffung eines Rahmens für IT-Projekte und -Initiativen
-	- Identifikation von Chancen und Risiken im IT-Bereich
+	- Erkennung von Chancen und Risiken im IT-Bereich
 	- Effiziente und effektive Nutzung von IT-Ressourcen
 	- Integration und Zusammenarbeit zwischen IT und anderen Unternehmensbereichen
 2. Welche Aspekte sollten bei der Entwicklung einer IT-Strategie berücksichtigt werden?
+- Geschäftsstrategie
+- Technologie
+- IT-Architektur
+- IT-Services
+- IT-Governance
+- IT-Personal
+- Sicherheit und Datenschutz
+- Budget und Ressourcen
+- Kontinuierliche Verbesserung
 3. Welche Rolle spielt die IT-Organisation bei der Umsetzung der IT-Strategie eines Unternehmens?
+- Implementierung der IT-Strategie
+- Ausrichtung der IT-Services
+- Verwaltung der Ressourcen
+- Unterstützung der IT-Governance
+- Identifizierung, Analyse und Steuerung von IT-Risiken
 
 _**IT-Governance:**_
 
