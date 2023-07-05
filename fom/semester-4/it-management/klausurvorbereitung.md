@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-05T09:38:40.501Z
+date: 2023-07-05T10:59:41.316Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -15,8 +15,16 @@ dateCreated: 2023-03-21T19:46:51.356Z
 ## Potenzielle Prüfungsfragen:
 
 _**IT-Strategie:**_
+
 1. Was ist der Zweck der IT-Strategie in einem Unternehmen?
-	- 
+	- Zweck der IT-Strategie in einem Unternehmen:
+	- Ausrichtung der IT auf die Geschäftsstrategie
+	- Unterstützung der Unternehmensziele durch IT
+	- Planung und Steuerung der IT-Investitionen
+	- Schaffung eines Rahmens für IT-Projekte und -Initiativen
+	- Identifikation von Chancen und Risiken im IT-Bereich
+	- Effiziente und effektive Nutzung von IT-Ressourcen
+	- Integration und Zusammenarbeit zwischen IT und anderen Unternehmensbereichen
 2. Welche Aspekte sollten bei der Entwicklung einer IT-Strategie berücksichtigt werden?
 3. Welche Rolle spielt die IT-Organisation bei der Umsetzung der IT-Strategie eines Unternehmens?
 
