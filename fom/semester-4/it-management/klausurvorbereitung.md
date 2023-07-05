@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-05T10:59:41.316Z
+date: 2023-07-05T11:05:08.591Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -10,7 +10,18 @@ dateCreated: 2023-03-21T19:46:51.356Z
 
 # Klausurvorbereitung
 
-- Nutzwertanalyse ist lt. Hr. Städter wichtiger Bestandteil der Klausur und kam lt. höhersemestrigen Kommilitonen jedes Semester dran.
+_**Nutzwertanalyse:**_
+Die Nutzwertanalyse ist eine Methode zur objektiven Bewertung von Alternativen basierend auf verschiedenen Kriterien.
+Die wichtigsten Schritte sind:
+
+- Ziel: Ermöglicht eine systematische Bewertung von Alternativen.
+- Schritt 1: Festlegung der Bewertungskriterien, die relevant und messbar sind.
+- Schritt 2: Gewichtung der Kriterien, um ihre relative Bedeutung festzulegen.
+- Schritt 3: Bewertung der Alternativen für jedes Kriterium auf einer Skala.
+- Schritt 4: Multiplikation der Bewertungen mit den Gewichtungen und Summierung der Ergebnisse für jede Alternative.
+- Schritt 5: Auswahl der Alternative mit dem höchsten Gesamtnutzwert als beste Option.
+
+Kurz gesagt ermöglicht die Nutzwertanalyse eine systematische Bewertung von Alternativen anhand klar definierter Kriterien und Gewichtungen, um die beste Option zu herauszufinden.
 
 ## Potenzielle Prüfungsfragen:
 
