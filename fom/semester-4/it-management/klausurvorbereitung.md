@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-04T15:57:09.359Z
+date: 2023-07-05T09:38:40.501Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -16,6 +16,7 @@ dateCreated: 2023-03-21T19:46:51.356Z
 
 _**IT-Strategie:**_
 1. Was ist der Zweck der IT-Strategie in einem Unternehmen?
+	- 
 2. Welche Aspekte sollten bei der Entwicklung einer IT-Strategie berücksichtigt werden?
 3. Welche Rolle spielt die IT-Organisation bei der Umsetzung der IT-Strategie eines Unternehmens?
 
