@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-07T14:44:20.742Z
+date: 2023-07-07T14:44:51.819Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -56,7 +56,7 @@ _**IT-Governance:**_
 
 4. Erklären Sie den Begriff "IT-Governance" und seine Bedeutung für das IT-Management.
 
-> IT-Governance: Systematische Ausrichtung der IT auf Geschäftsziele durch Verantwortlichkeiten, Entscheidungsprozesse, Richtlinien und Kontrollmechanismen zur effektiven Nutzung der IT und Schaffung von Unternehmenswert.
+> Ist die systematische Ausrichtung der IT auf Geschäftsziele durch Verantwortlichkeiten, Entscheidungsprozesse, Richtlinien und Kontrollmechanismen zur effektiven Nutzung der IT und Schaffung von Unternehmenswert.
 {.is-info}
 
 
