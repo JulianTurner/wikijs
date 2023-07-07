@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-07T14:52:56.615Z
+date: 2023-07-07T16:00:48.755Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -59,17 +59,15 @@ _**IT-Governance:**_
 > IT-Governance ist die systematische Ausrichtung der IT auf Geschäftsziele durch Entscheidungsprozesse, Richtlinien und Kontrollmechanismen zur effektiven Nutzung der IT und Schaffung von Unternehmenswert.
 {.is-info}
 
+_Bedeutung für das IT-Management:_
 - Strategische Ausrichtung der IT auf Geschäftsziele
-- Effiziente und kontrollierte Nutzung von IT-Ressourcen
-- Klar definierte Verantwortlichkeiten und Entscheidungsprozesse fördern Effektivität und Effizienz
-- Transparenz und Zusammenarbeit zwischen Stakeholdern
-- Risikominderung und Compliance-Sicherstellung durch IT-Governance
-
-Folien-/Seitenzahl: 
-- Skript bis Seite 216: Einführung in IT-Governance und Bedeutung für das IT-Management.
-- Seite 217: Zusammenfassung der Bedeutung von IT-Governance für das IT-Management.
+	- Effiziente und kontrollierte Nutzung von IT-Ressourcen
+	- Klar definierte Verantwortlichkeiten und Entscheidungsprozesse fördern Effektivität und Effizienz
+	- Transparenz und Zusammenarbeit zwischen Stakeholdern
+	- Risikominderung und Compliance-Sicherstellung durch IT-Governance
 
 5. Welche Faktoren sollten bei der Gestaltung der IT-Governance berücksichtigt werden?
+
 6. Wie kann eine Organisation sicherstellen, dass ihre IT-Governance transparent und effektiv ist?
 
 _**IT-Risikomanagement:**_
