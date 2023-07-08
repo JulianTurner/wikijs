@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-08T09:16:50.768Z
+date: 2023-07-08T09:24:55.655Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -23,7 +23,7 @@ macht legitimität dringlichkeit
 
 Was ist Risikoakzeptanz?
 die eintrittsWS lässt sich durch die sensibilisierung der MA mindern
-Folie 31,38,89,94,60,61, 68, 70,  Definitionen,opex capex, TCO, Vor nachteile sourcing (outsourcing)154 156 sourcing potenzial und beschränkungen, 85,88,89,92,95,98,117-120,122,125-127,129-132,
+Folie 31,38,89,94,60,61, 68, 70,  Definitionen,opex capex, TCO, Vor nachteile sourcing (outsourcing)154 156 sourcing potenzial und beschränkungen, 85,88,89,92,95,98,117-120,122,125-127,129-132,141-149,
 
 _**Nutzwertanalyse:**_
 Die Nutzwertanalyse ist eine Methode zur objektiven Bewertung von Alternativen basierend auf verschiedenen Kriterien.
