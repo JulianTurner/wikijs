@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-08T07:20:48.941Z
+date: 2023-07-08T07:21:35.723Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -13,7 +13,7 @@ dateCreated: 2023-03-21T19:46:51.356Z
 Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkte verstehen andhand strategischer Systeme Supply Chain management. Je nachdem bewerte anhand bestimmter vorgehensweise meine strategischen
 - Strategischen Relevant
 - Risiko
-- Belegen anhand wissenschaftlicher Kennzahlen
+- Belegen anhand betriebswirtschaftlicher Kennzahlen
 
 _**Nutzwertanalyse:**_
 Die Nutzwertanalyse ist eine Methode zur objektiven Bewertung von Alternativen basierend auf verschiedenen Kriterien.
