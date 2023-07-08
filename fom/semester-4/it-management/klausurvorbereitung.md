@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-08T08:44:24.349Z
+date: 2023-07-08T09:05:07.185Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -23,6 +23,7 @@ macht legitimität dringlichkeit
 
 Was ist Risikoakzeptanz?
 die eintrittsWS lässt sich durch die sensibilisierung der MA mindern
+Folie 31,38,89,94
 
 _**Nutzwertanalyse:**_
 Die Nutzwertanalyse ist eine Methode zur objektiven Bewertung von Alternativen basierend auf verschiedenen Kriterien.
