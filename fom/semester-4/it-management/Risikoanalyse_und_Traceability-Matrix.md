@@ -2,7 +2,7 @@
 title: Risikoanalyse und Traceability-Matrix
 description: 
 published: 1
-date: 2023-07-09T09:44:47.387Z
+date: 2023-07-09T09:52:02.561Z
 tags: risikoanalyse, traceability-matrix
 editor: markdown
 dateCreated: 2023-06-26T17:01:10.567Z
@@ -51,3 +51,5 @@ _Der Risikomanagementprozess:_
 3. Risikobehandlung
 4. Risikocontrolling
 
+_Risikocontrolling:_
+Das Ziel des Risikocontrollings besteht darin, die Umsetzung der Risikoplanung zu überwachen. Es beinhaltet die frühzeitige Erkennung von Gefahren und Risiken sowie regelmäßige Überprüfungen und Anpassungen der Risikomaßnahmen. Das Risikocontrolling sorgt für eine effektive Steuerung und Kontrolle der Risiken im Unternehmen.
