@@ -194,6 +194,7 @@
         "Sondierverfahren",
         "Sondiervorgang",
         "sozio",
+        "Stablinien",
         "Stabstellen",
         "Stakeholderanalyse",
         "Stakeholderziele",
@@ -240,6 +241,7 @@
         "Vorgehensmodelle",
         "VUCA",
         "Wahrscheinlichkkeitsfunktion",
+        "WAN",
         "Warscheinlichkeitsfunktion",
         "Warscheinlichkeitsverteilungen",
         "Whitebox",
@@ -248,7 +250,6 @@
         "Wireframes",
         "Wireshark",
         "WPAN",
-        "WAN",
         "ZGWS"
     ]
 }

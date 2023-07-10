@@ -15,6 +15,12 @@ dateCreated: 2022-03-04T12:23:19.207Z
 
 ## [Einführung in das Projektmanagement](/fom/semester-4/projektmanagement/einfuehrung-in-das-projektmanagement.md)
 
+## Fachbegriffe
+
+- Opportunitätskosten: Kosten, die mit einer entgangenen oder nicht genutzten Möglichkeit (Opportunität) einhergehen
+- Stakeholder: Person oder Gruppe, die ein Interesse am Projekt hat oder von diesem betroffen ist. (interne und externe Stakeholder)
+- Sponsor: Person oder Organisation, die das Projekt finanziert, unterstützt und vertritt.
+
 ## Streckbriefe
 
 ### Projektantrag
@@ -59,6 +65,10 @@ Beispiel:
 - Zielgruppe vergrößern
 - Beobachten, Befragen
 
+#### Stakeholderanalyse-Matrix
+
+![Stakeholder-Matrix](stakeholder-matrix.png)
+
 ### Risikoanalyse
 
 Risiko ist ein mögliches Ereignis in der Zukunft, welches einen negativen Einfluss auf das Projekt haben kann.
@@ -69,7 +79,9 @@ Risiko ist ein mögliches Ereignis in der Zukunft, welches einen negativen Einfl
 - Bewertung - Wie ist das Projekt gefährdet? (gering, mittel, hoch)
 - Gegenmaßnahmen - Wie kann gegengesteuert werden? (z. B. Risiko vermeiden, Risiko reduzieren, Risiko übertragen, Risiko akzeptieren)
 
-Bild einer Risikomatrix
+#### Risikomatrix
+
+![Risikomatrix](risikomatrix.png)
 
 - Legende einer Matrix -> Ausschnitt aus allen Risiken
 
@@ -100,13 +112,15 @@ Ein Arbeitspaket ist eindeutig identifizierbare Aufgabe, die von einer Person od
 ### Projektstrukturplan
 
 ![Projektstrukturplan](projektstrukturplan.png)
-Ablauforientiert, Objektorientiert
+![PSP-Gliederung](psp-gliederung.png)
 
 ### Balkenplan
 
 ![Gantt](gantt.png)
 ![Netzplan](netzplan.png)
-Meilensteine
+
+> Ein Meilenstein ist ein klar definiertes Teilergebnis, das zu einem bestimmten Termin erreicht sein muss (Meilensteine im Gantt-Diagramm sind mit einem roten Diamanten gekennzeichnet).
+{.is-info}
 
 ### Statusbericht / Projektcontrolling
 
@@ -141,4 +155,66 @@ Meilensteine
 
 ### Projektorganisation
 
-Bild von Projektorganisation
+#### Reine Projektorganisation
+
+![Reine Projektorganisation](taskforce.png)
+
+- eignet sich für Großprojekte mit hoher Bedeutung
+- Lösung von speziellen Aufgaben
+
+Vorteile:
+
+- klare Führungsrolle des Projektleiters
+- Projektleiter hat Verantwortung
+- Projekt hat eigene Ressourcen
+- Mitarbeiter sind vollständig dem Projekt zugeordnet
+- kurze Reaktionszeiten
+
+Nachteile:
+
+- Schwierig Mitarbeiter über Projektdauer auszulasten
+- Projekt ist isoliert (keine einbindung vom Fachbereich)
+- Aus- und Eingliederung der Mitarbeiter ist schwierig
+
+#### Stablinien-Projektorganisation
+
+![Stablinien-Projektorganisation](stablinie.png)
+
+- Projektleitung ist ohne Entscheidung- oder Weisungsbefugnis
+- eignet sich für Projekte mit geringer Bedeutung (begrenzte Finanzmittel, geringes Risiko)
+
+Vorteile:
+
+- leicht und schnell zu realisieren
+- einfache Reintegration der Mitarbeiter
+- abteilungsübergreifend
+
+Nachteile:
+
+- schwache Position des Projektleiters
+- Projektleiter hat keine Entscheidungsbefugnis
+- Lange Reaktionszeiten
+
+#### Matrix-Projektorganisation
+
+![Matrix-Projektorganisation](matrix.png)
+-Mischform mit Kompetenzaufteilung zwischen Projektleitung und Linien-organisation
+
+- geeignet für lange, komplexe Projekte mit hoher Bedeutung
+- Projekte welche die Zusammenarbeit mehrerer Abteilungen erfordern
+- Projektleiter ist aus der Linienorganisation ausgelagert
+- Projektmitarbeiter ist disziplinarisch der Linienorganisation unterstellt
+- Projektmitarbeiter arbeiten nicht ausschließlich im Projekt
+
+Vorteile:
+
+- Flexibler Einsatz der Mitarbeiter
+- geringe Auslastung ist kein Problem
+- übergreifendes Spezialwissen
+- überwindet Grenzen der Linienorganisation
+
+Nachteile:
+
+- Konflikte zwischen Projektleiter und Linienmanager
+- gute Abstimmung zwischen Projektleiter und Linienmanager notwendig
+- Projektleiter hat keine Entscheidungsbefugnis aber Verantwortung
