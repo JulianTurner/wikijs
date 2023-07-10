@@ -69,6 +69,10 @@ Risiko ist ein mögliches Ereignis in der Zukunft, welches einen negativen Einfl
 - Bewertung - Wie ist das Projekt gefährdet? (gering, mittel, hoch)
 - Gegenmaßnahmen - Wie kann gegengesteuert werden? (z. B. Risiko vermeiden, Risiko reduzieren, Risiko übertragen, Risiko akzeptieren)
 
+Bild einer Risikomatrix
+
+- Legende einer Matrix -> Ausschnitt aus allen Risiken
+
 ### Informationsfluss
 
 - Besprechung (Teilnehmer, Häufigkeit, Zeitpunkt)
@@ -90,19 +94,21 @@ Ein Arbeitspaket ist eindeutig identifizierbare Aufgabe, die von einer Person od
 - Input
 - Aufgaben
 - Output
-- Dauer
+- Dauer (in Tagen)
 - Kosten
 
 ### Projektstrukturplan
 
 ![Projektstrukturplan](projektstrukturplan.png)
+Ablauforientiert, Objektorientiert
 
 ### Balkenplan
 
 ![Gantt](gantt.png)
 ![Netzplan](netzplan.png)
+Meilensteine
 
-### Statusbericht
+### Statusbericht / Projektcontrolling
 
 - Datum
 - Ersteller
@@ -132,3 +138,7 @@ Ein Arbeitspaket ist eindeutig identifizierbare Aufgabe, die von einer Person od
   - Letzter Stand Terminplan, Auftragskalkulation
   - Projektberichte
   - Projektabnahmeprotokoll
+
+### Projektorganisation
+
+Bild von Projektorganisation
