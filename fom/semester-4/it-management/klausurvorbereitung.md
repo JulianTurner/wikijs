@@ -2,13 +2,28 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-05T12:15:01.056Z
+date: 2023-07-09T09:02:48.428Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
 ---
 
 # Klausurvorbereitung
+
+Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkte verstehen andhand strategischer Systeme Supply Chain management. Je nachdem bewerte anhand bestimmter vorgehensweise meine strategischen
+- Strategischen Wert
+- Risiko
+- Belegen anhand betriebswirtschaftlicher Kennzahlen
+
+Ein Risikoszenario:
+- Risikoanalyse
+
+Stakeholderanalyse:
+macht legitimität dringlichkeit
+
+Was ist Risikoakzeptanz?
+die eintrittsWS lässt sich durch die sensibilisierung der MA mindern
+Folie 31,38,89,94,60,61, 68, 70,  Definitionen,opex capex, TCO, Vor nachteile sourcing (outsourcing)154 156 sourcing potenzial und beschränkungen, 85,88,89,92,95,98,117-120,122,125-127,129-132,141-149,
 
 _**Nutzwertanalyse:**_
 Die Nutzwertanalyse ist eine Methode zur objektiven Bewertung von Alternativen basierend auf verschiedenen Kriterien.
@@ -36,32 +51,65 @@ _**IT-Strategie:**_
 	- Effiziente und effektive Nutzung von IT-Ressourcen
 	- Integration und Zusammenarbeit zwischen IT und anderen Unternehmensbereichen
 2. Welche Aspekte sollten bei der Entwicklung einer IT-Strategie berücksichtigt werden?
-- Geschäftsstrategie
-- Technologie
-- IT-Architektur
-- IT-Services
-- IT-Governance
-- IT-Personal
-- Sicherheit und Datenschutz
-- Budget und Ressourcen
-- Kontinuierliche Verbesserung
+	- Geschäftsstrategie
+	- Technologie
+	- IT-Architektur
+	- IT-Services
+	- IT-Governance
+	- IT-Personal
+	- Sicherheit und Datenschutz
+	- Budget und Ressourcen
+	- Kontinuierliche Verbesserung
 3. Welche Rolle spielt die IT-Organisation bei der Umsetzung der IT-Strategie eines Unternehmens?
-- Implementierung der IT-Strategie
-- Ausrichtung der IT-Services
-- Verwaltung der Ressourcen
-- Unterstützung der IT-Governance
-- Identifizierung, Analyse und Steuerung von IT-Risiken
+	- Implementierung der IT-Strategie
+	- Ausrichtung der IT-Services
+	- Verwaltung der Ressourcen
+	- Unterstützung der IT-Governance
+	- Identifizierung, Analyse und Steuerung von IT-Risiken
 
 _**IT-Governance:**_
 
 4. Erklären Sie den Begriff "IT-Governance" und seine Bedeutung für das IT-Management.
+
+> IT-Governance ist die systematische Ausrichtung der IT auf Geschäftsziele durch Entscheidungsprozesse, Richtlinien und Kontrollmechanismen zur effektiven Nutzung der IT und Schaffung von Unternehmenswert.
+{.is-info}
+
+_Bedeutung für das IT-Management:_
+- Strategische Ausrichtung der IT auf Geschäftsziele
+	- Effiziente und kontrollierte Nutzung von IT-Ressourcen
+	- Klar definierte Verantwortlichkeiten und Entscheidungsprozesse fördern Effektivität und Effizienz
+	- Transparenz und Zusammenarbeit zwischen Stakeholdern
+	- Risikominderung und Compliance-Sicherstellung durch IT-Governance
+
 5. Welche Faktoren sollten bei der Gestaltung der IT-Governance berücksichtigt werden?
+
 6. Wie kann eine Organisation sicherstellen, dass ihre IT-Governance transparent und effektiv ist?
 
 _**IT-Risikomanagement:**_
 
 7. Erklären Sie den Begriff "IT-Risiko" und nennen Sie Beispiele für IT-Risiken.
+
+IT-Risiko bezeichnet unsichere Ereignisse in Bezug auf die Informationstechnologie, bei denen nicht bekannt ist, ob und in welchem Ausmaß sie eintreten und Schaden verursachen werden.
+
+_*Beispiele:*_
+
+	1. Cyberangriffe und Datenverlust
+	2. Ausfall von IT-Systemen und Infrastruktur
+	3. Softwarefehler und Systeminkompatibilität
+	4. Verletzung der Datensicherheit und Datenschutzverletzungen
+	5. Technologische Veränderungen und Obsoleszenz
+	6. Unzureichendes IT-Management und -Governance
+	7. Mangelnde Compliance mit gesetzlichen Vorschriften und Richtlinien
+	8. Unzureichende IT-Sicherheitsmaßnahmen und Schwachstellen in der Netzwerksicherheit
+
 8. Welche Rolle spielt das Risikomanagement bei der IT-Compliance?
+
+	- Risikobasierter Ansatz für Validierung (nach GAMP 5, ISPE)
+	- *Einflussfaktoren auf IT-Compliance*:
+		- Abhängigkeit von IT, technische Weiterentwicklung, Vertragliche Vereinbarungen mit Dritten, Haftungsrisiken der Unternehmensleitung
+	- Ziel der Wertsteigerung, Verhalten der Mitarbeiter, Ansprüche sonstiger Interessensgruppen, Verlust von Vertrauen und Reputation
+	- Gesetzliche Regelungen wie Datenschutzregelungen, Buchführung & Archivierungsrichtlinien, KonTraG, Sarbanes-Oxley Act, Basel III, Solvency II, GoBD, DSGVO
+
 9. Wie können Risiken im IT-Betrieb identifiziert und bewertet werden?
 10. Wie kann ein Unternehmen sicherstellen, dass es den rechtlichen Datenschutzbestimmungen entspricht?
 11. Welche Vorteile bietet ein effektives IT-Risikomanagement für ein Unternehmen?
