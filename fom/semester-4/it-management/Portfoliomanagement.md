@@ -2,13 +2,13 @@
 title: Portfoliomanagement
 description: 
 published: 1
-date: 2023-07-10T20:13:54.577Z
+date: 2023-07-10T20:14:16.883Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-10T06:20:41.007Z
 ---
 
-IT-Portfoliomanagement
+# IT-Portfoliomanagement
 
 IT-Portfoliomanagement umfasst:
 
