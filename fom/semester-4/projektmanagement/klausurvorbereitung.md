@@ -153,6 +153,9 @@ Ein Arbeitspaket ist eindeutig identifizierbare Aufgabe, die von einer Person od
   - Projektberichte
   - Projektabnahmeprotokoll
 
+> Langzeitgier Mehrwert für Projekt-Durchführende Unternehmen ergibt sich aus Dokumentation der Projekte.
+{.is-info}
+
 ### Projektorganisation
 
 #### Reine Projektorganisation
