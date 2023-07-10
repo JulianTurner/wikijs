@@ -2,7 +2,7 @@
 title: Portfoliomanagement
 description: 
 published: 1
-date: 2023-07-10T06:50:50.165Z
+date: 2023-07-10T20:13:54.577Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-10T06:20:41.007Z
@@ -19,4 +19,4 @@ IT-Portfoliomanagement umfasst:
 Dies ermöglicht eine effektive Planung, Überwachung und Steuerung der IT-Investitionen und Ressourcen im Einklang mit den Geschäftszielen.
 
 _Beispiele für Kriterien:_
-![screenshot_2023-07-10_084841.png](/fom/semester-4/it-management/screenshot_2023-07-10_084841.png)
+![portfoliomanagement.png](/fom/semester-4/it-management/portfoliomanagement.png)
