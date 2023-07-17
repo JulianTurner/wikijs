@@ -2,7 +2,7 @@
 title: Portfolio- und Investitionsplanung
 description: 
 published: 1
-date: 2023-07-17T11:38:11.658Z
+date: 2023-07-17T13:04:07.817Z
 tags: investitionsplanung
 editor: markdown
 dateCreated: 2023-06-04T20:09:29.659Z
@@ -14,7 +14,7 @@ dateCreated: 2023-06-04T20:09:29.659Z
 - Dabei sind ein strategisches IT-Portfolio-Management und eine enge Zusammenarbeit zwischen IT- und Geschäftsleuten wichtig.
 - Tools wie PPM-Software können den Prozess unterstützen. Ziel ist es, IT-Investitionen bestmöglich zu managen und so das Vertrauen in die IT-Abteilung zu stärken.
 
-### PPM-Software:
+### PPM-Software: (Projektportfoliomanagement)
 
 - PPM-Software organisiert Projekte und Ressourcen in Unternehmen
 - Unterstützt Entscheidungen basierend auf Rendite und Risiko
