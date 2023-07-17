@@ -2,7 +2,7 @@
 title: It Management
 description: 
 published: 1
-date: 2023-07-17T15:40:58.266Z
+date: 2023-07-17T15:52:17.587Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:31:25.822Z
@@ -14,6 +14,7 @@ dateCreated: 2023-03-21T19:31:25.822Z
 - [Portfolio- und Managementplanung](/fom/semester-4/it-management/Portfolio_und_Investitionsplanung)
 - [IT-Portfoliomanagement](/fom/semester-4/it-management/Portfoliomanagement)
 - [Aufgaben IT-Management](/fom/semester-4/it-management/Aufgaben_IT_Management)
+- [IT-Strategie](/fom/semester-4/it-management/IT_Strategie)
 - [BCG-Matrix](/fom/semester-4/it-management/BCG-Matrix)
 - [Nutzwertanalyse](/fom/semester-4/it-management/Nutzwertanalyse)
 - [GoBD](/fom/semester-4/it-management/GoBD)
