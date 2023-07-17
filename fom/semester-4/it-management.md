@@ -2,7 +2,7 @@
 title: It Management
 description: 
 published: 1
-date: 2023-07-10T19:52:35.732Z
+date: 2023-07-17T15:08:44.968Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:31:25.822Z
@@ -19,5 +19,6 @@ dateCreated: 2023-03-21T19:31:25.822Z
 - [Kanban](/fom/semester-4/it-management/Kanban)
 - [Risikoanalyse und Traceability-Matrix](/fom/semester-4/it-management/Risikoanalyse_und_Traceability-Matrix)
 - [IT-Governance](/fom/semester-4/it-management/IT-Governance)
+- [Stakeholderanalyse](/fom/semester-4/it-management/Stakeholderanalyse)
 - [Klausurvorbereitung](/fom/semester-4/it-management/klausurvorbereitung.md)
 
