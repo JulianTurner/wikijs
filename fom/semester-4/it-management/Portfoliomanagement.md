@@ -2,7 +2,7 @@
 title: Portfoliomanagement
 description: 
 published: 1
-date: 2023-07-17T15:35:58.096Z
+date: 2023-07-17T15:37:35.423Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-10T06:20:41.007Z
@@ -28,6 +28,8 @@ _Beispiele für Kriterien:_
 
 _**Methode:**_
 - Persönliche Befragungen von Top-Managern zur Erfassung von Zielen und KEFs.
+
+
 
 
 
