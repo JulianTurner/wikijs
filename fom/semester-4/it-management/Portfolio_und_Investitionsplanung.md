@@ -2,7 +2,7 @@
 title: Portfolio- und Investitionsplanung
 description: 
 published: 1
-date: 2023-06-26T14:24:01.440Z
+date: 2023-07-17T11:38:11.658Z
 tags: investitionsplanung
 editor: markdown
 dateCreated: 2023-06-04T20:09:29.659Z
@@ -10,8 +10,7 @@ dateCreated: 2023-06-04T20:09:29.659Z
 
 # Portfolio- und Investitionsplanung
 
-- Der Text erklärt die Kombination von Portfolio-Planung und IT-Investitionsmanagement.
-- Dies soll helfen, IT-Budgets effizient zu nutzen und Entscheidungen zu treffen, die das Geschäft voranbringen.
+- Portfolio- und Investitionsplanung soll helfen, IT-Budgets effizient zu nutzen und Entscheidungen zu treffen, die das Geschäft voranbringen.
 - Dabei sind ein strategisches IT-Portfolio-Management und eine enge Zusammenarbeit zwischen IT- und Geschäftsleuten wichtig.
 - Tools wie PPM-Software können den Prozess unterstützen. Ziel ist es, IT-Investitionen bestmöglich zu managen und so das Vertrauen in die IT-Abteilung zu stärken.
 
