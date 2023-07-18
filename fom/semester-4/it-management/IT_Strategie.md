@@ -2,7 +2,7 @@
 title: IT-Strategie
 description: 
 published: 1
-date: 2023-07-18T14:26:17.934Z
+date: 2023-07-18T14:36:48.943Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-17T15:51:50.126Z
@@ -78,3 +78,12 @@ _**Vorteile der Balanced Scorecard:**_
   - Ganzheitliche Bewertung der Gesamtperformance
   - Berücksichtigung finanzieller und nicht-finanzieller Kennzahlen
   - Unterstützung bei der Zielerreichung und Strategieumsetzung
+  
+### **_SWOT-Analyse (Strenghts, Weaknesses, Opportunities, Threats):_**
+- SWOT-Analyse bewertet interne Stärken, Schwächen und externe Chancen, Risiken
+- Ganzheitliche Betrachtung der Unternehmenssituation
+- Grundlage für Strategieentwicklung und Maßnahmen
+
+
+
+
