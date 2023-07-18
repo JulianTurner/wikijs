@@ -2,7 +2,7 @@
 title: IT-Strategie
 description: 
 published: 1
-date: 2023-07-18T14:36:48.943Z
+date: 2023-07-18T15:04:45.564Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-17T15:51:50.126Z
@@ -79,10 +79,52 @@ _**Vorteile der Balanced Scorecard:**_
   - Berücksichtigung finanzieller und nicht-finanzieller Kennzahlen
   - Unterstützung bei der Zielerreichung und Strategieumsetzung
   
+_**Potenziale des Denkmodells Balanced Scorecard:**_
+Die Balanced Scorecard ermöglicht:
+1. Konkretisierung von Strategien durch messbare Ziele und Zielwerte.
+2. Ableitung von Maßnahmen und Festlegung von Verantwortlichkeiten.
+3. Ressourcenplanung zur Unterstützung der Strategieumsetzung.
+4. Transparente und verständliche Kommunikation der Strategien.
+5. Strukturiertes Zielsystem und Visualisierung durch Ursache-Wirkungsketten.
+6. Balanced Berichtssystem mit unterschiedlichen Perspektiven und steuerungsrelevanten Informationen.
+7. Systematische Steuerung der Umsetzung von Visionen und Strategien.
+
+_**Nutzen für die Effizienz der finanzielle Ergebnisse:**_
+- Steigerung der finanziellen Leistungsfähigkeit
+- Verbesserung der Rentabilität
+- Kostenreduktion
+
+_**Nutzen im Hinblick auf die Kunden:**_
+- Kundenbindung und -loyalität
+- Steigerung der Kundenzufriedenheit
+- Erhöhung der Kundenprofitabilität
+
+_**Nutzen durch die Effizienz der internen Prozesse:**_
+- Optimierung operativer Prozesse
+- Effiziente Informations- und Serviceprozesse
+- Verbesserte Qualität und Durchlaufzeiten
+
+_**Nutzen im Hinblick auf die IT und Mitarbeiter:**_
+- Homogene IT-Infrastruktur und Integration operativer Systeme
+- Steigerung der Mitarbeiterzufriedenheit und -bindung
+- Effiziente Nutzung von Ressourcen und Fähigkeiten
+
 ### **_SWOT-Analyse (Strenghts, Weaknesses, Opportunities, Threats):_**
 - SWOT-Analyse bewertet interne Stärken, Schwächen und externe Chancen, Risiken
 - Ganzheitliche Betrachtung der Unternehmenssituation
 - Grundlage für Strategieentwicklung und Maßnahmen
+
+### **_Technology Roadmap:_**
+- Eine Technology Roadmap ist ein Plan, der die Entwicklung und Einführung neuer Technologien in einem Unternehmen oder Projekt darstellt.
+- Das Vorgehen umfasst die Identifikation von Produkten, kritischen Anforderungen, Technologiebereichen und Technologietreibern.
+- Es werden technologische Alternativen und ein Zeitrahmen festgelegt, um die Umsetzung der Roadmap zu planen.
+
+**_Vorgehen:_**
+1. Produktidentifikation
+2. Identifikation kritischerAnforderungen
+3. Festlegung von Technologiebereichen
+4. Festlegung von Technologietreibern
+5. Festlegung von technologischen Alternativen und Zeitrahmen
 
 
 
