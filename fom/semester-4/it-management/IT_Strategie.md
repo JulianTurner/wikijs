@@ -2,7 +2,7 @@
 title: IT-Strategie
 description: 
 published: 1
-date: 2023-07-18T15:26:11.225Z
+date: 2023-07-18T15:35:25.082Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-17T15:51:50.126Z
