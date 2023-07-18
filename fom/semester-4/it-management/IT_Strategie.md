@@ -2,7 +2,7 @@
 title: IT-Strategie
 description: 
 published: 1
-date: 2023-07-18T10:10:28.184Z
+date: 2023-07-18T14:26:17.934Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-17T15:51:50.126Z
@@ -36,7 +36,7 @@ _5. Bedrohung durch Ersatzprodukte oder -dienstleistungen:_
 - Analyse der Möglichkeit, dass Kunden auf alternative Produkte oder Dienstleistungen umsteigen.
 - Betrachtung von Preis-Leistungs-Verhältnis, Kundenpräferenzen und technologischen Entwicklungen.
 
-**_Definitionen:_**
+## **_Definitionen:_**
 
 _**Vision:**_
 - IT bietet Kunden ITK-bezogene Dienstleistungen in spezifischen Umgebungen.
@@ -58,3 +58,23 @@ _**Business-Rules:**_
 
 _**Externe Einflüsse:**_
 - Verfügbarkeit von Technologien, die das Geschäft beeinflussen können.
+
+###  **_Balanced Scorecard:_**
+*Definition der Balanced Scorecard:*
+  - Leistungsmesssystem für Unternehmen
+  - Messung und Verfolgung der Performance in verschiedenen Bereichen
+
+_**Ziele der Balanced Scorecard:**_
+  - Übersetzung strategischer Ziele in messbare Kennzahlen
+  - Ausrichtung der Aktivitäten auf langfristige Vision und Strategie
+
+_**Perspektiven der Balanced Scorecard:**_
+  1. Finanzielle Perspektive
+  2. Kundenperspektive
+  3. Interne Prozessperspektive
+  4. Lern- und Wachstumsperspektive
+
+_**Vorteile der Balanced Scorecard:**_
+  - Ganzheitliche Bewertung der Gesamtperformance
+  - Berücksichtigung finanzieller und nicht-finanzieller Kennzahlen
+  - Unterstützung bei der Zielerreichung und Strategieumsetzung
