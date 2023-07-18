@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-18T15:53:36.794Z
+date: 2023-07-18T15:58:49.459Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -10,12 +10,17 @@ dateCreated: 2023-03-21T19:46:51.356Z
 
 # Klausurvorbereitung
 
-Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkte verstehen andhand strategischer Systeme Supply Chain management. Je nachdem bewerte anhand bestimmter vorgehensweise meine strategischen
+Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkte verstehen andhand strategischer Systeme **Supply Chain management**. Je nachdem bewerte anhand bestimmter vorgehensweise meine strategischen
 - Strategischen Wert
 - Risiko
 - Belegen anhand betriebswirtschaftlicher Kennzahlen
 
 Folie Vor nachteile sourcing (outsourcing)154 156 sourcing potenzial und beschränkungen, 85,88,89,92,98,117-120,122,125-127,129-132,141-149,156 201 214  209 sollte man kennen 211 219  222 und 223 auf jedenfalls Seite 233 Service orientierte Architektur?
+
+**_Supply Chain Management(SCM):_**
+- Supply Chain Management umfasst die Planung, Steuerung und Koordination von Prozessen entlang der Lieferkette.
+- Ziel ist es, die Effizienz, Effektivität und Wertschöpfung in der Lieferkette zu maximieren.
+- Es beinhaltet die Integration von Lieferanten, Herstellern, Logistikdienstleistern und Kunden, um einen reibungslosen Material- und Informationsfluss sicherzustellen.
 
 _**Nutzwertanalyse:**_
 Die Nutzwertanalyse ist eine Methode zur objektiven Bewertung von Alternativen basierend auf verschiedenen Kriterien.
