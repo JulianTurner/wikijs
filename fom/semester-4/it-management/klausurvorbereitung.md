@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-18T15:58:49.459Z
+date: 2023-07-18T15:59:48.435Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -10,7 +10,7 @@ dateCreated: 2023-03-21T19:46:51.356Z
 
 # Klausurvorbereitung
 
-Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkte verstehen andhand strategischer Systeme **Supply Chain management**. Je nachdem bewerte anhand bestimmter vorgehensweise meine strategischen
+Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkte verstehen andhand strategischer Systeme. Je nachdem bewerte anhand bestimmter vorgehensweise meine strategischen
 - Strategischen Wert
 - Risiko
 - Belegen anhand betriebswirtschaftlicher Kennzahlen
