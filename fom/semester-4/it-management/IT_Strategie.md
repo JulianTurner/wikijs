@@ -2,7 +2,7 @@
 title: IT-Strategie
 description: 
 published: 1
-date: 2023-07-18T15:04:45.564Z
+date: 2023-07-18T15:26:11.225Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-17T15:51:50.126Z
@@ -108,6 +108,20 @@ _**Nutzen im Hinblick auf die IT und Mitarbeiter:**_
 - Homogene IT-Infrastruktur und Integration operativer Systeme
 - Steigerung der Mitarbeiterzufriedenheit und -bindung
 - Effiziente Nutzung von Ressourcen und Fähigkeiten
+
+### _**Strategieumsetzung mit Val IT:**_
+- Basierend auf dem Val IT Rahmenwerk der ISACA (Information Systems Audit and Control Association)
+- Ziel: Maximierung des Wertes von IT-Investitionen, Ausrichtung auf strategische Ziele und effektive Überwachung der Leistung
+
+_**Strukturierte Vorgehensweise mit verschiedenen Domänen:**_
+1. Value Governance: Generierung von optimalem Wert über den gesamten Lebenszyklus von IT-Investitionen
+2. Portfolio Management: Ganzheitliche Betrachtung und Abstimmung aller Investitionen im Portfolio für hohe Wertschöpfung
+3. Investment Management: Geschäftliche Bewertung und Verantwortung von einzelnen Investitionsentscheidungen
+- Value Governance umfasst klare Ziele, Ausrichtung auf strategische Ziele und kontinuierliche Überwachung und Bewertung
+- Portfolio Management bewertet und priorisiert Investitionen, berücksichtigt Risiken und Chancen
+- Investment Management bewertet Anforderungen, Kosten, Nutzen und Risiken von Investitionen, setzt klare Kriterien und Metriken
+
+- Unterstützt Unternehmen bei der Steigerung der Wettbewerbsfähigkeit und dem Erzielen nachhaltigen Erfolgs
 
 ### **_SWOT-Analyse (Strenghts, Weaknesses, Opportunities, Threats):_**
 - SWOT-Analyse bewertet interne Stärken, Schwächen und externe Chancen, Risiken
