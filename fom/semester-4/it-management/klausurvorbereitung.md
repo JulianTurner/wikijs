@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-18T15:11:27.761Z
+date: 2023-07-18T15:53:36.794Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -15,7 +15,7 @@ Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkt
 - Risiko
 - Belegen anhand betriebswirtschaftlicher Kennzahlen
 
-Folie Definitionen,opex capex, TCO, Vor nachteile sourcing (outsourcing)154 156 sourcing potenzial und beschränkungen, 85,88,89,92,98,117-120,122,125-127,129-132,141-149,156 201 214  209 sollte man kennen 211 219  222 und 223 auf jedenfalls Seite 233 Service orientierte Architektur?
+Folie Vor nachteile sourcing (outsourcing)154 156 sourcing potenzial und beschränkungen, 85,88,89,92,98,117-120,122,125-127,129-132,141-149,156 201 214  209 sollte man kennen 211 219  222 und 223 auf jedenfalls Seite 233 Service orientierte Architektur?
 
 _**Nutzwertanalyse:**_
 Die Nutzwertanalyse ist eine Methode zur objektiven Bewertung von Alternativen basierend auf verschiedenen Kriterien.
