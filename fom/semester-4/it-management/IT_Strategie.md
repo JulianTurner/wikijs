@@ -2,7 +2,7 @@
 title: IT-Strategie
 description: 
 published: 1
-date: 2023-07-18T15:35:25.082Z
+date: 2023-07-20T08:48:25.605Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-17T15:51:50.126Z
@@ -47,7 +47,7 @@ _**Mission:**_
 - Konkretisiert durch Strategien und Taktiken.
 
 _**Direktiven:**_
-- Anweisungen, die das Geschäft bestimmen und Strategien und Taktiken implementieren.
+- Anweisungen, die das Geschäft bestimmen um somit Strategien und Taktiken zu implementieren.
 - Übergeordneter Begriff für Geschäftspolitik und Business-Rules.
 
 _**Geschäftspolitiken:**_
