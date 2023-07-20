@@ -1,8 +1,8 @@
 ---
-title: Grundsätze zur ordnungsmäßigen Führung und Dokumenten
+title: Grundsätze zur ordnungsmäßigen Buchführung und Aufbewahrung von Dokumenten
 description: GoBD
 published: 1
-date: 2023-07-20T15:46:38.169Z
+date: 2023-07-20T15:47:27.098Z
 tags: gobd
 editor: markdown
 dateCreated: 2023-06-26T14:27:39.415Z
