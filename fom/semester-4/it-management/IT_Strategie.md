@@ -2,7 +2,7 @@
 title: IT-Strategie
 description: 
 published: 1
-date: 2023-07-20T08:48:25.605Z
+date: 2023-07-20T20:39:37.642Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-17T15:51:50.126Z
@@ -115,13 +115,12 @@ _**Nutzen im Hinblick auf die IT und Mitarbeiter:**_
 
 _**Strukturierte Vorgehensweise mit verschiedenen Domänen:**_
 1. Value Governance: Generierung von optimalem Wert über den gesamten Lebenszyklus von IT-Investitionen
-2. Portfolio Management: Ganzheitliche Betrachtung und Abstimmung aller Investitionen im Portfolio für hohe Wertschöpfung
-3. Investment Management: Geschäftliche Bewertung und Verantwortung von einzelnen Investitionsentscheidungen
-- Value Governance umfasst klare Ziele, Ausrichtung auf strategische Ziele und kontinuierliche Überwachung und Bewertung
-- Portfolio Management bewertet und priorisiert Investitionen, berücksichtigt Risiken und Chancen
-- Investment Management bewertet Anforderungen, Kosten, Nutzen und Risiken von Investitionen, setzt klare Kriterien und Metriken
-
-- Unterstützt Unternehmen bei der Steigerung der Wettbewerbsfähigkeit und dem Erzielen nachhaltigen Erfolgs
+1. Portfolio Management: Ganzheitliche Betrachtung und Abstimmung aller Investitionen im Portfolio für hohe Wertschöpfung
+1.  Investment Management: Geschäftliche Bewertung und Verantwortung von einzelnen Investitionsentscheidungen
+1. Value Governance umfasst klare Ziele, Ausrichtung auf strategische Ziele und kontinuierliche Überwachung und Bewertung
+1. Portfolio Management bewertet und priorisiert Investitionen, berücksichtigt Risiken und Chancen
+1. Investment Management bewertet Anforderungen, Kosten, Nutzen und Risiken von Investitionen, setzt klare Kriterien und Metriken
+1. Unterstützt Unternehmen bei der Steigerung der Wettbewerbsfähigkeit und dem Erzielen nachhaltigen Erfolgs
 
 ### **_SWOT-Analyse (Strenghts, Weaknesses, Opportunities, Threats):_**
 - SWOT-Analyse bewertet interne Stärken, Schwächen und externe Chancen, Risiken
