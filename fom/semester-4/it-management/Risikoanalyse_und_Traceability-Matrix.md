@@ -2,7 +2,7 @@
 title: Risikoanalyse und Traceability-Matrix
 description: 
 published: 1
-date: 2023-07-17T14:53:22.517Z
+date: 2023-07-21T10:47:38.093Z
 tags: risikoanalyse, traceability-matrix
 editor: markdown
 dateCreated: 2023-06-26T17:01:10.567Z
@@ -19,7 +19,6 @@ dateCreated: 2023-06-26T17:01:10.567Z
 _Vorteile:_
 - Transparenz über Risiken ermöglicht Risikominimierung und -vermeidung
 - Langfristige finanzielle Einsparungen durch reduzierte Risikokosten
-- Verbesserung der Bilanz und genauere Budgetplanungen
 - Erhöhte Informationssicherheit
 - Geringere Gefahr durch (Industrie-) Spionage
 
