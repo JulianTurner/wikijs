@@ -2,7 +2,7 @@
 title: Klausurvorbereitung
 description: 
 published: 1
-date: 2023-07-18T16:33:25.381Z
+date: 2023-07-21T11:33:39.552Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:46:51.356Z
@@ -10,12 +10,7 @@ dateCreated: 2023-03-21T19:46:51.356Z
 
 # Klausurvorbereitung
 
-Die Kritischen Erfolgsfaktoren beim Portfoliomanagement: die strategischen Punkte verstehen andhand strategischer Systeme. Je nachdem bewerte anhand bestimmter vorgehensweise meine strategischen
-- Strategischen Wert
-- Risiko
-- Belegen anhand betriebswirtschaftlicher Kennzahlen
-
-Folie Vor nachteile sourcing (outsourcing)154 156 sourcing potenzial und beschränkungen, 85,88,89,92,98,117-120,122,125-127,129-132,141-149,156 201 214  209 sollte man kennen 211 219  222 und 223 auf jedenfalls Seite 233 Service orientierte Architektur?
+Service orientierte Architektur?
 
 **_Supply Chain Management(SCM):_**
 - Supply Chain Management umfasst die Planung, Steuerung und Koordination von Prozessen entlang der Lieferkette.
