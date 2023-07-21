@@ -2,7 +2,7 @@
 title: IT-Governance
 description: 
 published: 1
-date: 2023-06-26T16:37:51.761Z
+date: 2023-07-21T11:13:00.520Z
 tags: it-governance
 editor: markdown
 dateCreated: 2023-06-26T15:25:49.186Z
@@ -14,7 +14,7 @@ Die IT-Governance befasst sich mit der verantwortlichen und langfristig ausgeric
 
 - Die IT-Governance ist eine Spezialisierung der Corporate Governance und behandelt die unternehmensweite Steuerung und Kontrolle der IT.
 - Sie ist eine Reaktion auf die wachsende Bedeutung von IT in Geschäftsprozessen und den verstärkten Einsatz von Outsourcing.
-- Die IT-Governance umfasst vier Schwerpunkte: strategische Ausrichtung, Wertorientierung, Risikomanagement und Leistungsmessung.
+***- Die IT-Governance umfasst vier Schwerpunkte: strategische Ausrichtung, Wertorientierung, Risikomanagement und Leistungsmessung.***
 - Die Wertorientierung legt den Fokus auf den Beitrag der IT zur Wertschöpfung des Unternehmens anstelle rein kostenbasierter Betrachtungen.
 - Die Prozessorientierung betont die Bedeutung der Geschäftsprozesse und deren Unterstützung durch IT.
 - Die Dienstleistungsorientierung zielt auf eine Transformation der IT-Abteilung in einen internen Dienstleister für das gesamte Unternehmen ab.
