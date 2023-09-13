@@ -8,3 +8,8 @@ dateCreated: 2023-09-13T19:04:20.207Z
 ---
 
 # Klausurvorbereitung
+
+Transferaufgaben:
+
+- Scheduling
+- Speicherverwaltung
