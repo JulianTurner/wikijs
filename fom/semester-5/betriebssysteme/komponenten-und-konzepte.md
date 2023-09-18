@@ -112,4 +112,68 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 1. Echtzeit-Betriebssysteme
 1. Universale-Betriebssysteme
 
-S. 28
+#### Großrechner-Betriebssysteme
+
+- Mainframe-Betriebssysteme
+- Stapelverarbeitung "Batch Processing"
+- Dialogbetrieb mit Time-Sharing-Verfahren
+- Transaktionsverarbeitung
+
+> Beispiel für Großrechner-Betriebssysteme: IBM z/OS, Linux
+{.is-info}
+
+#### Server-Betriebssysteme
+
+- stellen Dienste für andere Systeme bereit
+  - Druckdienste
+  - Dateidienste
+  - Webdienste
+
+> Beispiel für Server-Betriebssysteme: Windows Server, Linux
+{.is-info}
+
+#### Client-Betriebssysteme
+
+- Einbenutzer-Betrieb
+- Interaktive Bedienung
+
+> Beispiel für Client-Betriebssysteme: Windows, Linux, MacOS
+{.is-info}
+
+#### Multi-Prozessor-Betriebssysteme ()
+
+- Mehrere Prozessoren
+
+> Beispiel für Multi-Prozessor-Betriebssysteme: Linux, Windows Server
+{.is-info}
+
+#### Embedded-Betriebssysteme
+
+- steuert Einzelgräte (z. B. Waschmaschine, Telefon)
+- mobiles Gerät (z. B. Smartphone, Tablet)
+- weiche Echtzeitanforderungen (z. B. VoIP) & eingeschränkte Ressourcen
+
+> Beispiel für Embedded-Betriebssysteme: Android, Tizen, iOS
+{.is-info}
+
+#### SmartCard-Betriebssysteme
+
+- Rechner auf Chipkarte
+- stark eingeschränkte Ressourcen
+- wenig spezielle Anforderungen
+- meist primitiv und proprietär
+
+#### Echtzeit Betriebssysteme
+
+- "Zeit" ist wesentliches Kriterium (Rechtzeitig - Aufgabe wird nie später als gefordert gestartet)
+- steuern technische Prozesse oder Vorgänge in der Außenwelt
+- harte Echtzeit: Aufgabe muss immer rechtzeitig gestartet werden
+- weiche Echtzeit: Nichteinhalten von Zeitgarantien führt zu Qualitätsverlust
+
+![Echtzeit Betriebssysteme](https://www.linux-magazin.de/wp-content/uploads/2007/01/abb3_jpg-200-768x438.jpg)
+
+> Beispiel für **harte** Echtzeit Betriebssysteme (Kraftwerke, Fahrzeuge): VxWorks
+{.is-info}
+&nbsp;  
+> Beispiel für **weiche** Echtzeit Betriebssysteme (Audio-(VOIP), Video-Applikationen): QNX (Navi-Betriebssystem im Auto)
+{.is-info}
