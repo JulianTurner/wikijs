@@ -177,3 +177,5 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 &nbsp;  
 > Beispiel für **weiche** Echtzeit Betriebssysteme (Audio-(VOIP), Video-Applikationen): QNX (Navi-Betriebssystem im Auto)
 {.is-info}
+
+<!-- S. 34 -->
