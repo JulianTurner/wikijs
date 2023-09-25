@@ -36,7 +36,7 @@ dateCreated: 2023-09-13T19:13:19.207Z
 - Abstraktion der Hardware
 - Zugriff auf Ressourcen regeln
 
-### Schichtenmodell
+### Betriebssystemschichten
 
 - jede Schicht hat eine Aufgabe
 - bietet Dienste nach oben
@@ -178,4 +178,41 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Beispiel für **weiche** Echtzeit Betriebssysteme (Audio-(VOIP), Video-Applikationen): QNX (Navi-Betriebssystem im Auto)
 {.is-info}
 
-<!-- S. 34 -->
+### Anforderungen an Betriebssysteme
+
+- unempfindlich gegenüber Abstürzen von Anwendungsprogrammen
+- offen für Anwendungsprogramme, Erweiterungen und Treiber
+- läuft auf unterschiedlicher Hardware
+
+> Im Kernel ist mindestens die Prozess- & Speicherorganisation und Interprozesskommunikation enthalten
+{.is-info}
+
+### Kernel-Einordnung im Betriebssystem
+
+- User-Mode
+  - Standardsoftware
+  - Individualsoftware
+- Treiber, Hardwarenahe Module + Systembibliotheken, Standardmodule
+- Betriebssystem-Kern
+
+> Prozesse kommunizieren mit dem Betriebssystem-Kern über Systemaufrufe (System Calls)
+{.is-info}
+&nbsp;  
+> Nur das Betriebssystem im Kernel-Mode kann auf die Hardware & Betriebssystem-Speicherbereich zugreifen
+{.is-info}
+
+### Sicherheits-Architektur moderner CPUs (Ringe)
+
+Nur Betriebssystem hat Zugriff auf die Hardware um:
+
+- Zugriffe der Prozesse auf Hardware fair koordinieren
+- Beschädigung der Hardware durch Prozesse verhindern
+- Prozesse voneinander isolieren
+- User-Mode beschränkt nutzbaren Befehlssatz
+  - kann nicht direkt auf Hardware zugreifen
+  - kann nicht die Privilegierungsebene ändern
+
+![Sicherheits-Architektur moderner CPUs (Ringe)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Priv_rings.svg/1200px-Priv_rings.svg.png)
+
+> Prozessor-Operations-Wechsel zwischen User-Mode und Kernel-Mode erfordert einen doppelten Kontextwechsel, der Rechenzeit in Anspruch nimmt (Prozess -> Kernel -> Prozess)
+{.is-info}
