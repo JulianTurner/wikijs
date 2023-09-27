@@ -9,9 +9,7 @@ dateCreated: 2023-09-13T19:13:19.207Z
 
 # Komponenten und Konzepte
 
-## Begriffe
-
-### TCO - Total Cost of Ownership
+## TCO - Total Cost of Ownership
 
 - Kosten Hardware
 - Lizenzkosten
@@ -25,7 +23,7 @@ dateCreated: 2023-09-13T19:13:19.207Z
 > Umstellung ist nicht schnell revidierbar
 {.is-info}
 
-### Betriebssystem
+## Betriebssystem
 
 - ist die Software, die zusammen mit Hardware die Basis zum Betrieb eines Computersystems bildet
 - abarbeitet und steuert Programme
@@ -36,7 +34,7 @@ dateCreated: 2023-09-13T19:13:19.207Z
 - Abstraktion der Hardware
 - Zugriff auf Ressourcen regeln
 
-### Betriebssystemschichten
+## Betriebssystemschichten
 
 - jede Schicht hat eine Aufgabe
 - bietet Dienste nach oben
@@ -77,7 +75,7 @@ Nachteile:
 > HAL - Hardware Abstraction Layer
 {.is-info}
 
-### Teile eines Betriebssystems
+## Teile eines Betriebssystems
 
 Ein Betriebssystem enthaltet folgende Teile:
 
@@ -101,7 +99,7 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
   - Hilfs-Routinen für Anwendungsprogramme
 - Betriebssystem-Kern -> Kernel mit Basis-Funktionen (z. B.  CPU & RAM Zuteilung)
 
-### Betriebssysteme Kategorien
+## Betriebssysteme Kategorien
 
 1. Großrechner-Betriebssysteme -> Supercomputer
 1. Server-Betriebssysteme
@@ -112,7 +110,7 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 1. Echtzeit-Betriebssysteme
 1. Universale-Betriebssysteme
 
-#### Großrechner-Betriebssysteme
+### Großrechner-Betriebssysteme
 
 - Mainframe-Betriebssysteme
 - Stapelverarbeitung "Batch Processing"
@@ -122,7 +120,7 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Beispiel für Großrechner-Betriebssysteme: IBM z/OS, Linux
 {.is-info}
 
-#### Server-Betriebssysteme
+### Server-Betriebssysteme
 
 - stellen Dienste für andere Systeme bereit
   - Druckdienste
@@ -132,7 +130,7 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Beispiel für Server-Betriebssysteme: Windows Server, Linux
 {.is-info}
 
-#### Client-Betriebssysteme
+### Client-Betriebssysteme
 
 - Einbenutzer-Betrieb
 - Interaktive Bedienung
@@ -140,14 +138,14 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Beispiel für Client-Betriebssysteme: Windows, Linux, MacOS
 {.is-info}
 
-#### Multi-Prozessor-Betriebssysteme ()
+### Multi-Prozessor-Betriebssysteme ()
 
 - Mehrere Prozessoren
 
 > Beispiel für Multi-Prozessor-Betriebssysteme: Linux, Windows Server
 {.is-info}
 
-#### Embedded-Betriebssysteme
+### Embedded-Betriebssysteme
 
 - steuert Einzelgräte (z. B. Waschmaschine, Telefon)
 - mobiles Gerät (z. B. Smartphone, Tablet)
@@ -156,14 +154,14 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Beispiel für Embedded-Betriebssysteme: Android, Tizen, iOS
 {.is-info}
 
-#### SmartCard-Betriebssysteme
+### SmartCard-Betriebssysteme
 
 - Rechner auf Chipkarte
 - stark eingeschränkte Ressourcen
 - wenig spezielle Anforderungen
 - meist primitiv und proprietär
 
-#### Echtzeit Betriebssysteme
+### Echtzeit Betriebssysteme
 
 - "Zeit" ist wesentliches Kriterium (Rechtzeitig - Aufgabe wird nie später als gefordert gestartet)
 - steuern technische Prozesse oder Vorgänge in der Außenwelt
@@ -178,7 +176,7 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Beispiel für **weiche** Echtzeit Betriebssysteme (Audio-(VOIP), Video-Applikationen): QNX (Navi-Betriebssystem im Auto)
 {.is-info}
 
-### Anforderungen an Betriebssysteme
+## Anforderungen an Betriebssysteme
 
 - unempfindlich gegenüber Abstürzen von Anwendungsprogrammen
 - offen für Anwendungsprogramme, Erweiterungen und Treiber
@@ -187,7 +185,7 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Im Kernel ist mindestens die Prozess- & Speicherorganisation und Interprozesskommunikation enthalten
 {.is-info}
 
-### Kernel-Einordnung im Betriebssystem
+## Kernel-Einordnung im Betriebssystem
 
 - User-Mode
   - Standardsoftware
@@ -201,12 +199,12 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 > Nur das Betriebssystem im Kernel-Mode kann auf die Hardware & Betriebssystem-Speicherbereich zugreifen
 {.is-info}
 
-### Sicherheits-Architektur moderner CPUs (Ringe)
+## Sicherheits-Architektur moderner CPUs (Ringe)
 
 Nur Betriebssystem hat Zugriff auf die Hardware um:
 
 - Zugriffe der Prozesse auf Hardware fair koordinieren
-- Beschädigung der Hardware durch Prozesse verhindern
+- Beschädigung der Hardware durch Prozesse / Schadsoftware verhindern
 - Prozesse voneinander isolieren
 - User-Mode beschränkt nutzbaren Befehlssatz
   - kann nicht direkt auf Hardware zugreifen
@@ -216,3 +214,79 @@ Nur Betriebssystem hat Zugriff auf die Hardware um:
 
 > Prozessor-Operations-Wechsel zwischen User-Mode und Kernel-Mode erfordert einen doppelten Kontextwechsel, der Rechenzeit in Anspruch nimmt (Prozess -> Kernel -> Prozess)
 {.is-info}
+
+## Architektur von Betriebssystemen
+
+### Monolithischer Kernel
+
+> Alle Funktionen im Betriebssystem-Kern
+{.is-info}
+
+![Monolithischer Kernel](https://static.javatpoint.com/operating-system/images/monolithic-structure-of-operating-system.png)
+
+Vorteile:
+
+- schnell und performant
+- hoch optimiert
+
+Nachteile:
+
+- Fehler im Kernel können das gesamte System zum Absturz bringen
+- schwer zu warten und zu erweitern
+- Komponenten sind schwer austauschbar
+
+Beispiele:
+
+- Linux
+- MS-DOS
+
+### Mikrokernel
+
+> Nur wenige Funktionen im Betriebssystem-Kern wie Speicherverwaltung, Prozessverwaltung, Kommunikation.
+> Auch Treiber laufen im User Mode
+{.is-info}
+
+Vorteile:
+
+- hohe Stabilität, da Fehler in Treibern nicht das gesamte System zum Absturz bringen
+- einfache Wartung und Erweiterung
+
+Nachteile:
+
+- langsam, da viele Kontextwechsel zwischen User-Mode und Kernel-Mode (insbesondere bei Grafikkarte /-treiber)
+- schwierige Implementierung
+
+![Mikrokernel](https://static.javatpoint.com/operating-system/images/microkernel-in-operating-system.png)
+
+Beispiele:
+
+- QNX
+- Symbian OS
+
+### Hybridkernel
+
+> Mischform aus Monolithischem Kernel und Mikrokernel
+{.is-info}
+
+Um schneller zu werden wurden Teile wie Grafiktreiber in den Kernel verlagert.
+
+Vorteile:
+
+- schneller als Mikrokernel
+- stabiler als Monolithischer Kernel
+
+Nachteile:
+
+- nicht so stabil wie Mikrokernel
+- nicht so schnell wie Monolithischer Kernel
+
+Beispiele:
+
+- Windows NT
+- MacOS
+
+![Hybridkernel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Windows_2000_architecture.svg/800px-Windows_2000_architecture.svg.png)
+
+### Exokernel
+
+<!-- Seite 51 -->
