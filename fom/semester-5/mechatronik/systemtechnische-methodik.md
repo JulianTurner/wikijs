@@ -38,8 +38,6 @@ digraph D {
 }
 ```
 
-- Gesamtsystem -> Teilsysteme -> Subsysteme -> Systemkomponenten -> Systemelemente (kleinster Systembestandteil)
-
 ### Input / Output
 
 Eingangsgrößen:
