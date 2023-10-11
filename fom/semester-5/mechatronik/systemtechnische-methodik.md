@@ -18,6 +18,26 @@ dateCreated: 2023-10-11T19:46:54.207Z
 
 Zerlegung des Gesamtsystems:
 
+```kroki
+graphviz
+
+digraph D {
+  subgraph cluster_gesamtsystem {
+    label = "Gesamtsysytem";
+    subgraph cluster_teilsystem {
+      label = "Teilsystem";
+      subgraph cluster_subsystem {
+        label = "Subsystem";
+        subgraph cluster_systemkomponente {
+          label = "Systemkomponente";
+          Systemelement;          
+        }
+      }
+    }
+  }
+}
+```
+
 - Gesamtsystem -> Teilsysteme -> Subsysteme -> Systemkomponenten -> Systemelemente (kleinster Systembestandteil)
 
 ### Input / Output
