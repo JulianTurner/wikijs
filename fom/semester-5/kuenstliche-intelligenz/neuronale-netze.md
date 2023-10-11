@@ -87,3 +87,5 @@ $$\delta_{i} = {\begin{cases}
 - $L$: für den Output relevante Gewichte
 - $t_{ist}^{ist}$: berechneter Output
 - $y_{i}^{soll}$: gewünschter Output
+
+<!-- Seite 119 -->

@@ -9,19 +9,10 @@ dateCreated: 2023-10-04T19:10:21.207Z
 
 # Wiederholung
 
-## Begriffe
-
-- Mechatronik -> Zusammenwirken von Mechanik, Elektronik und Informatik
-    - Beispiel: ABS-Bremssystem, Einspritzanlage
-- Fluidik -> Zusammenwirken von strömungsmachanischen Strömungselementen (Hydraulik, Pneumatik)
-    - Beispiel: Hydraulikbagger, Pneumatikzylinder
-- Viskosität -> Zähigkeit eines Fluids
-- Strecke -> kürzester Weg, der zwischen zwei Punkten zurückgelegt wird
-
-
 ## Geometrie
 
 ### Kreis
+
 - Radius: $r$
 - Durchmesser: $d = 2 * r$
 - Umfang: $u = 2 * \pi * r$
@@ -30,11 +21,11 @@ dateCreated: 2023-10-04T19:10:21.207Z
 - Kreissegmente (Anzahl): $n$
 - Kreisbogen: $b$
 - Bogenmaß: $arc \alpha_{DEG} = \frac{b}{r} = \frac{\pi}{180^\circ} * \alpha_{DEG}$
-    - Umrechnung Bogenmaß in Gradmaß: $\alpha_{DEG} = \frac{b}{r}$
-    - Umrechnung Gradmaß in Bogenmaß: $\alpha_{RAD} $
+  - Umrechnung Bogenmaß in Gradmaß: $\alpha_{DEG} = \frac{b}{r}$
+  - Umrechnung Gradmaß in Bogenmaß: $\alpha_{RAD} $
 - Vollkreis
-    - Bogenmaß: $\frac{\pi}{180^\circ} * 360^\circ$
-    - Gradmaß: $360^\circ$
+  - Bogenmaß: $\frac{\pi}{180^\circ} * 360^\circ$
+  - Gradmaß: $360^\circ$
 - Innenwinkel: $\alpha_{DEG} = \frac{360^\circ}{n}$
 
 ![Kreis](https://www.lernhelfer.de/sites/default/files/lexicon/image/BWS-MAT1-0526-01.gif)
@@ -98,7 +89,7 @@ Volumen: $V = \frac{4}{3} * \pi * r^3$
 - Dämpfungskonstante: $d$
 - Reibungskoeffizient: $\mu$
 - Auslenkung: $\vec{x}$
-- Normalkraft/Gegenkraft zur Gewichtskraft: $\vec{F_N}$ 
+- Normalkraft/Gegenkraft zur Gewichtskraft: $\vec{F_N}$
 - Trägheitskraft/Fliehkraft: $\vec{F_T} = m * \vec{a}$
 - Gewichtskraft/Gravitation: $\vec{F_G} = m * g$
 - Reibungskraft: $\vec{F_R} = \mu * \vec{F_N}$
