@@ -287,6 +287,52 @@ Beispiele:
 
 ![Hybridkernel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Windows_2000_architecture.svg/800px-Windows_2000_architecture.svg.png)
 
-### Exokernel
+## Mehrprogrammbetrieb
 
-<!-- Seite 51 -->
+Psuedo-Parallelität:
+
+- Aufgaben in kurzen Abständen abwechselnd ausführen
+- Auf einem CPU-Kern
+
+> Bei mehreren CPU-Kernen ist echte Parallelität möglich
+{.is-info}
+
+### Multitasking
+
+- jeder Task bekommt eine virtuelle CPU
+- Werte des CPU-Registers werden beim Kontextwechsel ins RAM gespeichert und beim Wiederaufnehmen des Tasks in die CPU-Register geladen
+
+### Teilnehmer Betrieb
+
+- mehrerer Nutzer an verschiedenen Anwendungen auf dem gleichen Rechner (Dialogbetrieb)
+- Rechenzeit wird auf die Nutzer aufgeteilt
+- wird oft über Thin-Clients realisiert
+- Grafik wird über RDP oder VDI (Virtual Desktop Infrastructure) übertragen und hinterlässt keine Daten auf dem Client
+
+Beispiele:
+
+- Terminalserver
+- Citrix
+
+### Teilhaber Betrieb / Transaktionsbetrieb
+
+- mehrere Nutzer an einer Anwendung auf der gleichen Datenbasis
+- Transaktionsmonitor / Broker verhindert konkurrierende Zugriffe auf die Datenbasis
+- sichert Datenkonsistenz
+
+Beispiele:
+
+- Reservierungssysteme
+- Bankensysteme
+
+### Firmware
+
+- weitere Abstraktionsschicht
+- zwischen Hardware und Betriebssystem
+  - BIOS (Basic Input Output System)
+  - UEFI (Unified Extensible Firmware Interface)
+- für POST (Power On Self Test) zuständig
+- noch vor dem Betriebssystem
+- initialisiert Hardware
+- Fehlerdiagnose der Hardware
+- Verbergen von Funktionalitäten der Hardware (z. B. Caching bei Datenträgern)
