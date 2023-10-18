@@ -23,40 +23,50 @@ Bleistift und Radiergummi mitnehmen
 
 Grundelegende Definition
 Was ist eine von Neumann Architektur
+
 # Welche Schwieriegkeiten hat eine von Neumann Architektur
+
 Gleichzeite Zugriff konkurierend auf den Speicher von der Steuer und Recheneinheit
 
 # Unterschiede zu Harvard Architektur
+
 Steuer und Recheneinheit haben ihren eigenen Speicher
 
 Zeichnung erklären von Neumann Architektur
 
 # Schreiben Sie ein Programm welche zwei zahlen in folgenden Registern addiert
+
 add ERGEBNISREG, REG1, REG2
 
 # Führen sie eine Shift Operation durch (Befehl wird dann gegeben)
+
 slr REG # right teilt 2
 sll REG # left multipliziert 2
 
 # Was kann ich mit einem Raid erreichen?
+
 - Ausfallsicherheit
-- Performance 
+- Performance
 
 # Wie funktioniert ein Bus System?
+
 - mehere Geräte anschließen und miteinander vernbinden
 - seriell mit einer Leitung
 - paralell mit meheren Leitungen
 - Master & Slave
 - Multimaster
 
+# Wie groß war eine Festplatte früher?
 
-# Wie groß war eine Festplatte früher? 
 - unter 1 Mb, ähnlich wie Trommelspeicher
 
 Grundlagen der Schaltungstechnik
-- Grundlegende boolische Funktion 
+
+- Grundlegende boolische Funktion
 - Wahrheitstabelle
-# Zusammengesetzte schaltung Wahrheitstabelle 
+
+# Zusammengesetzte schaltung Wahrheitstabelle
+
 - 3 Eingnänge A | B | C | A & B | oder C
 
 Zeichnen sie einen Full Adder aus 2 Half Adder
@@ -64,41 +74,51 @@ Zeichnen sie einen Full Adder aus 2 Half Adder
 ![wahrheitstabelle_fulladder.png](/fom/hardware-grundlagen/wahrheitstabelle_fulladder.png)
 
 Warum hat man Ringe gebaut?
+
 - erhöhte Sicherheit
 - Stabilität da ein Nutzerprogramm nicht direkt auf Hardware zugreifft
 - kompatibilität durch standartisierte Schnittstelle
 
 Warum gibt es priviligierte Befehle?
+
 - interrupts auslösen
 - um in tiefere Schichten (Kernel) zu kommen / schützen
 
 Aus welchen Bestandteilen besteht float?
+
 - Mantisse
 - Basis
 - Exponent
 
 # Was ist der Unterschied zwischen analog und digital?
+
 analog: hat einen kontinuierlichen Werteraum.
 digital: können nur Werte dargestellt werden
 
 # Was kann man mit heutigen Rechnern bearbeiten?
+
 - Skalare und Vektoren
 
 # Wie werden Daten repräsentiert in einem Rechner?
+
 - aus bits (0 oder 1)
 
 # Umwandlung dezimal zu binär
+
 - horner Schema (Achtung von unten nach oben)
+
 # Wie kann ich in einem Rechner eine negative Zahl darstellen?
+
 mit einem Vorzeichen Bit
 2-er Komplement
 
 # Wie Berechne ich das 2er Komplement?
+
 Komplement der Zahl (1001 => 0110) oder (0000 => 1111)
 1 Addieren (0110 + 1 = 0111) oder (1111 + 1 = 0000)
 
 # Substraction mit dem 2er Komplement?
-erst das Komplement bilden und dann addieren
 
+erst das Komplement bilden und dann addieren
 
 Sie haben einen rechner der 0 oder 1 Gen, und sollen eine Subtraction druchführen. Wie geht das?

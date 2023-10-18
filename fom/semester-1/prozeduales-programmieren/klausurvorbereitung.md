@@ -34,7 +34,7 @@ Was ist der Vorteil von der Aufspaltung von Hardware und Software?
 
 Was zeichnet eine von Neumann-Architektur aus?
 
-- eine Rechnerarchitektur die Zentaleinheit und Hauptspeicher trennt
+- eine Rechnerarchitektur die Zentraleinheit und Hauptspeicher trennt
 - der Hauptspeicher enthält Daten auf dem ein Programm operiert, und das Programm selbst
 - den Flaschenhals da die ALU und die Steuerung der Zentraleinheit konkurierend auf den Speicher zugreifen
 
