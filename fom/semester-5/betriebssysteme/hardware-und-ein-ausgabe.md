@@ -108,7 +108,16 @@ do_device_action();
 1. CPU verarbeitet Daten
 ![Interruptbehandlung](Interruptbehandlung.png)
 
+Ablauf ISR:
+
+1. Weitere Interrupts sperrren
+1. CPU-Register & Zustand des unterbrochenen Prozesses sichern
+1. Anforderungen des Interrupts bearbeiten
+1. Andere Interrupts freigeben
+1. CPU-Register & Zustand des unterbrochenen Prozesses wiederherstellen
+
 > Interrupt-Vektor: Tabelle mit Adressen der ISRs und attraktives Ziel für Angriffe
 {.is-warning}
-
-<!-- S. 109 -->
+&nbsp;
+> ISR sollte kurz gehalten werden da zeitgleich keine anderen wichtigen Interrupts bearbeitet werden können
+{.is-info}
