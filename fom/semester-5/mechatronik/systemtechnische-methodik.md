@@ -42,9 +42,9 @@ digraph D {
 
 Eingangsgrößen:
 
-- $X$ operative Größen (z.B. //TODO)
-- $H$ Hilfsgrößen (z.B. //TODO)
-- $Z$ Störgrößen (z.B. Steigungen)
+- $X$ operative Größen (hat unmittelbaren Einfluss)
+- $H$ Hilfsgrößen (nicht direkt am Prozess beteiligt, z.B. Spannung beim Arbeitskreis)
+- $Z$ Störgrößen (z.B. //TODO)
 - Dissipationseffekte (z.B. Umwandlung Energie in Wärme)
 
 Ausgangsgrößen:
