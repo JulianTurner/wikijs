@@ -85,7 +85,13 @@ $$\delta_{i} = {\begin{cases}
 - $f'(netzinput_{i})$: Input aus der vorherigen Schicht mit Aktivierungsfunktion
 - $f'()$: Gradientenfunktion auf $netzinput_{i}$
 - $L$: für den Output relevante Gewichte
-- $t_{ist}^{ist}$: berechneter Output
+- $t_{i}^{ist}$: berechneter Output
 - $y_{i}^{soll}$: gewünschter Output
 
-<!-- Seite 119 -->
+## Gradientenabstiegsverfahren
+
+![Gradient](Gradient.png)
+
+- Gradient wird über Gewichtsanpassung berechnet
+- Suche nach dem Minimum in Richtung des negativen Gradienten (steilster Abstieg)
+- Gefahr in lokales Minimum zu laufen (gesucht wird globales Minimum)
