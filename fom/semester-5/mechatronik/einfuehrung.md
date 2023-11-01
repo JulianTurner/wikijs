@@ -53,3 +53,7 @@ C --Informationen--> D
 ### BlackBox
 
 [BlackBox](/fom/semester-2/digitale-regelungstechnik/einleitung_grundlagen.md#technisches-system)
+
+## Elektrik
+
+![Elektrik](https://www.leichter-unterrichten.com/wp-content/uploads/2019/02/2019_Ohmsches_Gesetz_RUDI_Memes-212x300.jpg)

@@ -89,6 +89,18 @@ K --> S
   - Effort: $\Delta T$ (Temperaturdifferenz)
   - Flow: $\dot{S}$ (Entropiestrom)
 
+Verschiebungen:
+
+- KFZ (Translation): -> Strecke
+- Rad (Rotation): -> Winkel
+- Kondensator (Elektrik): -> Ladung
+- Hydraulik: -> Volumen
+
+> Energie $= \int Leistung * Zeit $
+{.is-info}
+&nbsp;
+> Kontinuitätsgleichung = $A_1 * V_1 = A_2 * V_2$
+
 ## Zustands-Tetraeder
 
 ![Tetraeder](Tetraeder.png)
@@ -97,3 +109,70 @@ K --> S
 - $f$ = Flow
 - $p$ = Impuls
 - $q$ = Verschiebung
+
+## Bondgraph
+
+![Bondgraph](Bondgraph.png)
+
+### 1-Port Elemente
+
+- Speicher (C-Element) -> Compliance (Energie bleibt erhalten)
+  - z.B. Feder, Kondensator, Hydraulikspeicher
+
+$$	\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{C}}}$$
+
+$$e = \frac{1} {\large\textcircled{\normalsize \texttt{C}}} * q$$
+
+***
+
+- Speicher (I-Element) -> Inertia (Trägheit)
+  - z.B. Masse, Spule, hydraulische Trägheit
+
+$$	\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{I}}}$$
+
+$$e = {\large\textcircled{\normalsize \texttt{I}}} * \dot{f}$$
+
+$$p = {\large\textcircled{\normalsize \texttt{I}}} * f$$
+
+***
+
+- Widerstand (R-Element) -> Resistor (Energie wird dissipiert)
+  - z.B. Dämpfer, Elektrischer Widerstand, hydraulischer Widerstand
+
+$$	\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{R}}}$$
+
+$$e = {\large\textcircled{\normalsize \texttt{R}}} * f$$
+
+***
+
+- Quelle (S-Element) -> Source
+  - Effort-Quelle: SE
+  - Flow-Quelle: SF
+
+$$ SE \xrightharpoondown[f]{e}$$
+
+$$ SF \xrightharpoondown[f]{e}$$
+
+### 2-Port Elemente
+
+- Transformator
+  - z.B. Getriebe, Hebel, Trafo
+
+$$	\xrightharpoondown[f1]{e1}\ddot{TF}^{m} \xrightharpoondown[f2]{e2}$$
+
+$$ e_1 = {\large\textcircled{\normalsize \texttt{m}}} e_2$$
+
+$$ f_1 = {\large\textcircled{\normalsize \texttt{m}}} f_2$$
+***
+
+- Gyrator
+  - z.B. Gleichstrommotor, Generator
+
+$$	\xrightharpoondown[f1]{e1}\ddot{GY}^{r} \xrightharpoondown[f2]{e2}$$
+
+$$ e_1 = {\large\textcircled{\normalsize \texttt{r}}} f_2$$
+
+$$ e_2 = {\large\textcircled{\normalsize \texttt{r}}} f_1$$
+***
+
+### 3-Port Elemente
