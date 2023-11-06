@@ -2,7 +2,7 @@
 title: Modellbildung
 description: 
 published: 1
-date: 2023-11-06T19:42:03.708Z
+date: 2023-11-06T19:43:01.695Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-11T18:16:02.161Z
@@ -215,7 +215,9 @@ e_1 = {\large\textcircled{\normalsize \texttt{r}}} f_2
 $$
 &nbsp;
 
-$e_2 = {\large\textcircled{\normalsize \texttt{r}}} f_1$
+$$
+e_2 = {\large\textcircled{\normalsize \texttt{r}}} f_1
+$$
 &nbsp;
 
 ***
