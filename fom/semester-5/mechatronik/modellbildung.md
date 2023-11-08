@@ -244,7 +244,7 @@ $$
 - Parallelschaltung
   - Effort ist immer gleich (z.B. Spannung)  
 
-//TODO Screenshot
+![0Junction](0Junction.png)
 
 #### 1 Junction
 
