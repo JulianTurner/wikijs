@@ -176,3 +176,32 @@ $$ e_2 = {\large\textcircled{\normalsize \texttt{r}}} f_1$$
 ***
 
 ### 3-Port Elemente
+
+### Reihenschaltung
+
+- Transformer wird an Transformator angeschlossen
+
+### Gemischte Schaltung
+
+- Transformer wird an Gyrator angeschlossen
+
+### Multiport Elemente
+
+- MP-Junctions sind prinzipiell Leistungsknoten
+  - Gerichte Leistungsbilanz => Leistung einer Komponente = Summe andere Teil-Leistungen
+  - Ungerichtete Leistungsbilanz => Summe aller Leistungen = 0
+
+#### 0 Junction
+
+- Flow Junction
+- Parallelschaltung
+  - Effort ist immer gleich (z.B. Spannung)  
+
+//TODO Screenshot
+
+#### 1 Junction
+
+- Effort Junction
+- Maschen-Regel -> eingehender Effort werden auf alle ausgehenden Efforts aufgeteilt
+- Reihenschaltung/Serienschaltung
+  - Flow ist immer gleich (z.B. Strom)
