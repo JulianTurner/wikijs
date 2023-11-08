@@ -1,10 +1,11 @@
 ---
 title: Modellbildung
+description: 
 published: 1
-date: 2023-10-11T20:06:54.207Z
+date: 2023-11-06T19:43:01.695Z
 tags: 
 editor: markdown
-dateCreated: 2023-10-11T20:06:54.207Z
+dateCreated: 2023-10-11T18:16:02.161Z
 ---
 
 # Modellbildung
@@ -119,29 +120,49 @@ Verschiebungen:
 - Speicher (C-Element) -> Compliance (Energie bleibt erhalten)
   - z.B. Feder, Kondensator, Hydraulikspeicher
 
-$$	\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{C}}}$$
-
-$$e = \frac{1} {\large\textcircled{\normalsize \texttt{C}}} * q$$
+$$
+\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{C}}}
+$$
+&nbsp;
+$$
+e = \frac{1} {\large\textcircled{\normalsize \texttt{C}}} * q
+$$
+&nbsp;
 
 ***
 
 - Speicher (I-Element) -> Inertia (Trägheit)
   - z.B. Masse, Spule, hydraulische Trägheit
 
-$$	\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{I}}}$$
+$$
+\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{I}}}
+$$
+&nbsp;
 
-$$e = {\large\textcircled{\normalsize \texttt{I}}} * \dot{f}$$
+$$
+e = {\large\textcircled{\normalsize \texttt{I}}} * \dot{f}
+$$
+&nbsp;
 
-$$p = {\large\textcircled{\normalsize \texttt{I}}} * f$$
+$$
+p = {\large\textcircled{\normalsize \texttt{I}}} * f
+$$
+&nbsp;
 
 ***
 
 - Widerstand (R-Element) -> Resistor (Energie wird dissipiert)
   - z.B. Dämpfer, Elektrischer Widerstand, hydraulischer Widerstand
 
-$$	\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{R}}}$$
+$$
+\xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{R}}}
+$$
+&nbsp;
 
-$$e = {\large\textcircled{\normalsize \texttt{R}}} * f$$
+$$
+e = {\large\textcircled{\normalsize \texttt{R}}} * f
+$$
+&nbsp;
 
 ***
 
@@ -149,30 +170,56 @@ $$e = {\large\textcircled{\normalsize \texttt{R}}} * f$$
   - Effort-Quelle: SE
   - Flow-Quelle: SF
 
-$$ SE \xrightharpoondown[f]{e}$$
+$$
+SE \xrightharpoondown[f]{e}
+$$
+&nbsp;
 
-$$ SF \xrightharpoondown[f]{e}$$
+$$
+SF \xrightharpoondown[f]{e}
+$$
+&nbsp;
 
 ### 2-Port Elemente
 
 - Transformator
   - z.B. Getriebe, Hebel, Trafo
 
-$$	\xrightharpoondown[f1]{e1}\ddot{TF}^{m} \xrightharpoondown[f2]{e2}$$
+$$
+\xrightharpoondown[f1]{e1}\ddot{TF}^{m} \xrightharpoondown[f2]{e2}
+$$
+&nbsp;
 
-$$ e_1 = {\large\textcircled{\normalsize \texttt{m}}} e_2$$
+$$
+e_1 = {\large\textcircled{\normalsize \texttt{m}}} e_2
+$$
+&nbsp;
 
-$$ f_1 = {\large\textcircled{\normalsize \texttt{m}}} f_2$$
+$$
+f_1 = {\large\textcircled{\normalsize \texttt{m}}} f_2
+$$
+&nbsp;
+
 ***
 
 - Gyrator
   - z.B. Gleichstrommotor, Generator
 
-$$	\xrightharpoondown[f1]{e1}\ddot{GY}^{r} \xrightharpoondown[f2]{e2}$$
+$$
+\xrightharpoondown[f1]{e1}\ddot{GY}^{r} \xrightharpoondown[f2]{e2}
+$$
+&nbsp;
 
-$$ e_1 = {\large\textcircled{\normalsize \texttt{r}}} f_2$$
+$$
+e_1 = {\large\textcircled{\normalsize \texttt{r}}} f_2
+$$
+&nbsp;
 
-$$ e_2 = {\large\textcircled{\normalsize \texttt{r}}} f_1$$
+$$
+e_2 = {\large\textcircled{\normalsize \texttt{r}}} f_1
+$$
+&nbsp;
+
 ***
 
 ### 3-Port Elemente
