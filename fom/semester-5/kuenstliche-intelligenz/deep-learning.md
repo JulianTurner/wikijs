@@ -113,3 +113,69 @@ Performance:
 ### Fully Connected Layer
 
 - Alle Merkmale und Elemente der vorgelagerten Schichten sind mit jedem Ausgabemerkmal verknüpft
+
+## Entscheidungsbäume
+
+- Knoten repräsentieren Merkmale (Attribute)
+- Kante repräsentieren Attributwerte
+- Blätter repräsentieren Klassenwerte
+
+Vorteile:
+
+- gewonnenes Wissen ist als Funktion verfügbar
+- leicht interpretierbar
+- Interpretation des Baums ist einfach
+- Effiziente Auswertung des Modells
+
+Nachteile:
+
+- unübersichtlich bei vielen Attributen
+- finden des optimalen Baumes ist exponentiell
+- Heuristiken finden nur lokale Optima
+- anfällig für Overfitting
+- nicht immer eindeutig
+
+### Begriffe
+
+- Entropie H = Maß der Unsicherheit
+- p den prozentualen Anteil der Variablen von Interesse
+- D die Menge der Daten
+- I(D) Informationsgewinn
+- A ist das Attribut
+- a ist die Ausprägung eines Attributs
+- i Anzahl der Ausprägungen des Attributs im Datensatz
+
+> Je besser die Daten (D) sich anhand der Ausprägungen einer Variablen unterteilen lassen, desto kleiner die Entropie und desto größer der Informationsgewinn (I(D)) durch die Verzweigung
+{.is-info}
+
+### Rechenbeispiel
+
+1. $H(D)$ ausrechnen: $H(D) = -(p_1 \log_2 p_1 + (1 - p_1)\log_2(1-p_1))$
+1. $G(D, A)$ ausrechnen: $G(D, A) = H(D) - \sum H(p_{i_a}* H(a))$
+1. Für alle Attribute $G(D, A)$ ausrechnen
+1. Attribut mit dem höchsten $G(D, A)$ auswählen
+1. Baum aufbauen
+1. ???
+1. Profit
+
+> Für jede Ebene muss H(D) neu berechnet werden und die Daten nach vorheriger Entscheidung gefiltert werden
+{.is-info}
+
+### Verbesserung von Entscheidungsbäumen
+
+- Stacking -> unterschiedliche Algorithmen auf den gleichen Datensaetzen kombinieren (Häufigste Entscheidung gewinnt)
+- Bagging -> gleicher Algorithmus auf unterschiedlichen Datensätzen (Häufigste Entscheidung gewinnt)
+- Boosting -> Training auf initialem Datenset, anschließend werden falsch klassifizierte Daten erneut trainiert (Gewichtung der Entscheidungen; schwer nachvollziehbar)
+
+### Support Vector Machine (SVM)
+
+- versucht eine Trennlinie (Hyperebene) zu finden, die die Klassen voneinander trennt
+- Ergebnis:
+  - linear trennbar -> Hyperebene
+  - nicht linear trennbar -> Kernel-Trick
+    1. Daten in höherdimensionalen Raum transformieren
+    1. Daten trennen
+    1. Daten in ursprünglichen Raum zurück projizieren
+    1. nicht lineare Trennlinie im ursprünglichen Raum
+
+<!-- S. 192 -->
