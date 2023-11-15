@@ -117,8 +117,10 @@ Verschiebungen:
 
 ### 1-Port Elemente
 
-- Speicher (C-Element) -> Compliance (Energie bleibt erhalten)
-  - z.B. Feder, Kondensator, Hydraulikspeicher
+#### C-Element
+
+- Speicher: Compliance (Energie bleibt erhalten)
+- z.B. Feder, Kondensator, Hydraulikspeicher
 
 $$
 \xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{C}}}
@@ -129,10 +131,10 @@ e = \frac{1} {\large\textcircled{\normalsize \texttt{C}}} * q
 $$
 &nbsp;
 
-***
+#### I-Element
 
-- Speicher (I-Element) -> Inertia (Trägheit)
-  - z.B. Masse, Spule, hydraulische Trägheit
+- Speicher: Inertia (Trägheit)
+- z.B. Masse, Spule, hydraulische Trägheit
 
 $$
 \xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{I}}}
@@ -149,10 +151,10 @@ p = {\large\textcircled{\normalsize \texttt{I}}} * f
 $$
 &nbsp;
 
-***
+#### R-Element
 
-- Widerstand (R-Element) -> Resistor (Energie wird dissipiert)
-  - z.B. Dämpfer, Elektrischer Widerstand, hydraulischer Widerstand
+- Widerstand: Resistor (Energie wird dissipiert)
+- z.B. Dämpfer, Elektrischer Widerstand, hydraulischer Widerstand
 
 $$
 \xrightharpoondown[f]{e}{\large\textcircled{\normalsize \texttt{R}}}
@@ -164,11 +166,11 @@ e = {\large\textcircled{\normalsize \texttt{R}}} * f
 $$
 &nbsp;
 
-***
+#### S-Element
 
-- Quelle (S-Element) -> Source
-  - Effort-Quelle: SE
-  - Flow-Quelle: SF
+- Quelle: Source (Energie wird zugeführt)
+- Effort-Quelle: SE
+- Flow-Quelle: SF
 
 $$
 SE \xrightharpoondown[f]{e}
@@ -182,8 +184,12 @@ $$
 
 ### 2-Port Elemente
 
-- Transformator
-  - z.B. Getriebe, Hebel, Trafo
+#### Transformator
+
+- z.B. Getriebe, Hebel, Trafo
+- Verhältnis von Effort und Flow verändert sich proportional
+- Transformerfaktor gibt Verhältnis an
+- Einheiten verändern sich nicht (z.B. Spannung bleibt Spannung, Strom bleibt Strom)
 
 $$
 \xrightharpoondown[f1]{e1}\ddot{TF}^{m} \xrightharpoondown[f2]{e2}
@@ -200,10 +206,12 @@ f_1 = {\large\textcircled{\normalsize \texttt{m}}} f_2
 $$
 &nbsp;
 
-***
+#### Gyrator
 
-- Gyrator
-  - z.B. Gleichstrommotor, Generator
+- z.B. Gleichstrommotor, Generator
+- Wandelt Effort in Flow um
+- Leistung bleibt gleich
+- Einheiten verändern sich (z.B. Spannung wird zu Drehmoment, Strom wird zu Winkelgeschwindigkeit)
 
 $$
 \xrightharpoondown[f1]{e1}\ddot{GY}^{r} \xrightharpoondown[f2]{e2}
@@ -219,8 +227,6 @@ $$
 e_2 = {\large\textcircled{\normalsize \texttt{r}}} f_1
 $$
 &nbsp;
-
-***
 
 ### 3-Port Elemente
 
@@ -242,7 +248,8 @@ $$
 
 - Flow Junction
 - Parallelschaltung
-  - Effort ist immer gleich (z.B. Spannung)  
+  - Effort ist immer gleich (z.B. Spannung)
+  - Flow wird aufgeteilt
 
 ![0Junction](0Junction.png)
 
@@ -252,3 +259,61 @@ $$
 - Maschen-Regel -> eingehender Effort werden auf alle ausgehenden Efforts aufgeteilt
 - Reihenschaltung/Serienschaltung
   - Flow ist immer gleich (z.B. Strom)
+
+#### Bondrichtung
+
+Bond- Halbpfeile:
+
+- gibt die Richtung des Leistungsflusses an
+- in Pfeilrichtung ist P-Fluss positiv
+
+![effort_flow](effort_flow.png)
+
+> e und f haben entgegengesetzte Richtungen
+{.is-info}
+
+Kausalitätsbit:
+
+- bit Position (am Anfang oder Ende des Bonds)
+- gibt Richtung der Effort Information an
+- Richtungspfeile von e und f werden überflüssig
+
+![Kausalitätsbit](Kausalitätsbit.png)
+
+[1-Port-Elemente](#1-port-elemente):
+
+- [I-Element](#i-element)
+  - Kausalitätsbit auf der I-Element Seite  
+![I_Kausalität](I_Kausalität.png)
+- [C-Element](#c-element)
+  - Kausalitätsbit nicht auf der C-Element Seite  
+  ![C_Kausalität](C_Kausalität.png)
+- [R-Element](#r-element)
+  - Kausalitätsbit kann auf einer von beiden Seiten sein  
+  ![R_Kausalität](R_Kausalität.png)
+
+[2 Port Elemente](#2-port-elemente):
+
+- [Transformator](#transformator)
+  - Eingang und Ausgang nicht festgelegt
+  - Kausalitätsbit entweder 2x links oder 2x rechts  
+![Transformator_Kausalität](Transformator_Kausalität.png)
+
+- [Gyrator](#gyrator)
+  - TODO eingang und Ausgang
+  - Kausalitätsbit entweder innen oder außen  
+![Gyrator_Kausalität](Gyrator_Kausalität.png)
+
+[Multiport Elemente](#multiport-elemente):
+
+- [0 Junction](#0-junction)
+  - effort ist immer gleich
+  - Summe aller flows ist 0
+  - flow wird aufgeteilt  
+![0Junction_Kausalität](0Junction_Kausalität.png)
+
+- [1 Junction](#1-junction)
+  - flow ist immer gleich
+  - Summe aller efforts ist 0
+  - effort wird aufgeteilt  
+![1Junction_Kausalität](1Junction_Kausalität.png)
