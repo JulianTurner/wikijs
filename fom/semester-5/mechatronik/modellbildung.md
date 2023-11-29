@@ -317,3 +317,10 @@ Kausalitätsbit:
   - Summe aller efforts ist 0
   - effort wird aufgeteilt  
 ![1Junction_Kausalität](1Junction_Kausalität.png)
+
+### Beispiele
+
+- Einmassenschwinger  
+![Einmassenschwinger](Einmassenschwinger_bond.png)
+
+## Mathematisches Modell
