@@ -2,10 +2,10 @@
 title: Semester 5
 description: 
 published: 1
-date: 2022-03-04T16:25:06.786Z
+date: 2023-12-02T18:49:20.500Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-04T12:23:19.207Z
+dateCreated: 2023-09-13T18:04:57.753Z
 ---
 
 ## Module
@@ -13,3 +13,4 @@ dateCreated: 2022-03-04T12:23:19.207Z
 - [Betriebssysteme](/fom/semester-5/betriebssysteme.md)
 - [Künstliche Intelligenz](/fom/semester-5/kuenstliche-intelligenz.md)
 - [Mechatronik](/fom/semester-5/mechatronik.md)
+- [IT-Trends und Innovationen](/fom/semester-5/IT-Trends und Innovationen)
