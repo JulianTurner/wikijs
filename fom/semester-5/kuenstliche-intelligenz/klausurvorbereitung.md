@@ -9,113 +9,77 @@ dateCreated: 2023-09-13T19:04:20.207Z
 
 # Klausurvorbereitung
 
-## 1
+## [China könnte drankommen?](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#2)
 
-Erklären Sie beispielhaft die Bedeutung der u.a. Aspekte aus der folgenden Definition von KI:
+## [Was  ist Symbolische / Subsymbolische KI](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#5)
 
-Einsatz und die Analyse der Anwendung menschlicher Sinne (Lesen, Schreiben, Sehen, Fühlen, Hören, Sprechen):
+## [Welche Verfahren gibt es](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#6)
 
-- OCR, Chatbots, Bilderkennung, Sentimentanalyse, Spracherkennung, Sprachsynthese
+Was sind Machine Learning verfahren?
 
-Menschliches Verstehen, Lernen, Adaptieren und Schlussfolgern:
+Wie unterscheiden die sich Klassisch programmieren vs Modelle aus Daten entwickeln
 
-Mustererkennung, Konzeptualisierung, Anpassung, Vorhersage
+## [Unterschied überwachtes Lernen / unüberwachtes Lernen / verstärkendes Lernen](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#8)
 
-## 2
+Überblick maschinelles Lernen S.19
 
-Der wirtschaftliche und technologische Fortschritt China’s hat sich in den letzten Jahrzehnten rasant entwickelt.
-Erläutern Sie China’s strategische Ausrichtung in den letzten Jahren.
+## [Neuronale Netze -> Perzeptron](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#18)
 
-- Made in China 2025 -> hochwertige Erzeugnisse aus China
-- neue Seidenstraße -> See- und Landwege von China nach Europa
-- Aufbau der Infrastruktur -> Einzelschicksale werden nicht beachtet
+Backpropagation (Formel aus Formelsammlung abschreiben!!!)
+Kommt auf jeden Fall dran
+Wenn keine Lernrate definiert ist => Lernrate 1
 
-KI als Schlüsseltechnologie für weiteren Wohlstand und Innovationen spielt hierbei eine zentrale Rolle.
-Erläutern Sie die vier Entwicklungswellen von China im Vergleich zu den USA.
+## [Deep Learning  -> Unterschied zw. Deep Learning und Machine Learning kennen](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#17)
 
-- Internet-KI -> mehr Internetnutzer in China
-- Business-KI -> mehr KI-Startups in China
-- Perception-KI -> verzichten auf Schutz der Privatsphäre für komfortable Nutzung
-- Autonome0KI -> USA hat Vorsprung durch Silicon Valley
+## [Backpropagation (wie wird Fehler zurückpropagiert über Schichten)](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#19)
 
-## 3
+## [Convolutional Neural Networks -> Faltung verstehen / Pooling /Klassifikation (wie Roberta)](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#20)
 
-Erklären Sie „Push“ und „Pull“ Strategien im Zusammenhang mit den technologischen Innovationen und der Marktentwicklung
+## [Roberta -> Wissen das es Transformer gibt/ Sind Netze mit vielen Schichten / kann damit Attention/Zusammenhänge in Sätzen abbilden](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#21)
 
-- Push: Technologie wird entwickelt und auf den Markt gebracht
-  - Digitalisierung
-  - Leistungssteigerung im Preisleistungsverhältnis
-  - Miniaturisierung
-  - Standardisierung
-  - Lokalisierung
+## [Wie Entscheidungsbaum aufgebaut wird](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#24)
 
-- Pull: Marktbedarf wird ermittelt und Technologie wird entwickelt
-  - Individualisierung
-  - einfacher Zugriff
-  - Senkung der Transaktionskosten
-  - Multimediale Angebotsformen
-  - Mobilität
+Entscheidungsbäume wichtig!!! Wie die (greedy) Strategie ist.
 
-## 4
+## [Was für Strategien es gibt um Entscheidungsbäume zu verbessern](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#24)
 
-Erläutern Sie die fünf Fähigkeiten für typisch menschliches Handeln (AI Spektrum): Wahrnehmen, Lernen, Denken, Handeln, Wissen.
+Stacking, Bagging, Boosting
 
-- Wahrnehmen: Bilderkennung, Spracherkennung
-- Lernen: Mustererkennung, Konzeptualisierung
-- Denken: Anpassung, Vorhersage
-- Handeln: OCR, Chatbots
-- Wissen: Sentimentanalyse, Sprachsynthese
+## [Entscheidungsbäume rechnen können (einen Schritt durchführen)](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#26)  
 
-Geben Sie jeweils 2 Beispiele für KI-Technologien, die hier eingesetzt werden und deren Zuordnung zur symbolische bzw. subsymbolischen KI.
+## [Bias/Varianz/Overfitting](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#28)
 
-- autonomes Fahren: symbolisch, digitaler Assistent (Alexa): subsymbolisch
-- Firewall: symbolisch, Textvorhersage: subsymbolisch
-- Chatbot: symbolisch, Tradingbot: subsymbolisch
-- Dokumentenanalyse: symbolisch, ChatGpt: subsymbolisch
-- Review Aggregator: symbolisch, live übersetzen: subsymbolisch
+## [Natural Language Processing Idee mit Sentimentanalyse](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#30)
 
-## 5
+## [Was für Schritte für Wordclouderstellung/Sentimentanalyse durchführen](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#31)
 
-Erklären Sie die wesentlichen Unterschiede zwischen symbolischer und subsymbolischer Künstlichen Intelligenz (KI) laut AI Spektrum.
-Erläutern sie jeweils 2 der existierenden Technologien sowie Methoden.
+Wie Scores berechnet werden
 
-- Symbolisch
-  - regelbasiert (formale Logik)
-  - Expertensysteme
-- Subsymbolisch
-  - neuronale Netze
-  - genetische Algorithmen
+## [Logik. Aussagenlogik, Formalisieren Aussagenlogik Beispiel 1](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#32)
 
-## 18
+In Konjunktive Normalform überführen.
+Wie Aussagenlogik funktioniert und Probleme in Aussagenlogik überführt wird. Wie Wiederspruchbeweis durch Resolution durchgeführt wird. S. 284
 
-Berechnen Sie für dieses sehr einfache künstliche Neuronalen Netz (kNN) die
-Gewichte nach der Vorwärtspropagierung
+Prädikatenlogik. Folie Syntaktische Korrektheit Beispiele. Wie man Syntaxbaum aufbaut. Wie Überführung in Negations- und Prämexnormalform durchgeführt wird. (Formeln werden gegeben) S. 304, 306
+Formel gegeben und wir müssen Elemente klassifizieren (wahr/falsch)
 
-Annahme:  
-$\eta = 0.001$
-  
-$y = 3$
-  
-$t = \sum x_i * w_i$
+Negation S.316
 
-$t = 2,3$
+Expertensysteme. Fuzzy-Logik:  Prinizip von Fuzzyfizierung und Defuzzifizierung kennen.
 
-$\Delta w_i = \eta * (y-t) * x_i$  
+Was ist ein Wissensbasiertes system/Inferenzmaschiene/Komponenten von Wissensmaschine
+Was ist Inferenz/Dekutive/induktive Inferen
 
-$\Delta w_1 = 0.0084$
+Agententechnologie. Reinforcement Technologie. Allgemeines Konzept (Folie Begriffe)
+Was ist ein Sensor/Agentenfunktion/Performance Measure
+Beschreibung eines Intelligenten Agenten (Folie Task Environment) - klassifikation S.372
 
-$\Delta w_2 = -0,0056$
+Verschiedene Agententypen (Einfache Reflexagenten unterschiede bis zu modellbasierter Agent) S. 379
 
-$\Delta w_3 = 0.0049$
+Was sollte ein Agent lösen (Taxifahrer Beispiel)
 
-$w_{i}^{neu} = w_{i}^{alt} + \Delta w_i$
+Grafik 365
 
-$w_{1}^{neu} = 0.5084$
+Landkarte S. 53
 
-$w_{2}^{neu} = 0.1944$
-
-$w_{3}^{neu} = -0.2951$
-
-$t_{new} = 2.4799$
-
-## 19
+## Was versteht man unter Data Mining (mit Strukturierten / nicht Strukturierten Daten)  

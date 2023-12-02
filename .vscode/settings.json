@@ -265,6 +265,7 @@
         "ungewichteten",
         "Unnötigkeit",
         "Unsuperivsed",
+        "unüberwachtes",
         "Unverkettbarkeit",
         "Urnenmodell",
         "Ursachenanalyse",
@@ -296,8 +297,10 @@
         "wikipedia",
         "Wireframes",
         "Wireshark",
+        "Wordclouderstellung",
         "WPAN",
         "ZGWS",
-        "Zielvariable"
+        "Zielvariable",
+        "zurückpropagiert"
     ]
 }
