@@ -92,9 +92,39 @@ Erläutern sie jeweils 2 der existierenden Technologien sowie Methoden.
 
 ### 6
 
+Erklären Sie folgende Verfahren des Maschinellen Lernens bzgl. Lernverfahren
+und Zielfunktion: unüberwacht (unsupervised), überwacht (supervised) und
+verstärkend (reinforcement).
+
+- unsupervised:
+  - keine Zielvariable
+  - Muster / Zusammenhang erkennen
+  - Einsatz von Abstandsmaß
+- supervised:
+  - Zielvariable -> Klasse (Ja/Nein) oder numerischer Wert
+  - Erlernen vom Zusammenhang zwischen Input und Zielvariable
+  - Lernen anhand von Datensätzen
+- reinforcement:
+  - keine Zielvariable
+  - Lernen durch Feedback
+  - keine Beispieldaten sondern Simulationsumgebung
+  - Strategie wird über viele Iterationen entwickelt
+
+Geben Sie jeweils Anwendungsbeispiel an und erläutern Sie
+
+- unsupervised -> Erkennen von Objekten wie Hund oder Katze auf einem Bild
+- supervised -> Vorhersage von Hauspreisen anhand von Merkmalen wie Größe, Lage, Alter
+- reinforcement -> Spielentwicklung wo ein Bot eine Strecke fahren muss, um so weiter er kommt, desto mehr Punkte bekommt er, stößt er an, wird die Strecke zurückgesetzt
+
 ### 7
 
 ### 8
+
+Wodurch unterscheiden sich unüberwachte und überwachte Lernverfahren?
+Erläutern Sie.
+
+Erklären Sie die Unterschiede bzgl. Lernverfahren und
+Zielvariablen jeweils anhand eines Beispiels.
 
 ### 9
 
@@ -117,6 +147,16 @@ Erläutern sie jeweils 2 der existierenden Technologien sowie Methoden.
 ### 16
 
 ### 17
+
+Erklären Sie den Unterschied zwischen klassischem Machine Learning und dem
+Deep Learning Ansatz.
+
+- Beim Deep Learning entfällt die Feature-Extraktion, da diese automatisch durchgeführt wird.
+
+Erläutern Sie den Grund für den aktuellen Boom der
+KI aufgrund des Deep Learning.
+
+- Durch die Erhöhung der Rechenleistung und der Menge an Daten.
 
 ### 18
 
@@ -154,7 +194,46 @@ $t_{new} = 2.4799$
 
 ### 20
 
+Erläutern Sie die Architektur von Convolutional Neural Networks (CNN).
+
+- extrahiert und erkennt Merkmale mit Hilfe von Filtern
+- Mehrschichtige Modelle mit Feature Learning und anschließender Klassifikation
+  - Feature Learning
+    - Convolutional + Relu
+    - Pooling
+  - Classification
+    - Flatten (Vektorisierung)
+    - Fully Connected
+    - Softmax
+
+Warum können diese als Deep Learning Verfahren bezeichnet werden?
+
+- weil das Feature Learning automatisch durchgeführt wird
+- Baut auf mehreren Schichten auf
+
+Erklären Sie wie sich Machine Learning von Deep Learning Verfahren unterscheiden
+
+- Beim Deep Learning entfällt die Feature-Extraktion, da diese automatisch durchgeführt wird.
+
 ### 21
+
+Erläutern Sie die allgemeine Architektur einer RoBERTa (RoBERTa: A Robustly
+Optimized BERT Pretraining Approach)
+
+1. Input wird in Token zerlegt
+2. Input Embedding (kontextunabhängig via lookup table)
+3. Positional Encoding (hinzufügen von Position Embeddings)
+4. Roberta Layer 4x
+    1. Self-Attention: Berechnung der Attention Scores (normiert)
+    2. Layer Normalization: Normalisierung der Attention Scores
+    3. Feed Forward: Berechnung der Outputs
+    4. Layer Normalization: Normalisierung der Outputs
+
+- Multi-Head Attention: Durchführung der Self Attention Operation (Verknüpfung von Input Embedding mit dem Kreuzprodukt)
+  
+Warum werden diese als Deep Learning Verfahren bezeichnet?
+
+- Da das RoBERTa Konzept mehrmals verketten werden kann
 
 ### 22
 
@@ -164,7 +243,50 @@ $t_{new} = 2.4799$
 
 ### 24
 
+Erläutern Sie den allgemeinen Aufbau von Entscheidungsbäumen.
+
+- Ein Entscheidungsbaum ist ein Baum, dessen innere Knoten Merkmale (Attribute) repräsentieren
+- Jede Kante steht für einen Attributwert
+- An jedem Blattknoten ist ein Klassenwert angegeben
+
+Um welchen Typ von Lernverfahren handelt es sich hier?
+
+- Supervised Learning weil man gelabelte Daten benötigt, welche Zielvariable enthalten
+
+Erklären Sie den Unterschied zwischen dem einfachen Lernalgorithmus und dem Greedy-Algorithmus.
+
+- Einfacher Lernalgorithmus berechnet alle Bäume (inkl. Anzahl der Fehlklassifikationen) und wählt den Baum mit der geringsten Anzahl an Fehlklassifikationen aus
+- Greedy-Algorithmus generiert den Baum schrittweise und wählt bei jedem Schritt die beste Entscheidung (höchste Informationsgewinn) aus
+
 ### 25
+
+Erläutern Sie Vor- und Nachteile von Entscheidungsbäume.
+
+Vorteile:
+
+- gewonnenes Wissen ist als Blackbox verfügbar
+- Anschauliche nachvollziehbare Entscheidungsregeln
+- einfache Interpretation
+- effiziente Auswertung des Modells
+
+Nachteile:
+
+- bei vielen Attributen unübersichtlich
+- finden des optimalen Baumes ist exponentiell
+- Heuristiken finden nur lokale Optima
+- anfällig für Overfitting
+- nicht immer eindeutig
+
+Um die Prognosegüte von Entscheidungsbäumen zu verbessern, existieren die Verfahren Stacking, Bagging und Boosting. Erklären Sie anhand von Beispielen diese Verfahren
+
+- Stacking
+  - unterschiedliche Algorithmen auf den gleichen Datensätzen kombinieren (Häufigste Entscheidung gewinnt)
+  - z.B. KNN, SVM, Entscheidungsbäume
+- Bagging
+  - gleicher Algorithmus auf unterschiedlichen Datensätzen (Häufigste Entscheidung gewinnt)
+  - z.B. Random Forest
+- Boosting
+  - Training auf initialem Datenset, anschließend werden falsch klassifizierte Daten erneut trainiert (Gewichtung der Entscheidungen; schwer nachvollziehbar)
 
 ### 26
 
@@ -173,6 +295,25 @@ $t_{new} = 2.4799$
 ### 27
 
 ### 28
+
+Der Bias-Varianz-Tradeoff ist ein zentrales Problem beim überwachten Lernen. Erklären Sie das zugrundeliegende Problem.
+
+- Idealerweise möchte man ein Modell wählen, das sowohl die Regelmäßigkeiten in seinen Trainingsdaten genau erfasst, als auch gut auf neue Daten verallgemeinert. Leider ist es normalerweise unmöglich, beides gleichzeitig zu tun.
+
+Erläutern Sie anhand einer Graphik die Methode der Bias-Varianz-Zerlegung
+
+![Bias_and_variance_contributing](Bias_and_variance_contributing.png)
+
+Bias-Error:
+
+- Unterschied zwischen dem erwarteten Wert des Modells und dem wahren Wert
+- übermäßige Vereinfachung der Annahmen -> Modell lernt die Muster nicht
+
+Varianz-Error:
+
+- Das Modell lernt die Muster der Trainingsdaten auswendig und kann nicht auf neue Daten verallgemeinern
+
+Bias-Varianz-Tradeoff Methode: Finden des Sweet-Spots zwischen Bias und Varianz.
 
 ### 29
 

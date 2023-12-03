@@ -11,7 +11,7 @@ dateCreated: 2023-09-13T19:04:20.207Z
 
 ## [China könnte drankommen?](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#2)
 
-## [Was  ist Symbolische / Subsymbolische KI](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#5)
+## [Was  ist symbolische / subsymbolische KI](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#5)
 
 ## [Welche Verfahren gibt es](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#6)
 
@@ -19,7 +19,7 @@ Was sind Machine Learning verfahren?
 
 Wie unterscheiden die sich Klassisch programmieren vs Modelle aus Daten entwickeln
 
-## [Unterschied überwachtes Lernen / unüberwachtes Lernen / verstärkendes Lernen](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#8)
+## Unterschied überwachtes Lernen / unüberwachtes Lernen / verstärkendes Lernen
 
 Überblick maschinelles Lernen S.19
 
@@ -41,7 +41,7 @@ Wenn keine Lernrate definiert ist => Lernrate 1
 
 Entscheidungsbäume wichtig!!! Wie die (greedy) Strategie ist.
 
-## [Was für Strategien es gibt um Entscheidungsbäume zu verbessern](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#24)
+## [Was für Strategien es gibt um Entscheidungsbäume zu verbessern](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#25)
 
 Stacking, Bagging, Boosting
 
