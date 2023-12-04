@@ -321,11 +321,53 @@ Bias-Varianz-Tradeoff Methode: Finden des Sweet-Spots zwischen Bias und Varianz.
 
 ### 30
 
+Erklären Sie was unter Natural Language Processing (NLP) verstanden wird.
+
+- Verarbeitung und Analyse von natürlicher Sprache durch Computer
+- Teilgebiet der KI, Informatik und Linguistik
+
+Geben Sie ein Anwendungsbeispiel aus dem NLP an und erläutern Sie.
+
+- Informationen & Erkenntnisse aus Dokumenten extrahieren
+
 ### 31
+
+Erklären Sie das allgemeine Vorgehen bei Text-Mining Anwendungen, bei denen mit Hilfe einer Term-Document-Matrix ein Sentiment-Score ermitteln wird.
+
+1. Kleinschreibung, Stoppworte, Punktation entfernen
+1. Jedes Dokument in einzelne Wörter zerlegen
+1. Wort mit der Positiv- und Negativliste vergleichen
+1. Bei Match wird der Score entsprechend der Positiv- und Negativliste erhöht/reduziert
+
+Führen Sie die einzelnen Schritte anhand des folgenden Beispiels durch und geben Sie an, welches der Aussagen die beste Bewertung erhält.
+
+![NLP_Example](NLP_Example.png)
+
+- "... lange ..." -> -0.2
+- "Alles ..." -> 0.2
+- "... abgelehnt ... zufrieden ... nachvollziehbar" -> -0.3 + 0.4 + 0.3 = 0.4
+- "... schnell" -> 0.5
+- "... alles ... allem zufrieden" -> 0.2 + 0.2 + 0.4 = 0.8
+
+Der Satz "... alles ... allem zufrieden" erhält die beste Bewertung.
 
 ## Aussagenlogik
 
 ### 32
+
+Wie ist die Syntax einer Aussagenlogik formal definiert?
+
+- $A,B,C,...$ sind Aussagen
+- $\top, \bot$ sind Aussagen
+- Wenn $\phi, \psi$ bereits Aussagen sind, dann sind auch $\neg \phi, (\phi \land \psi), (\phi \lor \psi), (\phi \rightarrow \psi), (\phi \leftrightarrow \psi)$ Aussagen
+
+Welche 5 Operatoren stehen bei der Aussagenlogik zur Verfügung? Geben Sie hier jeweils ein Beispiel an.
+
+- $\neg$ Negation: nicht krank
+- $\land$ Konjunktion: Ich bin krank und gehe zum Arzt
+- $\lor$ Disjunktion: Ich gehe zum Arzt oder der Arzt kommt zu mir (oder beides)
+- $\rightarrow$ Implikation: Wenn ich krank bin, gehe ich zum Arzt
+- $\leftrightarrow$ Äquivalenz: Ich gehe zum Arzt, wenn ich krank bin und ich bin krank, wenn ich zum Arzt gehe
 
 ### 33
 
@@ -334,6 +376,31 @@ Bias-Varianz-Tradeoff Methode: Finden des Sweet-Spots zwischen Bias und Varianz.
 ### 35
 
 ### 36
+
+Erläutern Sie warum aussagenlogische Formeln in eine Konjunktive Normalform (KNF) überführt werden und wie diese definiert sind.
+
+- um automaische Beweisverfahren einfach zu halten
+
+1. besteht aus Konjunktionen von Klauseln
+1. Klausel besteht aus Disjunktionen
+
+Führen Sie folgende Klauselmenge in eine KNF und geben Sie bei jedem Schritt an welche Operation Sie eingesetzt haben
+
+$(S \lor N) \land ((\neg S \land N ) \lor (P \land \neg S)) \land (\neg N \lor P)$
+
+1.Distribution  
+$(S \lor N) \land (\neg S \land (N \lor P)) \land (\neg N \lor P)$
+
+2. Klammern entfernen
+
+$(S \lor N) \land \neg S \land (N \lor P) \land (\neg N \lor P)$
+
+3. Distribution
+
+$(\neg S \land S) \lor (\neg S \land N) \land N \lor \neg S \land P \land \neg N \lor P$
+
+4. Vereinfachung  
+$ (\neg S \land N) \land N \lor \neg S \land P \land \neg N \lor P$
 
 ### 37
 

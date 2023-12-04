@@ -57,9 +57,13 @@ Wie Scores berechnet werden
 
 ## [Logik. Aussagenlogik, Formalisieren Aussagenlogik Beispiel 1](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#32)
 
-In Konjunktive Normalform überführen.
-Wie Aussagenlogik funktioniert und Probleme in Aussagenlogik überführt wird. Wie Wiederspruchbeweis durch Resolution durchgeführt wird. S. 284
+## [In Konjunktive Normalform überführen](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#36)
 
+## [Wie Aussagenlogik funktioniert und Probleme in Aussagenlogik überführt wird](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#37)
+
+Wie Wiederspruchbeweis durch Resolution durchgeführt wird. S. 284
+
+---
 Prädikatenlogik. Folie Syntaktische Korrektheit Beispiele. Wie man Syntaxbaum aufbaut. Wie Überführung in Negations- und Prämexnormalform durchgeführt wird. (Formeln werden gegeben) S. 304, 306
 Formel gegeben und wir müssen Elemente klassifizieren (wahr/falsch)
 
