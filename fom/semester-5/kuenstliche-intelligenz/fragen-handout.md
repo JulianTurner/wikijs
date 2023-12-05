@@ -386,23 +386,61 @@ Erläutern Sie warum aussagenlogische Formeln in eine Konjunktive Normalform (KN
 
 Führen Sie folgende Klauselmenge in eine KNF und geben Sie bei jedem Schritt an welche Operation Sie eingesetzt haben
 
-$(S \lor N) \land ((\neg S \land N ) \lor (P \land \neg S)) \land (\neg N \lor P)$
+$(S \lor N) \lor ((\neg S \land N ) \lor (P \land \neg S)) \land (\neg N \lor P)$
 
-1.Distribution  
-$(S \lor N) \land (\neg S \land (N \lor P)) \land (\neg N \lor P)$
+1. Distributivgesetz  
+$(S \lor N) \lor (\neg S \land (P \lor N)) \land (\neg N \lor P)$
 
-2. Klammern entfernen
+2. Klammer verschieben  
+$(S \lor N) \lor (\neg S \land (P \lor N) \land (\neg N \lor P))$
 
-$(S \lor N) \land \neg S \land (N \lor P) \land (\neg N \lor P)$
+3. Distributivgesetz  
+$(S \lor N) \lor (\neg S \land P \lor (\neg N \land N))$
 
-3. Distribution
+4. Bottom  
+$(S \lor N) \lor (\neg S \land P \lor \bot)$
 
-$(\neg S \land S) \lor (\neg S \land N) \land N \lor \neg S \land P \land \neg N \lor P$
+5. Neutrales Element  
+$(S \lor N) \lor (\neg S \land P)$
 
-4. Vereinfachung  
-$ (\neg S \land N) \land N \lor \neg S \land P \land \neg N \lor P$
+6. Klammern auflösen  
+$S \lor N \lor (\neg S \land P)$
+
+7. Distributivgesetz  
+$N \lor ((S \lor \neg S) \land (S \lor P)) $
+
+8. Top  
+$N \lor (\top \land (S \lor P)) $
+
+9. Neutrales Element  
+$N \lor (S \lor P) $
+
+10. Klammern auflösen  
+$(N \lor S \lor P)$
 
 ### 37
+
+Logikrätsel: Genau eine Person lügt. Wer?  
+
+Simon: "Mindestens einer von Julien und Felix lügt."
+Julien: "Cheng und Felix lügen nicht beide."  
+Cheng: "Von Simon und Felix lügt genau einer."  
+Felix: "Julien lügt."  
+
+1. Überführen Sie die Aussagen in eine aussagenlogische Formel durch Formalisierung
+1. Transformieren Sie diese in ein Konjunktive Normalform
+1. Führen Sie die Resolution durch einen Widerspruchbeweis durch
+1. Überprüfen Sie Ihr Ergebnis durch die Aufstellung einer Wahrheitstabelle.
+
+(J = Julien, S = Simon, C = Cheng, F = Felix)
+
+Wahrheitstabelle:
+
+$(S \leftrightarrow (\neg J \lor \neg F)) \land (J \leftrightarrow ( C \lor  F)) \land ( C \leftrightarrow \neg(S \leftrightarrow  F)) \land (F \leftrightarrow \neg J)$
+
+KNF:
+
+$(C) \land (\neg F) \land (J) \land (S)$
 
 ## Prädikatenlogik
 
@@ -411,6 +449,44 @@ $ (\neg S \land N) \land N \lor \neg S \land P \land \neg N \lor P$
 ### 39
 
 ### 40
+
+Erstellen Sie für folgende Formel in der Prädikatenlogik 1. Ordnung einen Syntaxbaum auf und bestimmen Sie die Semantik durch Auswertung der Teilformeln in wahr oder falsch
+
+$\forall x (H(x) \lor (\exists y (H(y) \land (S(x,y) \lor S(y,z)))))$
+
+```mermaid
+graph TD
+
+
+
+A[∀x]
+B[∨]
+C["H(x)"]
+D[∃y]
+E["∧"]
+F["H(y)"]
+G["∨"]
+H["S(x,y)"]
+I["S(y,z)"]
+
+A --- B
+
+B --- C
+
+B --- D
+
+D --- E
+
+E --- F
+
+E --- G
+
+G --- H
+
+G --- I
+
+
+```
 
 ### 41
 

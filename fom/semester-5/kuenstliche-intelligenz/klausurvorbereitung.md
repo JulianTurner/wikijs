@@ -64,7 +64,11 @@ Wie Scores berechnet werden
 Wie Wiederspruchbeweis durch Resolution durchgeführt wird. S. 284
 
 ---
-Prädikatenlogik. Folie Syntaktische Korrektheit Beispiele. Wie man Syntaxbaum aufbaut. Wie Überführung in Negations- und Prämexnormalform durchgeführt wird. (Formeln werden gegeben) S. 304, 306
+Prädikatenlogik. Folie Syntaktische Korrektheit Beispiele.
+
+## [Wie man Syntaxbaum aufbaut.](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#40)
+
+Wie Überführung in Negations- und Prämexnormalform durchgeführt wird. (Formeln werden gegeben) S. 304, 306
 Formel gegeben und wir müssen Elemente klassifizieren (wahr/falsch)
 
 Negation S.316
