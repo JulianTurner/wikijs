@@ -192,6 +192,8 @@ $t_{new} = 2.4799$
 
 ### 19
 
+Führen Sie nach der Vorwärtspropagierung bei folgendem mehrschichtigen künstlichen Neuronales Netz (KNN) mit folgender Aktivierungsfunktion $𝑓(𝑥) = \frac{1}{1+ e{-x}}$ die Fehlerberechnung für die Output-Units und Fehlerrückwärtspropagierung (Backpropagation) für die Hidden-Units durch
+
 ### 20
 
 Erläutern Sie die Architektur von Convolutional Neural Networks (CNN).
