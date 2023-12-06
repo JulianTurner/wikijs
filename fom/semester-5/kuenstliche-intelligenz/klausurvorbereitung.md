@@ -73,18 +73,25 @@ Formel gegeben und wir müssen Elemente klassifizieren (wahr/falsch)
 
 Negation S.316
 
-Expertensysteme. Fuzzy-Logik:  Prinizip von Fuzzyfizierung und Defuzzifizierung kennen.
+## [Fuzzy-Logik:  Prinizip von Fuzzyfizierung und Defuzzifizierung kennen](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#44)
 
-Was ist ein Wissensbasiertes system/Inferenzmaschiene/Komponenten von Wissensmaschine
+## [Was ist ein Wissensbasiertes system/Inferenzmaschiene/Komponenten von Wissensmaschine](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#46)
+
 Was ist Inferenz/Dekutive/induktive Inferen
 
-Agententechnologie. Reinforcement Technologie. Allgemeines Konzept (Folie Begriffe)
-Was ist ein Sensor/Agentenfunktion/Performance Measure
-Beschreibung eines Intelligenten Agenten (Folie Task Environment) - klassifikation S.372
+## [Expertensysteme](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#47)
 
-Verschiedene Agententypen (Einfache Reflexagenten unterschiede bis zu modellbasierter Agent) S. 379
+## [Agententechnologie. Reinforcement Technologie. Allgemeines Konzept](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#49)
 
-Was sollte ein Agent lösen (Taxifahrer Beispiel)
+## [Was ist ein Sensor,Agentenfunktion,Performance Measure Beschreibung eines Intelligenten Agenten Folie Task Environment](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#50)
+
+klassifikation S.372
+
+(Folie Begriffe)
+
+## [Verschiedene Agententypen (Einfache Reflexagenten Unterschiede bis zu modellbasierter Agent)](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#52) S. 379
+
+## [Was sollte ein Agent lösen (Taxifahrer Beispiel)](/fom/semester-5/kuenstliche-intelligenz/fragen-handout.md#55)
 
 Grafik 365
 

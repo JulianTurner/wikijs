@@ -498,11 +498,49 @@ G --- I
 
 ### 44
 
+Erläutern Sie warum die Fuzzylogik in den letzten Jahren einen Aufschwung erfahren hat?
+
+- Fuzzylogik ist eine Erweiterung der klassischen Aussagenlogik
+
+Welche Vorteile bieten sich hier gegenüber den anderen Logiken?
+
+- Geben mehrere Zustände an
+- Geben unscharfe Trennmenge zurück
+
+Zeichnen Sie Fuzzy-Funktionen für die Operationen AND, OR und NOT
+
+![Fuzzy-Funktionen](Fuzzy-Funktionen.png)
+
 ### 45
 
 ### 46
 
+Erläutern Sie den Begriff Inferenz bei wissensbasierten Systemen
+
+- Aus Fakten und Regeln lassen sich Schlüsse ziehen
+
+Erklären Sie den Unterschied zwischen induktiver und deduktiver Inferenz
+
+- induktiv: Zusammenhang aus Beobachtungen
+- deduktiv: Vom Allgemeinen auf das Spezielle
+
 ### 47
+
+Erläutern Sie den Aufbau eines Expertensystems mit seinen Komponenten
+
+- Wissensbasis
+- Datenbasis
+- Inferenzkomponente
+- Erklärungskomponente
+- Benutzerschnittstelle
+- Wissenskomponente
+
+Erklären Sie die Unterschiede zwischen klassischen Softwareprogrammen und Expertensystemen
+
+- Probleme werden nicht nach vordefinierten Regeln gelöst
+- können einfach mit neuen Wissen erweitert werden
+- verwenden KI Methoden
+- verwenden Heuristiken
 
 ### 48
 
@@ -510,14 +548,71 @@ G --- I
 
 ### 49
 
+Erklären Sie das allgemeine Funktionsprinzip eines Agenten.
+
+- nutzen Sensoren um die Umgebung zu beobachten
+- verarbeiten die Informationen und führen Aktionen aus
+- nutzen Aktuatoren (Aktoren) um die Umgebung zu beeinflussen
+
+Erläutern Sie weiterhin, was in der KI unter einem intelligenten Agenten verstanden wird.
+
+- werden Vorkenntnisse vermittelt & Fähigkeit zu lernen
+- nach ausreichender Erfahrung wird Verhalten immer unabhängiger von Vorkenntnissen (Wichtigkeit von Vorkenntnisse gehen zurück, Wichtigkeit von Erfahrung geht hoch)
+- ist befähigt, sich an größere Vielfalt von Umgebungen anzupassen
+
 ### 50
+
+Erläutern Sie den allgemeinen Aufbau eines Agenten anhand einer Graphik
+
+![Agentenaufbau](Agentenaufbau.png)
+
+- Sensoren: Umweltbeobachtung
+- Percepts: Wahrgenommene Umwelt (aktuell & vergangen)
+- Aktoren: Beeinflussung der Umwelt
+- Aktionen: Ausgeführte Aktionen
+- Agentfunction: Zugordnung von Wahrnehmungssequenzen zu Aktion (via externer Tabelle oder internem Programm)
+
+Erläutern Sie den Unterschied zwischen menschlichen Agenten, Robotern und Softwareagenten bzgl. Sensoren und Aktoren.
+
+- menschliche Agenten: Sinnesorgane & Muskeln
+- Roboter: Kameras, Mikrofone, Greifarme
+- Softwareagenten: Tastatur, Maus, Bildschirm
 
 ### 51
 
 ### 52
+
+Erläutern Sie die Begriffe Rational Agents und AI Agents.
+
+- Performance Measure: Bewertung der Umgebung
+- Rationality: Maximierung der erwarteten Performance
+- Information Gathering: Umgebung beobachten
+- Learning: Vorkenntnisse werden angepasst und ergänzt
+- Autonomy: unvollständiges oder falsches Wissen ausgleichen
+
+Wodurch unterscheiden sie sich. Erläutern Sie
+
+- Rational Agents:
+  - wählen die Aktion mit dem höchsten Nutzen
+
+- AI Agents:
+  - baut Wichtigkeit der Vorkenntnisse ab und Wichtigkeit der Erfahrung auf
 
 ### 53
 
 ### 54
 
 ### 55
+
+Erläutern Sie den Aufbau und Funktionsweise von Softwareagenten.
+
+- Softwareagenten sind Programme, die autonom handeln und vom Anwender delegierte Aufgaben erledigen
+
+Erklären Sie die Begriffe Delegation, Kommunikationsfähigkeit, Autonomie, Überwachung, Aktion und Intelligenz von Softwareagenten.
+
+- Delegation: führt im Auftrag des Anwenders Aufgaben aus
+- Kommunikationsfähigkeit: kommuniziert mit dem Anwender
+- Autonomie: führt Aufgaben selbstständig aus
+- Überwachung: überwacht die Umgebung
+- Aktion: beeinflusst die Umgebung
+- Intelligenz: überwacht Ergebnisse und trifft notwendige Entscheidungen
