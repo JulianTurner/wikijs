@@ -292,6 +292,18 @@ Um die Prognosegüte von Entscheidungsbäumen zu verbessern, existieren die Verf
 
 ### 26
 
+Für folgendes Klassifikationsproblem „Skifahren gehen“ soll ein Entscheidungsbaum aufgebaut werden.
+
+![Ski-Beschreibung](Ski-beschreibung.png)
+
+Ermitteln Sie für 2 der Merkmale den Informationsgewinn G(D,A) auf Basis des Entropiemaßes H und entscheiden Sie sich für das Merkmal mit dem höchsten Informationsgewinn. Begründen Sie Ihre Entscheidung.
+Begründen Sie weiterhin, warum es bei diesem Datensatz Sinn macht, einen Klassifikationsverfahren einzusetzen.
+
+![Ski-Tabelle](Ski-Tabelle.png)
+
+- Entscheidung -> Merkmal Schnee_Entf, da größerer Informationsgewinn als bei WE
+- da boolesche Werte vorliegen, ist ein Klassifikationsverfahren sinnvoll, da hier pro Merkmal nur 2 Klassen vorliegen (Ja/Nein; Großer/Kleiner)
+
 ## Bias / Varianz Tradeoff / Overfitting
 
 ### 27
@@ -424,14 +436,14 @@ $(N \lor S \lor P)$
 
 Logikrätsel: Genau eine Person lügt. Wer?  
 
-Simon: "Mindestens einer von Julien und Felix lügt."
-Julien: "Cheng und Felix lügen nicht beide."  
-Cheng: "Von Simon und Felix lügt genau einer."  
-Felix: "Julien lügt."  
+Simon: "Mindestens einer von Julien und Felix lügt."  
+Julien: "Cheng und Felix lügen nicht beide."
+Cheng: "Von Simon und Felix lügt genau einer."
+Felix: "Julien lügt."
 
 1. Überführen Sie die Aussagen in eine aussagenlogische Formel durch Formalisierung
 1. Transformieren Sie diese in ein Konjunktive Normalform
-1. Führen Sie die Resolution durch einen Widerspruchbeweis durch
+1. Führen Sie die Resolution durch einen Widerspruchsbeweis durch
 1. Überprüfen Sie Ihr Ergebnis durch die Aufstellung einer Wahrheitstabelle.
 
 (J = Julien, S = Simon, C = Cheng, F = Felix)
