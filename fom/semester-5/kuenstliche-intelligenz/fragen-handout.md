@@ -1,10 +1,11 @@
 ---
 title: Fragen Handout
+description: 
 published: 1
-date: 2023-12-02T10:23:39.207Z
+date: 2023-12-07T20:10:23.395Z
 tags: 
 editor: markdown
-dateCreated: 2023-12-02T10:23:39.207Z
+dateCreated: 2023-12-02T10:10:28.636Z
 ---
 
 # Fragen Handout
@@ -469,14 +470,13 @@ Erstellen Sie für folgende Formel in der Prädikatenlogik 1. Ordnung einen Synt
 $\forall x (H(x) \lor (\exists y (H(y) \land (S(x,y) \lor S(y,z)))))$
 
 ```mermaid
+
 graph TD
 
-
-
-A[∀x]
-B[∨]
+A["x"]
+B["∨"]
 C["H(x)"]
-D[∃y]
+D["∃y"]
 E["∧"]
 F["H(y)"]
 G["∨"]
@@ -484,22 +484,13 @@ H["S(x,y)"]
 I["S(y,z)"]
 
 A --- B
-
 B --- C
-
 B --- D
-
 D --- E
-
 E --- F
-
 E --- G
-
 G --- H
-
 G --- I
-
-
 ```
 
 ### 41
