@@ -2,7 +2,7 @@
 title: Big Data Erste Schritte
 description: 
 published: 1
-date: 2023-12-10T16:59:36.597Z
+date: 2023-12-10T17:17:49.700Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-10T10:23:20.280Z
