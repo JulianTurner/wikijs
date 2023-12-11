@@ -19,4 +19,6 @@ dateCreated: 2023-09-13T18:57:25.207Z
 
 [Bondgraphen Vorgehensweise](/fom/semester-5/mechatronik/bondgraphen-vorgehensweise.md)
 
+[Das Blatt](/fom/semester-5/mechatronik/das-blatt.md)
+
 [Klausurvorbereitung](/fom/semester-5/mechatronik/klausurvorbereitung.md)
