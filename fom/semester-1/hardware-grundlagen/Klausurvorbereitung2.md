@@ -381,7 +381,7 @@ Innerhalb von Soft & Hardwareinterrupts gibt es eigene Prioritätslevel(Cache Mi
 
 ## System Call
 
-System Call ist der Unterbrechungswunsch der Anwendungssoftware, die Bearbeitung im Bertiebssystem fortzuführen.
+System Call ist der Unterbrechungswunsch der Anwendungssoftware, die Bearbeitung im Betriebssystem fortzuführen.
 Das Betriebssystem hat höhere Rechte als die Anwendungssoftware(Kontrollierter Zugriff auf Hardware).
 
 ## Deadlock
@@ -391,7 +391,7 @@ Prozess B wartet auf die Beendigung von Prozess A.
 
 ## Race Condition
 
-Mehere Prozesse arbeiten in einer undefinierten Reihnfolge. Ergebnis hängt von der tatsächlichen Reihnfolge ab.
+Mehrere Prozesse arbeiten in einer undefinierten Reihenfolge. Ergebnis hängt von der tatsächlichen Reihenfolge ab.
 z.B:
 $2 * 1 + 3 = 2 + 3 = 5$
 oder
