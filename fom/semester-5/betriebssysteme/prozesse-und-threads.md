@@ -193,5 +193,3 @@ Behandlungen:
 
 > Einzige Lösung: Prozesse beenden und neu starten
 {.is-info}
-
-<!-- S. 180 -->
