@@ -66,12 +66,13 @@ K --> S
 {.is-info}
 
 ## Generalisierte Variablen
+<!-- TODO Checken ob ausreichend -->
 
 - Systeme sind Aufnehmer für Leistung
 - Leistung: $P$
 - Effort: $e$
 - Flow: $f$
-- $P = e \cdot f$
+- $P = e \cdot f$  
 ![Leistungsvariablen](Leistungsvariablen.png)
 
 - Elektrische Leistung: $P = U \cdot I$

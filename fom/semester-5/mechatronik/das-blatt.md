@@ -73,3 +73,5 @@ $\dot{q} $
 ![Einmassenschwinger_Blatt_Bond](Einmassenschwinger_Blatt_Bond.png)
 
 ## Schwingkreis
+
+<!-- TODO -->
