@@ -325,3 +325,5 @@ Kausalitätsbit:
 ![Einmassenschwinger](Einmassenschwinger_bond.png)
 
 ## Mathematisches Modell
+
+<!-- TODO -->
