@@ -17,7 +17,7 @@ dateCreated: 2023-12-11T19:29:37.207Z
 
 $F_T$ = Trägheitskraft  
 $F_d$ = Dämpfungskraft  
-$F_k$ = Federkonstante  
+$F_k$ = Federkraft  
 $F_A$ = Antriebskraft  
 $F_G$ = Gravitationskraft  
 $F_B$ = Beschleunigungskraft / Antriebskraft  
@@ -114,4 +114,43 @@ $\begin{pmatrix} \dot{p_2} \\ \dot{q_3} \end{pmatrix} = \begin{pmatrix} -\frac{d
 
 ## Schwingkreis
 
-<!-- TODO -->
+> WIP Bleeding Edge
+{.is-warning}
+
+![Schwingkreis](schwingkreis.png)
+
+### Definitionen
+
+.$U_L$ = Spannung an der Spule  
+.$U_R$ = Spannung am Wiederstand  
+.$U_C$ = Spannung am Kondensator  
+.$U_B$ = Batteriespannung  
+
+$F_G$ = Gravitationskraft  
+
+.$L$ = Induktiviät (Spule)  
+.$R$ = Wiederstand  
+$k$ = Federkonstante  
+.$\lambda$ = Windungsfluss  
+.$\dot{p} = U = e$ = Spannung (effort)  
+.$Q = q$ = Ladung  
+$\dot{Q} = I = \dot{q} = \frac{\lambda}{L} = f$ = Strom (flow)  
+$\ddot{Q} = \dot{I} = \ddot{q} = \dot{\frac{\lambda}{L}}$ = Beschleunigung  
+
+### Kräfte
+
+$ \vec{0} = \vec{U_L} + \vec{U_R} + \vec{U_C} + \vec{U_B}$  
+
+$0 = -L \vec{\ddot{\lambda}} - d \vec{\dot{\lambda}} - k\vec{\lambda}+ \vec{U_B}$
+
+$\vec{F_B} = \vec{F_A} + \vec{F_d} + \vec{F_k} $
+
+### DGL 1.0 im Zustandsraum
+
+### Blockschaltbild
+
+### Bondgraph
+
+![Schwingkreis_Bond](Schwingkreis_Bond.png)
+
+### DGL System im Zustandsraum
