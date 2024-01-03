@@ -121,31 +121,33 @@ $\begin{pmatrix} \dot{p_2} \\ \dot{q_3} \end{pmatrix} = \begin{pmatrix} -\frac{d
 
 ### Definitionen
 
-.$U_L$ = Spannung an der Spule  
-.$U_R$ = Spannung am Wiederstand  
-.$U_C$ = Spannung am Kondensator  
-.$U_B$ = Batteriespannung  
+$U_L$ = Spannung an der Spule  
+$U_R$ = Spannung am Wiederstand  
+$U_C$ = Spannung am Kondensator  
+$U_B$ = Batteriespannung
 
-$F_G$ = Gravitationskraft  
+$L$ = Induktiviät (Spule)  
+$R$ = Wiederstand  
+$C$ = Kapazität (Kondensator)
 
-.$L$ = Induktiviät (Spule)  
-.$R$ = Wiederstand  
-$k$ = Federkonstante  
-.$\lambda$ = Windungsfluss  
-.$\dot{p} = U = e$ = Spannung (effort)  
-.$Q = q$ = Ladung  
-$\dot{Q} = I = \dot{q} = \frac{\lambda}{L} = f$ = Strom (flow)  
-$\ddot{Q} = \dot{I} = \ddot{q} = \dot{\frac{\lambda}{L}}$ = Beschleunigung  
+$U = e$ = Spannung (effort)  
+$q$ = Ladung  
+$\dot{q} = I = f$ = Stromfluss (flow)  
+$\ddot{q}$ = Stromflussänderung
 
 ### Kräfte
 
-$ \vec{0} = \vec{U_L} + \vec{U_R} + \vec{U_C} + \vec{U_B}$  
+Kirchhoffsche Maschenregel:  
+$ \vec{0} = \vec{U_L} + \vec{U_R} + \vec{U_C}$  
 
-$0 = -L \vec{\ddot{\lambda}} - d \vec{\dot{\lambda}} - k\vec{\lambda}+ \vec{U_B}$
+$0 = L \vec{\ddot{q}} + \vec{R \dot{q}} +  \vec{\frac{1}{C} q}$
 
-$\vec{F_B} = \vec{F_A} + \vec{F_d} + \vec{F_k} $
+$\vec{U_B} = \vec{U_L} + \vec{U_R} + \vec{U_C}$
 
 ### DGL 1.0 im Zustandsraum
+
+- $z_1 = q$
+- $z_2 = \dot{q}(t) = \dot{z_1}$
 
 ### Blockschaltbild
 
@@ -154,3 +156,33 @@ $\vec{F_B} = \vec{F_A} + \vec{F_d} + \vec{F_k} $
 ![Schwingkreis_Bond](Schwingkreis_Bond.png)
 
 ### DGL System im Zustandsraum
+
+1 Frage: Welche Informationen liefern die Elemente an das System?
+
+- B1: $e_1 = U_B$
+- B2: $f_2 = \frac{\large\textcircled{p_2}}{I}$
+- B3: $e_3 = \frac{1}{C} * \large\textcircled{q_3}$
+- B4: $e_4 = R * f_4$
+
+e/f - Bilanz:
+
+- $e_1 = e_2 + e_3 + e_4$  (1a)  
+- $f_1 = f_2 = f_3 = f_4$  (1b)  
+
+2 Frage: Welche Informationen gibt das System an die Speicherelemente zurück?
+
+#### B2
+
+$e_2 = \dot{p_2}$ -> [Tetraeder](/fom/semester-5/mechatronik/modellbildung.md#zustands-tetraeder)  
+$\dot{p_2} \stackrel{1a}{=} e_1 - e_3 - e_4$  -> e/f - Bilanz  
+$e_1 - e_3 - e_4 = F_A - k * q_3 - d * f_4$ -> Anwendung von Frage 1  
+$F_A - k *q_3 - d* f_4 \stackrel{1b}{=} F_A - k *q_3 - d* f_2$ -> e/f - Bilanz  
+$\dot{p_2} \stackrel{B2}{=} F_A - k *q_3 - d* \frac{p_2}{m}$ -> Anwendung von Frage 1  
+$F_A - k *q_3 - d* \frac{p_2}{m} = F_A - k *q_3 - \frac{d}{m} * p_2$ -> Umformung
+
+#### B3
+
+$f_3 = \dot{q_3}$ -> [Tetraeder](/fom/semester-5/mechatronik/modellbildung.md#zustands-tetraeder)  
+$f_3 \stackrel{1b}{=} f_2$ -> e/f - Bilanz  
+$f_2 \stackrel{B2}{=} \frac{p_2}{m}$ -> Anwendung von Frage 1
+$\frac{p_2}{m} = \frac{1}{m} * p_2$ -> Umformung
