@@ -70,7 +70,6 @@ dateCreated: 2023-10-09T19:47:09.207Z
 - 10% durch ein anderes Token ersetzt
 - 10% bleiben unverändert
 
-<!-- TODO Nachfrage -->
 2. Berechne kontextabhängige Embeddings der selektierten Tokens
 3. Berechne Outputs über den Language-Model-Head
 4. Softmax Aktivierungsfunktion

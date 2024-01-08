@@ -66,7 +66,6 @@ K --> S
 {.is-info}
 
 ## Generalisierte Variablen
-<!-- TODO Checken ob ausreichend -->
 
 - Systeme sind Aufnehmer für Leistung
 - Leistung: $P$
@@ -76,14 +75,20 @@ K --> S
 ![Leistungsvariablen](Leistungsvariablen.png)
 
 - Elektrische Leistung: $P = U \cdot I$
-  - Effort: $U$ (Spannung => Potentialdifferenz)
-  - Flow: $I$ (Strom)
+  - Effort (e): $U$ (Spannung => Potentialdifferenz)
+  - Flow (f): $I$ (Strom)
+  - Impuls (p): $\lambda$ (Windungsfluss)
+  - Verschiebung (q): $q$ (Ladung)
 - Mechanische Leistung (Translation): $P = F \cdot v$
-  - Effort: $F$ (Kraft)
-  - Flow: $v$ (Geschwindigkeit)
+  - Effort (e): $F$ (Kraft)
+  - Flow (f): $v$ (Geschwindigkeit)
+  - Impuls (p): $p$ (Impuls)
+  - Verschiebung (q): $q$ : $x$ (Auslenkung)
 - Mechanische Leistung (Rotation): $P = M \cdot \omega$
-  - Effort: $M$ (Drehmoment)
-  - Flow: $\omega$ (Winkelgeschwindigkeit)
+  - Effort (e): $M$ (Drehmoment)
+  - Flow (f): $\omega$ (Winkelgeschwindigkeit)
+  - Impuls (p): $J * \omega$ (Drehimpuls) [J = Trägheitsmoment]
+  - Verschiebung (q): $\alpha$ (Drehwinkel)
 - Hydraulische Leistung / Fluidik: $P = \Delta p \cdot \dot{V}$
   - Effort: $\Delta p$ (Druckdifferenz)
   - Flow: $\dot{V}$ (Volumenstrom)
@@ -115,6 +120,16 @@ Verschiebungen:
 ## Bondgraph
 
 ![Bondgraph](Bondgraph.png)
+
+### Leistungsbonds
+
+- hat immer halb Pfeil
+- vermittelt Leistung (Effort und Flow)
+
+### Infobonds
+
+- hat immer ganz Pfeil
+- vermittelt Information
 
 ### 1-Port Elemente
 
@@ -296,12 +311,12 @@ Kausalitätsbit:
 [2 Port Elemente](#2-port-elemente):
 
 - [Transformator](#transformator)
-  - Eingang und Ausgang nicht festgelegt
+  - geht in beide Richtungen -> Eingang und Ausgang nicht festgelegt
   - Kausalitätsbit entweder 2x links oder 2x rechts  
 ![Transformator_Kausalität](Transformator_Kausalität.png)
 
 - [Gyrator](#gyrator)
-  - TODO eingang und Ausgang
+  - geht in beide Richtungen -> Eingang und Ausgang nicht festgelegt
   - Kausalitätsbit entweder innen oder außen  
 ![Gyrator_Kausalität](Gyrator_Kausalität.png)
 

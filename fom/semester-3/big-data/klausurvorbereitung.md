@@ -107,7 +107,7 @@ Data Sources | Volume | Variety | Velocity
 ![anwendungsfalle](/fom/semester-3/big-data/anwendugsfaelle.png)
 
 ### Big Data Architekturen?
-<!-- TODO ! Abklären S. 138/139-->
+
 ### Nachteile der Strukturen?
 
 ![data-warehouse](/fom/semester-3/big-data/1-data-warehouse.png)
