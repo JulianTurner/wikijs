@@ -90,11 +90,15 @@ Volumen: $V = \frac{4}{3} * \pi * r^3$
 - Reibungskoeffizient: $\mu$
 - Auslenkung: $\vec{x}$
 - Normalkraft/Gegenkraft zur Gewichtskraft: $\vec{F_N}$
-- Trägheitskraft/Fliehkraft: $\vec{F_T} = m * \vec{a}$
+- Trägheitskraft/Fliehkraft: $\vec{F_T} = -m * \vec{a}$
 - Gewichtskraft/Gravitation: $\vec{F_G} = m * g$
 - Reibungskraft: $\vec{F_R} = \mu * \vec{F_N}$
 - Rückstellkraft: $\vec{F_R} = -k * \vec{x}$
-- Federkraft (Sonderform der Rückstellkraft): $\vec{F_k} = -k * \vec{x}$
+- Federkraft (Sonderform der Rückstellkraft): $\vec{F_k} = -k * \Delta \vec{x}$
 - Hubkraft: $\vec{F_H} = -m * g$
-- Dämpfungskraft: $\vec{F_d} = -c * \vec{d}$
-- Antriebskraft: $\vec{F_B} = m * \vec{a}$
+- Dämpfungskraft: $\vec{F_d} = -d * \vec{v}$
+- Antriebskraft: $\vec{F_B} = -\vec{F_T} = m * \vec{a}$
+- Lorenzkraft: $\vec{F_L} = q * \vec{v} * \vec{B}$
+- Magnetischerfluss $\phi = L * J$
+- Magnetfeld: $\vec{B} = \frac{\Delta \phi}{\Delta A}$
+- Korisoliskraft : $\vec{F_C}$
