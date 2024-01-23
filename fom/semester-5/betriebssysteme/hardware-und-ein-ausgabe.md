@@ -16,6 +16,10 @@ dateCreated: 2023-09-13T19:13:32.207Z
 - eingeschränkte Echtzeitfähigkeit aufgrund des Konkurrenzproblems
 - Sicherheit reduziert
 
+## Prozessor-Aufbau
+
+<!--TODO S.83 -->
+
 ## Bus
 
 - gemeinsamer Datenweg für mehrere Funktionseinheiten

@@ -48,7 +48,9 @@ Prozesskontrollblock (PCB) enthält alle Informationen, die für die Ablaufplanu
   - CPU-Register
   - MMU-Register
 
-## Scheduling-Kriterien aus Sicht des Benutzers
+## Scheduling-Kriterien
+
+### aus Sicht des Benutzers
 
 Scheduling-Verfahren (abhängig von Betriebsart)
 
@@ -72,7 +74,7 @@ Scheduling-Verfahren (abhängig von Betriebsart)
   - Verfahren:
     - Priority Scheduling (PS)
 
-## Scheduling-Kriterien aus Sicht des Betriebssystems
+### aus Sicht des Betriebssystems
 
 - Hohe CPU-Auslastung
 - Fairness

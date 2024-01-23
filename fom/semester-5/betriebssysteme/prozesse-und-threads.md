@@ -32,6 +32,7 @@ Programme und Prozess:
 Unterschiede zwischen Prozess und Thread:
 
 - Prozess kann mehrere Threads haben (z.B. UI & Hintergrundprozesse)
+- Prozess hat eigenen Adressraum, Threads teilen sich Adressraum
 
 ![Prozesse_Thread](Prozesse_Thread.png)
 
@@ -39,6 +40,8 @@ Unterschiede zwischen Prozess und Thread:
 {.is-info}
 &nbsp;
 > Mehrere Programme laufen in mehreren Prozessen gleichzeitig und parallel auf einem sequentiell arbeitenden Rechner.
+{.is-info}
+> Echt parallele Abarbeitung eines Prozesses mit mehreren Threads gleichzeitig unterscheidet sich von Quasi-paralleler Abarbeitung bei der mehrere Prozesse nacheinander abgearbeitet werden.
 {.is-info}
 
 ## Speicherbereiche eines Prozesses
