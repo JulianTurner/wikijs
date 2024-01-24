@@ -18,7 +18,17 @@ dateCreated: 2023-09-13T19:13:32.207Z
 
 ## Prozessor-Aufbau
 
-<!--TODO S.83 -->
+- Steuerprozessor (CU)
+  - Adress- & Befehlsregister
+  - Steuer- & Statusregister
+  - Befehlszähler
+- Rechenprozessor (ALU)
+  - Datenregister
+  - Zustandsregister (Carry, Overflow, Zero, ...)
+- Gleitkommaeinheit (FPU)
+  - Datenregister
+  - Numerik-Rechenwerke
+  - Ausnahmebehandlung
 
 ## Bus
 

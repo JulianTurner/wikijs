@@ -178,7 +178,16 @@ Monolithische Betriebssysteme (Beispiel: Linux-Kernel) können außerdem enthalt
 
 ## Betriebsarten
 
-<!-- //TODO -->
+- Stapelbetrieb
+  - Minimierung der Durchlaufzeit
+  - Maximierung von Durchsatz
+- Dialogbetrieb
+  - Minimieren der Wartezeit zwischen Anfrage und Bearbeitungsbeginn
+  - Minimieren der Antwortzeit
+- Echtzeitbetrieb
+  - Deadlines einhalten
+  - Vorhersagbarkeit
+  - Antwort- & Durchlaufzeit wichtiger Threads unabhängig von Auslastung
 
 ## Anforderungen an Betriebssysteme
 
