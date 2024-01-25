@@ -45,9 +45,11 @@ dateCreated: 2023-09-13T19:13:32.207Z
 
 ![Schichtung](io-schichtung.png)
 
+- Anwendungsprogramme (User-Mode) -> Betriebssystem (Kernel-Mode) -> Treiber -> Controller (Hardware) -> Gerät
+
 ## Polling
 
-> Synchrone von CPU gesteuerte Geräteabfrage
+> Zyklische von CPU gesteuerte Geräteabfrage
 {.is-info}
 
 - Aktives Abfragen des Gerätes
@@ -62,6 +64,7 @@ while (device_busy()) {
 do_device_action();
 ```
 
+- kontinuierliches Abfragen des Gerätes
 - kein Multitasking möglich
 - nur für kritische Geräte (z.B. Authentifizierung)
 

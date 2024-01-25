@@ -76,6 +76,7 @@ Unterschiede zwischen Prozess und Thread:
 - rechnend / aktiv -> wird gerade ausgeführt
 - blockiert -> wartet auf Ereignis (z.B. I/O)
 - bereit -> wartet auf CPU-Zuteilung
+- beendet -> Ausführung beendet
 
 ![Prozesszustände](Prozesszustaende.png)
 
