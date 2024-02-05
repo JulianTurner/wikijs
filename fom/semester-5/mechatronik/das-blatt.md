@@ -34,7 +34,9 @@ $\ddot{x} = \dot{v} = \ddot{q} = \dot{\frac{p}{m}}$ = Beschleunigung
 
 $ \vec{0} = \vec{F_T} + \vec{F_d} + \vec{F_k} + \vec{F_A}$  
 
-$0 = -m \vec{\ddot{x}} - d \vec{\dot{x}} - k\vec{x}+ \vec{F_A}$
+$0 = -m\vec{a} - d\vec{v} - k\vec{x} + \vec{F_A}$
+
+$0 = -m \ddot{x} - d \dot{x} - kx + F_A$
 
 $\vec{F_B} = \vec{F_A} + \vec{F_d} + \vec{F_k} $
 

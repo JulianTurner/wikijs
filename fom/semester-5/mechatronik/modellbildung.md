@@ -88,7 +88,7 @@ K --> S
   - Effort (e): $M$ (Drehmoment)
   - Flow (f): $\omega$ (Winkelgeschwindigkeit)
   - Impuls (p): $J * \omega$ (Drehimpuls) [J = Trägheitsmoment]
-  - Verschiebung (q): $\alpha$ (Drehwinkel)
+  - Verschiebung (q): $\phi$ (Drehwinkel)
 - Hydraulische Leistung / Fluidik: $P = \Delta p \cdot \dot{V}$
   - Effort: $\Delta p$ (Druckdifferenz)
   - Flow: $\dot{V}$ (Volumenstrom)
