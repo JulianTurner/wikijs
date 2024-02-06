@@ -174,6 +174,7 @@ $G(s) = Y(s) / X(s)$
 
 - Vorteile
   - keine Startrechnung
+  - hohe Genauigkeit
 - Nachteile
   - hoher Rechenaufwand
 
