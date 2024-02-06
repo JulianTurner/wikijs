@@ -24,13 +24,12 @@ Bezeichnung (physisch) | Kategorie
 
 Sensor|Variable|Funktion|Kategorie
 ---|---|---|---
-Hall-Plättchen|Q|f(B)|Weg|Magneto-Resistiv
-Gauss-Plättchen|R|f(B)|Weg|Galvanisch
-Piezo-Element|Q|f($\epsilon$)|Kraft, Weg, Beschleunigung|
-Photo-Zelle|R|f(Lichteinfall)|Weg|
-Lichtwellenleiter|LZ (Laufzeit)|f($\epsilon$)|Dehnung|
-Drehzahlmesser|n (Drehzahl)|f(U_induktiv)|Drehzahl|
-<!-- TODO -->
+Hall-Plättchen|Q|f(B)|Weg|Galvanisch-Resistiv
+Gauss-Plättchen|R|f(B)|Weg|Magneto-Resistiv
+Piezo-Element|Q|f($\epsilon$)|Kraft, Druck|Piezo-Rezistiv
+Photo-Zelle|R|f(Lichteinfall)|Weg, Abdeckung|Opto-Rezistiv
+Lichtwellenleiter|LZ (Laufzeit)|f($\epsilon$)|Dehnung|Faser-Optisch
+Drehzahlmesser|n (Drehzahl)|f(U_induktiv)|Drehzahl|Induktiv
 
 ## Mechatronisches Systeme
 
@@ -138,3 +137,58 @@ Elektrik | Spannung $U$ | Stromstärke $I$ | Windungsfluss $\vec{\lambda}$ | Lad
 ## Operationsverstärker
 
 ![Operationsverstärker](Operationsverstärker.png)
+
+## Äquivalentz Bondegraphen <-> Blockschaltbild
+
+1 Junction
+
+![1-Junction](1-Junction.png)
+![1-Junction-BSB](1-Junction-BSB.png)
+
+0 Junction
+![0-Junction](0-Junction.png)
+![0-Junction-BSB](0-Junction-BSB.png)
+
+Gyrator
+
+![Gyrator](Gyrator.png)
+![Gyrator-Bond](Gyrator-Bond.png)
+
+- $e_2 = r * f_1$
+- $f_2 = r * e_1$
+
+## Übertragungsfunktion im Frequenzbereich
+
+$G(s) = G_1(s) + G_2(s)$  
+$(X(s)*G_1)+(X(s)*G_2) = Y(s)$  
+$X(s) * (G_1 + G_2) = Y(s) | /X(s)$  
+$G_1+G_2 = Y(s) / X(s)$  
+$G(s) = Y(s) / X(s)$  
+
+## Simulation
+
+- Systeme, die mit BondGraphen arbeiten, sind klassifizierbar als energieorientierte Systeme
+- Systeme, die mit Blockschaltbildern arbeiten, sind klassifizierbar als signalorientierte Systeme.
+- Die wichtigsten Vertreter beider Kategorien sind resprektive Mechatronik und Regelungstechnik.
+- Vorteile & Nachteile des Integrationsverfahrens nach Runge-Kutta-Fehlberg
+
+- Vorteile
+  - keine Startrechnung
+- Nachteile
+  - hoher Rechenaufwand
+
+## Bernoulli-Gleichung
+
+$p * g * h + \frac{1}{2} * p * v^2 +p$
+
+## Kontinuitätsgleichung
+
+$p_1 * v_1 * A_1 = p2 * v_2 * A_2$
+
+$ P $ = Druck  
+$ v $ = Geschwindigkeit  
+$ A $ = Fläche  
+
+## Abnutzung
+
+![Abnutzung](Abnutzung.png)
