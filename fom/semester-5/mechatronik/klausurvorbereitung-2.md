@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2024-02-09T13:52:51.380Z
+date: 2024-02-09T13:54:36.605Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-09T11:04:55.831Z
@@ -47,11 +47,11 @@ a) Geben Sie die verktorielle Kräfte-Bilanz sowie die DGL an und nennen Sie den
 Kräfte Vektoren:
 
 $F_T = -F_B$
-
+&nbsp;
 $\vec{0} = \vec{F_T} + \vec{F_d} + \vec{F_k} + \vec{F_A}$  
-
+&nbsp;
 $\vec{0} = -m\vec{a} - d\vec{v} - k\vec{x} + \vec{F_A}$
-
+&nbsp;
 DGL:  
 
 $0 = -m \ddot{x} - d \dot{x} - kx + F_A$  
