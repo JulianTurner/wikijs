@@ -46,12 +46,10 @@ a) Geben Sie die verktorielle Kräfte-Bilanz sowie die DGL an und nennen Sie den
 
 Kräfte Vektoren:
 
-$F_T = -F_B$
-&nbsp;
+$F_T = -F_B$  
 $\vec{0} = \vec{F_T} + \vec{F_d} + \vec{F_k} + \vec{F_A}$  
-&nbsp;
 $\vec{0} = -m\vec{a} - d\vec{v} - k\vec{x} + \vec{F_A}$
-&nbsp;
+&nbsp;  
 DGL:  
 
 $0 = -m \ddot{x} - d \dot{x} - kx + F_A$  
@@ -109,9 +107,9 @@ B2: $\dot{p_2} = F_A - k *q_3 - \frac{d}{m} * p_2$
 B3: $\dot{q_3} = \frac{1}{m}*p_2$  
 &nbsp;
 $\begin{pmatrix} \dot{p_2} \\ \dot{q_3} \end{pmatrix} = \begin{pmatrix} -\frac{d}{m} & -k \\ \frac{1}{m} & 0 \end{pmatrix} * \begin{pmatrix} p_2 \\ q_3 \end{pmatrix} + \begin{pmatrix} 1 \\ 0 \end{pmatrix} * F_A$
-&nbsp;
+&nbsp;  
 $\text{System-Matrix} * \text{Zustandsvariablen} + \text{Steuermatrix} * \text{Eingangsgröße}$
-&nbsp;
+&nbsp;  
 d)
 Wandeln Sie die DGL in den Zustandsraum-Vektor um.
 
@@ -119,18 +117,19 @@ Zustandsvariablen:
 
 - $z_1 = x(t)$
 - $z_2 = v(t) = \dot{x}(t) = \dot{z_1}$
-&nbsp;
-$\dot{Z_1} = Z_2$  
-$\dot{Z_2} = \ddot{x} = \frac{F_A}{m} - \frac{d}{m} * \dot{x} - \frac{k}{m} * x$
-&nbsp;
+&nbsp;  
+$\dot{z_1} = Z_2$  
+$\dot{z_2} = \ddot{x} = \frac{F_A}{m} - \frac{d}{m} * \dot{x} - \frac{k}{m} * x$
+&nbsp;  
 $\dot{x} = v = \frac{1}{m}p$  (1)  
 $\dot{v} = \frac{\dot{p}}{m} = \frac{F_A}{m} - \frac{d}{m} * \dot{x} + \frac{k}{m} * x$  (2)  
-&nbsp;
+&nbsp;  
 Verallgemeinerte Variablen:
 
 (1) => $\dot{q} = \frac{1}{m}p$  
 (2) => $\dot{p} = F_A - d\dot{q} - kq = F_A - df - kq = F_A - \frac{d}{m}p - kq$
 &nbsp;
+
 $\begin{pmatrix} \dot{p} \\ \dot{q} \end{pmatrix} = \begin{pmatrix} -\frac{d}{m} & -k \\ \frac{1}{m} & 0 \end{pmatrix} * \begin{pmatrix} p \\ q \end{pmatrix} + \begin{pmatrix} 1 \\ 0 \end{pmatrix} * F_A$
 &nbsp;
 
