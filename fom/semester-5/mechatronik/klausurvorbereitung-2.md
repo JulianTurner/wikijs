@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2024-02-09T13:57:18.482Z
+date: 2024-02-09T17:52:56.468Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-09T11:04:55.831Z
@@ -31,7 +31,7 @@ b)
 ![Aufgabe_3_1](Aufgabe_3_1.png)
 ![Aufgabe_3_2](Aufgabe_3_2.png)
 ![Aufgabe_3_3](Aufgabe_3_3.png)
-![Aufgabe_3_4](Aufgabe_3_3.png)
+![Aufgabe_3_4](Aufgabe_3_4.png)
 ![Aufgabe_3_5](Aufgabe_3_5.png)
 
 A: Es gibt eine Algebraische Rückkopplung da es verschiedene Kausalitätsauszeichnungen gibt.
