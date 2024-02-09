@@ -65,7 +65,8 @@ Zeichnen sie das Blockschaltbild des Systems.
 Umstellung für DGL:
 &nbsp;
 $F_A - d \dot{x} + kx = m \ddot{x}$
-
+&nbsp;
+&nbsp;
 ![Einmassenschwinger_Blockschaltbild](/fom/semester-5/mechatronik/Einmassenschwinger_Blatt_BSB.png)
 
 c) Zeichnen Sie den Bondgraphen, leiten Sie aus Frage 1 & Frage 2 den Zustandsraum-Vektor & System-  Steuermatrix her.
@@ -106,11 +107,11 @@ Vektor-Matrix:
 
 B2: $\dot{p_2} = F_A - k *q_3 - \frac{d}{m} * p_2$  
 B3: $\dot{q_3} = \frac{1}{m}*p_2$  
-
+&nbsp;
 $\begin{pmatrix} \dot{p_2} \\ \dot{q_3} \end{pmatrix} = \begin{pmatrix} -\frac{d}{m} & -k \\ \frac{1}{m} & 0 \end{pmatrix} * \begin{pmatrix} p_2 \\ q_3 \end{pmatrix} + \begin{pmatrix} 1 \\ 0 \end{pmatrix} * F_A$
-
+&nbsp;
 $\text{System-Matrix} * \text{Zustandsvariablen} + \text{Steuermatrix} * \text{Eingangsgröße}$
-
+&nbsp;
 d)
 Wandeln Sie die DGL in den Zustandsraum-Vektor um.
 
@@ -118,19 +119,20 @@ Zustandsvariablen:
 
 - $z_1 = x(t)$
 - $z_2 = v(t) = \dot{x}(t) = \dot{z_1}$
-
+&nbsp;
 $\dot{Z_1} = Z_2$  
 $\dot{Z_2} = \ddot{x} = \frac{F_A}{m} - \frac{d}{m} * \dot{x} - \frac{k}{m} * x$
-
+&nbsp;
 $\dot{x} = v = \frac{1}{m}p$  (1)  
 $\dot{v} = \frac{\dot{p}}{m} = \frac{F_A}{m} - \frac{d}{m} * \dot{x} + \frac{k}{m} * x$  (2)  
-
+&nbsp;
 Verallgemeinerte Variablen:
 
 (1) => $\dot{q} = \frac{1}{m}p$  
 (2) => $\dot{p} = F_A - d\dot{q} - kq = F_A - df - kq = F_A - \frac{d}{m}p - kq$
-
+&nbsp;
 $\begin{pmatrix} \dot{p} \\ \dot{q} \end{pmatrix} = \begin{pmatrix} -\frac{d}{m} & -k \\ \frac{1}{m} & 0 \end{pmatrix} * \begin{pmatrix} p \\ q \end{pmatrix} + \begin{pmatrix} 1 \\ 0 \end{pmatrix} * F_A$
+&nbsp;
 
 e)
 Welches elektrische Modell entspricht dem Bondgraphen?
@@ -150,7 +152,7 @@ Flugzeug mit E-Motor
 
 - Nach der 1. Phase des Climb-Modus ist der Akku leer
 - Beim Sinkflug wird der Gyrator E-Motor- auf Generator-Betrieb gewechselt, wodurch der Akku auflädt.
-- Am Boden wieder als E-Moter tätig, die Energie reicht beim finalen Taxiing zum totalen Vorschub.
+- Am Boden wieder als E-Motor tätig, die Energie reicht beim finalen Taxiing zum totalen Vorschub.
 - Lärmbelästigung wird durch den E-Motor beim Taxiing reduziert.
 
 ## 7 (5 Punkte) Verallgemeinerte Variablen
@@ -161,10 +163,10 @@ a) Tetraeder
 b)
 Domäne | e | f | p | q
 --- | --- | --- | --- | ---
-Mechanik (translation) | Kraft $\vec{F}$ | Geschwindigkeit $\vec{v}$ | Impuls $\vec{p}$ | Auslenkung $\vec{x}$
-Mechanik (rotation) | Drehmoment $\vec{M}$ | Winkelgeschwindigkeit $\vec{\omega}$ | Drehimpuls $\vec{D}$ | Drehwinkel $\vec{\phi}$
-Elektrik (Kondensator) | Spannung $U$ | Stromstärke $I$ | \\\\ | Ladung $q$
-Fluidik | Druck $p$ | Volumenstrom $\dot{V}$ | \\\\ | Volumen $V$
+Mechanik (translation) | Kraft $\vec{F}$&nbsp; | Geschwindigkeit $\vec{v}$&nbsp; | Impuls $\vec{p}$&nbsp; | Auslenkung $\vec{x}$&nbsp;
+Mechanik (rotation) | Drehmoment $\vec{M}$&nbsp; | Winkelgeschwindigkeit $\vec{\omega}$&nbsp; | Drehimpuls $\vec{D}$&nbsp; | Drehwinkel $\vec{\phi}$&nbsp;
+Elektrik (Kondensator) | Spannung $U$&nbsp; | Stromstärke $I$&nbsp; | \\\\ | Ladung $q$&nbsp;
+Fluidik | Druck $p$&nbsp; | Volumenstrom $\dot{V}$&nbsp; | \\\\ | Volumen $V$&nbsp;
 
 ## 8 (5 Punkte) Transformer
 
@@ -173,22 +175,25 @@ Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnunge
 
 > $Fv = M\omega$  
 > $v = r\omega$
-
+&nbsp;
 ![Transformer_8_1](Transformer_8_1.png)
 
 > $f_2 = m * f_1$
+&nbsp;
 
 1. $\omega = \frac{F}{M}v$
 1. $\omega = \frac{F}{rF}v$
 1. $\omega = \frac{1}{r}v$ -> $m = \frac{1}{r}$
-
+&nbsp;
 ![Transformer_8_2](Transformer_8_2.png)  
 
 > $e_1 = m * e_2$
+&nbsp;
 
 1. $M = \frac{v}{\omega}F$
 1. $M = \frac{r*\omega}{\omega}F$  
 1. $M = r*F$ -> $m =r$
+&nbsp;
 
 ## 9 (5 Punkte) BG -> BSE
 
@@ -197,6 +202,7 @@ Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnunge
 
 - $e_2 = r * f_1$
 - $f_2 = r * e_1$
+&nbsp;
 
 ## 10 (4 Punkte) Übertragungsfunktion im Frequenzbereich
 
@@ -212,6 +218,7 @@ $Y(s) = \frac{G_1}{1 - G_1 * G_2} * X(s)$
 $\frac{Y(s)}{X(s)} = \frac{G_1}{1 - G_1 * G_2}$
 $G(s) = \frac{G_1}{1 - G_1 * G_2}$
 &nbsp;
+
 ## A11 (2 Punkte) Blockschaltbild Element im Zeit- und Frequenzbereich
 
 ![BSB-C-Element_Frequenzbereich](BSB-C-Element_Frequenzbereich.png)
