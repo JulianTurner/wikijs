@@ -38,7 +38,7 @@ A: Es gibt eine Algebraische Rückkopplung da es verschiedene Kausalitätsauszei
 ![Aufgabe_3_6](Aufgabe_3_6.png)
 ![Aufgabe_3_7](Aufgabe_3_7.png)
 
-## 4 (22 Punkte) Moell-Gleichung 1-Massen-Schwinger
+## 4 (22 Punkte) Modell-Gleichung 1-Massen-Schwinger
 
 ![1-Massen-Schwinger](/fom/semester-5/mechatronik/Einmassenschwinger_Blatt.png)
 
