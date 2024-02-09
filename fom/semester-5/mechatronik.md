@@ -28,3 +28,5 @@ dateCreated: 2023-09-13T18:57:25.207Z
 [Das Blatt](/fom/semester-5/mechatronik/das-blatt.md)
 
 [Klausurvorbereitung](/fom/semester-5/mechatronik/klausurvorbereitung.md)
+
+[Klausurvorbereitung 2](/fom/semester-5/mechatronik/klausurvorbereitung-2.md)
