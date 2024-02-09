@@ -1,10 +1,11 @@
 ---
 title: Klausurvorbereitung 2
+description: 
 published: 1
-date: 2024-02-09T08:07:55.207Z
+date: 2024-02-09T13:52:51.380Z
 tags: 
 editor: markdown
-dateCreated: 2024-02-09T08:07:55.207Z
+dateCreated: 2024-02-09T11:04:55.831Z
 ---
 
 # Klausurvorbereitung 2
@@ -47,7 +48,7 @@ Kräfte Vektoren:
 
 $F_T = -F_B$
 
-$ \vec{0} = \vec{F_T} + \vec{F_d} + \vec{F_k} + \vec{F_A}$  
+$\vec{0} = \vec{F_T} + \vec{F_d} + \vec{F_k} + \vec{F_A}$  
 
 $\vec{0} = -m\vec{a} - d\vec{v} - k\vec{x} + \vec{F_A}$
 
