@@ -297,8 +297,8 @@ Vor- und Nachteile von Integrationsverfahren:
 
 Sensor|Variable|Funktion|Kategorie
 ---|---|---|---
-Hall-Plättchen|Q|f(B)|Galvano-Resistiv?
-Gauss-Plättchen|R|f(B)|Magneto-Resistiv?
-Piezo-Element|Q|f($\epsilon$)|Piezo-Rezistiv?
+Hall-Plättchen|Q|f(B)|Galvano-Magnetisch
+Gauss-Plättchen|R|f(B)|Resisto-Magnetisch
+Piezo-Element|Q|f($\epsilon$)|Piezo-Resistiv?
 
 ![Schleudersensor](Schleudersensor.png)
