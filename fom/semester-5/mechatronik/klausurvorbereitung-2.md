@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2024-02-09T19:06:39.720Z
+date: 2024-02-09T22:04:50.387Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-09T11:04:55.831Z
@@ -208,7 +208,7 @@ Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnunge
 ![Gyrator-Bond](Gyrator-Bond.png)
 
 - $e_2 = r * f_1$
-- $f_2 = r * e_1$
+- $f_2 = \frac{1}{r} * e_1$
 &nbsp;
 
 ## 10 (4 Punkte) Übertragungsfunktion im Frequenzbereich
