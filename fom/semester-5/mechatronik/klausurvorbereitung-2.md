@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2024-02-09T13:54:36.605Z
+date: 2024-02-09T13:56:51.438Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-09T11:04:55.831Z
@@ -63,7 +63,7 @@ b)
 Zeichnen sie das Blockschaltbild des Systems.
 
 Umstellung für DGL:
-
+&nbsp;
 $F_A - d \dot{x} + kx = m \ddot{x}$
 
 ![Einmassenschwinger_Blockschaltbild](/fom/semester-5/mechatronik/Einmassenschwinger_Blatt_BSB.png)
@@ -210,8 +210,9 @@ $Y(s) - Y(s) * G_1 * G_2 = G_1 * X(s)$
 $Y(s) * (1 - G_1 * G_2) = G_1 * X(s)$
 $Y(s) = \frac{G_1}{1 - G_1 * G_2} * X(s)$
 $\frac{Y(s)}{X(s)} = \frac{G_1}{1 - G_1 * G_2}$
+&nbsp;
 $G(s) = \frac{G_1}{1 - G_1 * G_2}$
-
+&nbsp;
 ## A11 (2 Punkte) Blockschaltbild Element im Zeit- und Frequenzbereich
 
 ![BSB-C-Element_Frequenzbereich](BSB-C-Element_Frequenzbereich.png)
