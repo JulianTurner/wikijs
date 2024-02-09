@@ -169,3 +169,127 @@ Fluidik | Druck $p$ | Volumenstrom $\dot{V}$ | \\\\ | Volumen $V$
 
 ![Transformer_Aufgabe](Transformer_Aufgabe.png)
 Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnungen, sowie den jeweiligen Wert des Transformatorfaktors $m$.
+
+> $Fv = M\omega$  
+> $v = r\omega$
+
+![Transformer_8_1](Transformer_8_1.png)
+
+> $f_2 = m * f_1$
+
+1. $\omega = \frac{F}{M}v$
+1. $\omega = \frac{F}{rF}v$
+1. $\omega = \frac{1}{r}v$ -> $m = \frac{1}{r}$
+
+![Transformer_8_2](Transformer_8_2.png)  
+
+> $e_1 = m * e_2$
+
+1. $M = \frac{v}{\omega}F$
+1. $M = \frac{r*\omega}{\omega}F$  
+1. $M = r*F$ -> $m =r$
+
+## 9 (5 Punkte) BG -> BSE
+
+![1-Junction-BSB](1-Junction-BSB.png)
+![Gyrator-Bond](Gyrator-Bond.png)
+
+- $e_2 = r * f_1$
+- $f_2 = r * e_1$
+
+## 10 (4 Punkte) Übertragungsfunktion im Frequenzbereich
+
+![Übertragungsfunktion](Übertragungsfunktion.png)
+
+$a = Y(s) * G_2$
+$Y(s) = (X(s) + a) * G_1$
+$Y(s) = (X(s) + Y(s) * G_2) * G_1$
+$Y(s) = G_1 * X(s) + Y(s) * G_1 * G_2$
+$Y(s) - Y(s) * G_1 * G_2 = G_1 * X(s)$
+$Y(s) * (1 - G_1 * G_2) = G_1 * X(s)$
+$Y(s) = \frac{G_1}{1 - G_1 * G_2} * X(s)$
+$\frac{Y(s)}{X(s)} = \frac{G_1}{1 - G_1 * G_2}$
+$G(s) = \frac{G_1}{1 - G_1 * G_2}$
+
+## A11 (2 Punkte) Blockschaltbild Element im Zeit- und Frequenzbereich
+
+![BSB-C-Element_Frequenzbereich](BSB-C-Element_Frequenzbereich.png)
+
+## A12 (7 Punkte) Bondgraphen mit Operationsverstärker
+
+![Operationsverstärker_full](Operationsverstärker_full.png)
+
+Welches Element kann der Effort Sensor ansteuern?
+
+- Modulated Source Effort
+
+Charakter eines Effort Sensors?
+
+- generiert Steuerinfo (Infobond über den Effort)
+- leitet Effort aber auch unverändert weiter
+
+## A13 (7 Punkte) Simulationssysteme
+
+a) Welche 2 prinzipiellen Fehlerarten treten bei numerischen Integration einer DGL auf?
+
+1. Rundungsfehler
+2. Abbruchfehler
+
+b) Euler liefert brauchbare Ergebnisse bei linearen DGLn, extreme Fehler bei nichtlinearen DGLn.
+
+c) unklar
+
+> Ab hier nur Vermutungen
+{.is-danger}
+
+Nachteil Adams-Backworth?
+
+- Startrechnung erforderlich
+
+Vorteil Runge-Kutta?
+
+- keine Startrechnung erforderlich
+- adaptive Schrittweite
+
+Nachteil Runge-Kutta?
+
+- aufwendig
+
+Vor- und Nachteile von Integrationsverfahren:
+
+- Euler-Verfahren
+  - Nachteile:
+    - Abbruchfehler
+    - Rundungsfehler
+    - Wird instabil (Bsp.: math. Pendel)
+- Adams-Bashforth-Verfahren
+  - Vorteil
+    - Abbruchfehler viel kleiner
+    - bei kleinen Schritten gute Ergebnisse auch bei starker Steigung
+  - Nachteil
+    - Für t=0 liegen keine Vergangenheitswerte vor (Extra Start-Rechnung erforderlich)
+- Euler Schritte ohne Backwards Schritte verbessern (alpha-Optimierung)
+  - Vorteil
+    - Keine Vergangenheitsschritte notwendig
+- Runge-Kutta-Verfahren -> Optimierung der Einschritt-Methode (nicht mehr gleiche Zeitabschnitte - hat Zwischenschritte)
+  - Vorteil
+    - keine Start-Rechnung erforderlich
+  - Nachteil
+    - Immenser Rechenaufwand
+- Runge-Kutta-Fehlberg
+  Adaptiver Delta-t Schrittweite
+  - Vorteil
+    - Präzise bei schnellen Signalwechseln (durch variable Schrittweite)
+    - Senkrechte-Flanken werden unterstützt
+
+## A14 (7 Punkte) Sensorik
+
+- Zur Messung flächenhafter Dehnungen wird **DMS Rosette** eingesetzt
+
+Sensor|Variable|Funktion|Kategorie
+---|---|---|---
+Hall-Plättchen|Q|f(B)|Galvano-Resistiv?
+Gauss-Plättchen|R|f(B)|Magneto-Resistiv?
+Piezo-Element|Q|f($\epsilon$)|Piezo-Rezistiv?
+
+![Schleudersensor](Schleudersensor.png)
