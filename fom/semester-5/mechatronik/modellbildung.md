@@ -92,6 +92,7 @@ K --> S
 - Hydraulische Leistung / Fluidik: $P = \Delta p \cdot \dot{V}$
   - Effort: $\Delta p$ (Druckdifferenz)
   - Flow: $\dot{V}$ (Volumenstrom)
+  - Verschiebung (q): $V$ (Volumen)
 - Thermische Leistung: $P = \Delta T \dot{S}$
   - Effort: $\Delta T$ (Temperaturdifferenz)
   - Flow: $\dot{S}$ (Entropiestrom)
