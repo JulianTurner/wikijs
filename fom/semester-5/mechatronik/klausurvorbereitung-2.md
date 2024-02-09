@@ -169,12 +169,13 @@ Fluidik | Druck $p$&nbsp; | Volumenstrom $\dot{V}$&nbsp; | \\\\ | Volumen $V$&nb
 
 ## 8 (5 Punkte) Transformer
 
-![Transformer_Aufgabe](Transformer_Aufgabe.png)
+![Transformer_Aufgabe](Transformer_Aufgabe.png)  
 Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnungen, sowie den jeweiligen Wert des Transformatorfaktors $m$.
 
 > $Fv = M\omega$  
 > $v = r\omega$
-&nbsp;
+&nbsp;  
+
 ![Transformer_8_1](Transformer_8_1.png)
 
 > $f_2 = m * f_1$
@@ -183,7 +184,8 @@ Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnunge
 1. $\omega = \frac{F}{M}v$
 1. $\omega = \frac{F}{rF}v$
 1. $\omega = \frac{1}{r}v$ -> $m = \frac{1}{r}$
-&nbsp;
+&nbsp;  
+
 ![Transformer_8_2](Transformer_8_2.png)  
 
 > $e_1 = m * e_2$
@@ -207,16 +209,16 @@ Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnunge
 
 ![Übertragungsfunktion](Übertragungsfunktion.png)
 
-$a = Y(s) * G_2$
-$Y(s) = (X(s) + a) * G_1$
-$Y(s) = (X(s) + Y(s) * G_2) * G_1$
-$Y(s) = G_1 * X(s) + Y(s) * G_1 * G_2$
-$Y(s) - Y(s) * G_1 * G_2 = G_1 * X(s)$
-$Y(s) * (1 - G_1 * G_2) = G_1 * X(s)$
-$Y(s) = \frac{G_1}{1 - G_1 * G_2} * X(s)$
-$\frac{Y(s)}{X(s)} = \frac{G_1}{1 - G_1 * G_2}$
-$G(s) = \frac{G_1}{1 - G_1 * G_2}$
-&nbsp;
+$a = Y(s) * G_2$  
+$Y(s) = (X(s) + a) * G_1$  
+$Y(s) = (X(s) + Y(s) * G_2) * G_1$  
+$Y(s) = G_1 * X(s) + Y(s) * G_1 * G_2$  
+$Y(s) - Y(s) * G_1 * G_2 = G_1 * X(s)$  
+$Y(s) * (1 - G_1 * G_2) = G_1 * X(s)$  
+$Y(s) = \frac{G_1}{1 - G_1 * G_2} * X(s)$  
+$\frac{Y(s)}{X(s)} = \frac{G_1}{1 - G_1 * G_2}$  
+$G(s) = \frac{G_1}{1 - G_1 * G_2}$  
+&nbsp;  
 
 ## A11 (2 Punkte) Blockschaltbild Element im Zeit- und Frequenzbereich
 
