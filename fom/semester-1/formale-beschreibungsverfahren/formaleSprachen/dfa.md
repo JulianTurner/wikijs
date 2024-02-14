@@ -16,4 +16,4 @@ Ein DFA folgt der [Finite Automaton](/fom/formale-beschreibungsverfahren/formale
 
 - Für jeden Zustand $q_x$ + gelesenes Alphabet Zeichen gibt es nur <u>einen oder keinen</u> Folgezustand.
 
-![dfa.png](/fom//dfa.png)
+![dfa.png](/fom/semester-1/formale-beschreibungsverfahren/dfa.png)

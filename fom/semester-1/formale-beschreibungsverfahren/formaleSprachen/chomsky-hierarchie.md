@@ -3,7 +3,7 @@ title: Chomsky-Hierarchie
 description: 
 published: 1
 date: 2021-12-18T08:20:47.255Z
-tags: formale sprache
+tags: formale Sprache
 editor: markdown
 dateCreated: 2021-12-16T20:40:30.908Z
 ---
@@ -17,7 +17,7 @@ dateCreated: 2021-12-16T20:40:30.908Z
 
 ## Chomsky-Hierarchie für Grammatiken
 
-Für jeden Grammatik Typ gelten zusätzliche [Epsilon Regeln](/formaleBeschreibung/formaleSprachen/chomsky-hierarchie#%CE%B5varepsilon%CE%B5-regeln).
+Für jeden Grammatik Typ gelten zusätzliche [Epsilon Regeln](/fom/semester-1/formale-beschreibungsverfahren/formaleSprachen/chomsky-hierarchie.md#epsilon-regeln).
 
 ### Typ 0 Grammatik
 
@@ -42,7 +42,7 @@ Für jeden Grammatik Typ gelten zusätzliche [Epsilon Regeln](/formaleBeschreibu
 - rechte Seite entweder ein Terminal Symbol oder Terminal-Symbol + Nicht Terminal-Symbol
 - siehe auch [Typ 3 Sprache, reguläre Sprache](/formaleBeschreibung/formaleSprachen/typ-3-sprache)
 
-## $\varepsilon$-Regeln
+## Epsilon-Regeln
 
 Entgegen der Regel "rechte Seite nicht kürzer linke Seite" führt man für für alle Grammatiken neue Regeln ein, bei denen das Start-Symbol S auf $\varepsilon$ abgeleitet werden darf.
 

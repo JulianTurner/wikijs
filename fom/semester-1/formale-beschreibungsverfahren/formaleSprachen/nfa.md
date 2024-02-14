@@ -16,4 +16,4 @@ Ein NFA folgt der [Finite Automaton](/fom/formale-beschreibungsverfahren/formale
 
 - Für jeden Zustand $q_x$ + gelesenes Alphabet Zeichen gibt es <u>keinen, einen oder mehrere</u> Folgezustände.
 
-![nfa.png](/fom//nfa.png)
+![nfa.png](/fom/semester-1/formale-beschreibungsverfahren/nfa.png)

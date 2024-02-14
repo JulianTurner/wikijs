@@ -51,8 +51,8 @@ Klimaautomatik
 
 Führungsgröße w(t): Einstellung Temperatur (20°C)  
 Regelabweichung e(t): Abweichung zwischen Sollwert und Istwert (4°C)  
-Stellegröße u(t): Strom für Gebläse
-Störgröße z(t): offnes Fenster
+Stellgröße u(t): Strom für Gebläse
+Störgröße z(t): offenes Fenster
 Ausgangsgröße y(t): Lufttemperatur (Istwert 17°C)  
 Messrauschen n(t): Position des Sensors  
 Ist-Verlauf y'(t): Lufttemperatur (gemessen 16°C)
@@ -66,8 +66,8 @@ Ist-Verlauf y'(t): Lufttemperatur (gemessen 16°C)
 
 Beispiel:
 Tempomat  
-Führungsgröße w(t): Einstellung Geschwindikgeit (120 km/h)  
-Stellegröße u(t): mittlere Beschleunigung  
+Führungsgröße w(t): Einstellung Geschwindigkeit (120 km/h)  
+Stellgröße u(t): mittlere Beschleunigung  
 Störgröße z(t): Steigung
 Ausgangsgröße y(t): Geschwindigkeit (Istwert 100 km/h)
 
@@ -76,7 +76,7 @@ Regelabweichung e(t): Abweichung zwischen Sollwert und Istwert (20 km/h)
 
 Bei Steuerung:  
 Regelung wird deaktiviert und Wert vom Gaspedal übernommen
-Stellegröße u(t): folgt Führungsgröße (Gaspedal)
+Stellgröße u(t): folgt Führungsgröße (Gaspedal)
 
 ## Zusammenfassung
 
