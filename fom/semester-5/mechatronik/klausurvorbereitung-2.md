@@ -2,7 +2,7 @@
 title: Klausurvorbereitung 2
 description: 
 published: 1
-date: 2024-02-09T17:52:56.468Z
+date: 2024-02-09T22:04:50.387Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-09T11:04:55.831Z
@@ -74,8 +74,14 @@ c) Zeichnen Sie den Bondgraphen, leiten Sie aus Frage 1 & Frage 2 den Zustandsra
 Frage 1 (Was gibt die Komponente ans System):
 
 - B1: $e_1 = F_A$
+&nbsp;
+
 - B2: $f_2 = \frac{\large\textcircled{p_2}}{m}$
+&nbsp;
+
 - B3: $e_3 = k * \large\textcircled{q_3}$
+&nbsp;
+
 - B4: $e_4 = d * f_4$
 
 e/f Bilanz
@@ -202,7 +208,7 @@ Bestimmen Sie jeweils den  Transformer-Bondgraphen mit Kausalitätsauszeichnunge
 ![Gyrator-Bond](Gyrator-Bond.png)
 
 - $e_2 = r * f_1$
-- $f_2 = r * e_1$
+- $f_2 = \frac{1}{r} * e_1$
 &nbsp;
 
 ## 10 (4 Punkte) Übertragungsfunktion im Frequenzbereich
