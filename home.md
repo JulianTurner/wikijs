@@ -14,6 +14,8 @@ dateCreated: 2022-12-09T09:46:44.406Z
 [Semester 2](/fom/semester-2)
 [Semester 3](/fom/semester-3)
 [Semester 4](/fom/semester-4)
+[Semester 5](/fom/semester-5)
+[Semester 6](/fom/semester-6)
 
 ## Discord
 
