@@ -73,7 +73,7 @@ alle Elemente außer Zentraleinheit
 Mit zentralem Bus:
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Computer_system_bus.svg" style="background: #FFF">
 
-## Harvard Arichtektur
+## Harvard Architektur
 
 getrennter Speicher für Programm & Daten
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Harvard_architecture.svg" style="background: #FFF">
