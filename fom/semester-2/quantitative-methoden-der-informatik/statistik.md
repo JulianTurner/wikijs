@@ -2,7 +2,7 @@
 title: Statistik
 description: 
 published: 1
-date: 2022-06-10T18:57:56.968Z
+date: 2024-03-18T11:03:10.847Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-10T19:15:11.210Z
@@ -98,7 +98,7 @@ Daten sind das Ergebnis von Beobachtungen wie:
 
 Population ist die gesamtheit von Objekten (Elemente, Einheiten).
 
-> Zielpopulation ist die Polulation für die man sich interessiert
+> Zielpopulation ist die Population für die man sich interessiert
 
 Variable ist ein interessantes Merkmal (oder Attribut) eines Objektes
 
