@@ -198,4 +198,77 @@ $C = B * \log_2[1 + \frac{S}{N}][bp s]$
 
 $F_{sampling} >= 2 * F_{in}$
 
-## Peripherie
+#### CCU – Capture/Compare Unit
+
+- Komponenten:
+  - Input Capture Unit (ICU)  
+    - Empfängt Signale von Außen
+    - Kann Aufgabe auslösen bei steigender/fallender Flanke (Interrupt)
+  - Output Compare Unit (OCU)
+    - Zähler wird mit OCR Wert verglichen -> wenn gleich wird Interrupt ausgelöst
+
+#### ACU – Analoge Compare Unit
+
+- nicht Bestandteil der CCU
+- Vergleicht 2 Analoge Spannungen (Ergebnis kann Interrupt auslösen)
+
+> Beispiel: Zwei Temperatur-Signale (Spannung)
+
+#### UART – Universal Asynchronous Receiver Transmitter / USART – Universal Synchronous Asynchronous Receiver Transmitter
+
+- Realisierung serieller Schnittstellen
+- Senden und Empfangen von Daten
+- besteht aus Schieberegister für Ein- und Ausgabe + Datenregister und Pufferspeicher
+- Protokoll unterscheidet sich durch Anzahl von Datenbits, Parität und Stopbits
+
+> Übertragung erzeugt overhead: 1 Byte benötigt 10 Bit (1 Start, 8 Daten, 1 Stop)
+{.is-info}
+
+#### I2C – Inter-Integrated Circuit
+
+- Synchroner serieller Bus
+- Multi-Master-Betrieb
+- asymmetrisch
+- paketvermittelnd
+- Dient zur Peripherieanbindung
+  - Sensoren
+  - Speicher
+  - Multiplexer
+- Slaves können Clock anhalten
+
+#### SPI – Serial Peripheral Interface
+
+- serielle Schnittstelle
+- High Speed (einige Megabit pro Sekunde) synchroner Datenbus zwischen externem Gerät und SPI Modul
+- Dient zur Peripherieanbindung
+  - Sensoren
+  - Speicher
+  - Multiplexer
+
+#### USB – Universal Serial Bus
+
+- serielle Schnittstelle
+- Transfer von Daten zwischen Device und Host über Pull-Up-Wiederstand
+- Upstream und Downstream
+- Datentransfer:
+  - IN
+  - OUT
+  - SETUP
+- 127 Geräte pro Bus bei maximal 5m Länge
+- Arten von Transfers:
+  - Bulk
+  - Interrupt
+  - Isochronous
+  - Control
+
+#### In-System Programming (ISP)
+
+- Programmierung von Mikrocontrollern die bereits in einem System verbaut sind
+
+Beispiele:
+
+- JTAG (Joint Test Action Group)
+- SWD (Serial Wire Debug)
+
+> Es ermöglicht Debugging und Programmierung
+{.is-info}
