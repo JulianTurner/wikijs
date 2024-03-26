@@ -28,4 +28,5 @@ Datenarten:
   - frei zugänglich
   <!--TODO - Rückfrage pseunonymität -->
 
-  <!-- Screenshort S.39, 40 -->
+![Daten](./daten.png)
+![datenschutz-semiotik](datenschutz-semiotik.png)
