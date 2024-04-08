@@ -11,33 +11,78 @@ dateCreated: 2024-03-04T19:25:47.207Z
 
 ## Welche IOT Sektoren gibt es?
 
+- Buildings & Construction
+- Energy
+- Consumer & Home
+- Health & Life Science
+- Industrial
+- Transport & Logistics
+- Retail
+- Security & Public Safety
+- ICT (Information and Communication Technology)
+
 ## Welches Jahr gilt als Startjahr des IOT?
+
+2008/2009
 
 ## Wofür steht Industry 3.0?
 
+Einsatz von Elektronik und IT in der Produktion
+
 ## Wofür steht Industry 4.0?
+
+Cyber-Physische Systeme
 
 ## Was ist die Besonderheit von RISC?
 
+wenige Befehle, schnelle Ausführung
+
 ## Wer ist Marktführer für Mikrochips im Automotive Bereich?
+
+Infineon
 
 ## Nennen Sie ein Cyper-Physisches System
 
+Produktionsanlage mit Robotern
+
 ## Was ist der Unterschied zwischen von Neumann und Harvard Architektur?
+
+Von Neumann liegen die Programm und Laufzeitdaten auf einem gemeinsamen Speicher der durch einen gemeinsamen Bus mi der CPU verbunden ist.
+
+Harvard hat getrennte Busse und getrennte Speicher für Programm und Laufzeitdaten.
 
 ## Wodurch unterscheiden sich Mikrocontroller und Mikroprozessoren?
 
+![mikrocontroller-vs-mikroprozessor](./mikrocontroller-vs-mikropozessor.png)
+
 ## Was ist eine Output-Compare-Register?
+
+Speichert den Soll-Wert, mit dem der Timer verglichen wird.
+Bei Übereinstimmung wird eine Aktion ausgelöst und der Timer zurückgesetzt.
 
 ## Wie kommt ein PWM Signal zustande?
 
+Durch das Verhältnis von An- und Ausschaltzeit (Duty Cycle)
+
 ## Was macht ein Vorteiler?
+
+Ein Multiplikator für die Taktfrequenz des Timers
 
 ## Wie wandelt ein ADC ein Analoges Signal in ein Digitales um?
 
+Misst mit Abtastrate den Spannungswert und wandelt diesen in einen digitalen Wert um. Abtastrate und Auflösung bestimmen die Genauigkeit.
+
 ## Welche Übertragungsarten gibt es bei USB?
 
+- Bulk
+- Interrupt
+- Isochronous
+- Control
+
 ## Welche Art von USB-Verbindungen gibt es?
+
+- Device to Host: Dynamischer wechsel des Hosts
+- OTG (On-The-Go): Host wird via Protokoll bestimmt
 
 ## Nennen Sie Peripherieeinheiten eines Mikrocontrollers
 
@@ -77,4 +122,4 @@ bits per second
 
 ## Wie verhindert Beschädigung einer LED in einer Schaltung
 
- korrekt dimensionierter Widerstand
+korrekt dimensionierter Widerstand

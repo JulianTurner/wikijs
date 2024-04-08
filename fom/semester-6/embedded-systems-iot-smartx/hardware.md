@@ -182,6 +182,12 @@ Anwendungen:
 - Auflösung und Wandlungszeit bestimmen Qualität des Wandlers
 - mit abnehmender Wandlungszeit steigt Hardwareanforderung
 
+Eigenschaften:
+
+- Auflösung (bestimmt Qualität/granulare Feinheit)
+- Spannung -> Bestimmt maximale Eingangs-Spannung
+- Abtastgeschwindigkeit (in kHz) -> bestimmt wie häufig abgetastet wird
+
 #### Shannon‘s Theorem
 
 C - achievable channel capacity  
