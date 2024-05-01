@@ -17,5 +17,4 @@ dateCreated: 2024-03-04T19:24:35.207Z
 - [Sensorik & Aktorik](/fom/semester-6/embedded-systems-iot-smartx/sensorik-aktorik.md)
 - [Internet of Things](/fom/semester-6/embedded-systems-iot-smartx/internet-of-things.md)
 - [SmartX](/fom/semester-6/embedded-systems-iot-smartx/smartx.md)
-
 - [Klausurvorbereitung](/fom/semester-6/embedded-systems-iot-smartx/klausurvorbereitung.md)

@@ -123,3 +123,30 @@ bits per second
 ## Wie verhindert Beschädigung einer LED in einer Schaltung
 
 korrekt dimensionierter Widerstand
+
+## Welcher ist der maximale Wert eines 8-Bit Timers, bevor es einen Überlauf gibt?
+
+255
+
+## Welche der Methoden ist bestens geeignet um die steigende Flanke eines Eigengassignals zu detektieren?
+
+Externer Interrupt da dieser auf low oder high Pegelwechsel reagieren kann
+
+## Wie viele Sekunden beträgt die Int-Periode eines 16-Bit Timers mit einem Vorteiler von 1024 und einem OCR Registerwert von 7812 bei einem Atmel mit 16Mhz?
+
+Taktfrequenz / Vorteiler ist die Zeit bis sich der Timer-Wert um 1 erhöht.
+
+OCR Registerwert / (Taktfrequenz / Vorteiler) = Periode
+
+$7812 / (16.000.000 / 1024) = 500 ms$
+
+## Was sind typische und realsichtasche 16-Bit Timer Vorteiler Wertebereiche?
+
+Typisch & Realistisch: 2er Potenzen oder verdoppeln oder 1er Schritte
+
+> Sinnvolle Zahlenreihen
+{.is-info}
+
+## Wie viel Zeit beträgt ein Tick eines Atmel 16-Mhz Mikrocontrollers?
+
+$1 / 16.000.000 = 62,5 ns$
