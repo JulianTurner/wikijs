@@ -58,3 +58,28 @@ Heuristiken sind Erfahrungswerte, die aufgrund von Beobachtungen und Tests entst
 ## Was macht gute Personas aus?
 
 Empirisch fundiert
+
+## Was ist eine Value Proposition?
+
+- Methode zur Präzisierung des Entwurfsziels
+  - Was macht das System?
+  - Warum ist es Sinnvoll?
+
+> Zweit Zutaten Methode: Value Proposition = Handlung 1 + Handlung 2 → Vorteil
+{.is-info}
+
+## Wie kann man eine Brainstorming-Session strukturieren?
+
+- mit Regeln wie:
+  - Zeitlimit
+  - Zielsetzung
+  - keine Kritik
+
+## Warum sind unsauber gezeichnete Prototypen manchmal sinnvoller als exakt konstruierte?
+
+- um Testern zu vermitteln, dass es sich um ein Konzept handelt und nicht um ein fertiges Produkt
+
+## Was unterscheidet Papierprototypen von digitalen Prototypen und wann sollte man welchen Ansatz wählen?
+
+- Menschen reagieren unterschiedlich auf den Eindruck und die Haptik von Papier als auf Bildschirme.
+- Papierprototypen zeigen eindeutig, dass es sich um ein Entwurf handelt und nicht um ein fertiges Produkt.
