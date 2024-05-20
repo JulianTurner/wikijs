@@ -13,7 +13,7 @@ dateCreated: 2024-03-04T19:25:02.207Z
 
 [Technische und organisatorische Grundlagen](/fom/semester-6/informationssicherheit-datenschutz/technische-und-organisatorische-grundlagen.md)
 
-[Cyber Security Live](/fom/semester-6/informationssicherheit-datenschutz/cyber-security-live.md)
+[Cyber Security](/fom/semester-6/informationssicherheit-datenschutz/cyber-security.md)
 
 [Managementaufgaben](/fom/semester-6/informationssicherheit-datenschutz/managementaufgaben.md)
 

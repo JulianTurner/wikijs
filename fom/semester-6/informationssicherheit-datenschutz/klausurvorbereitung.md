@@ -15,3 +15,11 @@ dateCreated: 2024-03-04T19:25:26.207Z
 
 - symmetrisch ist schnell
 - asymmetrisch ist sicherer
+
+## Was ist Stand der Technik?
+
+- Standrats die von Institutionen festgelegt wurden wie z.B. BSI
+
+## Was ist Stand der Wissenschaft?
+
+- aktueller Forschungsstand zB. aus Research-Papers
