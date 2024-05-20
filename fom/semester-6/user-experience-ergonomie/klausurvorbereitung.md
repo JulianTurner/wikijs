@@ -83,3 +83,30 @@ Empirisch fundiert
 
 - Menschen reagieren unterschiedlich auf den Eindruck und die Haptik von Papier als auf Bildschirme.
 - Papierprototypen zeigen eindeutig, dass es sich um ein Entwurf handelt und nicht um ein fertiges Produkt.
+
+## Was macht Likert-Skalen aus?
+
+- Sonderfall von Multiple-Choice-Fragen
+- Erlauben erweiterte statische Auswertung
+
+## Wann ist ein Interview semi-strukturiert?
+
+- Fragebogen grob geplant
+- spontane Fragen möglich
+- Ermunterung zu individuellen Antworten
+
+## Woraus kann ein Usability-Test bestehen?
+
+- mehreren einzelnen empirischen Methoden
+  - Fragebögen
+  - Beobachtungen
+  - Interviews
+
+## Was ist der Unterschied zwischen den Begriffen „quantitativ“ und „objektiv“?
+
+- Quantitativ: Daten sind numerisch oder statistisch auswertbar
+- Objektiv: Basiert auf realweltlichen Messungen
+
+## Wie viele Teilnehmer benötigt eine Evaluation? Wovon hängt die Antwort ab?
+
+- bis keine statistisch signifikanten neuen Erkenntnisse mehr gewonnen werden
