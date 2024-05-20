@@ -150,3 +150,29 @@ Typisch & Realistisch: 2er Potenzen oder verdoppeln oder 1er Schritte
 ## Wie viel Zeit beträgt ein Tick eines Atmel 16-Mhz Mikrocontrollers?
 
 $1 / 16.000.000 = 62,5 ns$
+
+## Welcher UML Diagrammtyp ist Teil der Strukturdiagramme?
+
+Klassendiagramme
+
+## Welcher Beziehungen sind typisch für Klassendiagramme?
+
+- Assoziation
+- Aggregation
+- Komposition
+- Vererbung
+
+## Welche Bestandteile hat ein Anwendungsfalldiagramm?
+
+- Akteure
+- Anwendungsfälle
+- System
+
+## Welches Verhaltensdiagramm eignet sich zur Darstellung eines zeitlichen Ablaufs?
+
+- Sequenzdiagramm
+
+## Was sind wichtige Regeln bei Petri-Netzen?
+
+- Kanten führen nur von einem Elementtyp zum anderen
+- Kanten haben Gewichtung
