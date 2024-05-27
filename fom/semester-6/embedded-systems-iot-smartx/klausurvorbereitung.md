@@ -176,3 +176,32 @@ Klassendiagramme
 
 - Kanten führen nur von einem Elementtyp zum anderen
 - Kanten haben Gewichtung
+
+## Wie sieht die Ausgabe bei dem folgenden Mealy-Automaten aus?
+
+![Mealy-Automat](Mealy-Automat.png)
+
+## Wodurch unterscheiden sich Moore und Mealy Automaten?
+
+- Mealy-Automaten haben Ausgaben, die von den Eingaben und dem Zustand abhängen.
+
+- Moore-Automaten haben Ausgaben, die nur vom Zustand abhängen.
+
+## Was ist ein Minterm im Kontext der Booleschen Algebra?
+
+- Ausdruck, der genau eine Kombination von Variablen in der Form von deren Produkten darstellt
+- Wahrheitstabelle ist nur für diese Kombination wahr
+
+## Wie wird die Konjunktion in der Boolscen Algebra bezeichnet?
+
+- UND-Verknüpfung
+- $\land$
+
+Was ist die DNF für die folgende Wahrheitstabelle?
+
+![DNF](DNF.png)
+
+$DNF:f =(\bar x_1 x_2 x_3) + (x_1 \bar x_2 x_3) + (x_1 x_2 x_3)$
+
+> Summe der Minterme bildet die DNF
+{.is-info}

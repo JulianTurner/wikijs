@@ -114,3 +114,93 @@ $$\text{zu jedem} \space a \in B \space \text{existiert ein} \space \bar a \in B
 
 > Erster Ansatz zur Modellierung von Schaltkreisen
 {.is-info}
+
+### Zweiwertige Boolesche Algebra
+
+- Ansatz zur Modellierung von Schaltkreisen
+- nur zwei Werte: 0 und 1
+- Operationen: AND, OR, NOT
+
+#### Wahrheitstabelle
+
+AND
+
+| A | B | A AND B |
+|---|---|---------|
+| 0 | 0 |    0    |
+| 0 | 1 |    0    |
+| 1 | 0 |    0    |
+| 1 | 1 |    1    |
+
+OR
+
+| A | B | A OR B |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   1    |
+| 1 | 0 |   1    |
+| 1 | 1 |   1    |
+
+NOT
+
+| A | NOT A |
+|---|-------|
+| 0 |   1   |
+| 1 |   0   |
+
+Funktionen  
+$f: \lbrace 0, 1 \rbrace  \times \lbrace  0, 1\rbrace \rightarrow \lbrace  0, 1 \rbrace$
+
+Minterme:
+
+- Ausdruck, der genau eine Kombination von Variablen in der Form von deren Produkten darstellt
+- Wahrheitstabelle ist nur für diese Kombination wahr
+
+$f = \sum m_i$
+
+![DNF](DNF.png)
+
+$DNF:f =(\bar x_1 x_2 x_3) + (x_1 \bar x_2 x_3) + (x_1 x_2 x_3)$
+
+> Summe der Minterme bildet die DNF
+{.is-info}
+
+### Synthese im Schaltnetz (XNOR)
+
+![XNOR](XNOR.png)
+
+## Schaltwerk (Sequential Logic Circuit)
+
+- Rückkopplung
+  - Ausgabe eines Speichers als Eingabe
+  - Ausgabe eines Schaltnetzes als Eingabe eines Speichers
+- Synchron (mit Takt) / Asynchron (ohne Takt)
+- Ausgabe kann von vorheriger Eingabe abhängen
+- zur Modellierung von endlichen Automaten
+
+![Schaltwerk](Schaltwerk.png)
+
+### Moore Automat
+
+- Endliche Menge von Zuständen
+- Schaltnetze für Übergang und Ausgang
+- Ausgabe hängt vom Zustand ab
+
+![Moore-Automat](Moore-Automat.png)
+
+### Mealy Automat
+
+- Endliche Menge von Zuständen
+- Schaltnetze für Übergang und Ausgang
+- Ausgabe hängt vom Zustand und aktueller Eingabe ab
+
+![Mealy-Automat-2.png](Mealy-Automat.png)
+
+> Jeder Mealy-Automat kann in einen Moore-Automaten umgewandelt werden und umgekehrt
+{.is-info}
+
+## Fil-Flop
+
+- Taktgesteuertes Flipflop
+- Verzögert die Ausgabe eines Signals synchron zu
+einem Taktsignal
