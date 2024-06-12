@@ -205,3 +205,59 @@ $DNF:f =(\bar x_1 x_2 x_3) + (x_1 \bar x_2 x_3) + (x_1 x_2 x_3)$
 
 > Summe der Minterme bildet die DNF
 {.is-info}
+
+## Was beschreibt die Reentrancy (Wiedereintrittsfähigkeit) einer Routine in der Programmierung?
+
+Die Fähigkeit einer Routine, sicher von mehreren Threads gleichzeitig aufgerufen zu werden.
+
+## Wie vermeidet man eine Race Condition mit globalen Variablen?
+
+Globalen Variablen durch lokale Variablen ersetzen
+
+## Was macht ein PTC Widerstand?
+
+![PTC](PTC.png)
+
+PTC (Positive Temperature Coefficient) Widerstand
+
+Mit steigender Temperatur steigt der Widerstand (beim NTC sinkt er)
+
+## Wie funktioniert eine Viertelbrücke mit Dehnungsmessstreifen?
+
+Durch Messung des Widerstandsunterschieds kann die Dehnung gemessen werden.
+
+## Auf welchem physikalischen Effekt basiert der Magnetfeldsensor?
+
+Hall-Effekt
+
+## Was zeichnet einen Scheuduler bei einem GPOS aus?
+
+- auf Durchsatz optimiert
+- nicht deterministisch
+
+## Wofür ist ein RTOS für embedded Systeme ausgelegt?
+
+- Echtzeitfähigkeit
+- Ressourcenbeschränkung
+
+//TODO
+
+## Über welche Funktionen verfügt ein RTOS?
+
+- Task-Scheduling
+- Ressourcenverwaltung
+- Gerätetreiber
+
+> Kein Memory Management(MMO) da wenig Speicher
+{.is-info}
+
+> Bei Bare-Bone RTOS nur Task-Scheduling(Rest ist nach Bedarf zu implementieren)
+{.is-info}
+
+## Welche Komponente benötigt den meisten Speicher in einem RTOS?
+
+- Wifi/Bluetooth
+
+## Für welche Entdeckung erhielt Einstein den Nobelpreis für Physik im Jahr 1921?
+
+Photoelektrischer Effekt
