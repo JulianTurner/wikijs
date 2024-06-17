@@ -20,17 +20,17 @@ Corporate Governance
     - Ordnungsrahmen für Leitung und Überwachung von Unternehmen
     - Aufsichtsrat und Unternehmensführung verantworten Umsetzung
 
-|
-|
-V
+|  
+|  
+V  
 
 IT Governance
     - besteht aus Führung, Organisationsstrukturen und Prozessen
     - zuständig für die Unterstützung der Unternehmensstrategie mit IT
 
-|
-|
-V
+|  
+|  
+V  
 
 Standards und Rahmenwerk
 
