@@ -118,7 +118,8 @@ bits per second
 
 ## Wie viel Strom kann Arduino-Ausgangsport maximal zur Verfügung stellen?
 
-40 mA
+- Prot: 40 mA
+- Gesamt: 200 mA
 
 ## Wie verhindert Beschädigung einer LED in einer Schaltung
 
@@ -396,7 +397,7 @@ Einbau eines Vor-Widerstands
 ## Welche Spannungen stellt ein ESP32 zur Verfügung?
 
 - 3.3V
-- 5V
+- 5V -> kommt direkt vom USB
 
 ## Warum benötigt ein ESP32 den CP2102 USB-Treiber?
 

@@ -57,11 +57,15 @@ Lösung:
   - Periodisch
   - Event
   - Statisch - Task hat eine Endlosschleife, ähnlich zu Idle, aber mit höherer Priorität
+- besteht aus:
+  - Task-Management
+  - Ressource-Management
+  - Device-Drivers
 
 > Tasks sind aufgrund fehlender MMU (Memory Management Unit) typischerweise als Threads implementiert
-{.is-info}
+{.is-info}  
 > Bei Inter-Task-Kommunikation ist eine Synchronisation notwendig (Queue, Semaphore, Mutex)
-{.is-warning}
+{.is-warning}  
 
 |Real-Time Operating System|General Purpose Operating System|
 |---|---|
@@ -71,7 +75,7 @@ Lösung:
 |Zeitkritische Anwendungen|Hoher Durchsatz|
 |Weniger Speicherbedarf|Höherer Speicherbedarf|
 
-![RTOS_Tasks](RTOS_Tasks.png)
+![RTOS_Tasks](RTOS_Tasks.png)  
 FreeRTOS:
 
 - Open Source
