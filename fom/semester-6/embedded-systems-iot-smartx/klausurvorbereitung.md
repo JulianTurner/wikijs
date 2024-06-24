@@ -35,7 +35,7 @@ Cyber-Physische Systeme
 
 ## Was ist die Besonderheit von RISC?
 
-wenige Befehle, schnelle Ausführung
+wenige Befehle, schnelle Ausführung, Load/Store Architektur
 
 ## Wer ist Marktführer für Mikrochips im Automotive Bereich?
 
@@ -192,7 +192,7 @@ Klassendiagramme
 - Ausdruck, der genau eine Kombination von Variablen in der Form von deren Produkten darstellt
 - Wahrheitstabelle ist nur für diese Kombination wahr
 
-## Wie wird die Konjunktion in der Boolscen Algebra bezeichnet?
+## Wie wird die Konjunktion in der Booleschen Algebra bezeichnet?
 
 - UND-Verknüpfung
 - $\land$
@@ -240,8 +240,6 @@ Hall-Effekt
 - Echtzeitfähigkeit
 - Ressourcenbeschränkung
 
-//TODO
-
 ## Über welche Funktionen verfügt ein RTOS?
 
 - Task-Scheduling
@@ -261,3 +259,146 @@ Hall-Effekt
 ## Für welche Entdeckung erhielt Einstein den Nobelpreis für Physik im Jahr 1921?
 
 Photoelektrischer Effekt
+
+## Was sind die Hauptmerkmale eines ADC?
+
+- Referenzspannung, Abtastgeschwindigkeit, Auflösung
+
+## Nennen Sie vier Peripherieeinheiten eines Mikrocontrollers
+
+- Timer, SPI, Interrupt Controller, ADC
+
+## Was ist eine typische RAM Speichergröße eines Mikrocontrollers?
+
+- Kilobyte bis Megabyte
+
+## Was ist die Rolle des ALUs in einer von Neumann Architektur?
+
+- Ausführung von Rechenoperationen
+
+## Nennen Sie alle Parameter einer DMA Konfiguration
+
+- Quelle, Ziel, Größe des Transfers, Inkrement
+
+## In was wird die Standard Baudrate bei einer UART Kommunikation angegeben?
+
+- Bits pro Sekunde
+
+## Wie verhindert man die Beschädigung einer LED in einer Schaltung? Durch
+
+Einbau eines Vor-Widerstands
+
+## Welcher ist der maximale Wert eines 8-Bit Timers, bevor es einen Überlauf passiert?
+
+- 255 (2^8 - 1)
+
+## Welche der Methoden ist bestens geeignet, um die steigende Flanke eines Eingangssignals zu detektieren?
+
+- Externer Interrupt
+
+## Wv. Sekunden beträgt die Int-Periode eines 16-Bit Timers mit einem Vorteiler von 1024 und einem OCR Registerwert von 7812? Atmel mit 16MHz?
+
+- 125 ns
+
+## Wie heißt die erste Objektorientierte Programmiersprache?
+
+- Simula
+
+## Wer sind die Gründer der UML Systemmodellierung auch bekannt als die Three Amigos?
+
+- Grady Booch, Ivar Jacobson, James Rumbaugh
+
+## Mit welchem Design Pattern wird die Baumstruktur realisiert?
+
+- Composite
+
+## Welche Nachrichten werden bei Sequenzdiagrammen dargestellt?
+
+- asynchron
+- synchron
+- verlorene
+- gefundene
+- neue
+
+## Welche Zugriffsmodifikatoren gibt es in OOP?
+
+- default
+- public
+- private
+- protected
+
+## Besonderheiten von Petrinetze & Endliche Automaten
+
+- hohes Abstraktionsniveau
+- erklären Verhalten von Systemen
+- berücksichtigen keine zeitlichen Aspekte
+
+## Was sind Unterschiede zwischen Petrinetzen & Endlichen Automaten?
+
+- EA ist ein Modell welches eine lokale Aktivität beschreibt
+- PN beschreiben mehrere Aktivitäten
+- EA stellen nur eine sequentielle Abfolge dar
+
+## Was ist das Workflow Grundelement bei Petrinetzen?
+
+- AND-join
+
+## Worauf Basieren Petri Netze?
+
+- Endlichen Automaten
+
+## Was modelliert ein Endlicher Automat?
+
+- Ein Verhalten
+
+## Minterme einer DNF
+
+## Was ist ein Minterm?
+
+- Das Produkt ais mehreren Elementen ist gleich 1
+
+## Welche physischen Übertragungstechnologien?
+
+- Narrow Band -IOT
+- Zigbee
+- BTLE
+
+## Welche Übertragungsart hat die größte Reichweite?
+
+- LoRa
+
+## Welches ist der führende, leichtgewichtige Kommunikationsstandard?
+
+- MQTT
+
+## Welche Grade der Zuverlässigkeit (QoS) gibt es bei dem Nachrichtenprotokoll MQTT?
+
+- QoS:0
+- QoS:1
+- QoS:2
+
+## In welchem Jahr wurde das MQTT Protokoll entwickelt?
+
+- 1999
+
+## Welche Peripherieeinheiten nutzt der Ultraschallsensor um die Entfernung zu messen?
+
+- Input Capture Compare
+
+## Welche Frequenz hat das Triggersignal des Ultraschallsensors?
+
+- 40 kHz
+
+## Wie lautet die korrekte Formel zur Berechnung der Entfernung des Ultraschallsensors?
+
+- $Entfernung = (Zeit * Schallgeschwindigkeit) / 2$
+
+## Welche Spannungen stellt ein ESP32 zur Verfügung?
+
+- 3.3V
+- 5V
+
+## Warum benötigt ein ESP32 den CP2102 USB-Treiber?
+
+- Kommunikation mit dem PC
+- wandelt USB in UART/Serial um
