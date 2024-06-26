@@ -18,4 +18,11 @@ N - average noise power
 
 $C = B * \log_2[1 + \frac{S}{N}][bp s]$
 
-##
+## PWM
+
+U - Spannung
+T - Periode
+Ton - Einschaltzeit
+Toff - Ausschaltzeit
+
+$U_{pwm} = U_{in} * (T_{on} / (T_{on} + T_{off}))$
