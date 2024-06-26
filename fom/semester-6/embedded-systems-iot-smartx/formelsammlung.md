@@ -18,6 +18,9 @@ N - average noise power
 
 $C = B * \log_2[1 + \frac{S}{N}][bp s]$
 
+> Beschreibt theoretisch die maximale Datenrate, die über einen Kanal übertragen werden kann.
+{.is-info}
+
 ## PWM
 
 U - Spannung
