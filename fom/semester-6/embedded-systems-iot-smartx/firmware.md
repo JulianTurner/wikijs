@@ -76,6 +76,7 @@ Lösung:
 |Weniger Speicherbedarf|Höherer Speicherbedarf|
 
 ![RTOS_Tasks](RTOS_Tasks.png)  
+
 FreeRTOS:
 
 - Open Source
