@@ -26,3 +26,15 @@ Ton - Einschaltzeit
 Toff - Ausschaltzeit
 
 $U_{pwm} = U_{in} * (T_{on} / (T_{on} + T_{off}))$
+
+## Wie berechnet man die Int-Periode?
+
+$OCR Registerwert / (Taktfrequenz / Vorteiler) = Periode$
+
+## Wie lange dauert ein Tick?
+
+$1 (Takt) / Taktfrequenz = Zeit$
+
+## Berechnung der Entfernung des Ultraschallsensors
+
+$Entfernung = (Zeit * Schallgeschwindigkeit) / 2$
