@@ -1,10 +1,11 @@
 ---
 title: Klausurvorbereitung
-published: 1
-date: 2024-03-04T19:25:47.207Z
+description: 
+published: true
+date: 2024-06-29T05:09:55.092Z
 tags: 
 editor: markdown
-dateCreated: 2024-03-04T19:25:47.207Z
+dateCreated: 2024-06-12T17:41:08.014Z
 ---
 
 # Klausurvorbereitung
@@ -287,7 +288,7 @@ Photoelektrischer Effekt
 
 ## Wie verhindert man die Beschädigung einer LED in einer Schaltung? Durch
 
-Einbau eines Vor-Widerstands
+Einbau eines Widerstands mit korrekter Größe 
 
 ## Welcher ist der maximale Wert eines 8-Bit Timers, bevor es einen Überlauf passiert?
 
